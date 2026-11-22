@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Write the packwiz metadata (mods/*.pw.toml) from manifest/full.lock.json, then run `packwiz refresh`.
 
-    packwiz_sync.py            write mods/*.pw.toml, copy the local jars (gtia, gtna) into mods/, refresh the index
+    packwiz_sync.py            write mods/*.pw.toml, copy the local jars (typeomega, gtna) into mods/, refresh the index
     packwiz_sync.py --check    only report differences; exit 1 if mods/ does not match the lock
 
 The lockfile stays the source of truth for `pack.py` (instance, verify); packwiz is how the pack is distributed

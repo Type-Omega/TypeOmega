@@ -1354,7 +1354,7 @@ shape = "gear"
 size = 1.5
 deps = ["rocket_parts"]
 subtitle = "A launch tower of your own."
-task = [{ item = "gtia:rocket_assembler" }]
+task = [{ item = "typeomega:rocket_assembler" }]
 text = """
 A 15 × 15 complex of service towers and stainless scaffolding around the rocket. It builds the [item]Tier 1 Rocket[/] at 480 EU/t; JEI shows the structure layer by layer.
 """
@@ -1589,14 +1589,14 @@ A lunar ore for the tier 2 rocket.
 key = "bees"
 title = "Industrial Apiary"
 role = "side"
-icon = "gtia:hv_industrial_apiary"
+icon = "typeomega:hv_industrial_apiary"
 x = 1
 y = 12
 shape = "octagon"
 size = 1
 deps = ["hv_hull", "hv_sensor", "hv_emitter"]
 subtitle = "Bridge: Bees."
-task = [{ item = "gtia:hv_industrial_apiary" }]
+task = [{ item = "typeomega:hv_industrial_apiary" }]
 text = """
 Metal bees and combs start in High Voltage. See the Bees chapter.
 """
@@ -1605,14 +1605,14 @@ Metal bees and combs start in High Voltage. See the Bees chapter.
 key = "agro"
 title = "HV Seed Analyzer"
 role = "side"
-icon = "gtia:hv_seed_analyzer"
+icon = "typeomega:hv_seed_analyzer"
 x = 0
 y = 5
 shape = "octagon"
 size = 1
 deps = ["hv_hull", "hv_sensor", "hv_emitter"]
 subtitle = "Bridge: Agriculture."
-task = [{ item = "gtia:hv_seed_analyzer" }]
+task = [{ item = "typeomega:hv_seed_analyzer" }]
 text = """
 The HV analyzer and the mutation chamber continue in the Agriculture chapter.
 """
@@ -1623,14 +1623,14 @@ The HV analyzer and the mutation chamber continue in the Agriculture chapter.
 key = "organ_modifier"
 title = "Organ Modifier"
 role = "side"
-icon = "gtia:organ_modifier"
+icon = "typeomega:organ_modifier"
 x = 28
 y = 19.5
 shape = "circle"
 size = 1.25
 deps = ["mv:voltage_coil", "mv:mv_arm"]
 subtitle = "Open yourself up."
-task = [{ item = "gtia:organ_modifier" }]
+task = [{ item = "typeomega:organ_modifier" }]
 text = """
 A voltage coil, two robot arms and MV circuits around a crafting table. Right click it to see your nine organ slots and eight wing slots.
 """
@@ -1639,14 +1639,14 @@ A voltage coil, two robot arms and MV circuits around a crafting table. Right cl
 key = "organ_set"
 title = "A Body for Space"
 role = "side"
-icon = "gtia:organ_heart_tier_1"
+icon = "typeomega:organ_heart_tier_1"
 x = 26
 y = 19.5
 shape = "diamond"
 size = 1.5
 deps = ["organ_modifier", "mv:mv_emitter", "mv:mv_sensor", "mv:mv_assembler"]
 subtitle = "Nine standard organs."
-task = [{ item = "gtia:organ_eye_tier_1" }, { item = "gtia:organ_spine_tier_1" }, { item = "gtia:organ_lung_tier_1" }, { item = "gtia:organ_liver_tier_1" }, { item = "gtia:organ_heart_tier_1" }, { item = "gtia:organ_left_arm_tier_1" }, { item = "gtia:organ_right_arm_tier_1" }, { item = "gtia:organ_left_leg_tier_1" }, { item = "gtia:organ_right_leg_tier_1" }]
+task = [{ item = "typeomega:organ_eye_tier_1" }, { item = "typeomega:organ_spine_tier_1" }, { item = "typeomega:organ_lung_tier_1" }, { item = "typeomega:organ_liver_tier_1" }, { item = "typeomega:organ_heart_tier_1" }, { item = "typeomega:organ_left_arm_tier_1" }, { item = "typeomega:organ_right_arm_tier_1" }, { item = "typeomega:organ_left_leg_tier_1" }, { item = "typeomega:organ_right_leg_tier_1" }]
 text = """
 Every organ comes out of the Assembler from MV parts. The lowest organ sets your [num]organ set tier[/]: a full tier 1 set gives +5 armor and lets you survive the Moon and Mars.
 """
@@ -1655,14 +1655,14 @@ Every organ comes out of the Assembler from MV parts. The lowest organ sets your
 key = "steel_wing"
 title = "Steel Wing"
 role = "side"
-icon = "gtia:steel_wing"
+icon = "typeomega:steel_wing"
 x = 29.5
 y = 18.5
 shape = "circle"
 deps = ["organ_modifier"]
 optional = true
 subtitle = "Fifteen minutes of flight."
-task = [{ item = "gtia:steel_wing" }]
+task = [{ item = "typeomega:steel_wing" }]
 text = """
 Put it in a wing slot: it wears down one point per second of flight. Phantom membranes, steel and an LV field generator.
 """
@@ -1671,14 +1671,14 @@ Put it in a wing slot: it wears down one point per second of flight. Phantom mem
 key = "fairy_wing"
 title = "Fairy Wing"
 role = "side"
-icon = "gtia:fairy_wing"
+icon = "typeomega:fairy_wing"
 x = 29.5
 y = 20.5
 shape = "circle"
 deps = ["organ_modifier", "mv:stainless_plate"]
 optional = true
 subtitle = "Four hours aloft."
-task = [{ item = "gtia:fairy_wing" }]
+task = [{ item = "typeomega:fairy_wing" }]
 text = """
 Polyethylene foil, stainless steel and an LV field generator: the same flight, sixteen times longer. Wings are used one after the other.
 """
@@ -1715,7 +1715,7 @@ The [item]Large Chemical Reactor[/] chlorinates [item]Rutile[/], or the Moon's [
 key = "siemens"
 title = "Siemens Process"
 role = "hint"
-icon = "gtia:trichlorosilane_bucket"
+icon = "typeomega:trichlorosilane_bucket"
 x = 8.5
 y = 1.5
 size = 1.25
@@ -1729,13 +1729,13 @@ In the [item]Chemical Reactor[/], silicon and hydrochloric acid become [item]Tri
 key = "polysilicon"
 title = "Polysilicon"
 role = "side"
-icon = "gtia:polysilicon_dust"
+icon = "typeomega:polysilicon_dust"
 x = 10.5
 y = 1.5
 shape = "circle"
 deps = ["siemens"]
 subtitle = "Half the silicon per boule."
-task = [{ item = "gtia:polysilicon_dust" }]
+task = [{ item = "typeomega:polysilicon_dust" }]
 text = """
 Sixteen of it grow a [item]Silicon Boule[/] in the Electric Blast Furnace on circuit 3, instead of thirty-two silicon dust.
 """
@@ -1770,7 +1770,7 @@ The Distillation Tower puts one product on each layer, so every layer needs its 
 key = "tip_catalyst"
 title = "Catalyst Wear"
 role = "hint"
-icon = "gtia:alumina_dust"
+icon = "typeomega:alumina_dust"
 deps = ["claus"]
 subtitle = "Normal worlds only."
 text = """
@@ -1781,7 +1781,7 @@ In [item]Normal[/] worlds the catalyst of a GTIA chemistry plant has a [num]1%[/
 key = "tip_organs"
 title = "Organs Before the Moon"
 role = "hint"
-icon = "gtia:organ_modifier"
+icon = "typeomega:organ_modifier"
 deps = ["organ_modifier"]
 subtitle = "Space hurts."
 text = """

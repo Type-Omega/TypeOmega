@@ -2780,38 +2780,38 @@
 				"12109EC3AFEE15F3"
 			]
 			description: [
-				"{gtia.machine.fragment_collector.tooltip.main.0}"
-				"{gtia.machine.fragment_collector.tooltip.main.1}"
-				"{gtia.machine.fragment_collector.tooltip.main.2}"
-				"{gtia.machine.fragment_collector.tooltip.main.3}"
+				"{typeomega.machine.fragment_collector.tooltip.main.0}"
+				"{typeomega.machine.fragment_collector.tooltip.main.1}"
+				"{typeomega.machine.fragment_collector.tooltip.main.2}"
+				"{typeomega.machine.fragment_collector.tooltip.main.3}"
 				""
-				"{gtia.quest.345A0C50ECFF8129.desc.5}"
+				"{gtia.quest.55A78243F8B3CE7A.desc.5}"
 			]
-			icon: "gtia:fragment_collector"
-			id: "345A0C50ECFF8129"
+			icon: "typeomega:fragment_collector"
+			id: "55A78243F8B3CE7A"
 			optional: true
 			rewards: [
 				{
 					count: 4
-					id: "7ED5383AC3F1B448"
+					id: "558CC71525031CC1"
 					item: "gtceu:steel_ingot"
 					type: "item"
 				}
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.345A0C50ECFF8129.subtitle}"
+			subtitle: "{gtia.quest.55A78243F8B3CE7A.subtitle}"
 			tasks: [
 				{
 					consume_items: false
 					count: 1L
-					id: "00ECF58E9744700A"
-					item: "gtia:fragment_collector"
+					id: "328AA9D4BF8E5B8E"
+					item: "typeomega:fragment_collector"
 					match_nbt: false
 					type: "item"
 				}
 			]
-			title: "{block.gtia.fragment_collector}"
+			title: "{block.typeomega.fragment_collector}"
 			x: 18.75d
 			y: 11.75d
 		}
@@ -4376,40 +4376,40 @@
 				"7083ACEA5E57DB44"
 			]
 			description: [
-				"{gtia.machine.rocket_assembler.tooltip.fact.0}"
-				"{gtia.machine.rocket_assembler.tooltip.main.0}"
-				"{gtia.machine.rocket_assembler.tooltip.main.1}"
-				"{gtia.machine.rocket_assembler.tooltip.requirements.0}"
-				"{gtia.machine.rocket_assembler.tooltip.requirements.1}"
-				"{gtia.machine.rocket_assembler.tooltip.requirements.2}"
+				"{typeomega.machine.rocket_assembler.tooltip.fact.0}"
+				"{typeomega.machine.rocket_assembler.tooltip.main.0}"
+				"{typeomega.machine.rocket_assembler.tooltip.main.1}"
+				"{typeomega.machine.rocket_assembler.tooltip.requirements.0}"
+				"{typeomega.machine.rocket_assembler.tooltip.requirements.1}"
+				"{typeomega.machine.rocket_assembler.tooltip.requirements.2}"
 				""
-				"{gtia.quest.56DE56E2527BDCE5.desc.7}"
+				"{gtia.quest.0DEF17F53DF7464E.desc.7}"
 			]
-			icon: "gtia:rocket_assembler"
-			id: "56DE56E2527BDCE5"
+			icon: "typeomega:rocket_assembler"
+			id: "0DEF17F53DF7464E"
 			optional: true
 			rewards: [
 				{
 					count: 4
-					id: "4C6352B397AEFE0D"
+					id: "21554C943609A3D5"
 					item: "gtceu:stainless_steel_ingot"
 					type: "item"
 				}
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.56DE56E2527BDCE5.subtitle}"
+			subtitle: "{gtia.quest.0DEF17F53DF7464E.subtitle}"
 			tasks: [
 				{
 					consume_items: false
 					count: 1L
-					id: "53E7B0C71EDD67B6"
-					item: "gtia:rocket_assembler"
+					id: "2972984BD221E21F"
+					item: "typeomega:rocket_assembler"
 					match_nbt: false
 					type: "item"
 				}
 			]
-			title: "{block.gtia.rocket_assembler}"
+			title: "{block.typeomega.rocket_assembler}"
 			x: 26.25d
 			y: 25.25d
 		}
@@ -4887,36 +4887,36 @@
 				"49C023B9BBA75B98"
 			]
 			description: [
-				"{gtia.machine.large_fragment_collector.tooltip.main.0}"
-				"{gtia.machine.large_fragment_collector.tooltip.main.1}"
+				"{typeomega.machine.large_fragment_collector.tooltip.main.0}"
+				"{typeomega.machine.large_fragment_collector.tooltip.main.1}"
 				""
-				"{gtia.quest.0ED242BE5B6601F4.desc.3}"
+				"{gtia.quest.7E1EAE794B7A880E.desc.3}"
 			]
-			icon: "gtia:large_fragment_collector"
-			id: "0ED242BE5B6601F4"
+			icon: "typeomega:large_fragment_collector"
+			id: "7E1EAE794B7A880E"
 			optional: true
 			rewards: [
 				{
 					count: 4
-					id: "4ED23D61ECE80DBA"
+					id: "63EBCE0EEFCD2012"
 					item: "gtceu:titanium_ingot"
 					type: "item"
 				}
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.0ED242BE5B6601F4.subtitle}"
+			subtitle: "{gtia.quest.7E1EAE794B7A880E.subtitle}"
 			tasks: [
 				{
 					consume_items: false
 					count: 1L
-					id: "0B54F0406DA4650F"
-					item: "gtia:large_fragment_collector"
+					id: "4BA8F4C35BEE82A2"
+					item: "typeomega:large_fragment_collector"
 					match_nbt: false
 					type: "item"
 				}
 			]
-			title: "{block.gtia.large_fragment_collector}"
+			title: "{block.typeomega.large_fragment_collector}"
 			x: 22.5d
 			y: 29.5d
 		}
@@ -8738,36 +8738,36 @@
 				"487D50379431F8D5"
 			]
 			description: [
-				"{gtia.machine.assembly_yard.tooltip.0}"
-				"{gtia.machine.assembly_yard.tooltip.1}"
-				"{gtia.machine.assembly_yard.tooltip.2}"
+				"{typeomega.machine.assembly_yard.tooltip.0}"
+				"{typeomega.machine.assembly_yard.tooltip.1}"
+				"{typeomega.machine.assembly_yard.tooltip.2}"
 				""
-				"{gtia.quest.5DAE2D58D23E1BDC.desc.4}"
+				"{gtia.quest.2A68A17387222BA4.desc.4}"
 			]
-			icon: "gtia:assembly_yard"
-			id: "5DAE2D58D23E1BDC"
+			icon: "typeomega:assembly_yard"
+			id: "2A68A17387222BA4"
 			optional: true
 			rewards: [
 				{
-					id: "1C3144C0E03A11CB"
+					id: "3AC25A25E60AB485"
 					item: "gtceu:neutronium_ingot"
 					type: "item"
 				}
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.5DAE2D58D23E1BDC.subtitle}"
+			subtitle: "{gtia.quest.2A68A17387222BA4.subtitle}"
 			tasks: [
 				{
 					consume_items: false
 					count: 1L
-					id: "4B2962F06D41C772"
-					item: "gtia:assembly_yard"
+					id: "6E6E36EE5220BDC8"
+					item: "typeomega:assembly_yard"
 					match_nbt: false
 					type: "item"
 				}
 			]
-			title: "{block.gtia.assembly_yard}"
+			title: "{block.typeomega.assembly_yard}"
 			x: 25.0d
 			y: 50.75d
 		}
@@ -9353,36 +9353,36 @@
 				"487D50379431F8D5"
 			]
 			description: [
-				"{gtia.machine.fusion_suppressor.tooltip.0}"
-				"{gtia.machine.fusion_suppressor.tooltip.1}"
-				"{gtia.machine.fusion_suppressor.tooltip.2}"
+				"{typeomega.machine.fusion_suppressor.tooltip.0}"
+				"{typeomega.machine.fusion_suppressor.tooltip.1}"
+				"{typeomega.machine.fusion_suppressor.tooltip.2}"
 				""
-				"{gtia.quest.2DC51232F48C97F6.desc.4}"
+				"{gtia.quest.71D082940E69C3AD.desc.4}"
 			]
-			icon: "gtia:fusion_suppressor"
-			id: "2DC51232F48C97F6"
+			icon: "typeomega:fusion_suppressor"
+			id: "71D082940E69C3AD"
 			optional: true
 			rewards: [
 				{
-					id: "4BDAC7CA14C224C1"
+					id: "2170216A7434D049"
 					item: "gtceu:neutronium_ingot"
 					type: "item"
 				}
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.2DC51232F48C97F6.subtitle}"
+			subtitle: "{gtia.quest.71D082940E69C3AD.subtitle}"
 			tasks: [
 				{
 					consume_items: false
 					count: 1L
-					id: "413756880381B464"
-					item: "gtia:fusion_suppressor"
+					id: "7A361142AC3B398A"
+					item: "typeomega:fusion_suppressor"
 					match_nbt: false
 					type: "item"
 				}
 			]
-			title: "{block.gtia.fusion_suppressor}"
+			title: "{block.typeomega.fusion_suppressor}"
 			x: 31.25d
 			y: 50.75d
 		}
@@ -10025,36 +10025,36 @@
 				"487D50379431F8D5"
 			]
 			description: [
-				"{gtia.machine.birch_world.tooltip.0}"
-				"{gtia.machine.birch_world.tooltip.1}"
-				"{gtia.machine.birch_world.tooltip.2}"
+				"{typeomega.machine.birch_world.tooltip.0}"
+				"{typeomega.machine.birch_world.tooltip.1}"
+				"{typeomega.machine.birch_world.tooltip.2}"
 				""
-				"{gtia.quest.68FD0A9152775CF9.desc.4}"
+				"{gtia.quest.70BD73611763774E.desc.4}"
 			]
-			icon: "gtia:birch_world"
-			id: "68FD0A9152775CF9"
+			icon: "typeomega:birch_world"
+			id: "70BD73611763774E"
 			optional: true
 			rewards: [
 				{
-					id: "7EAC3496999A43D1"
+					id: "3BEA97DED3DAF8ED"
 					item: "gtceu:neutronium_ingot"
 					type: "item"
 				}
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.68FD0A9152775CF9.subtitle}"
+			subtitle: "{gtia.quest.70BD73611763774E.subtitle}"
 			tasks: [
 				{
 					consume_items: false
 					count: 1L
-					id: "7032AB1EC020B38B"
-					item: "gtia:birch_world"
+					id: "330833C4BB552445"
+					item: "typeomega:birch_world"
 					match_nbt: false
 					type: "item"
 				}
 			]
-			title: "{block.gtia.birch_world}"
+			title: "{block.typeomega.birch_world}"
 			x: 52.5d
 			y: 50.75d
 		}
@@ -10063,36 +10063,36 @@
 				"487D50379431F8D5"
 			]
 			description: [
-				"{gtia.machine.disintegrator.tooltip.0}"
-				"{gtia.machine.disintegrator.tooltip.1}"
-				"{gtia.machine.disintegrator.tooltip.2}"
+				"{typeomega.machine.disintegrator.tooltip.0}"
+				"{typeomega.machine.disintegrator.tooltip.1}"
+				"{typeomega.machine.disintegrator.tooltip.2}"
 				""
-				"{gtia.quest.4ABA616A56DA6890.desc.4}"
+				"{gtia.quest.560EFEDAF4D65590.desc.4}"
 			]
-			icon: "gtia:disintegrator"
-			id: "4ABA616A56DA6890"
+			icon: "typeomega:disintegrator"
+			id: "560EFEDAF4D65590"
 			optional: true
 			rewards: [
 				{
-					id: "51C1D7CDBFE2D02F"
+					id: "47E627E5205E970C"
 					item: "gtceu:neutronium_ingot"
 					type: "item"
 				}
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.4ABA616A56DA6890.subtitle}"
+			subtitle: "{gtia.quest.560EFEDAF4D65590.subtitle}"
 			tasks: [
 				{
 					consume_items: false
 					count: 1L
-					id: "0DC1B979ED3CF3F7"
-					item: "gtia:disintegrator"
+					id: "767E04D51FAE3F91"
+					item: "typeomega:disintegrator"
 					match_nbt: false
 					type: "item"
 				}
 			]
-			title: "{block.gtia.disintegrator}"
+			title: "{block.typeomega.disintegrator}"
 			x: 53.75d
 			y: 50.75d
 		}
@@ -10101,36 +10101,36 @@
 				"487D50379431F8D5"
 			]
 			description: [
-				"{gtia.machine.hraemc.tooltip.0}"
-				"{gtia.machine.hraemc.tooltip.1}"
-				"{gtia.machine.hraemc.tooltip.2}"
+				"{typeomega.machine.hraemc.tooltip.0}"
+				"{typeomega.machine.hraemc.tooltip.1}"
+				"{typeomega.machine.hraemc.tooltip.2}"
 				""
-				"{gtia.quest.3318FAE3E151EA7C.desc.4}"
+				"{gtia.quest.2808708307ABB4A8.desc.4}"
 			]
-			icon: "gtia:hraemc"
-			id: "3318FAE3E151EA7C"
+			icon: "typeomega:hraemc"
+			id: "2808708307ABB4A8"
 			optional: true
 			rewards: [
 				{
-					id: "2FE58AE62FD31C84"
+					id: "3405DA16C4CB5E67"
 					item: "gtceu:neutronium_ingot"
 					type: "item"
 				}
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.3318FAE3E151EA7C.subtitle}"
+			subtitle: "{gtia.quest.2808708307ABB4A8.subtitle}"
 			tasks: [
 				{
 					consume_items: false
 					count: 1L
-					id: "04BEF3C24FBC6648"
-					item: "gtia:hraemc"
+					id: "0C70788587C51EE4"
+					item: "typeomega:hraemc"
 					match_nbt: false
 					type: "item"
 				}
 			]
-			title: "{block.gtia.hraemc}"
+			title: "{block.typeomega.hraemc}"
 			x: 55.0d
 			y: 50.75d
 		}
@@ -10139,36 +10139,36 @@
 				"487D50379431F8D5"
 			]
 			description: [
-				"{gtia.machine.kugelblitz.tooltip.0}"
-				"{gtia.machine.kugelblitz.tooltip.1}"
-				"{gtia.machine.kugelblitz.tooltip.2}"
+				"{typeomega.machine.kugelblitz.tooltip.0}"
+				"{typeomega.machine.kugelblitz.tooltip.1}"
+				"{typeomega.machine.kugelblitz.tooltip.2}"
 				""
-				"{gtia.quest.6197DAA77954FDBC.desc.4}"
+				"{gtia.quest.76169C9A352F983A.desc.4}"
 			]
-			icon: "gtia:kugelblitz"
-			id: "6197DAA77954FDBC"
+			icon: "typeomega:kugelblitz"
+			id: "76169C9A352F983A"
 			optional: true
 			rewards: [
 				{
-					id: "6C2519C47CED0012"
+					id: "2EE4340CE19D1EC3"
 					item: "gtceu:neutronium_ingot"
 					type: "item"
 				}
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.6197DAA77954FDBC.subtitle}"
+			subtitle: "{gtia.quest.76169C9A352F983A.subtitle}"
 			tasks: [
 				{
 					consume_items: false
 					count: 1L
-					id: "3BFFD69EDC708192"
-					item: "gtia:kugelblitz"
+					id: "2AC78E2DDB7F4BC3"
+					item: "typeomega:kugelblitz"
 					match_nbt: false
 					type: "item"
 				}
 			]
-			title: "{block.gtia.kugelblitz}"
+			title: "{block.typeomega.kugelblitz}"
 			x: 56.25d
 			y: 50.75d
 		}
@@ -10177,36 +10177,36 @@
 				"487D50379431F8D5"
 			]
 			description: [
-				"{gtia.machine.matrioshka_brain.tooltip.0}"
-				"{gtia.machine.matrioshka_brain.tooltip.1}"
-				"{gtia.machine.matrioshka_brain.tooltip.2}"
+				"{typeomega.machine.matrioshka_brain.tooltip.0}"
+				"{typeomega.machine.matrioshka_brain.tooltip.1}"
+				"{typeomega.machine.matrioshka_brain.tooltip.2}"
 				""
-				"{gtia.quest.6872B262C94BCE76.desc.4}"
+				"{gtia.quest.70142FE89DD2391E.desc.4}"
 			]
-			icon: "gtia:matrioshka_brain"
-			id: "6872B262C94BCE76"
+			icon: "typeomega:matrioshka_brain"
+			id: "70142FE89DD2391E"
 			optional: true
 			rewards: [
 				{
-					id: "374E847FE7674E26"
+					id: "34AE9EC12EEA7149"
 					item: "gtceu:neutronium_ingot"
 					type: "item"
 				}
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.6872B262C94BCE76.subtitle}"
+			subtitle: "{gtia.quest.70142FE89DD2391E.subtitle}"
 			tasks: [
 				{
 					consume_items: false
 					count: 1L
-					id: "0FE75AE1472CBD0C"
-					item: "gtia:matrioshka_brain"
+					id: "1D23DD4E1BDFA35B"
+					item: "typeomega:matrioshka_brain"
 					match_nbt: false
 					type: "item"
 				}
 			]
-			title: "{block.gtia.matrioshka_brain}"
+			title: "{block.typeomega.matrioshka_brain}"
 			x: 52.5d
 			y: 52.0d
 		}
@@ -10215,36 +10215,36 @@
 				"487D50379431F8D5"
 			]
 			description: [
-				"{gtia.machine.nidavellir.tooltip.0}"
-				"{gtia.machine.nidavellir.tooltip.1}"
-				"{gtia.machine.nidavellir.tooltip.2}"
+				"{typeomega.machine.nidavellir.tooltip.0}"
+				"{typeomega.machine.nidavellir.tooltip.1}"
+				"{typeomega.machine.nidavellir.tooltip.2}"
 				""
-				"{gtia.quest.4D586F588ACAC843.desc.4}"
+				"{gtia.quest.7D0995E20AB8263C.desc.4}"
 			]
-			icon: "gtia:nidavellir"
-			id: "4D586F588ACAC843"
+			icon: "typeomega:nidavellir"
+			id: "7D0995E20AB8263C"
 			optional: true
 			rewards: [
 				{
-					id: "392A608808369DE4"
+					id: "65272B2982F9A390"
 					item: "gtceu:neutronium_ingot"
 					type: "item"
 				}
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.4D586F588ACAC843.subtitle}"
+			subtitle: "{gtia.quest.7D0995E20AB8263C.subtitle}"
 			tasks: [
 				{
 					consume_items: false
 					count: 1L
-					id: "0DC566B145695C22"
-					item: "gtia:nidavellir"
+					id: "0922D63202B93E9B"
+					item: "typeomega:nidavellir"
 					match_nbt: false
 					type: "item"
 				}
 			]
-			title: "{block.gtia.nidavellir}"
+			title: "{block.typeomega.nidavellir}"
 			x: 53.75d
 			y: 52.0d
 		}
@@ -10253,36 +10253,36 @@
 				"487D50379431F8D5"
 			]
 			description: [
-				"{gtia.machine.qso.tooltip.0}"
-				"{gtia.machine.qso.tooltip.1}"
-				"{gtia.machine.qso.tooltip.2}"
+				"{typeomega.machine.qso.tooltip.0}"
+				"{typeomega.machine.qso.tooltip.1}"
+				"{typeomega.machine.qso.tooltip.2}"
 				""
-				"{gtia.quest.609D5CF476E91C73.desc.4}"
+				"{gtia.quest.4046CE768E34C087.desc.4}"
 			]
-			icon: "gtia:qso"
-			id: "609D5CF476E91C73"
+			icon: "typeomega:qso"
+			id: "4046CE768E34C087"
 			optional: true
 			rewards: [
 				{
-					id: "4639CC8E98F7FC5B"
+					id: "24B476D49F958201"
 					item: "gtceu:neutronium_ingot"
 					type: "item"
 				}
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.609D5CF476E91C73.subtitle}"
+			subtitle: "{gtia.quest.4046CE768E34C087.subtitle}"
 			tasks: [
 				{
 					consume_items: false
 					count: 1L
-					id: "748B70BCB74ABCE9"
-					item: "gtia:qso"
+					id: "4BEA54BB012A75A8"
+					item: "typeomega:qso"
 					match_nbt: false
 					type: "item"
 				}
 			]
-			title: "{block.gtia.qso}"
+			title: "{block.typeomega.qso}"
 			x: 55.0d
 			y: 52.0d
 		}
@@ -10291,36 +10291,36 @@
 				"487D50379431F8D5"
 			]
 			description: [
-				"{gtia.machine.star_lifter.tooltip.0}"
-				"{gtia.machine.star_lifter.tooltip.1}"
-				"{gtia.machine.star_lifter.tooltip.2}"
+				"{typeomega.machine.star_lifter.tooltip.0}"
+				"{typeomega.machine.star_lifter.tooltip.1}"
+				"{typeomega.machine.star_lifter.tooltip.2}"
 				""
-				"{gtia.quest.171830E2DC2AC536.desc.4}"
+				"{gtia.quest.1BF8C74DBC90D18A.desc.4}"
 			]
-			icon: "gtia:star_lifter"
-			id: "171830E2DC2AC536"
+			icon: "typeomega:star_lifter"
+			id: "1BF8C74DBC90D18A"
 			optional: true
 			rewards: [
 				{
-					id: "5D9BCFC4602CB2A7"
+					id: "5FFA0940EF5F7C86"
 					item: "gtceu:neutronium_ingot"
 					type: "item"
 				}
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.171830E2DC2AC536.subtitle}"
+			subtitle: "{gtia.quest.1BF8C74DBC90D18A.subtitle}"
 			tasks: [
 				{
 					consume_items: false
 					count: 1L
-					id: "4298E2E190532E03"
-					item: "gtia:star_lifter"
+					id: "103BC50CC360C3F0"
+					item: "typeomega:star_lifter"
 					match_nbt: false
 					type: "item"
 				}
 			]
-			title: "{block.gtia.star_lifter}"
+			title: "{block.typeomega.star_lifter}"
 			x: 56.25d
 			y: 52.0d
 		}
@@ -10329,36 +10329,36 @@
 				"487D50379431F8D5"
 			]
 			description: [
-				"{gtia.machine.stellar_engine.tooltip.0}"
-				"{gtia.machine.stellar_engine.tooltip.1}"
-				"{gtia.machine.stellar_engine.tooltip.2}"
+				"{typeomega.machine.stellar_engine.tooltip.0}"
+				"{typeomega.machine.stellar_engine.tooltip.1}"
+				"{typeomega.machine.stellar_engine.tooltip.2}"
 				""
-				"{gtia.quest.14229426300CFF4A.desc.4}"
+				"{gtia.quest.177085F1E8701758.desc.4}"
 			]
-			icon: "gtia:stellar_engine"
-			id: "14229426300CFF4A"
+			icon: "typeomega:stellar_engine"
+			id: "177085F1E8701758"
 			optional: true
 			rewards: [
 				{
-					id: "086A2D971AAC9D4A"
+					id: "30B2305E4CDAFD7A"
 					item: "gtceu:neutronium_ingot"
 					type: "item"
 				}
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.14229426300CFF4A.subtitle}"
+			subtitle: "{gtia.quest.177085F1E8701758.subtitle}"
 			tasks: [
 				{
 					consume_items: false
 					count: 1L
-					id: "11B1CD4F151380E8"
-					item: "gtia:stellar_engine"
+					id: "19C9E90B62727089"
+					item: "typeomega:stellar_engine"
 					match_nbt: false
 					type: "item"
 				}
 			]
-			title: "{block.gtia.stellar_engine}"
+			title: "{block.typeomega.stellar_engine}"
 			x: 52.5d
 			y: 53.25d
 		}
@@ -10367,36 +10367,36 @@
 				"487D50379431F8D5"
 			]
 			description: [
-				"{gtia.machine.stellar_harvester.tooltip.0}"
-				"{gtia.machine.stellar_harvester.tooltip.1}"
-				"{gtia.machine.stellar_harvester.tooltip.2}"
+				"{typeomega.machine.stellar_harvester.tooltip.0}"
+				"{typeomega.machine.stellar_harvester.tooltip.1}"
+				"{typeomega.machine.stellar_harvester.tooltip.2}"
 				""
-				"{gtia.quest.5407CD36C4F8A28C.desc.4}"
+				"{gtia.quest.30BED88F6D7A21F8.desc.4}"
 			]
-			icon: "gtia:stellar_harvester"
-			id: "5407CD36C4F8A28C"
+			icon: "typeomega:stellar_harvester"
+			id: "30BED88F6D7A21F8"
 			optional: true
 			rewards: [
 				{
-					id: "7502909ACE0DB9B8"
+					id: "6A7F1ECDAD2A721C"
 					item: "gtceu:neutronium_ingot"
 					type: "item"
 				}
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.5407CD36C4F8A28C.subtitle}"
+			subtitle: "{gtia.quest.30BED88F6D7A21F8.subtitle}"
 			tasks: [
 				{
 					consume_items: false
 					count: 1L
-					id: "67D18A2653012210"
-					item: "gtia:stellar_harvester"
+					id: "2DC2EB7942345B79"
+					item: "typeomega:stellar_harvester"
 					match_nbt: false
 					type: "item"
 				}
 			]
-			title: "{block.gtia.stellar_harvester}"
+			title: "{block.typeomega.stellar_harvester}"
 			x: 53.75d
 			y: 53.25d
 		}
@@ -10405,36 +10405,36 @@
 				"487D50379431F8D5"
 			]
 			description: [
-				"{gtia.machine.stellar_hoop.tooltip.0}"
-				"{gtia.machine.stellar_hoop.tooltip.1}"
-				"{gtia.machine.stellar_hoop.tooltip.2}"
+				"{typeomega.machine.stellar_hoop.tooltip.0}"
+				"{typeomega.machine.stellar_hoop.tooltip.1}"
+				"{typeomega.machine.stellar_hoop.tooltip.2}"
 				""
-				"{gtia.quest.0811A48E24018EDC.desc.4}"
+				"{gtia.quest.5587D31B6924BA25.desc.4}"
 			]
-			icon: "gtia:stellar_hoop"
-			id: "0811A48E24018EDC"
+			icon: "typeomega:stellar_hoop"
+			id: "5587D31B6924BA25"
 			optional: true
 			rewards: [
 				{
-					id: "681CB2F677271F77"
+					id: "3B570CA2BEA45983"
 					item: "gtceu:neutronium_ingot"
 					type: "item"
 				}
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.0811A48E24018EDC.subtitle}"
+			subtitle: "{gtia.quest.5587D31B6924BA25.subtitle}"
 			tasks: [
 				{
 					consume_items: false
 					count: 1L
-					id: "6D628EE3362C87E5"
-					item: "gtia:stellar_hoop"
+					id: "1605F34569DB273B"
+					item: "typeomega:stellar_hoop"
 					match_nbt: false
 					type: "item"
 				}
 			]
-			title: "{block.gtia.stellar_hoop}"
+			title: "{block.typeomega.stellar_hoop}"
 			x: 55.0d
 			y: 53.25d
 		}
@@ -10443,36 +10443,36 @@
 				"487D50379431F8D5"
 			]
 			description: [
-				"{gtia.machine.suprashell.tooltip.0}"
-				"{gtia.machine.suprashell.tooltip.1}"
-				"{gtia.machine.suprashell.tooltip.2}"
+				"{typeomega.machine.suprashell.tooltip.0}"
+				"{typeomega.machine.suprashell.tooltip.1}"
+				"{typeomega.machine.suprashell.tooltip.2}"
 				""
-				"{gtia.quest.7966EA5F063F4C37.desc.4}"
+				"{gtia.quest.5E9D43B727C6AABC.desc.4}"
 			]
-			icon: "gtia:suprashell"
-			id: "7966EA5F063F4C37"
+			icon: "typeomega:suprashell"
+			id: "5E9D43B727C6AABC"
 			optional: true
 			rewards: [
 				{
-					id: "2924ECC3D85CF08E"
+					id: "537D220F37E9D31D"
 					item: "gtceu:neutronium_ingot"
 					type: "item"
 				}
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.7966EA5F063F4C37.subtitle}"
+			subtitle: "{gtia.quest.5E9D43B727C6AABC.subtitle}"
 			tasks: [
 				{
 					consume_items: false
 					count: 1L
-					id: "52322B1196EF25A7"
-					item: "gtia:suprashell"
+					id: "7EBFF2E555DA684D"
+					item: "typeomega:suprashell"
 					match_nbt: false
 					type: "item"
 				}
 			]
-			title: "{block.gtia.suprashell}"
+			title: "{block.typeomega.suprashell}"
 			x: 56.25d
 			y: 53.25d
 		}
@@ -10481,36 +10481,36 @@
 				"487D50379431F8D5"
 			]
 			description: [
-				"{gtia.machine.system_creator.tooltip.0}"
-				"{gtia.machine.system_creator.tooltip.1}"
-				"{gtia.machine.system_creator.tooltip.2}"
+				"{typeomega.machine.system_creator.tooltip.0}"
+				"{typeomega.machine.system_creator.tooltip.1}"
+				"{typeomega.machine.system_creator.tooltip.2}"
 				""
-				"{gtia.quest.58E5942AE0F7D61A.desc.4}"
+				"{gtia.quest.4007EB811521D9A2.desc.4}"
 			]
-			icon: "gtia:system_creator"
-			id: "58E5942AE0F7D61A"
+			icon: "typeomega:system_creator"
+			id: "4007EB811521D9A2"
 			optional: true
 			rewards: [
 				{
-					id: "003CA3F2766259B8"
+					id: "3B89002CE35BB591"
 					item: "gtceu:neutronium_ingot"
 					type: "item"
 				}
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.58E5942AE0F7D61A.subtitle}"
+			subtitle: "{gtia.quest.4007EB811521D9A2.subtitle}"
 			tasks: [
 				{
 					consume_items: false
 					count: 1L
-					id: "334303DC43764A64"
-					item: "gtia:system_creator"
+					id: "5C5D966854A0980F"
+					item: "typeomega:system_creator"
 					match_nbt: false
 					type: "item"
 				}
 			]
-			title: "{block.gtia.system_creator}"
+			title: "{block.typeomega.system_creator}"
 			x: 52.5d
 			y: 54.5d
 		}
@@ -10519,36 +10519,36 @@
 				"487D50379431F8D5"
 			]
 			description: [
-				"{gtia.machine.yggdrasil.tooltip.0}"
-				"{gtia.machine.yggdrasil.tooltip.1}"
-				"{gtia.machine.yggdrasil.tooltip.2}"
+				"{typeomega.machine.yggdrasil.tooltip.0}"
+				"{typeomega.machine.yggdrasil.tooltip.1}"
+				"{typeomega.machine.yggdrasil.tooltip.2}"
 				""
-				"{gtia.quest.2108D28DDA98D211.desc.4}"
+				"{gtia.quest.7C3F9B05DD0C7567.desc.4}"
 			]
-			icon: "gtia:yggdrasil"
-			id: "2108D28DDA98D211"
+			icon: "typeomega:yggdrasil"
+			id: "7C3F9B05DD0C7567"
 			optional: true
 			rewards: [
 				{
-					id: "0773B66D5529031E"
+					id: "22157128F4F356B1"
 					item: "gtceu:neutronium_ingot"
 					type: "item"
 				}
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.2108D28DDA98D211.subtitle}"
+			subtitle: "{gtia.quest.7C3F9B05DD0C7567.subtitle}"
 			tasks: [
 				{
 					consume_items: false
 					count: 1L
-					id: "305489B5C32F8F47"
-					item: "gtia:yggdrasil"
+					id: "75360BE2CE009B29"
+					item: "typeomega:yggdrasil"
 					match_nbt: false
 					type: "item"
 				}
 			]
-			title: "{block.gtia.yggdrasil}"
+			title: "{block.typeomega.yggdrasil}"
 			x: 53.75d
 			y: 54.5d
 		}

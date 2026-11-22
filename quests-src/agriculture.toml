@@ -203,10 +203,10 @@ Four [item]Biomass Bundles[/] and water become [num]500 mB[/] of [item]Biomass[/
 key = "seed_analyzer"
 title = "Seed Analyzer"
 role = "gate"
-icon = "gtia:lv_seed_analyzer"
+icon = "typeomega:lv_seed_analyzer"
 deps = ["crossing", "lv:lv_sensor", "lv:lv_emitter"]
 subtitle = "Know what you are breeding."
-task = [{ item = "gtia:lv_seed_analyzer" }]
+task = [{ item = "typeomega:lv_seed_analyzer" }]
 text = """
 Reads the Growth, Gain and Resistance of a seed so you breed on purpose instead of by hope. Higher tiers analyse faster.
 """
@@ -251,10 +251,10 @@ A stack of fibre without a single right click. Feed the Greenhouse from the Mixe
 key = "hv_analyzer"
 title = "HV Seed Analyzer"
 role = "side"
-icon = "gtia:hv_seed_analyzer"
+icon = "typeomega:hv_seed_analyzer"
 deps = ["seed_analyzer", "hv:hv_sensor", "hv:hv_emitter"]
 subtitle = "Faster reading."
-task = [{ item = "gtia:hv_seed_analyzer" }]
+task = [{ item = "typeomega:hv_seed_analyzer" }]
 text = """
 The same reading in a fraction of the time, for breeding programs that never stop.
 """

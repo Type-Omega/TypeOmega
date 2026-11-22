@@ -770,7 +770,7 @@ shape = "circle"
 size = 1.5
 deps = ["mv_chem_reactor"]
 subtitle = "Bauxite in hot caustic soda."
-task = [{ item = "gtia:sodium_aluminate_bucket" }]
+task = [{ item = "typeomega:sodium_aluminate_bucket" }]
 group = "bayer"
 text = """
 In the [item]Chemical Reactor[/], [num]1 Bauxite[/], [num]1 Sodium Hydroxide[/], water and steam become [num]1,000 mB[/] of Sodium Aluminate, leaving red mud. A seed of Aluminium Hydroxide then precipitates it into [num]2 Aluminium Hydroxide[/] and gives back most of the soda.
@@ -788,7 +788,7 @@ shape = "circle"
 size = 1
 deps = ["bayer", "steam:lime_kiln"]
 subtitle = "Calcined in the Coke Oven."
-task = [{ item = "gtia:alumina_dust", count = 4 }]
+task = [{ item = "typeomega:alumina_dust", count = 4 }]
 group = "bayer"
 text = """
 Your old Coke Oven calcines [num]2 Aluminium Hydroxide[/] into [num]1 Alumina[/]. The Steam Age is still working for you.
@@ -804,7 +804,7 @@ shape = "circle"
 size = 1
 deps = ["bayer", "fluorine"]
 subtitle = "The molten bath."
-task = [{ item = "gtia:cryolite_dust" }]
+task = [{ item = "typeomega:cryolite_dust" }]
 group = "bayer"
 text = """
 Aluminium Hydroxide, Sodium Hydroxide and Hydrofluoric Acid in a Chemical Reactor. Alumina dissolves in it at a much lower temperature.
@@ -820,7 +820,7 @@ shape = "circle"
 size = 1
 deps = ["mv_mixer", "steam:charcoal_byproducts"]
 subtitle = "Coke and tar."
-task = [{ item = "gtia:carbon_anode", count = 4 }]
+task = [{ item = "typeomega:carbon_anode", count = 4 }]
 group = "bayer"
 text = """
 Coke dust bound with Wood Tar in a Mixer. It burns away in the cell, one per run.
@@ -901,7 +901,7 @@ shape = "circle"
 size = 1
 deps = ["mv_chem_reactor"]
 subtitle = "The catalyst."
-task = [{ item = "gtia:vanadium_pentoxide_dust" }]
+task = [{ item = "typeomega:vanadium_pentoxide_dust" }]
 group = "acid"
 text = """
 Vanadium dust burnt in oxygen. It is never used up.

@@ -246,11 +246,11 @@ hash = "a591cef12157c4cd00f7d32ea87a62cf829eb37881bb899d33cd59d8236596af"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/agriculture.snbt"
-hash = "4f024dcefc3203926a356f6db42f7300c81e35b4939d4da456701fe43bbba51b"
+hash = "ad7229b715badcf2b203f0e8b7ed0fd2d816b80705d28aefb9ee0cede0ef3659"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bees.snbt"
-hash = "d7889b653ae5e7b00f6d43f0e39fc8a0a1e56aed5c49544994feb819aac8d742"
+hash = "addaf3af9d4223b107c66f0d064f64d333f3bc2ea3bc2b46c06363ecfa3e434c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/energy.snbt"
@@ -258,11 +258,11 @@ hash = "7feccb3c80cc1bffaf89702bd70cd0ce347e31287fcc8ac76d73f3798098a8ce"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv.snbt"
-hash = "9b9e6fcb0438fde66fe14de11f98418d4e6f4017d7fc018adad1c4844e2b5e3d"
+hash = "669bae1f388fc221c55bc6188d7f4ec1e53117979c8f898994e171f234a7facf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv.snbt"
-hash = "b8f8bd3f9a3a5819f4c73bdbf4ca9224e11556c9e344a5e09701cdfaf3c5f056"
+hash = "1a200498728f46e939ce09d653f010a398a84639c2db2b61d15034bfbf9c0df6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/modes.snbt"
@@ -270,11 +270,11 @@ hash = "197086fbd5fbb078e609c91b3c8340cbfb2aed721574338fcdd93f5fb6741e4e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiblocks.snbt"
-hash = "ed2e7bfaa387721d695360c613a9af1f931b13945522bfe276f9e88e773c32b0"
+hash = "5d58177e1f5aefdbd59939ea4a5cd2c15ffc50825357e78896b1356131d46b46"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mv.snbt"
-hash = "d2e856d426a56b109eec250ea80f3c3c5dfae1fb84f07612d4cc0175a23e57d3"
+hash = "4aaac0914356b5aae0104001841cb6fe46c48ea3d29b7b48cfde48778c5ac33d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/periodic.snbt"
@@ -282,11 +282,11 @@ hash = "b1e855630e461bdde5be0aa900d5c9f5780f6a155eef8566b81b672abe7cb56a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/start.snbt"
-hash = "0cb98d1bff183aa338549569d24bfcb735dc8b886d137679c9df09d431385618"
+hash = "b795fc2924f44ce193bd274a06a3b2e294f4eccc8f45feff7e6b57d59b6231d9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/steam.snbt"
-hash = "ee4ef88d409a6835567317ed9a9b1ef4d67a9b1afa31ddcb6132fd0a3a9b0e4b"
+hash = "7b64f04e56006b3ec88893f77c5d28a1d0679b8c3f2a639361878fed1b5d5793"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
@@ -323,6 +323,10 @@ hash = "72f71cbf0bdfd501f7c5f3f0dc2309e5d08d2c017937643c46eee270ae77985d"
 [[files]]
 file = "config/gtna.yaml"
 hash = "e183f9e75dbcfeb578a229f1c3e9df57deaf532bd8080abc660bac1f071dd8cb"
+
+[[files]]
+file = "config/gtna/balance/electric_void_miner.json"
+hash = "4a30c9be3f878a9b2ecf59f5e0ada934c9d7e390f09c232597a46d5b4e929a50"
 
 [[files]]
 file = "config/gtna/balance/nexus_flux_matrix.json"
@@ -430,15 +434,15 @@ hash = "c937050709b29ba62629f46d03b32a1e27a6c9ff970ad04a7242a4b8eab26e84"
 
 [[files]]
 file = "config/openloader/resources/gtia_quests/assets/gtia_quests/lang/en_us.json"
-hash = "510a0638cb0a57c47bc00d630db80ef76064370015ffdedcbaf100e2c8956c0a"
+hash = "d59ea764cab96baa3fc352910b83d86d6436f2ad30b8b6c74b8e88b5105a4ea1"
 
 [[files]]
 file = "config/openloader/resources/gtia_quests/assets/gtia_quests/lang/pt_br.json"
-hash = "018151c9f8dc571d6825410681d33490b64888148ebedfb5a19d998966b95fef"
+hash = "3e453d3ed1ca9c14b7e452a8d596b86b9bcafb03830431ddd9a587768f4fe3b2"
 
 [[files]]
 file = "config/openloader/resources/gtia_quests/assets/gtia_quests/lang/zh_cn.json"
-hash = "dbd8f0f724095443ff8fd10563edea5bd8e08bf6349f9e08394070bcea530985"
+hash = "543c80237edce4bace7638a215ae78854a869fab0e78e106729acfcde47bb1bc"
 
 [[files]]
 file = "config/openloader/resources/gtia_quests/assets/gtia_quests/textures/quests/agronomica_farm.png"
@@ -1018,16 +1022,8 @@ hash = "543e834c76640a1f58168debd6fdd1e39f071d90cdaf2fe82369b20539cedc70"
 metafile = true
 
 [[files]]
-file = "mods/gtia-0.1.0.jar"
-hash = "1bd700d33e34ef4e14185a5e9f742e02e87e3ce3f6b24c37febb5b1c733a3922"
-
-[[files]]
-file = "mods/gtialib-0.5.0.jar"
-hash = "f5b2c0e441ee5cd374c2dd89aa772845f4b8213febcea58c8560a55c26051784"
-
-[[files]]
 file = "mods/gtna-0.6.1.jar"
-hash = "c942f8e277cd3930b8b07aa1feb4d24664a5ac857d731084047db37e83e8312d"
+hash = "16afdd55cc616e18af4f42d7bae7d75b8616581cdcfdf73130025b407aff74a8"
 
 [[files]]
 file = "mods/guideme.pw.toml"
@@ -1292,6 +1288,14 @@ metafile = true
 file = "mods/trashcans.pw.toml"
 hash = "0108a1c080b2092b14dd32e6250a60863634a50578b8c081756a615ef7fbf47f"
 metafile = true
+
+[[files]]
+file = "mods/typeomega-0.1.0.jar"
+hash = "19f45700a0c9223e6464f46993af9f0e3d212a809c2c9a16999ccf4158a3eb5d"
+
+[[files]]
+file = "mods/typeomega-lib-0.5.0.jar"
+hash = "9e21372e6c6a3aebcdc7116afdc493a889ce8a7139abf13f5916fbfadfae6eab"
 
 [[files]]
 file = "mods/unilib.pw.toml"

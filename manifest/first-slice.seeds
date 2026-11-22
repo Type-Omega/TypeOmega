@@ -1,9 +1,9 @@
 # Mods the first slice (Start -> Steam -> LV) asks for. `pack.py lock` adds their required dependencies.
-# Local builds (gtia, gtna) are taken from the GTIACore and GTNA build folders.
+# Local builds (typeomega, gtna) are taken from the GTIACore and GTNA build folders.
 gtceu
 ldlib
 gtna
-gtia
+typeomega
 ae2
 guideme
 emi

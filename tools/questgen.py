@@ -694,7 +694,7 @@ class Book:
                         "dependencies": [header["id"]], "description": text, "icon": m["item"],
                         "id": ident("quest:multiblocks:" + m["item"]), "optional": Raw("true"),
                         "rewards": [reward],
-                        "shape": "gear" if ns == "gtia" else "hexagon", "size": double(1.0),
+                        "shape": "gear" if ns == "typeomega" else "hexagon", "size": double(1.0),
                         "subtitle": names[f],
                         "tasks": [{"consume_items": snbt.boolean(False), "count": long(1),
                                    "id": ident("task:multiblocks:" + m["item"]), "item": m["item"],

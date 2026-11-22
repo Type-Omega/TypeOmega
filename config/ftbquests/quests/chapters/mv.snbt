@@ -1311,7 +1311,7 @@
 				{
 					id: "222EFA94EAFEDD89"
 					type: "item"
-					item: "gtia:sodium_aluminate_bucket"
+					item: "typeomega:sodium_aluminate_bucket"
 					count: 1L
 					consume_items: false
 					match_nbt: false
@@ -1338,7 +1338,7 @@
 				{
 					id: "6F5F9FB9FF45F0A6"
 					type: "item"
-					item: "gtia:alumina_dust"
+					item: "typeomega:alumina_dust"
 					count: 4L
 					consume_items: false
 					match_nbt: false
@@ -1365,7 +1365,7 @@
 				{
 					id: "0FC2D5E032BED312"
 					type: "item"
-					item: "gtia:cryolite_dust"
+					item: "typeomega:cryolite_dust"
 					count: 1L
 					consume_items: false
 					match_nbt: false
@@ -1392,7 +1392,7 @@
 				{
 					id: "22126DF088D50671"
 					type: "item"
-					item: "gtia:carbon_anode"
+					item: "typeomega:carbon_anode"
 					count: 4L
 					consume_items: false
 					match_nbt: false
@@ -1525,7 +1525,7 @@
 				{
 					id: "2CDA35A9F94A351B"
 					type: "item"
-					item: "gtia:vanadium_pentoxide_dust"
+					item: "typeomega:vanadium_pentoxide_dust"
 					count: 1L
 					consume_items: false
 					match_nbt: false

@@ -233,14 +233,14 @@ Hammer [item]Red Alloy[/] into a plate and cut it with the [item]Wire Cutter[/].
 key = "phase_ore"
 title = "Phase Matrix"
 role = "side"
-icon = "gtia:raw_phase_matrix"
+icon = "typeomega:raw_phase_matrix"
 x = 3.5
 y = 4.5
 shape = "circle"
 size = 1
 deps = ["bronze_age"]
 subtitle = "Infinity Ascension's own ore."
-task = [{ item = "gtia:raw_phase_matrix", count = 4 }]
+task = [{ item = "typeomega:raw_phase_matrix", count = 4 }]
 text = """
 [item]Phase Matrix[/] deposits sit in the stone of the Overworld between [num]Y 40 and 60[/], marked by indicators on the surface. Your Prospector finds them too.
 """
@@ -249,14 +249,14 @@ text = """
 key = "phase_dust"
 title = "Impure Phase Dust"
 role = "detail"
-icon = "gtia:impure_phase_matrix_dust"
+icon = "typeomega:impure_phase_matrix_dust"
 x = 6.5
 y = 2.5
 shape = "circle"
 size = 1
 deps = ["phase_ore", "macerator"]
 subtitle = "Crushed, then crushed again."
-task = [{ item = "gtia:crushed_phase_matrix_ore" }, { item = "gtia:impure_phase_matrix_dust", count = 2 }]
+task = [{ item = "typeomega:crushed_phase_matrix_ore" }, { item = "typeomega:impure_phase_matrix_dust", count = 2 }]
 text = """
 The [item]Macerator[/] crushes the raw matrix; crush the result again for [item]Impure Phase Matrix Dust[/]. A hand hammer does the second step too.
 
@@ -267,14 +267,14 @@ The [item]Macerator[/] crushes the raw matrix; crush the result again for [item]
 key = "pulsating"
 title = "Pulsating Alloy"
 role = "side"
-icon = "gtia:pulsating_alloy_ingot"
+icon = "typeomega:pulsating_alloy_ingot"
 x = 10.5
 y = 5.0
 shape = "circle"
 size = 1
 deps = ["phase_dust", "alloy"]
 subtitle = "Iron plus phase."
-task = [{ item = "gtia:pulsating_alloy_ingot", count = 2 }]
+task = [{ item = "typeomega:pulsating_alloy_ingot", count = 2 }]
 text = """
 [num]One[/] [item]Iron Ingot[/] and [num]one[/] [item]Impure Phase Matrix Dust[/] in the Alloy Smelter make one [item]Pulsating Alloy[/].
 
@@ -285,14 +285,14 @@ text = """
 key = "conductive"
 title = "Conductive Alloy"
 role = "optional"
-icon = "gtia:conductive_alloy_ingot"
+icon = "typeomega:conductive_alloy_ingot"
 x = 9.0
 y = 7.5
 shape = "diamond"
 size = 1
 deps = ["pulsating", "red_alloy"]
 subtitle = "A wire that loses nothing."
-task = [{ item = "gtia:conductive_alloy_ingot", count = 2 }]
+task = [{ item = "typeomega:conductive_alloy_ingot", count = 2 }]
 text = """
 [item]Red Alloy[/] and [item]Pulsating Alloy[/] smelt into [num]two[/] [item]Conductive Alloy[/]. Its wire carries Ultra Low Voltage at [num]4 amps[/] with [tip]no loss over distance[/].
 """

@@ -50,7 +50,7 @@ def lang_tables() -> dict[str, dict[str, str]]:
     tables = {}
     lock = json.loads((PACK / "manifest" / "full.lock.json").read_text())
     jars = {m["mod_id"]: CACHE / m["filename"] for m in lock["mods"]}
-    for ns, mod in (("gtceu", "gtceu"), ("gtna", "gtna"), ("gtia", "gtia"), ("modern_manipulator", "modern_manipulator")):
+    for ns, mod in (("gtceu", "gtceu"), ("gtna", "gtna"), ("typeomega", "typeomega"), ("modern_manipulator", "modern_manipulator")):
         jar = jars.get(mod)
         if not jar or not jar.exists():
             continue
@@ -58,9 +58,9 @@ def lang_tables() -> dict[str, dict[str, str]]:
             name = f"assets/{ns}/lang/en_us.json"
             if name in z.namelist():
                 tables[ns] = json.loads(z.read(name))
-    gtia = PACK.parent / "core" / "src" / "generated" / "resources" / "assets" / "gtia" / "lang" / "en_us.json"
+    gtia = PACK.parent / "core" / "src" / "generated" / "resources" / "assets" / "typeomega" / "lang" / "en_us.json"
     if gtia.exists():
-        tables["gtia"] = json.loads(gtia.read_text())
+        tables["typeomega"] = json.loads(gtia.read_text())
     return tables
 
 
@@ -77,8 +77,8 @@ def text_keys(item: str, tables: dict[str, dict[str, str]]) -> list[str]:
         elif pattern.format(ns=ns, path=path) in table:
             keys.append(pattern.format(ns=ns, path=path))
     # GTIA tooltips are sectioned (fact, main, auxiliary, requirements)
-    keys += sorted(k for k in table if k.startswith(f"gtia.machine.{path}.tooltip.") and k not in keys
-                   and ns == "gtia")
+    keys += sorted(k for k in table if k.startswith(f"typeomega.machine.{path}.tooltip.") and k not in keys
+                   and ns == "typeomega")
     return keys
 
 
@@ -100,7 +100,7 @@ def circuit_tiers() -> dict[str, int]:
     lock = json.loads((PACK / "manifest" / "full.lock.json").read_text())
     out: dict[str, int] = {}
     for m in lock["mods"]:
-        if m["mod_id"] not in ("gtceu", "gtna", "gtia"):
+        if m["mod_id"] not in ("gtceu", "gtna", "typeomega"):
             continue
         with zipfile.ZipFile(CACHE / m["filename"]) as z:
             for name in z.namelist():

@@ -81,8 +81,6 @@
     "gnetum",
     "gpumemleakfix",
     "gtceu",
-    "gtia",
-    "gtialib",
     "gtmthings",
     "gtna",
     "guideme",
@@ -140,6 +138,8 @@
     "toofast",
     "toolbelt",
     "trashcans",
+    "typeomega",
+    "typeomegalib",
     "unilib",
     "usclb",
     "xaerominimap",
@@ -931,25 +931,9 @@
       ]
     },
     {
-      "mod_id": "gtia",
-      "filename": "gtia-0.1.0.jar",
-      "sha256": "abfc6576ad9df8b504533a730d850074e95d830fefa00c347490e4468a8ad283",
-      "source": "local-build",
-      "path": "/home/raishxn/MineProjects/GTIA/core/build/libs/gtia-0.1.0.jar",
-      "requires": []
-    },
-    {
-      "mod_id": "gtialib",
-      "filename": "gtialib-0.5.0.jar",
-      "sha256": "f5b2c0e441ee5cd374c2dd89aa772845f4b8213febcea58c8560a55c26051784",
-      "source": "local-build",
-      "path": "/home/raishxn/MineProjects/GTIA-arquivo/jar-backups/2026-10-16-gtialib-0.5.0/gtialib-0.5.0.jar",
-      "requires": []
-    },
-    {
       "mod_id": "gtna",
       "filename": "gtna-0.6.1.jar",
-      "sha256": "c942f8e277cd3930b8b07aa1feb4d24664a5ac857d731084047db37e83e8312d",
+      "sha256": "16afdd55cc616e18af4f42d7bae7d75b8616581cdcfdf73130025b407aff74a8",
       "source": "local-build",
       "path": "/home/raishxn/MineProjects/GregTech-Nexus-Addon/build/libs/gtna-0.6.1.jar",
       "requires": []
@@ -1454,6 +1438,22 @@
         "supermartijn642configlib",
         "supermartijn642corelib"
       ]
+    },
+    {
+      "mod_id": "typeomega",
+      "filename": "typeomega-0.1.0.jar",
+      "sha256": "19f45700a0c9223e6464f46993af9f0e3d212a809c2c9a16999ccf4158a3eb5d",
+      "source": "local-build",
+      "path": "/home/raishxn/MineProjects/GTIA/core/build/libs/typeomega-0.1.0.jar",
+      "requires": []
+    },
+    {
+      "mod_id": "typeomegalib",
+      "filename": "typeomega-lib-0.5.0.jar",
+      "sha256": "9e21372e6c6a3aebcdc7116afdc493a889ce8a7139abf13f5916fbfadfae6eab",
+      "source": "local-build",
+      "path": "/home/raishxn/MineProjects/GTIA-Lib/build/libs/typeomega-lib-0.5.0.jar",
+      "requires": []
     },
     {
       "mod_id": "unilib",

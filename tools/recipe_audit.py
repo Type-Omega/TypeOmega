@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Boot the locked pack on a dedicated server, run `/gtia audit recipes` and copy the report.
+"""Boot the locked pack on a dedicated server, run `/typeomega audit recipes` and copy the report.
 
     recipe_audit.py [OUT]
 
@@ -38,7 +38,7 @@ def main() -> int:
     shutil.copytree(smoke.PACK / "config", work / "config")
     (work / "eula.txt").write_text("eula=true\n")
     (work / "server.properties").write_text("online-mode=false\nlevel-seed=12345\nview-distance=4\n")
-    report = work / "gtia-recipe-audit.txt"
+    report = work / "typeomega-recipe-audit.txt"
     report.unlink(missing_ok=True)
     log = work / "audit.log"
     forge_args = f"libraries/net/minecraftforge/forge/1.20.1-{lock['forge']}/unix_args.txt"
@@ -48,7 +48,7 @@ def main() -> int:
         started, sent = time.time(), False
         while time.time() - started < smoke.TIMEOUT and server.poll() is None:
             if not sent and re.search(r"Done \([\d.]+s\)", log.read_text(errors="replace")):
-                bench.send(server, "gtia audit recipes")
+                bench.send(server, "typeomega audit recipes")
                 sent = True
             if report.exists() and "GTIA recipe audit" in log.read_text(errors="replace"):
                 break

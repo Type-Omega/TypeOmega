@@ -129,7 +129,7 @@ y = -5
 deps = ["Welcome to Infinity Ascension"]
 subtitle = "What your world's mode changes."
 text = """
-Type [item]/gtia rules[/] to see every rule of this world: recipe speed and cost, steam, maintenance, tools, ore veins, survival and the rest, each with its Journey and Normal value.
+Type [item]/typeomega rules[/] to see every rule of this world: recipe speed and cost, steam, maintenance, tools, ore veins, survival and the rest, each with its Journey and Normal value.
 
 The rules are fixed when the world is made. A few of them are read when the game starts, so a new world with other values asks you to restart first.
 """
@@ -316,7 +316,7 @@ The [item]Prospector[/] shows the ores under you without digging. Mark every vei
 key = "tip_phase"
 role = "hint"
 title = "Phase Matrix"
-icon = "gtia:phase_matrix_ore"
+icon = "typeomega:phase_matrix_ore"
 x = 17.5
 y = 1.25
 deps = ["A Wider Mineral Collection"]
@@ -400,7 +400,7 @@ journey_icon = "minecraft:totem_of_undying"
 journey_text = """
 This world is [item]Journey[/]. Same quests, same machines, kinder numbers: recipes are faster and cheaper, boilers give more steam, machines need no maintenance, vanilla recipes are simpler, you keep your inventory on death and radioactive materials do not hurt.
 
-[tip]/gtia rules[/] lists every rule and its value. The mode is fixed when the world is made.
+[tip]/typeomega rules[/] lists every rule and its value. The mode is fixed when the world is made.
 """
 normal_title = "Normal World"
 normal_subtitle = "The pack as designed."
@@ -408,7 +408,7 @@ normal_icon = "gtceu:steel_pickaxe"
 normal_text = """
 This world is [item]Normal[/]: the full pack, with the numbers it was balanced for. Maintenance, material hazards, catalyst wear and the organ requirements of other planets are all on.
 
-[tip]/gtia rules[/] lists every rule and its value. The mode is fixed when the world is made.
+[tip]/typeomega rules[/] lists every rule and its value. The mode is fixed when the world is made.
 """
 
 [[mode_reward]]

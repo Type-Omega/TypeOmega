@@ -3,7 +3,7 @@
 
     GTIA_BENCH_PRISM_DIR=... net_bench.py --machines 0 500 [--seconds 60]
 
-Boots the locked pack on a dedicated server, places N working LV furnaces with `gtialib bench grid`, connects the
+Boots the locked pack on a dedicated server, places N working LV furnaces with `typeomegalib bench grid`, connects the
 bench Prism client (never the author's Prism), teleports the player next to the grid and reads the TCP bytes the
 server sent on port 25565 (ss) over --seconds. Appends to ~/MineProjects/GTIA-arquivo/perf/net.jsonl.
 """
@@ -66,7 +66,7 @@ def one(lock: dict, machines: int, seconds: int) -> dict:
             if not wait_for(log, r"Done \([\d.]+s\)", smoke.TIMEOUT):
                 return {**result, "error": "server did not start"}
             if machines:
-                bench.send(server, f"gtialib bench grid gtceu:lv_electric_furnace {machines} minecraft:sand")
+                bench.send(server, f"typeomegalib bench grid gtceu:lv_electric_furnace {machines} minecraft:sand")
             client.close_all()
             client.set_cfg(4096)
             subprocess.Popen(["prismlauncher", "-d", client.PRISM_DIR, "--launch", client.INSTANCE.name,

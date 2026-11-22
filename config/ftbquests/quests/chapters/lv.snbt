@@ -897,7 +897,7 @@
 				{
 					id: "53F2CE5228D56D18"
 					type: "item"
-					item: "gtia:asbestos_diaphragm"
+					item: "typeomega:asbestos_diaphragm"
 					count: 1L
 					consume_items: false
 					match_nbt: false
@@ -928,7 +928,7 @@
 				{
 					id: "603BC3359F71755C"
 					type: "item"
-					item: "gtia:cell_liquor_bucket"
+					item: "typeomega:cell_liquor_bucket"
 					count: 1L
 					consume_items: false
 					match_nbt: false

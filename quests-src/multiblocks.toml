@@ -2,10 +2,10 @@
 # tier: the highest voltage the controller's cheapest recipe needs (its own and its parts'); uhv = UHV and up.
 
 [[multiblock]]
-item = "gtia:fragment_collector"
+item = "typeomega:fragment_collector"
 tier = "lv"
 family = "ore"
-text = ["gtia.machine.fragment_collector.tooltip.main.0", "gtia.machine.fragment_collector.tooltip.main.1", "gtia.machine.fragment_collector.tooltip.main.2", "gtia.machine.fragment_collector.tooltip.main.3"]
+text = ["typeomega.machine.fragment_collector.tooltip.main.0", "typeomega.machine.fragment_collector.tooltip.main.1", "typeomega.machine.fragment_collector.tooltip.main.2", "typeomega.machine.fragment_collector.tooltip.main.3"]
 
 [[multiblock]]
 item = "gtceu:bronze_multiblock_tank"
@@ -572,10 +572,10 @@ family = "processing"
 text = ["gtceu.multiblock.implosion_compressor.description", "gtceu.machine.implosion_compressor.tooltip"]
 
 [[multiblock]]
-item = "gtia:rocket_assembler"
+item = "typeomega:rocket_assembler"
 tier = "hv"
 family = "processing"
-text = ["gtia.machine.rocket_assembler.tooltip.fact.0", "gtia.machine.rocket_assembler.tooltip.main.0", "gtia.machine.rocket_assembler.tooltip.main.1", "gtia.machine.rocket_assembler.tooltip.requirements.0", "gtia.machine.rocket_assembler.tooltip.requirements.1", "gtia.machine.rocket_assembler.tooltip.requirements.2"]
+text = ["typeomega.machine.rocket_assembler.tooltip.fact.0", "typeomega.machine.rocket_assembler.tooltip.main.0", "typeomega.machine.rocket_assembler.tooltip.main.1", "typeomega.machine.rocket_assembler.tooltip.requirements.0", "typeomega.machine.rocket_assembler.tooltip.requirements.1", "typeomega.machine.rocket_assembler.tooltip.requirements.2"]
 
 [[multiblock]]
 item = "gtceu:steam_large_turbine"
@@ -662,10 +662,10 @@ family = "ore"
 text = []
 
 [[multiblock]]
-item = "gtia:large_fragment_collector"
+item = "typeomega:large_fragment_collector"
 tier = "ev"
 family = "ore"
-text = ["gtia.machine.large_fragment_collector.tooltip.main.0", "gtia.machine.large_fragment_collector.tooltip.main.1"]
+text = ["typeomega.machine.large_fragment_collector.tooltip.main.0", "typeomega.machine.large_fragment_collector.tooltip.main.1"]
 
 [[multiblock]]
 item = "gtna:void_fluid_drilling_rig"
@@ -1208,88 +1208,88 @@ family = "ore"
 text = ["gtna.machine.resource_collection_module.tooltip.0", "gtna.machine.resource_collection_module.tooltip.1", "gtna.machine.resource_collection_module.tooltip.2", "gtna.machine.resource_collection_module.tooltip.3", "gtna.machine.resource_collection_module.tooltip.4", "gtna.machine.resource_collection_module.tooltip.5", "gtna.machine.resource_collection_module.tooltip.6", "gtna.machine.resource_collection_module.tooltip.7"]
 
 [[multiblock]]
-item = "gtia:birch_world"
+item = "typeomega:birch_world"
 tier = "uhv"
 family = "other"
-text = ["gtia.machine.birch_world.tooltip.0", "gtia.machine.birch_world.tooltip.1", "gtia.machine.birch_world.tooltip.2"]
+text = ["typeomega.machine.birch_world.tooltip.0", "typeomega.machine.birch_world.tooltip.1", "typeomega.machine.birch_world.tooltip.2"]
 
 [[multiblock]]
-item = "gtia:disintegrator"
+item = "typeomega:disintegrator"
 tier = "uhv"
 family = "other"
-text = ["gtia.machine.disintegrator.tooltip.0", "gtia.machine.disintegrator.tooltip.1", "gtia.machine.disintegrator.tooltip.2"]
+text = ["typeomega.machine.disintegrator.tooltip.0", "typeomega.machine.disintegrator.tooltip.1", "typeomega.machine.disintegrator.tooltip.2"]
 
 [[multiblock]]
-item = "gtia:hraemc"
+item = "typeomega:hraemc"
 tier = "uhv"
 family = "other"
-text = ["gtia.machine.hraemc.tooltip.0", "gtia.machine.hraemc.tooltip.1", "gtia.machine.hraemc.tooltip.2"]
+text = ["typeomega.machine.hraemc.tooltip.0", "typeomega.machine.hraemc.tooltip.1", "typeomega.machine.hraemc.tooltip.2"]
 
 [[multiblock]]
-item = "gtia:kugelblitz"
+item = "typeomega:kugelblitz"
 tier = "uhv"
 family = "other"
-text = ["gtia.machine.kugelblitz.tooltip.0", "gtia.machine.kugelblitz.tooltip.1", "gtia.machine.kugelblitz.tooltip.2"]
+text = ["typeomega.machine.kugelblitz.tooltip.0", "typeomega.machine.kugelblitz.tooltip.1", "typeomega.machine.kugelblitz.tooltip.2"]
 
 [[multiblock]]
-item = "gtia:matrioshka_brain"
+item = "typeomega:matrioshka_brain"
 tier = "uhv"
 family = "other"
-text = ["gtia.machine.matrioshka_brain.tooltip.0", "gtia.machine.matrioshka_brain.tooltip.1", "gtia.machine.matrioshka_brain.tooltip.2"]
+text = ["typeomega.machine.matrioshka_brain.tooltip.0", "typeomega.machine.matrioshka_brain.tooltip.1", "typeomega.machine.matrioshka_brain.tooltip.2"]
 
 [[multiblock]]
-item = "gtia:nidavellir"
+item = "typeomega:nidavellir"
 tier = "uhv"
 family = "other"
-text = ["gtia.machine.nidavellir.tooltip.0", "gtia.machine.nidavellir.tooltip.1", "gtia.machine.nidavellir.tooltip.2"]
+text = ["typeomega.machine.nidavellir.tooltip.0", "typeomega.machine.nidavellir.tooltip.1", "typeomega.machine.nidavellir.tooltip.2"]
 
 [[multiblock]]
-item = "gtia:qso"
+item = "typeomega:qso"
 tier = "uhv"
 family = "other"
-text = ["gtia.machine.qso.tooltip.0", "gtia.machine.qso.tooltip.1", "gtia.machine.qso.tooltip.2"]
+text = ["typeomega.machine.qso.tooltip.0", "typeomega.machine.qso.tooltip.1", "typeomega.machine.qso.tooltip.2"]
 
 [[multiblock]]
-item = "gtia:star_lifter"
+item = "typeomega:star_lifter"
 tier = "uhv"
 family = "other"
-text = ["gtia.machine.star_lifter.tooltip.0", "gtia.machine.star_lifter.tooltip.1", "gtia.machine.star_lifter.tooltip.2"]
+text = ["typeomega.machine.star_lifter.tooltip.0", "typeomega.machine.star_lifter.tooltip.1", "typeomega.machine.star_lifter.tooltip.2"]
 
 [[multiblock]]
-item = "gtia:stellar_engine"
+item = "typeomega:stellar_engine"
 tier = "uhv"
 family = "other"
-text = ["gtia.machine.stellar_engine.tooltip.0", "gtia.machine.stellar_engine.tooltip.1", "gtia.machine.stellar_engine.tooltip.2"]
+text = ["typeomega.machine.stellar_engine.tooltip.0", "typeomega.machine.stellar_engine.tooltip.1", "typeomega.machine.stellar_engine.tooltip.2"]
 
 [[multiblock]]
-item = "gtia:stellar_harvester"
+item = "typeomega:stellar_harvester"
 tier = "uhv"
 family = "other"
-text = ["gtia.machine.stellar_harvester.tooltip.0", "gtia.machine.stellar_harvester.tooltip.1", "gtia.machine.stellar_harvester.tooltip.2"]
+text = ["typeomega.machine.stellar_harvester.tooltip.0", "typeomega.machine.stellar_harvester.tooltip.1", "typeomega.machine.stellar_harvester.tooltip.2"]
 
 [[multiblock]]
-item = "gtia:stellar_hoop"
+item = "typeomega:stellar_hoop"
 tier = "uhv"
 family = "other"
-text = ["gtia.machine.stellar_hoop.tooltip.0", "gtia.machine.stellar_hoop.tooltip.1", "gtia.machine.stellar_hoop.tooltip.2"]
+text = ["typeomega.machine.stellar_hoop.tooltip.0", "typeomega.machine.stellar_hoop.tooltip.1", "typeomega.machine.stellar_hoop.tooltip.2"]
 
 [[multiblock]]
-item = "gtia:suprashell"
+item = "typeomega:suprashell"
 tier = "uhv"
 family = "other"
-text = ["gtia.machine.suprashell.tooltip.0", "gtia.machine.suprashell.tooltip.1", "gtia.machine.suprashell.tooltip.2"]
+text = ["typeomega.machine.suprashell.tooltip.0", "typeomega.machine.suprashell.tooltip.1", "typeomega.machine.suprashell.tooltip.2"]
 
 [[multiblock]]
-item = "gtia:system_creator"
+item = "typeomega:system_creator"
 tier = "uhv"
 family = "other"
-text = ["gtia.machine.system_creator.tooltip.0", "gtia.machine.system_creator.tooltip.1", "gtia.machine.system_creator.tooltip.2"]
+text = ["typeomega.machine.system_creator.tooltip.0", "typeomega.machine.system_creator.tooltip.1", "typeomega.machine.system_creator.tooltip.2"]
 
 [[multiblock]]
-item = "gtia:yggdrasil"
+item = "typeomega:yggdrasil"
 tier = "uhv"
 family = "other"
-text = ["gtia.machine.yggdrasil.tooltip.0", "gtia.machine.yggdrasil.tooltip.1", "gtia.machine.yggdrasil.tooltip.2"]
+text = ["typeomega.machine.yggdrasil.tooltip.0", "typeomega.machine.yggdrasil.tooltip.1", "typeomega.machine.yggdrasil.tooltip.2"]
 
 [[multiblock]]
 item = "gtna:advanced_hyper_reactor"
@@ -1388,10 +1388,10 @@ family = "other"
 text = ["gtna.machine.supercomputing_center.tooltip.0", "gtna.machine.supercomputing_center.tooltip.1", "gtna.machine.supercomputing_center.tooltip.2", "gtna.machine.supercomputing_center.tooltip.3", "gtna.machine.supercomputing_center.tooltip.4", "gtna.machine.supercomputing_center.tooltip.5", "gtna.machine.supercomputing_center.tooltip.6", "gtna.machine.supercomputing_center.tooltip.7", "gtna.machine.supercomputing_center.tooltip.8", "gtna.machine.supercomputing_center.tooltip.9", "gtna.machine.supercomputing_center.tooltip.10", "gtna.machine.supercomputing_center.tooltip.11", "gtna.machine.supercomputing_center.tooltip.12", "gtna.machine.supercomputing_center.tooltip.13", "gtna.machine.supercomputing_center.tooltip.14"]
 
 [[multiblock]]
-item = "gtia:fusion_suppressor"
+item = "typeomega:fusion_suppressor"
 tier = "uhv"
 family = "power"
-text = ["gtia.machine.fusion_suppressor.tooltip.0", "gtia.machine.fusion_suppressor.tooltip.1", "gtia.machine.fusion_suppressor.tooltip.2"]
+text = ["typeomega.machine.fusion_suppressor.tooltip.0", "typeomega.machine.fusion_suppressor.tooltip.1", "typeomega.machine.fusion_suppressor.tooltip.2"]
 
 [[multiblock]]
 item = "gtna:annihilate_generator"
@@ -1436,10 +1436,10 @@ family = "power"
 text = ["gtna.machine.transcendent_plasma_mixer.tooltip.0", "gtna.machine.transcendent_plasma_mixer.tooltip.1", "gtna.machine.transcendent_plasma_mixer.tooltip.2", "gtna.machine.transcendent_plasma_mixer.tooltip.3", "gtna.machine.transcendent_plasma_mixer.tooltip.4", "gtna.machine.transcendent_plasma_mixer.tooltip.5", "gtna.machine.transcendent_plasma_mixer.tooltip.6", "gtna.machine.transcendent_plasma_mixer.tooltip.7", "gtna.machine.transcendent_plasma_mixer.tooltip.8", "gtna.machine.transcendent_plasma_mixer.tooltip.9"]
 
 [[multiblock]]
-item = "gtia:assembly_yard"
+item = "typeomega:assembly_yard"
 tier = "uhv"
 family = "processing"
-text = ["gtia.machine.assembly_yard.tooltip.0", "gtia.machine.assembly_yard.tooltip.1", "gtia.machine.assembly_yard.tooltip.2"]
+text = ["typeomega.machine.assembly_yard.tooltip.0", "typeomega.machine.assembly_yard.tooltip.1", "typeomega.machine.assembly_yard.tooltip.2"]
 
 [[multiblock]]
 item = "gtna:assembler_module"

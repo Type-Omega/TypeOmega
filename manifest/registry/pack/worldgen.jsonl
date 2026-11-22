@@ -65,7 +65,7 @@
 {"vein":"gtna:planet/topaz_vein","dimensions":["ad_astra:glacio","ad_astra:mars","ad_astra:mercury","ad_astra:moon","ad_astra:venus"],"materials":["gtceu:blue_topaz","gtceu:topaz","gtceu:chalcocite","gtceu:bornite"],"blocks":[]}
 {"vein":"gtna:planet/borax_vein","dimensions":["ad_astra:glacio","ad_astra:mars","ad_astra:mercury","ad_astra:moon","ad_astra:venus"],"materials":["gtceu:rock_salt","gtceu:borax","gtceu:salt","gtceu:lepidolite"],"blocks":[]}
 {"vein":"gtna:planet/olivine_vein","dimensions":["ad_astra:glacio","ad_astra:mars","ad_astra:mercury","ad_astra:moon","ad_astra:venus"],"materials":["gtceu:bentonite","gtceu:magnetite","gtceu:olivine","gtceu:glauconite_sand"],"blocks":[]}
-{"vein":"gtia:phase_matrix_deposit","dimensions":["minecraft:overworld"],"materials":["gtia:phase_matrix"],"blocks":[]}
+{"vein":"typeomega:phase_matrix_deposit","dimensions":["minecraft:overworld"],"materials":["typeomega:phase_matrix"],"blocks":[]}
 {"vein":"gtceu:garnet_tin_vein","dimensions":["minecraft:overworld"],"materials":["gtceu:cassiterite_sand","gtceu:garnet_sand","gtceu:asbestos","gtceu:diatomite"],"blocks":[]}
 {"vein":"gtceu:topaz_vein","dimensions":["minecraft:the_nether"],"materials":["gtceu:blue_topaz","gtceu:topaz","gtceu:chalcocite","gtceu:bornite"],"blocks":[]}
 {"vein":"gtceu:oilsands_vein","dimensions":["minecraft:overworld"],"materials":["gtceu:oilsands","gtceu:oilsands","gtceu:oilsands"],"blocks":[]}

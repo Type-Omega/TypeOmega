@@ -401,7 +401,7 @@
 			description: [
 				"{gtia.quest.30EDF167593F2578.desc.0}"
 			]
-			icon: "gtia:raw_phase_matrix"
+			icon: "typeomega:raw_phase_matrix"
 			id: "30EDF167593F2578"
 			rewards: [ ]
 			shape: "circle"
@@ -411,7 +411,7 @@
 				{
 					id: "2B28B17BC6ADC024"
 					type: "item"
-					item: "gtia:raw_phase_matrix"
+					item: "typeomega:raw_phase_matrix"
 					count: 4L
 					consume_items: false
 					match_nbt: false
@@ -431,7 +431,7 @@
 				""
 				"{gtia.quest.363987BE26B78FE4.desc.2}"
 			]
-			icon: "gtia:impure_phase_matrix_dust"
+			icon: "typeomega:impure_phase_matrix_dust"
 			id: "363987BE26B78FE4"
 			rewards: [ ]
 			shape: "circle"
@@ -441,7 +441,7 @@
 				{
 					id: "0B5E4337D997D536"
 					type: "item"
-					item: "gtia:crushed_phase_matrix_ore"
+					item: "typeomega:crushed_phase_matrix_ore"
 					count: 1L
 					consume_items: false
 					match_nbt: false
@@ -449,7 +449,7 @@
 				{
 					id: "0BDC8CCBF312B1D3"
 					type: "item"
-					item: "gtia:impure_phase_matrix_dust"
+					item: "typeomega:impure_phase_matrix_dust"
 					count: 2L
 					consume_items: false
 					match_nbt: false
@@ -469,7 +469,7 @@
 				""
 				"{gtia.quest.0E0958673BA3B92E.desc.2}"
 			]
-			icon: "gtia:pulsating_alloy_ingot"
+			icon: "typeomega:pulsating_alloy_ingot"
 			id: "0E0958673BA3B92E"
 			rewards: [ ]
 			shape: "circle"
@@ -479,7 +479,7 @@
 				{
 					id: "5ED4C6B197A5C90C"
 					type: "item"
-					item: "gtia:pulsating_alloy_ingot"
+					item: "typeomega:pulsating_alloy_ingot"
 					count: 2L
 					consume_items: false
 					match_nbt: false
@@ -497,7 +497,7 @@
 			description: [
 				"{gtia.quest.236448436A2E4C33.desc.0}"
 			]
-			icon: "gtia:conductive_alloy_ingot"
+			icon: "typeomega:conductive_alloy_ingot"
 			id: "236448436A2E4C33"
 			optional: true
 			rewards: [ ]
@@ -508,7 +508,7 @@
 				{
 					id: "456EFFD0591C5068"
 					type: "item"
-					item: "gtia:conductive_alloy_ingot"
+					item: "typeomega:conductive_alloy_ingot"
 					count: 2L
 					consume_items: false
 					match_nbt: false

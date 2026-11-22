@@ -514,7 +514,7 @@ shape = "circle"
 size = 1
 deps = ["electric_age"]
 subtitle = "It wears out. Keep spares."
-task = [{ item = "gtia:asbestos_diaphragm" }]
+task = [{ item = "typeomega:asbestos_diaphragm" }]
 group = "lvchem"
 text = """
 The cell needs one in its Input Bus. Each run has a [num]1%[/] chance to use it up.
@@ -532,7 +532,7 @@ shape = "circle"
 size = 1
 deps = ["diaphragm_cell", "lv_centrifuge"]
 subtitle = "Half of the salt comes back."
-task = [{ item = "gtia:cell_liquor_bucket" }, { item = "gtceu:sodium_hydroxide_dust" }]
+task = [{ item = "typeomega:cell_liquor_bucket" }, { item = "gtceu:sodium_hydroxide_dust" }]
 group = "lvchem"
 text = """
 A Centrifuge splits [num]2,000 mB[/] of Cell Liquor into [num]1 Sodium Hydroxide[/], [num]1 Salt[/] and water. Send the salt back to the Mixer: the line only eats one fresh salt per soda.

@@ -1161,7 +1161,7 @@
 				""
 				"{gtia.quest.293CBCB33D89DFAC.desc.2}"
 			]
-			icon: "gtia:phase_matrix_ore"
+			icon: "typeomega:phase_matrix_ore"
 			id: "293CBCB33D89DFAC"
 			optional: true
 			shape: "pentagon"

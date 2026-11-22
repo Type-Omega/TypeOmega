@@ -2338,7 +2338,7 @@
 				{
 					id: "4B7A765EB95756FB"
 					type: "item"
-					item: "gtia:rocket_assembler"
+					item: "typeomega:rocket_assembler"
 					count: 1L
 					consume_items: false
 					match_nbt: false
@@ -2741,7 +2741,7 @@
 			description: [
 				"{gtia.quest.68E6A481B1474EC2.desc.0}"
 			]
-			icon: "gtia:hv_industrial_apiary"
+			icon: "typeomega:hv_industrial_apiary"
 			id: "68E6A481B1474EC2"
 			rewards: [ ]
 			shape: "octagon"
@@ -2751,7 +2751,7 @@
 				{
 					id: "72F6515424E576B7"
 					type: "item"
-					item: "gtia:hv_industrial_apiary"
+					item: "typeomega:hv_industrial_apiary"
 					count: 1L
 					consume_items: false
 					match_nbt: false
@@ -2770,7 +2770,7 @@
 			description: [
 				"{gtia.quest.3E17ADB02173B934.desc.0}"
 			]
-			icon: "gtia:hv_seed_analyzer"
+			icon: "typeomega:hv_seed_analyzer"
 			id: "3E17ADB02173B934"
 			rewards: [ ]
 			shape: "octagon"
@@ -2780,7 +2780,7 @@
 				{
 					id: "7A81ABEF481C5F89"
 					type: "item"
-					item: "gtia:hv_seed_analyzer"
+					item: "typeomega:hv_seed_analyzer"
 					count: 1L
 					consume_items: false
 					match_nbt: false
@@ -2798,7 +2798,7 @@
 			description: [
 				"{gtia.quest.0F0C544AF45CB0F5.desc.0}"
 			]
-			icon: "gtia:organ_modifier"
+			icon: "typeomega:organ_modifier"
 			id: "0F0C544AF45CB0F5"
 			rewards: [ ]
 			shape: "circle"
@@ -2808,7 +2808,7 @@
 				{
 					id: "5B87EDDF97C2A939"
 					type: "item"
-					item: "gtia:organ_modifier"
+					item: "typeomega:organ_modifier"
 					count: 1L
 					consume_items: false
 					match_nbt: false
@@ -2827,7 +2827,7 @@
 			description: [
 				"{gtia.quest.7F900DC79F2734B3.desc.0}"
 			]
-			icon: "gtia:organ_heart_tier_1"
+			icon: "typeomega:organ_heart_tier_1"
 			id: "7F900DC79F2734B3"
 			rewards: [ ]
 			shape: "diamond"
@@ -2837,7 +2837,7 @@
 				{
 					id: "6C2715F88F4F246B"
 					type: "item"
-					item: "gtia:organ_eye_tier_1"
+					item: "typeomega:organ_eye_tier_1"
 					count: 1L
 					consume_items: false
 					match_nbt: false
@@ -2845,7 +2845,7 @@
 				{
 					id: "35F1AF3161CED979"
 					type: "item"
-					item: "gtia:organ_spine_tier_1"
+					item: "typeomega:organ_spine_tier_1"
 					count: 1L
 					consume_items: false
 					match_nbt: false
@@ -2853,7 +2853,7 @@
 				{
 					id: "52D2E99D6E6C7010"
 					type: "item"
-					item: "gtia:organ_lung_tier_1"
+					item: "typeomega:organ_lung_tier_1"
 					count: 1L
 					consume_items: false
 					match_nbt: false
@@ -2861,7 +2861,7 @@
 				{
 					id: "5EDC6BAB10C232ED"
 					type: "item"
-					item: "gtia:organ_liver_tier_1"
+					item: "typeomega:organ_liver_tier_1"
 					count: 1L
 					consume_items: false
 					match_nbt: false
@@ -2869,7 +2869,7 @@
 				{
 					id: "6A4B997801CCEDE6"
 					type: "item"
-					item: "gtia:organ_heart_tier_1"
+					item: "typeomega:organ_heart_tier_1"
 					count: 1L
 					consume_items: false
 					match_nbt: false
@@ -2877,7 +2877,7 @@
 				{
 					id: "690FDD5652D190FD"
 					type: "item"
-					item: "gtia:organ_left_arm_tier_1"
+					item: "typeomega:organ_left_arm_tier_1"
 					count: 1L
 					consume_items: false
 					match_nbt: false
@@ -2885,7 +2885,7 @@
 				{
 					id: "660BAE90BB30214C"
 					type: "item"
-					item: "gtia:organ_right_arm_tier_1"
+					item: "typeomega:organ_right_arm_tier_1"
 					count: 1L
 					consume_items: false
 					match_nbt: false
@@ -2893,7 +2893,7 @@
 				{
 					id: "00D4DBDE1D99FEA1"
 					type: "item"
-					item: "gtia:organ_left_leg_tier_1"
+					item: "typeomega:organ_left_leg_tier_1"
 					count: 1L
 					consume_items: false
 					match_nbt: false
@@ -2901,7 +2901,7 @@
 				{
 					id: "01E1F9177DB53F4B"
 					type: "item"
-					item: "gtia:organ_right_leg_tier_1"
+					item: "typeomega:organ_right_leg_tier_1"
 					count: 1L
 					consume_items: false
 					match_nbt: false
@@ -2918,7 +2918,7 @@
 			description: [
 				"{gtia.quest.01578DF22BC5B994.desc.0}"
 			]
-			icon: "gtia:steel_wing"
+			icon: "typeomega:steel_wing"
 			id: "01578DF22BC5B994"
 			optional: true
 			rewards: [ ]
@@ -2929,7 +2929,7 @@
 				{
 					id: "0A2D957309644415"
 					type: "item"
-					item: "gtia:steel_wing"
+					item: "typeomega:steel_wing"
 					count: 1L
 					consume_items: false
 					match_nbt: false
@@ -2947,7 +2947,7 @@
 			description: [
 				"{gtia.quest.60788473D81AD7D5.desc.0}"
 			]
-			icon: "gtia:fairy_wing"
+			icon: "typeomega:fairy_wing"
 			id: "60788473D81AD7D5"
 			optional: true
 			rewards: [ ]
@@ -2958,7 +2958,7 @@
 				{
 					id: "036C4CD96E62D3A7"
 					type: "item"
-					item: "gtia:fairy_wing"
+					item: "typeomega:fairy_wing"
 					count: 1L
 					consume_items: false
 					match_nbt: false
@@ -3030,7 +3030,7 @@
 			description: [
 				"{gtia.quest.434EA51BE776FAA7.desc.0}"
 			]
-			icon: "gtia:trichlorosilane_bucket"
+			icon: "typeomega:trichlorosilane_bucket"
 			id: "434EA51BE776FAA7"
 			optional: true
 			rewards: [ ]
@@ -3056,7 +3056,7 @@
 			description: [
 				"{gtia.quest.33BADC8CE603A384.desc.0}"
 			]
-			icon: "gtia:polysilicon_dust"
+			icon: "typeomega:polysilicon_dust"
 			id: "33BADC8CE603A384"
 			rewards: [ ]
 			shape: "circle"
@@ -3066,7 +3066,7 @@
 				{
 					id: "2ECEB140572BDDD8"
 					type: "item"
-					item: "gtia:polysilicon_dust"
+					item: "typeomega:polysilicon_dust"
 					count: 1L
 					consume_items: false
 					match_nbt: false
@@ -3135,7 +3135,7 @@
 			description: [
 				"{gtia.quest.058F7C30DAEC3104.desc.0}"
 			]
-			icon: "gtia:alumina_dust"
+			icon: "typeomega:alumina_dust"
 			id: "058F7C30DAEC3104"
 			optional: true
 			rewards: [ ]
@@ -3161,7 +3161,7 @@
 			description: [
 				"{gtia.quest.79CCB5BFCA920599.desc.0}"
 			]
-			icon: "gtia:organ_modifier"
+			icon: "typeomega:organ_modifier"
 			id: "79CCB5BFCA920599"
 			optional: true
 			rewards: [ ]

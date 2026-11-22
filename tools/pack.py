@@ -46,12 +46,12 @@ TEMPLATE_INSTANCE = "GregTech Infinity Ascension"
 BUILT_IN = {"forge", "minecraft"}
 
 LOCAL_BUILDS = {
-    "gtia": Path(os.environ.get("GTIA_JAR", ROOT / "core/build/libs/gtia-0.1.0.jar")),
+    "typeomega": Path(os.environ.get("GTIA_JAR", ROOT / "core/build/libs/typeomega-0.1.0.jar")),
     "gtna": Path(os.environ.get(
         "GTNA_JAR", Path.home() / "MineProjects/GregTech-Nexus-Addon/build/libs/gtna-0.6.1.jar")),
     # Shared library of the org's mods (GTIA-D-262); GTIACore and GTNA require it.
-    "gtialib": Path(os.environ.get(
-        "GTIALIB_JAR", ROOT.parent / "GTIA-arquivo/jar-backups/2026-10-16-gtialib-0.5.0/gtialib-0.5.0.jar")),
+    "typeomegalib": Path(os.environ.get(
+        "GTIALIB_JAR", ROOT.parent / "GTIA-Lib/build/libs/typeomega-lib-0.5.0.jar")),
     # Measured performance fixes (GTIA-D-263).
     "ascopt": Path(os.environ.get(
         "ASCOPT_JAR", ROOT.parent / "GTIA-arquivo/jar-backups/2026-10-17-ascopt-0.2.1/ascopt-0.2.1.jar")),

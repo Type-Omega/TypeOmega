@@ -7,4 +7,4 @@
 3. Set `eula=true` in `eula.txt`, then start with `./run.sh` / `run.bat`. Memory goes in `user_jvm_args.txt` (8 GB or more recommended).
 
 GTIACore and GTNA are already in `mods/`. Client-only mods (Oculus, FastQuit, Nolijium) are not installed.
-To update, replace this folder's `config/`, `defaultconfigs/`, `mods/gtia-*.jar`, `mods/gtna-*.jar` and `gtia-installer/` with the new release, then run the installer again. Back up `world/` first.
+To update, replace this folder's `config/`, `defaultconfigs/`, `mods/typeomega-*.jar`, `mods/typeomega-lib-*.jar`, `mods/gtna-*.jar` and `gtia-installer/` with the new release, then run the installer again. Back up `world/` first.

@@ -19,7 +19,7 @@ Community: [Discord](https://discord.gg/TW5vugknk5) · questions, bug reports an
 - **Real chemistry, no PhD:** wood distillation, lime kiln, chlor-alkali, Bayer + Hall-Héroult, Contact process, Haber-Bosch, Solvay, Ostwald, Claus, Kroll, Siemens... GregTech's one-step shortcuts to the same products are removed, so each base chemical comes from its real plant (or as a by-product of another line).
 - **No ULV era and no research tree.** The campaign goes Start → Steam → LV → MV → HV → ...
 - **Every quest is reachable.** A checker reads the pack's real recipes and fails the build if a quest asks for something you can't make yet.
-- **Modes:** Normal (the full pack, default) or Journey (gentler), picked at world creation and locked. 52 **GTIA Rules** (`/gtia rules`) show what each mode changes, and some quests and rewards differ by mode.
+- **Modes:** Normal (the full pack, default) or Journey (gentler), picked at world creation and locked. 52 **GTIA Rules** (`/typeomega rules`) show what each mode changes, and some quests and rewards differ by mode.
 - **Space in HV:** build a rocket in the Rocket Assembler and an organ set (ported from GregTech Odyssey) to survive the Moon.
 
 ## How to play

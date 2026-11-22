@@ -3,7 +3,7 @@
 **Fora da primeira fatia.** O mod KubeJS não está em `manifest/first-slice.lock.json`, então `tools/pack.py instance` não
 copia esta pasta. Ela guarda material que só vale com KubeJS instalado:
 
-- `data/gtia/gtceu/fluid_veins/mars_radon.json`: depósito de Radon marciano do perfil de fluidos EV. Usa a dimensão
+- `data/typeomega/gtceu/fluid_veins/mars_radon.json`: depósito de Radon marciano do perfil de fluidos EV. Usa a dimensão
   `ad_astra:mars`, então também precisa do Ad Astra. Não afeta Start → Steam → LV.
 
 Quando o KubeJS entrar no conjunto de mods (acrescente `kubejs` ao `manifest/first-slice.seeds` e rode

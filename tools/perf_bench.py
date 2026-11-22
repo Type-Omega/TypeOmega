@@ -59,9 +59,9 @@ def tick_measure(server: subprocess.Popen, log: Path, spec: str) -> dict:
     """spec = 'ns:machine:count[:ns:input_item]'. With an input item the machines are kept running."""
     parts = spec.split(":")
     machine, count, item = ":".join(parts[:2]), parts[2], ":".join(parts[3:])
-    send(server, f"gtialib bench grid {machine} {count} {item}".strip())
+    send(server, f"typeomegalib bench grid {machine} {count} {item}".strip())
     time.sleep(20)  # let chunks load and machines settle
-    send(server, "gtialib bench mspt 1200")
+    send(server, "typeomegalib bench mspt 1200")
     deadline = time.time() + 300
     while time.time() < deadline:
         found = re.search(r"BENCH mspt=([\d.]+) worst=([\d.]+)", log.read_text(errors="replace"))

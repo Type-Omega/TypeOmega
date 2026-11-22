@@ -80,10 +80,10 @@ Species: [item]Iron[/], [item]Copper[/], [item]Tin[/], [item]Lead[/], [item]Silv
 key = "apiary"
 title = "Industrial Apiary"
 role = "gate"
-icon = "gtia:hv_industrial_apiary"
+icon = "typeomega:hv_industrial_apiary"
 deps = ["entry", "hv:hv_power", "hv:hv_sensor"]
 subtitle = "A hive with a power cable."
-task = [{ item = "gtia:hv_industrial_apiary" }]
+task = [{ item = "typeomega:hv_industrial_apiary" }]
 text = """
 The caged bee sits in the input as a catalyst and is never used up. With [num]100 mB[/] of water it makes [num]2[/] combs every [num]20[/] seconds at HV, faster with overclocks.
 """
@@ -141,10 +141,10 @@ A [item]Honey Bottle[/], two [item]Wheat[/] and [item]Sugar[/] in the Mixer give
 key = "mutation"
 title = "Mutation Chamber"
 role = "gate"
-icon = "gtia:hv_mutation_chamber"
+icon = "typeomega:hv_mutation_chamber"
 deps = ["apiary", "treat", "hv:hv_emitter"]
 subtitle = "No luck, only recipes."
-task = [{ item = "gtia:hv_mutation_chamber" }]
+task = [{ item = "typeomega:hv_mutation_chamber" }]
 text = """
 Two caged parents (kept), a caged wild bee, [num]4[/] Honey Treats and [num]2[/] blocks of the metal give the new species every time. No random rolls.
 
