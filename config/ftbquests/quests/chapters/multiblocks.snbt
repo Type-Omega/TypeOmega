@@ -2780,6 +2780,46 @@
 				"12109EC3AFEE15F3"
 			]
 			description: [
+				"{gtia.machine.fragment_collector.tooltip.main.0}"
+				"{gtia.machine.fragment_collector.tooltip.main.1}"
+				"{gtia.machine.fragment_collector.tooltip.main.2}"
+				"{gtia.machine.fragment_collector.tooltip.main.3}"
+				""
+				"{gtia.quest.345A0C50ECFF8129.desc.5}"
+			]
+			icon: "gtia:fragment_collector"
+			id: "345A0C50ECFF8129"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "7ED5383AC3F1B448"
+					item: "gtceu:steel_ingot"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.0d
+			subtitle: "{gtia.quest.345A0C50ECFF8129.subtitle}"
+			tasks: [
+				{
+					consume_items: false
+					count: 1L
+					id: "00ECF58E9744700A"
+					item: "gtia:fragment_collector"
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "{block.gtia.fragment_collector}"
+			x: 18.75d
+			y: 11.75d
+		}
+		{
+			dependencies: [
+				"12109EC3AFEE15F3"
+			]
+			description: [
 				"{gtna.machine.generator_array.tooltip.0}"
 				"{gtna.machine.generator_array.tooltip.1}"
 				"{gtna.machine.generator_array.tooltip.2}"
@@ -4847,46 +4887,36 @@
 				"49C023B9BBA75B98"
 			]
 			description: [
-				"{gtna.machine.electric_void_miner.tooltip.0}"
-				"{gtna.machine.electric_void_miner.tooltip.1}"
-				"{gtna.machine.electric_void_miner.tooltip.2}"
-				"{gtna.machine.electric_void_miner.tooltip.3}"
-				"{gtna.machine.electric_void_miner.tooltip.4}"
-				"{gtna.machine.electric_void_miner.tooltip.5}"
-				"{gtna.machine.electric_void_miner.tooltip.6}"
-				"{gtna.machine.electric_void_miner.tooltip.7}"
-				"{gtna.machine.electric_void_miner.tooltip.8}"
-				"{gtna.machine.electric_void_miner.tooltip.9}"
-				"{gtna.machine.electric_void_miner.tooltip.10}"
-				"{gtna.machine.electric_void_miner.tooltip.11}"
+				"{gtia.machine.large_fragment_collector.tooltip.main.0}"
+				"{gtia.machine.large_fragment_collector.tooltip.main.1}"
 				""
-				"{gtia.quest.5C3628034E1C4A91.desc.13}"
+				"{gtia.quest.0ED242BE5B6601F4.desc.3}"
 			]
-			icon: "gtna:electric_void_miner"
-			id: "5C3628034E1C4A91"
+			icon: "gtia:large_fragment_collector"
+			id: "0ED242BE5B6601F4"
 			optional: true
 			rewards: [
 				{
 					count: 4
-					id: "738AC6E1D4EA582A"
+					id: "4ED23D61ECE80DBA"
 					item: "gtceu:titanium_ingot"
 					type: "item"
 				}
 			]
-			shape: "hexagon"
+			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.5C3628034E1C4A91.subtitle}"
+			subtitle: "{gtia.quest.0ED242BE5B6601F4.subtitle}"
 			tasks: [
 				{
 					consume_items: false
 					count: 1L
-					id: "46CEBE7717ABE20F"
-					item: "gtna:electric_void_miner"
+					id: "0B54F0406DA4650F"
+					item: "gtia:large_fragment_collector"
 					match_nbt: false
 					type: "item"
 				}
 			]
-			title: "{block.gtna.electric_void_miner}"
+			title: "{block.gtia.large_fragment_collector}"
 			x: 22.5d
 			y: 29.5d
 		}

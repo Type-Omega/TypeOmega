@@ -2,6 +2,12 @@
 # tier: the highest voltage the controller's cheapest recipe needs (its own and its parts'); uhv = UHV and up.
 
 [[multiblock]]
+item = "gtia:fragment_collector"
+tier = "lv"
+family = "ore"
+text = ["gtia.machine.fragment_collector.tooltip.main.0", "gtia.machine.fragment_collector.tooltip.main.1", "gtia.machine.fragment_collector.tooltip.main.2", "gtia.machine.fragment_collector.tooltip.main.3"]
+
+[[multiblock]]
 item = "gtceu:bronze_multiblock_tank"
 tier = "steam"
 family = "data"
@@ -656,10 +662,10 @@ family = "ore"
 text = []
 
 [[multiblock]]
-item = "gtna:electric_void_miner"
+item = "gtia:large_fragment_collector"
 tier = "ev"
 family = "ore"
-text = ["gtna.machine.electric_void_miner.tooltip.0", "gtna.machine.electric_void_miner.tooltip.1", "gtna.machine.electric_void_miner.tooltip.2", "gtna.machine.electric_void_miner.tooltip.3", "gtna.machine.electric_void_miner.tooltip.4", "gtna.machine.electric_void_miner.tooltip.5", "gtna.machine.electric_void_miner.tooltip.6", "gtna.machine.electric_void_miner.tooltip.7", "gtna.machine.electric_void_miner.tooltip.8", "gtna.machine.electric_void_miner.tooltip.9", "gtna.machine.electric_void_miner.tooltip.10", "gtna.machine.electric_void_miner.tooltip.11"]
+text = ["gtia.machine.large_fragment_collector.tooltip.main.0", "gtia.machine.large_fragment_collector.tooltip.main.1"]
 
 [[multiblock]]
 item = "gtna:void_fluid_drilling_rig"
