@@ -438,15 +438,15 @@ hash = "c937050709b29ba62629f46d03b32a1e27a6c9ff970ad04a7242a4b8eab26e84"
 
 [[files]]
 file = "config/openloader/resources/gtia_quests/assets/gtia_quests/lang/en_us.json"
-hash = "61699e6582f55a831e92929027de5983342414ed5279f6bcf6bc1511b6147a33"
+hash = "2152c4697c72a982d9071e5e4dbcc969bba6205af2cba1289fc34ae2f88ffe5f"
 
 [[files]]
 file = "config/openloader/resources/gtia_quests/assets/gtia_quests/lang/pt_br.json"
-hash = "5e5b0771881d4300f0cc137e410ffff23a9a8112c895ae409de641c456aece99"
+hash = "4896c8e9b6e075c94be015029f96c506f8bef014907c2c2d7c0d07c14a37edd4"
 
 [[files]]
 file = "config/openloader/resources/gtia_quests/assets/gtia_quests/lang/zh_cn.json"
-hash = "637e8f91d24c5cc762c86c18800190c6da9e5f4dde37e8ee1d8bd7287dfa48f1"
+hash = "7e536aaf0f11e06b64277282031843ef0d93fb58ccb7dc77e83c15f90e0a46fe"
 
 [[files]]
 file = "config/openloader/resources/gtia_quests/assets/gtia_quests/textures/quests/agronomica_farm.png"
@@ -1026,8 +1026,8 @@ hash = "543e834c76640a1f58168debd6fdd1e39f071d90cdaf2fe82369b20539cedc70"
 metafile = true
 
 [[files]]
-file = "mods/gtna-0.6.1.jar"
-hash = "1af5e4c3d8aff8ddf035dc7c5421115864c5087a2301b61e5588642945e80076"
+file = "mods/gtna-0.6.2.jar"
+hash = "402bf78947f7e85a5cd87cc0a07c3e4a9960290354a8333843766eec2e58ea33"
 
 [[files]]
 file = "mods/guideme.pw.toml"
@@ -1295,11 +1295,11 @@ metafile = true
 
 [[files]]
 file = "mods/typeomega-0.1.0.jar"
-hash = "64b724cfd582e1e869a73234b290f403bff92a7a7624ad1694226814dcb6a55e"
+hash = "c3fc340b0ba2977d1abb9a9af333c888524e96e7f9f3475fba520411742e5b21"
 
 [[files]]
-file = "mods/typeomega-lib-0.6.0.jar"
-hash = "dd967935b14883664603667dbf713cbae143f51684e55e9dc02d43f0ef25751d"
+file = "mods/typeomega-lib-0.6.1.jar"
+hash = "64db1b5c74d27632d5d663093280d8a344b7e22b125e614088aaa12e043eb6be"
 
 [[files]]
 file = "mods/unilib.pw.toml"

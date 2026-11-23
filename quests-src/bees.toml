@@ -56,7 +56,6 @@ title = "Biomass for Bees"
 role = "side"
 icon = "gtceu:biomass_bucket"
 deps = ["entry", "type0_2_electricity:fermentador"]
-pending = "the LV Fermenter (GTIA-D-426) has no Biomass recipe yet: every Biomass recipe is of the Brewery type"
 subtitle = "Breakfast."
 task = [{ fluid = "gtceu:biomass", amount = 1000 }]
 text = """

@@ -932,10 +932,10 @@
     },
     {
       "mod_id": "gtna",
-      "filename": "gtna-0.6.1.jar",
-      "sha256": "1af5e4c3d8aff8ddf035dc7c5421115864c5087a2301b61e5588642945e80076",
+      "filename": "gtna-0.6.2.jar",
+      "sha256": "402bf78947f7e85a5cd87cc0a07c3e4a9960290354a8333843766eec2e58ea33",
       "source": "local-build",
-      "path": "/home/raishxn/MineProjects/GregTech-Nexus-Addon/build/libs/gtna-0.6.1.jar",
+      "path": "/home/raishxn/MineProjects/GregTech-Nexus-Addon/build/libs/gtna-0.6.2.jar",
       "requires": []
     },
     {
@@ -1442,17 +1442,17 @@
     {
       "mod_id": "typeomega",
       "filename": "typeomega-0.1.0.jar",
-      "sha256": "64b724cfd582e1e869a73234b290f403bff92a7a7624ad1694226814dcb6a55e",
+      "sha256": "c3fc340b0ba2977d1abb9a9af333c888524e96e7f9f3475fba520411742e5b21",
       "source": "local-build",
       "path": "/home/raishxn/MineProjects/GTIA/core/build/libs/typeomega-0.1.0.jar",
       "requires": []
     },
     {
       "mod_id": "typeomegalib",
-      "filename": "typeomega-lib-0.6.0.jar",
-      "sha256": "dd967935b14883664603667dbf713cbae143f51684e55e9dc02d43f0ef25751d",
+      "filename": "typeomega-lib-0.6.1.jar",
+      "sha256": "64db1b5c74d27632d5d663093280d8a344b7e22b125e614088aaa12e043eb6be",
       "source": "local-build",
-      "path": "/home/raishxn/MineProjects/GTIA-arquivo/jar-backups/2026-11-23-typeomega-lib-0.6.0/typeomega-lib-0.6.0.jar",
+      "path": "/home/raishxn/MineProjects/GTIA-arquivo/jar-backups/2026-11-23-typeomega-lib-0.6.1/typeomega-lib-0.6.1.jar",
       "requires": []
     },
     {
