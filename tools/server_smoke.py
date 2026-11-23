@@ -80,7 +80,7 @@ def run_server(lock: dict, skip: set[str], export: bool = False) -> tuple[str, f
     forge_args = f"libraries/net/minecraftforge/forge/1.20.1-{lock['forge']}/unix_args.txt"
     log = WORK / "smoke.log"
     with open(log, "w") as out:
-        jvm = [f"-Dgtia.exportRecipes={EXPORT}"] if export else []
+        jvm = [f"-Dtypeomega.exportRecipes={EXPORT}"] if export else []
         server = subprocess.Popen([JAVA_RUN, *jvm, "@user_jvm_args.txt", f"@{forge_args}", "nogui"], cwd=WORK,
                                   stdin=subprocess.PIPE, stdout=out, stderr=subprocess.STDOUT, text=True)
         started = time.time()

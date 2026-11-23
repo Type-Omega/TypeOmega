@@ -51,7 +51,7 @@ LOCAL_BUILDS = {
         "GTNA_JAR", Path.home() / "MineProjects/GregTech-Nexus-Addon/build/libs/gtna-0.6.1.jar")),
     # Shared library of the org's mods (GTIA-D-262); GTIACore and GTNA require it.
     "typeomegalib": Path(os.environ.get(
-        "GTIALIB_JAR", ROOT.parent / "GTIA-Lib/build/libs/typeomega-lib-0.5.0.jar")),
+        "GTIALIB_JAR", ROOT.parent / "GTIA-arquivo/jar-backups/2026-11-23-typeomega-lib-0.6.0/typeomega-lib-0.6.0.jar")),
     # Measured performance fixes (GTIA-D-263).
     "ascopt": Path(os.environ.get(
         "ASCOPT_JAR", ROOT.parent / "GTIA-arquivo/jar-backups/2026-10-17-ascopt-0.2.1/ascopt-0.2.1.jar")),

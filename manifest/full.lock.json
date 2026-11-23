@@ -220,7 +220,7 @@
     {
       "mod_id": "agronomica",
       "filename": "agronomica-0.1.0.jar",
-      "sha256": "2ba0fe52e6c3c38ba593553f9ca0028330b713f922687c7b1ee6649bec9c9566",
+      "sha256": "6fed12b0bb721e5bd1ff1ef047d556f15e6be0ea875ddadad356f90380621eb0",
       "source": "local-build",
       "path": "/home/raishxn/MineProjects/Agronomica/build/libs/agronomica-0.1.0.jar",
       "requires": []
@@ -933,7 +933,7 @@
     {
       "mod_id": "gtna",
       "filename": "gtna-0.6.1.jar",
-      "sha256": "16afdd55cc616e18af4f42d7bae7d75b8616581cdcfdf73130025b407aff74a8",
+      "sha256": "aafd4295872cd6caee98c2bd053c5cfd8bd13e2b0251af8ece82630168481f43",
       "source": "local-build",
       "path": "/home/raishxn/MineProjects/GregTech-Nexus-Addon/build/libs/gtna-0.6.1.jar",
       "requires": []
@@ -1442,17 +1442,17 @@
     {
       "mod_id": "typeomega",
       "filename": "typeomega-0.1.0.jar",
-      "sha256": "19f45700a0c9223e6464f46993af9f0e3d212a809c2c9a16999ccf4158a3eb5d",
+      "sha256": "f8fb1a51c6fae4b8c1eed7fcaf684d0bea921d7fcc1f68e88c2301a27adf0f08",
       "source": "local-build",
       "path": "/home/raishxn/MineProjects/GTIA/core/build/libs/typeomega-0.1.0.jar",
       "requires": []
     },
     {
       "mod_id": "typeomegalib",
-      "filename": "typeomega-lib-0.5.0.jar",
-      "sha256": "9e21372e6c6a3aebcdc7116afdc493a889ce8a7139abf13f5916fbfadfae6eab",
+      "filename": "typeomega-lib-0.6.0.jar",
+      "sha256": "dd967935b14883664603667dbf713cbae143f51684e55e9dc02d43f0ef25751d",
       "source": "local-build",
-      "path": "/home/raishxn/MineProjects/TypeOmega-Lib/build/libs/typeomega-lib-0.5.0.jar",
+      "path": "/home/raishxn/MineProjects/GTIA-arquivo/jar-backups/2026-11-23-typeomega-lib-0.6.0/typeomega-lib-0.6.0.jar",
       "requires": []
     },
     {

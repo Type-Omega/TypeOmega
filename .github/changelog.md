@@ -6,6 +6,7 @@
 - **Two more aluminium routes** at MV: press the dust into **Crude Aluminium** and melt it slowly in the EBF, or reduce Alumina with carbon (half the yield of the Hall-Héroult Cell).
 
 ### Changes
+- The core mod is now **TypeOmegaCore** (mod ID `typeomega`) on **TypeOmega Lib 0.6.0** (mod ID `typeomegalib`), the renamed GTIA Lib; Agronomica moved to the new lib. Core items, blocks and fluids use the `typeomega:` namespace instead of `gtia:`, and the old IDs are not remapped, so worlds from earlier builds lose those items.
 - The **Integrated Ore Processor** controller is now made on the IV Assembly Line.
 - **Electrolyzer** (as in GTNH): silicates and clays need MV; aluminosilicates and ruby give Alumina for the Hall-Héroult Cell instead of aluminium dust; bastnasite gives Rare Earth instead of cerium.
 - Aluminium dust in the EBF needs HV (480 EU/t).

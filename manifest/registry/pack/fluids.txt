@@ -1054,18 +1054,6 @@ gtceu:zeron_100
 gtceu:zinc
 gtceu:zinc_plasma
 gtceu:zirconium_plasma
-typeomega:cell_liquor
-typeomega:conductive_alloy
-typeomega:flowing_cell_liquor
-typeomega:flowing_conductive_alloy
-typeomega:flowing_pulsating_alloy
-typeomega:flowing_sodium_aluminate
-typeomega:flowing_superfluid_helium
-typeomega:flowing_trichlorosilane
-typeomega:pulsating_alloy
-typeomega:sodium_aluminate
-typeomega:superfluid_helium
-typeomega:trichlorosilane
 gtna:abs
 gtna:acidic_bromine_exhaust
 gtna:acidic_bromine_solution
@@ -1126,6 +1114,7 @@ gtna:echoite
 gtna:echoite_plasma
 gtna:eglin_steel
 gtna:enriched_naquadah_front
+gtna:enriched_naquadah_fuel
 gtna:entangled_bedrockium
 gtna:entangled_celestialtungsten
 gtna:entangled_chromaticglass
@@ -1214,6 +1203,7 @@ gtna:flowing_echoite
 gtna:flowing_echoite_plasma
 gtna:flowing_eglin_steel
 gtna:flowing_enriched_naquadah_front
+gtna:flowing_enriched_naquadah_fuel
 gtna:flowing_entangled_bedrockium
 gtna:flowing_entangled_celestialtungsten
 gtna:flowing_entangled_chromaticglass
@@ -1295,6 +1285,7 @@ gtna:flowing_molten_tantalloy_61
 gtna:flowing_molten_trinaquadalloy
 gtna:flowing_monazite_front
 gtna:flowing_mutated_living_solder
+gtna:flowing_naquadah_fuel
 gtna:flowing_neutralised_red_mud
 gtna:flowing_nickel_front
 gtna:flowing_nitinol_60
@@ -1410,6 +1401,7 @@ gtna:molten_tantalloy_61
 gtna:molten_trinaquadalloy
 gtna:monazite_front
 gtna:mutated_living_solder
+gtna:naquadah_fuel
 gtna:neutralised_red_mud
 gtna:nickel_front
 gtna:nitinol_60
@@ -1483,3 +1475,15 @@ productivebees:flowing_honey
 productivebees:honey
 sophisticatedcore:xp_flowing
 sophisticatedcore:xp_still
+typeomega:cell_liquor
+typeomega:conductive_alloy
+typeomega:flowing_cell_liquor
+typeomega:flowing_conductive_alloy
+typeomega:flowing_pulsating_alloy
+typeomega:flowing_sodium_aluminate
+typeomega:flowing_superfluid_helium
+typeomega:flowing_trichlorosilane
+typeomega:pulsating_alloy
+typeomega:sodium_aluminate
+typeomega:superfluid_helium
+typeomega:trichlorosilane

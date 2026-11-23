@@ -246,11 +246,11 @@ hash = "a591cef12157c4cd00f7d32ea87a62cf829eb37881bb899d33cd59d8236596af"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/agriculture.snbt"
-hash = "ad7229b715badcf2b203f0e8b7ed0fd2d816b80705d28aefb9ee0cede0ef3659"
+hash = "0bf3e17fd260907ecff1b4aee4ff6422f3a6dfa493645d8937ff0ae63a9ba513"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bees.snbt"
-hash = "addaf3af9d4223b107c66f0d064f64d333f3bc2ea3bc2b46c06363ecfa3e434c"
+hash = "6a67f37c572edab071aeea95bb106d1ab9088521afdc72b0d33d77e07af0ab37"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/energy.snbt"
@@ -434,15 +434,15 @@ hash = "c937050709b29ba62629f46d03b32a1e27a6c9ff970ad04a7242a4b8eab26e84"
 
 [[files]]
 file = "config/openloader/resources/gtia_quests/assets/gtia_quests/lang/en_us.json"
-hash = "d59ea764cab96baa3fc352910b83d86d6436f2ad30b8b6c74b8e88b5105a4ea1"
+hash = "58ee6042ded2b878e363ba9ac457cad86f16e953e9ead324310c21790b81794d"
 
 [[files]]
 file = "config/openloader/resources/gtia_quests/assets/gtia_quests/lang/pt_br.json"
-hash = "3e453d3ed1ca9c14b7e452a8d596b86b9bcafb03830431ddd9a587768f4fe3b2"
+hash = "ebf35b9ba14bf3bf3931272834d11f70e9eff7d2edb7eba47932ac405f7c58f5"
 
 [[files]]
 file = "config/openloader/resources/gtia_quests/assets/gtia_quests/lang/zh_cn.json"
-hash = "543c80237edce4bace7638a215ae78854a869fab0e78e106729acfcde47bb1bc"
+hash = "975eeb04b58aefbc1fef03f5cdff07aef1e564994d30a2bd9e80ea90aeed0364"
 
 [[files]]
 file = "config/openloader/resources/gtia_quests/assets/gtia_quests/textures/quests/agronomica_farm.png"
@@ -671,7 +671,7 @@ metafile = true
 
 [[files]]
 file = "mods/agronomica-0.1.0.jar"
-hash = "2ba0fe52e6c3c38ba593553f9ca0028330b713f922687c7b1ee6649bec9c9566"
+hash = "6fed12b0bb721e5bd1ff1ef047d556f15e6be0ea875ddadad356f90380621eb0"
 
 [[files]]
 file = "mods/aiimprovements.pw.toml"
@@ -1023,7 +1023,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtna-0.6.1.jar"
-hash = "16afdd55cc616e18af4f42d7bae7d75b8616581cdcfdf73130025b407aff74a8"
+hash = "aafd4295872cd6caee98c2bd053c5cfd8bd13e2b0251af8ece82630168481f43"
 
 [[files]]
 file = "mods/guideme.pw.toml"
@@ -1291,11 +1291,11 @@ metafile = true
 
 [[files]]
 file = "mods/typeomega-0.1.0.jar"
-hash = "19f45700a0c9223e6464f46993af9f0e3d212a809c2c9a16999ccf4158a3eb5d"
+hash = "f8fb1a51c6fae4b8c1eed7fcaf684d0bea921d7fcc1f68e88c2301a27adf0f08"
 
 [[files]]
-file = "mods/typeomega-lib-0.5.0.jar"
-hash = "9e21372e6c6a3aebcdc7116afdc493a889ce8a7139abf13f5916fbfadfae6eab"
+file = "mods/typeomega-lib-0.6.0.jar"
+hash = "dd967935b14883664603667dbf713cbae143f51684e55e9dc02d43f0ef25751d"
 
 [[files]]
 file = "mods/unilib.pw.toml"
