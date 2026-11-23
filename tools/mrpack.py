@@ -28,7 +28,7 @@ PACK = Path(__file__).resolve().parents[1]
 MANIFEST = PACK / "manifest"
 CACHE = Path.home() / "MineProjects/GTIA-arquivo/mod-cache"
 API = "https://api.modrinth.com/v2"
-UA = {"User-Agent": "GTInfinityAscension/mrpack-tool", "Content-Type": "application/json"}
+UA = {"User-Agent": "Type-Omega/mrpack-tool", "Content-Type": "application/json"}
 
 
 def read_list(path: Path) -> set[str]:

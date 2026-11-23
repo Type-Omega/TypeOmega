@@ -2007,7 +2007,7 @@
  "The caged bee sits in the input as a catalyst and is never used up. With &e100 mB&r of water it makes &e2&r combs every &e20&r seconds at HV, faster with overclocks.": "笼中蜜蜂作为催化剂放在输入端，永不消耗。配合 &e100 mB&r 水，在 HV 下每 &e20&r 秒产出 &e2&r 个蜂巢，超频更快。",
  "The child takes the average of its parents' Growth, Gain and Resistance, give or take a little.": "子代继承双亲生长、增益和抗性的平均值，上下略有浮动。",
  "The coils decide the Electric Blast Furnace's heat: &e1,800 K&r for Cupronickel, &e2,700 K&r for Kanthal, &e3,600 K&r for Nichrome. A recipe that needs more heat than you have will not start.": "线圈决定电力高炉的温度：白铜 &e1,800 K&r，坎塔尔 &e2,700 K&r，镍铬 &e3,600 K&r。需要更高温度的配方无法启动。",
- "The developer docs (GitHub: GTInfinityAscension/GTIA-Dev-Doc) explain the tiers, the systems and every design decision.": "开发文档（GitHub: GTInfinityAscension/GTIA-Dev-Doc）介绍了各等级、各系统以及每项设计决策。",
+ "The developer docs (GitHub: Type-Omega/TypeOmega-Dev-Doc) explain the tiers, the systems and every design decision.": "开发文档（GitHub: Type-Omega/TypeOmega-Dev-Doc）介绍了各等级、各系统以及每项设计决策。",
  "The minimap in the corner and the full map (&6M&r) are Xaero's. Add a waypoint at your base and at every ore vein you find.": "角落的小地图和完整地图（&6M&r）来自 Xaero。在基地和找到的每条矿脉处添加路径点。",
  "The multiblocks whose controllers you can build from EV on. Each goal is done when you hold the controller; press R on it to see the structure in EMI.": "从 EV 起可以建造控制器的多方块结构。持有控制器即完成目标；在其上按 R 可在 EMI 中查看结构。",
  "The multiblocks whose controllers you can build from HV on. Each goal is done when you hold the controller; press R on it to see the structure in EMI.": "从 HV 起可以建造控制器的多方块结构。持有控制器即完成目标；在其上按 R 可在 EMI 中查看结构。",

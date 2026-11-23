@@ -10,7 +10,7 @@ GregTech Infinity Ascension runs on Android phones and tablets through the **Ame
 | --- | --- |
 | **System** | Android 10 or newer |
 | **Launcher** | [Amethyst](https://github.com/AngelAuraMC/Amethyst-Android/releases/latest) (free, open source) |
-| **Pack** | `GregTech-Infinity-Ascension-<version>.mrpack` from the [releases page](https://github.com/GTInfinityAscension/GregTech-Infinity-Ascension/releases) |
+| **Pack** | `GregTech-Infinity-Ascension-<version>.mrpack` from the [releases page](https://github.com/Type-Omega/TypeOmega/releases) |
 | **Account** | A Minecraft: Java Edition account |
 | **Memory** | **2.5 GB** on an 8 GB phone, **3 GB** on 12 GB or more (not more: see Tips). Joining a server needs about 0.5 GB less |
 | **Internet** | Wi-Fi: the first launch downloads several hundred MB |
@@ -19,7 +19,7 @@ GregTech Infinity Ascension runs on Android phones and tablets through the **Ame
 
 1. **Use Wi-Fi.** Amethyst and the pack download many files the first time.
 2. **Install Amethyst.** On your phone, open the [latest Amethyst release](https://github.com/AngelAuraMC/Amethyst-Android/releases/latest), download **`Amethyst.apk`** (not the Debug one) and install it. Android may ask you to allow installing apps from your browser.
-3. **Download the pack.** From the [releases page](https://github.com/GTInfinityAscension/GregTech-Infinity-Ascension/releases), download the `.mrpack` of the version you want and keep it somewhere easy to find (Downloads).
+3. **Download the pack.** From the [releases page](https://github.com/Type-Omega/TypeOmega/releases), download the `.mrpack` of the version you want and keep it somewhere easy to find (Downloads).
 4. **Install Forge.** In Amethyst, install **Forge 1.20.1 – 47.4.23** from its version/mod loader installer and wait for it to finish. Forge prepares some game files on the phone; without this step the game stops at once with `Invalid paths argument, contained no existing paths`.
 5. **Add your account.** Open Amethyst and tap **+ Add account**.
 6. **Import the pack.** Tap the profile selector (it shows **(Default)** and a Minecraft version), then **+ Create new profile** → **Create modpack profile** → import a zip or mrpack, and pick the `.mrpack` from step 3. Wait until the import finishes.
@@ -37,4 +37,4 @@ GregTech Infinity Ascension runs on Android phones and tablets through the **Ame
 
 ## Reporting a problem
 
-Open a [mobile bug report](https://github.com/GTInfinityAscension/GregTech-Infinity-Ascension/issues/new?template=mobile_bug.yml) with your phone model, Android version, the memory you gave the game, the pack version and the log (Amethyst → the profile → **Logs**).
+Open a [mobile bug report](https://github.com/Type-Omega/TypeOmega/issues/new?template=mobile_bug.yml) with your phone model, Android version, the memory you gave the game, the pack version and the log (Amethyst → the profile → **Logs**).

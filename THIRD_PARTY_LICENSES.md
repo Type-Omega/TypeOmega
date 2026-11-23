@@ -5,7 +5,7 @@ GTIA does not redistribute third-party mods in this repository. `manifest/full.l
 GTIA's own mods:
 
 - **GTIACore** (`typeomega`): LGPL-3.0.
-- **GregTech Nexus Addon** (`gtna`): see https://github.com/GTInfinityAscension/GregTech-Nexus-Addon.
+- **GregTech Nexus Addon** (`gtna`): see https://github.com/Type-Omega/GregTech-Nexus-Addon.
 - **ModernSpace** (`modernspace`), **ModernManipulator** (`modern_manipulator`) and **Crafting Chain** (`craftingchain`): by the same author, see https://github.com/Raishxn/ModernSpace, https://github.com/Raishxn/ModernManipulator and https://github.com/Raishxn/CraftingChain.
 
 No quest text, texture or config was copied from other modpacks (GTO, GTL, GTNH, Monifactory, ForgeBorn). They were only used as layout and design references.
@@ -19,7 +19,7 @@ No quest text, texture or config was copied from other modpacks (GTO, GTL, GTNH,
 | `ad_astra_rocketed` | ad_astra_rocketed-forge-1.20.1-1.0.5.jar | [CurseForge](https://www.curseforge.com/projects/996980) |
 | `adastraextra` | adastraextra-forge-1.20.1-1.2.3.jar | [CurseForge](https://www.curseforge.com/projects/957097) |
 | `ae2` | appliedenergistics2-forge-15.4.10.jar | [CurseForge](https://www.curseforge.com/projects/223794) |
-| `agronomica` | agronomica-0.1.0.jar | [GitHub](https://github.com/GTInfinityAscension/Agronomica) (org mod, LGPL-3.0; shipped in the pack until its first release) |
+| `agronomica` | agronomica-0.1.0.jar | [GitHub](https://github.com/Type-Omega/Agronomica) (org mod, LGPL-3.0; shipped in the pack until its first release) |
 | `aiimprovements` | AI-Improvements-1.20-0.5.2.jar | [CurseForge](https://www.curseforge.com/projects/233019) |
 | `alltheleaks` | alltheleaks-1.1.3+1.20.1-forge.jar | [CurseForge](https://www.curseforge.com/projects/1091339) |
 | `alternate_current` | alternate_current-mc1.20-1.7.0.jar | [CurseForge](https://www.curseforge.com/projects/548115) |
@@ -89,7 +89,7 @@ No quest text, texture or config was copied from other modpacks (GTO, GTL, GTNH,
 | `gpumemleakfix` | gpumemleakfix-1.20.1-1.8.jar | [CurseForge](https://www.curseforge.com/projects/882495) |
 | `gtceu` | gtceu-1.20.1-7.5.3.jar | [CurseForge](https://www.curseforge.com/projects/890405) |
 | `typeomega` | typeomega-0.1.0.jar | local build |
-| `gtna` | gtna-0.5.5.jar | [GitHub](https://github.com/GTInfinityAscension/GregTech-Nexus-Addon/releases/tag/v0.5.5) |
+| `gtna` | gtna-0.5.5.jar | [GitHub](https://github.com/Type-Omega/GregTech-Nexus-Addon/releases/tag/v0.5.5) |
 | `guideme` | guideme-20.1.15.jar | [CurseForge](https://www.curseforge.com/projects/1173950) |
 | `immediatelyfast` | ImmediatelyFast-Forge-1.5.5+1.20.4.jar | [CurseForge](https://www.curseforge.com/projects/686911) |
 | `industrial_platform` | Industrial Platform-1.20.1-2.0.1.jar | [CurseForge](https://www.curseforge.com/projects/1350900) |

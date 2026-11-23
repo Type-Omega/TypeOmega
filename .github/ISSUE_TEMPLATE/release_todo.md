@@ -18,12 +18,12 @@ labels: [release]
 ### PRs to add before X.Y.Z-dev-N:
 
 #### GTIACore
-- [ ] https://github.com/GTInfinityAscension/GTIACore/pull/
+- [ ] https://github.com/Type-Omega/TypeOmegaCore/pull/
 
 #### GTNA
-- [ ] https://github.com/GTInfinityAscension/GregTech-Nexus-Addon/pull/
+- [ ] https://github.com/Type-Omega/GregTech-Nexus-Addon/pull/
 
 #### Modpack
-- [ ] https://github.com/GTInfinityAscension/GregTech-Infinity-Ascension/pull/
+- [ ] https://github.com/Type-Omega/TypeOmega/pull/
 
 <!-- Mark blockers with (Critical). Note dependencies, e.g. "(depending on GTIACore#12)". -->

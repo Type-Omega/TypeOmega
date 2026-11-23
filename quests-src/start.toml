@@ -147,7 +147,7 @@ subtitle = "Questions, bugs and ideas."
 text = """
 The pack's Discord is [item]discord.gg/TW5vugknk5[/]: questions, bug reports and playtesting.
 
-The developer docs (GitHub: GTInfinityAscension/GTIA-Dev-Doc) explain the tiers, the systems and every design decision.
+The developer docs (GitHub: Type-Omega/TypeOmega-Dev-Doc) explain the tiers, the systems and every design decision.
 """
 
 [[new_quest]]
