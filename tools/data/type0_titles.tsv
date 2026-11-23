@@ -1,0 +1,522 @@
+# Type 0 quest titles in English and Chinese, by draft chapter and quest id (tools/draft_to_questsrc.py).
+# The Portuguese title is the draft's own label. Tab-separated: chapter, id, en_us, zh_cn.
+t00	inicio	First Fire	初火
+t00	mapa	Map (Xaero)	地图（Xaero）
+t00	chunks	Your Base (FTB Chunks)	你的基地（FTB Chunks）
+t00	emi	EMI: Recipes and Uses	EMI：配方与用途
+t00	ultimine	Ultimine	连锁挖掘
+t00	lixeira	Trash Can	垃圾桶
+t00	pederneira	Flint Tools	燧石工具
+t00	madeira	Wood	木头
+t00	bancada	Crafting Station	合成站
+t00	mochila	Backpack	背包
+t00	cinto	Tool Belt	工具腰带
+t00	macete	Wooden Mallet	木槌
+t00	papel	Paper and Book	纸与书
+t00	minerar	Time to Mine	开始挖矿
+t00	indicadores	Indicator Rocks	指示矿石
+t00	carvao	Coal	煤炭
+t00	cobre	Copper	铜
+t00	estanho	Tin	锡
+t00	ferro	First Iron	第一块铁
+t00	redstone	Redstone	红石
+t00	po_bronze	Bronze Dust	青铜粉
+t00	bronze	Bronze	青铜
+t00	placa_bronze	Bronze Plates	青铜板
+t00	medidor	Kardashev Meter	卡尔达肖夫计
+t00	ferramentas	Hammer and File	锤子与锉刀
+t00	chave	Wrench	扳手
+t00	serra	Saw	锯
+t00	chave_fenda	Screwdriver	螺丝刀
+t00	ferro_forjado	Wrought Iron	锻铁
+t00	alicate	Wire Cutter	剪线钳
+t00	terminal	Multiblock Terminal	多方块终端
+t00	caldeira	First Steam Machine	第一台蒸汽机器
+t00	agua	Water Before Fire	先加水再生火
+t01	vapor	Steam	蒸汽
+t01	leitura_k	Reading 0.1	读数 0.1
+t01	regras	How Steam Works	蒸汽如何工作
+t01	tijolo_coque	Coke Oven Clay and Bricks	焦炉黏土与砖
+t01	coke_oven	Coke Oven	焦炉
+t01	coque	Coke and Charcoal	焦炭与木炭
+t01	creosoto	Creosote	杂酚油
+t01	madeira_tratada	Treated Wood	防腐木
+t01	pecas_ferro	Ring, Screw and Rotor	环、螺丝与转子
+t01	bomba	Primitive Pump	原始水泵
+t01	pipez	Pipez Pipes	Pipez 管道
+t01	agua	Water Without Buckets	无需水桶的水
+t01	caldeira_liquida	Liquid Boiler	液体锅炉
+t01	caldeira_solar	Solar Boiler	太阳能锅炉
+t01	casco	Bronze Casing and Pipes	青铜外壳与管道
+t01	macerador	Steam Macerator	蒸汽研磨机
+t01	argila	Fireclay	耐火黏土
+t01	compressor	Steam Compressor	蒸汽压缩机
+t01	tijolo_ref	Firebricks	耐火砖
+t01	pbf	Primitive Blast Furnace	土高炉
+t01	aco	First Steel	第一块钢
+t01	stronze	Stronze and Breel	锶青铜与钢青铜
+t01	dimensao	Personal Dimension	个人维度
+t01	plataforma	Industrial Platform	工业平台
+t01	casco_tijolo	Bricked Bronze Casing	砖砌青铜外壳
+t01	liga	Steam Alloy Smelter	蒸汽合金炉
+t01	invar	Invar	殷钢
+t01	steam_oven	Steam Oven	蒸汽烤炉
+t01	steam_grinder	Steam Grinder	蒸汽研磨器
+t01	pecas_multi	Steam Multiblock Parts	蒸汽多方块部件
+t01	fornalha	Steam Furnace	蒸汽熔炉
+t01	caixa_fogo	Bronze Firebox Casing	青铜火箱外壳
+t01	galena	Galena: Lead and Silver	方铅矿：铅与银
+t01	potin	Potin	粗青铜
+t01	pistao	Piston	活塞
+t01	forja	Steam Forge Hammer	蒸汽锻锤
+t01	extrator	Steam Extractor	蒸汽提取机
+t01	placa_forjado	Wrought Iron Plate	锻铁板
+t01	forno_tijolos	Brick Kiln	砖窑
+t01	composto_argila	Clay Compound	黏土复合物
+t01	motor_hid	Hydraulic Motor	液压马达
+t01	pistao_hid	Hydraulic Piston	液压活塞
+t01	precisao	Precision Steam Component	精密蒸汽组件
+t01	compressor_grande	Large Steam Compressor	大型蒸汽压缩机
+t01	leap_forward	Leap Forward Blast Furnace	大跃进高炉
+t01	britador_grande	Large Steam Crusher	大型蒸汽粉碎机
+t01	fornalha_grande	Large Steam Furnace	大型蒸汽熔炉
+t01	forja_grande	Large Steam Hammer	大型蒸汽锻锤
+t01	placa_aco	Steel Plates and Screws	钢板与钢螺丝
+t01	hp_caldeira	Upgrade: High Pressure Boiler	升级：高压锅炉
+t01	hp_solar	Upgrade: High Pressure Solar Boiler	升级：高压太阳能锅炉
+t01	bomba_hid	Hydraulic Pump	液压泵
+t01	extrator_grande	Large Steam Extractor	大型蒸汽提取机
+t01	solar_grande	Large Steam Solar Boiler	大型蒸汽太阳能锅炉
+t01	rede_vapor	Team Steam Network	团队蒸汽网络
+t01	liga_estanho	Tin Alloy	锡合金
+t01	hp_macerador	Upgrade: High Pressure Macerator	升级：高压研磨机
+t01	hp_forja	Upgrade: High Pressure Hammer	升级：高压锻锤
+t01	hp_liga	Upgrade: High Pressure Alloy Smelter	升级：高压合金炉
+t01	molde_vazio	Empty Mold	空模具
+t01	prensa_grande	Large Steam Forming Press	大型蒸汽冲压机
+t01	moldes	Ball and Plate Molds	球模具与板模具
+t01	tubo_vidro	Glass Tube	玻璃管
+t01	valvula	Vacuum Tube	真空管
+t01	fio_cobre	Copper Wire	铜导线
+t01	resistor	Resistor	电阻
+t01	placa_resina	Resin Circuit Board	树脂电路板
+t01	resina	Sticky Resin	粘性树脂
+t01	borracha_crua	Raw Rubber	生橡胶
+t01	enxofre	Sulfur	硫
+t01	barra_borracha	Rubber Bar	橡胶锭
+t01	placa_borracha	Rubber Sheet	橡胶片
+t01	liga_vermelha	Red Alloy	红色合金
+t01	cabo_red	Red Alloy Cable	红色合金线缆
+t01	cabo_estanho	Tin Cable	锡线缆
+t01	circuito	First Circuit	第一块电路
+t01	caldeira_grande	Large Bronze Boiler	大型青铜锅炉
+t01	esteira_hid	Hydraulic Conveyor	液压传送带
+t01	liga_grande	Large Steam Alloy Smelter	大型蒸汽合金炉
+t01	trefila_grande	Large Steam Wiremill	大型蒸汽线材轧机
+t01	braco_hid	Hydraulic Arm	液压机械臂
+t01	manufatura	Steam Manufacturer	蒸汽制造机
+t01	casco_lv	LV Machine Hull	LV 机器外壳
+t02	eletricidade	Electricity	电力
+t02	leitura_k	Reading 0.2	读数 0.2
+t02	regras	How Electricity Works	电力如何工作
+t02	ima	Magnetic Rod	磁化铁杆
+t02	circuito_prog	Programmed Circuit	编程电路
+t02	polarizador	LV Polarizer	LV 两极磁化机
+t02	motor	LV Electric Motor	LV 电动马达
+t02	pistao	LV Electric Piston	LV 电力活塞
+t02	braco	LV Robot Arm	LV 机械臂
+t02	esteira	LV Conveyor	LV 传送带
+t02	tampas	Conveyor and Arm as Covers	传送带与机械臂覆盖板
+t02	montadora	LV Assembler	LV 组装机
+t02	versoes	Electric Versions	电力版机器
+t02	formas	Bender, Lathe and Extruder	卷板机、车床与压模器
+t02	turbina	LV Steam Turbine	LV 蒸汽涡轮
+t02	rede_aco	Upgrade: Steel Steam Network	升级：钢制蒸汽网络
+t02	buffer	LV Battery Buffer	LV 电池箱
+t02	eletrolisador	LV Electrolyzer	LV 电解机
+t02	ponte_cloro	Chemistry · Chlor-Alkali	化学 · 氯碱
+t02	sodio	Sodium	钠
+t02	reator	LV Chemical Reactor	LV 化学反应釜
+t02	ponte_quimica	Chemistry · Type 0	化学 · 0型
+t02	bomba	LV Electric Pump	LV 电动泵
+t02	fermentador	LV Fermenter	LV 发酵槽
+t02	ponte_etanol	Chemistry · Ethanol and Fuels	化学 · 乙醇与燃料
+t02	combustao	LV Combustion Generator	LV 内燃发电机
+t02	coletor	LV Gas Collector	LV 集气室
+t02	enlatadora	LV Canner	LV 装罐机
+t02	bomba_lv	LV Pump	LV 抽水机
+t02	jetpack	Liquid Fuel Jetpack	液体燃料喷气背包
+t02	bateria	LV Sodium Battery	LV 钠电池
+t02	furadeira	LV Drill	LV 钻头
+t02	centrifuga	LV Centrifuge	LV 离心机
+t02	trefila	Wiremill and Fine Wire	线材轧机与细导线
+t02	misturador	LV Mixer	LV 搅拌机
+t02	lavadora	LV Ore Washer	LV 洗矿机
+t02	termica	LV Thermal Centrifuge	LV 热力离心机
+t02	zinco	Zinc and Antimony	锌与锑
+t02	solda	Solder and Battery Alloy	焊锡与电池合金
+t02	latao	Brass	黄铜
+t02	peneira	LV Sifter	LV 筛选机
+t02	quartzito	Quartzite	石英岩
+t02	sensor	LV Sensor	LV 传感器
+t02	emissor	LV Emitter	LV 发射器
+t02	laser	LV Laser Engraver	LV 激光蚀刻机
+t02	certus	Certus Quartz	赛特斯石英
+t02	carregador	Charger	充能器
+t02	fluix	Fluix Crystal	福鲁伊克斯水晶
+t02	cabo_fluix	Fluix Cable	福鲁伊克斯线缆
+t02	prensas	Meteorite Presses	陨石压印模板
+t02	processador	Logic Processor	逻辑处理器
+t02	controlador	ME Controller	ME 控制器
+t02	drive	ME Drive and 1k Cell	ME 驱动器与 1k 元件
+t02	terminal	ME Terminal	ME 终端
+t02	vapor_ou_eu	Steam or Electric?	蒸汽还是电力？
+t02	bloco	Steam Assembly Block	蒸汽装配方块
+t02	montadora_grande	Large Steam Circuit Assembler	大型蒸汽电路组装机
+t02	corte_grande	Large Steam Cutting	大型蒸汽切割机
+t02	centrifuga_grande	Large Steam Centrifuge	大型蒸汽离心机
+t02	misturador_grande	Large Steam Mixer	大型蒸汽搅拌机
+t02	lavadora_grande	Large Steam Ore Washer	大型蒸汽洗矿机
+t02	termica_grande	Large Steam Thermal Centrifuge	大型蒸汽热力离心机
+t02	peneira_grande	Large Steam Sifter	大型蒸汽筛选机
+t02	torno_grande	Large Steam Lathe	大型蒸汽车床
+t02	dobra_grande	Large Steam Bending	大型蒸汽卷板机
+t03	alto_forno	Blast Furnace	高炉
+t03	leitura_k	Reading 0.3	读数 0.3
+t03	bobina_tensao	LV Voltage Coil	LV 电压线圈
+t03	energy_hatch	LV Energy Hatch	LV 能源仓
+t03	cuproniquel	Cupronickel	白铜
+t03	fio_cupro	Double Cupronickel Wire	双股白铜导线
+t03	bobina_cupro	Cupronickel Coil	白铜线圈
+t03	invar_placas	Invar Plates and Frame	殷钢板与框架
+t03	casco_calor	Heat Proof Casing	耐热外壳
+t03	manutencao	Maintenance Hatch	维护仓
+t03	barramentos	LV Buses and Hatches	LV 总线与仓室
+t03	abafador	LV Muffler	LV 消声仓
+t03	ebf	Electric Blast Furnace (EBF)	电力高炉（EBF）
+t03	temperatura	Coil Heat	线圈温度
+t03	aco_ebf	Steel in the EBF	电力高炉炼钢
+t03	large_furnace	Large Furnace	大型熔炉
+t03	oxigenio	Oxygen from Air	空气中的氧气
+t03	forno_arco	LV Arc Furnace	LV 电弧炉
+t03	cobre_recozido	Annealed Copper	退火铜
+t03	forjado_arco	Wrought Iron in the Arc	电弧炉锻铁
+t03	fio_recozido	Fine Annealed Copper Wire	退火铜细导线
+t03	banho	LV Chemical Bath	LV 化学浸洗机
+t03	banho_vapor	Large Steam Bath	大型蒸汽浸洗机
+t03	galio	Gallium and Arsenic	镓与砷
+t03	arseneto	Gallium Arsenide	砷化镓
+t03	diodo	Diode	二极管
+t03	cola	Glue	胶水
+t03	fenolica	Phenolic Board	酚醛电路基板
+t03	ponte_persulfato	Chemistry · Sodium Persulfate	化学 · 过硫酸钠
+t03	prata	Silver Foil	银箔
+t03	fenolica_impressa	Printed Phenolic Board	酚醛印刷电路板
+t03	circuito_mv	Good Circuit (MV)	优质电路（MV）
+t03	montadora_circ	LV Circuit Assembler	LV 电路组装机
+t03	bauxita	Bauxite	铝土矿
+t03	ponte_alumina	Chemistry · Alumina (Bayer)	化学 · 氧化铝（拜耳法）
+t03	ponte_fluor	Chemistry · Fluorine (Lepidolite)	化学 · 氟（锂云母）
+t03	ponte_criolita	Chemistry · Cryolite	化学 · 冰晶石
+t03	destilaria	LV Distillery	LV 蒸馏室
+t03	ponte_alcatrao	Chemistry · Wood Tar	化学 · 木焦油
+t03	anodo	Carbon Anode	碳阳极
+t03	ponte_petroleo	Chemistry · Oil and Sulfur	化学 · 石油与硫
+t03	dois_hatches	Two Hatches, One Tier Up	两个仓室，高一级
+t03	aluminio	Aluminium (Hall-Héroult)	铝（霍尔-埃鲁法）
+t03	cobalto	Cobalt	钴
+t03	lamina	Cobalt Brass Blade	钴黄铜锯片
+t03	cortadora	LV Cutter	LV 切割机
+t03	casco_mv	MV Machine Hull	MV 机器外壳
+t04	mv	Medium Voltage	中压
+t04	leitura_k	Reading 0.4	读数 0.4
+t04	versoes_mv	MV Versions	MV 版机器
+t04	ima_aco	Magnetic Steel Rod	磁化钢杆
+t04	motor_mv	MV Electric Motor	MV 电动马达
+t04	pistao_mv	MV Electric Piston	MV 电力活塞
+t04	esteira_mv	MV Conveyor	MV 传送带
+t04	bomba_mv	MV Electric Pump	MV 电动泵
+t04	braco_mv	MV Robot Arm	MV 机械臂
+t04	montadora_mv	MV Assembler	MV 组装机
+t04	eletrolisador_mv	MV Electrolyzer	MV 电解机
+t04	cromo	Chromium from Ruby	红宝石中的铬
+t04	misturador_mv	MV Mixer	MV 搅拌机
+t04	vanadio	Vanadium	钒
+t04	aco_vanadio	Vanadium Steel	钒钢
+t04	lamina_v	Vanadium Steel Blade	钒钢锯片
+t04	cortadora_mv	MV Cutter	MV 切割机
+t04	silicio	Silicon	硅
+t04	boule	Silicon Boule	单晶硅锭
+t04	wafer	Silicon Wafer	硅晶圆
+t04	esmeralda	Flawless Emerald	无瑕绿宝石
+t04	emissor_mv	MV Emitter	MV 发射器
+t04	laser_mv	MV Laser Engraver	MV 激光蚀刻机
+t04	lente_rubi	Ruby Lens	红宝石透镜
+t04	lente_safira	Sapphire Lens	蓝宝石透镜
+t04	ilc	ILC Chip	ILC 芯片
+t04	ulpic	ULPIC Chip	ULPIC 芯片
+t04	integrado_basico	Basic Integrated Circuit	基础集成电路
+t04	integrado_bom	Good Integrated Circuit (MV)	优质集成电路（MV）
+t04	bobina_tensao_mv	MV Voltage Coil	MV 电压线圈
+t04	hatch_mv	MV Energy Hatch	MV 能源仓
+t04	transformador	MV Transformer	MV 变压器
+t04	kanthal_po	Kanthal Dust	坎塔尔合金粉
+t04	kanthal_quente	Hot Kanthal	热坎塔尔合金锭
+t04	kanthal	Kanthal Ingot	坎塔尔合金锭
+t04	bobina_kanthal	Kanthal Coil	坎塔尔合金线圈
+t04	po_inox	Stainless Steel Dust	不锈钢粉
+t04	inox	Stainless Steel	不锈钢
+t04	reator_mv	MV Chemical Reactor	MV 化学反应釜
+t04	ponte_bayer	Chemistry · Bayer at 120 EU/t	化学 · 120 EU/t 拜耳法
+t04	ponte_contato	Chemistry · Sulfuric Acid (Contact)	化学 · 硫酸（接触法）
+t04	banho_mv	MV Chemical Bath	MV 化学浸洗机
+t04	ponte_etileno	Chemistry · Ethylene	化学 · 乙烯
+t04	polietileno	Polyethylene	聚乙烯
+t04	turbina_gas	MV Gas Turbine	MV 燃气涡轮
+t04	transistor	Transistor	晶体管
+t04	nucleos	Formation and Annihilation Cores	成型核心与破坏核心
+t04	interface	ME Interface and Buses	ME 接口与总线
+t04	provedor	Pattern Provider and Molecular Assembler	样板供应器与分子装配室
+t04	processador_calc	Calculation Processor	运算处理器
+t04	terminal_padroes	Pattern Terminal	样板终端
+t04	cpu_crafting	Crafting CPU	合成 CPU
+t04	celula_4k	4k Cell	4k 元件
+t04	autocrafting	First Autocrafting	第一次自动合成
+t05	kanthal_ebf	Kanthal in the Blast Furnace	高炉中的坎塔尔线圈
+t05	leitura_k	Reading 0.5	读数 0.5
+t05	lente_esmeralda	Emerald Lens	绿宝石透镜
+t05	ram	RAM Chip	RAM 芯片
+t05	lente_diamante	Diamond Lens	钻石透镜
+t05	cpu	CPU Chip	CPU 芯片
+t05	electrum	Electrum	琥珀金
+t05	integrado_avancado	Advanced Integrated Circuit (HV)	高级集成电路（HV）
+t05	caldeira_aco	Large Steel Boiler	大型钢锅炉
+t05	montadora_circ_mv	MV Circuit Assembler	MV 电路组装机
+t05	ponte_pvc	Chemistry · PVC	化学 · PVC
+t05	placa_plastico	Plastic Board	塑料电路基板
+t05	placa_impressa	Printed Plastic Board	塑料印刷电路板
+t05	capacitor	Capacitor	电容
+t05	microprocessador	Microprocessor	微型处理器
+t05	auto_circuitos	Circuits in Autocrafting	自动合成电路
+t05	armazenamento	MV Super Tank and Super Chest	MV 超级缸与超级箱
+t05	casco_limpo	Clean Stainless Steel Casing	洁净不锈钢外壳
+t05	casco_frio	Frost Proof Casing	防冻外壳
+t05	vidro	Tempered Glass	钢化玻璃
+t05	maquinas_minerio	MV Macerator, Ore Washer and Centrifuge	MV 研磨机、洗矿机与离心机
+t05	ore_plant	Ore Processing Plant	矿石处理厂
+t05	paralelo	Parallel	并行
+t05	caixa_engrenagens	Steel Gearbox Casing	钢齿轮箱外壳
+t05	aco_azul	Blue Steel	蓝钢
+t05	turbina_aco	Steel Turbine Casing	钢涡轮外壳
+t05	processing_plus	Processing Factory Plus	加工工厂 Plus
+t05	assembling_plus	Assembling Factory Plus	组装工厂 Plus
+t05	separating_plus	Separating Factory Plus	分离工厂 Plus
+t05	fabrica_ae2	A Factory in AE2	AE2 中的工厂
+t05	casco_hv	HV Stainless Steel Casing	HV 不锈钢外壳
+t05	saida_hv	HV Machine Hull	HV 机器外壳
+t05	forno_pirolise	Pyrolyse Oven	热解炉
+t05	ponte_pirolise	Chemistry · Wood Gas and Biomass	化学 · 木煤气与生物质
+t05	sensor_mv	MV Sensor	MV 传感器
+t05	fosfeto	Manganese Phosphide	磷化锰
+t05	campo_lv	LV Field Generator	LV 力场发生器
+t05	casco_comp	Component Assembly Casing	组件装配外壳
+t05	montadora_comp	Component Assembler	组件装配机
+t05	sonda	MV Fluid Drilling Rig	MV 流体钻机
+t05	ponte_diesel	Chemistry · Diesel	化学 · 柴油
+t05	combustao	MV Combustion Generator	MV 内燃发电机
+t05	baterias	MV Batteries	MV 电池
+t06	hv	High Voltage	高压
+t06	leitura_k	Reading 0.6	读数 0.6
+t06	motor_hv	HV Motor	HV 电动马达
+t06	versoes_hv	HV Machines	HV 机器
+t06	pistao_hv	HV Piston	HV 电力活塞
+t06	esteira_hv	HV Conveyor	HV 传送带
+t06	bomba_hv	HV Pump	HV 电动泵
+t06	ponte_silicone	Chemistry · Silicone Rubber	化学 · 硅橡胶
+t06	braco_hv	HV Robot Arm	HV 机械臂
+t06	manutencao_auto	Auto Maintenance	自动维护
+t06	montadora_hv	HV Assembler	HV 组装机
+t06	smd	SMD Components	SMD 元件
+t06	bobina_tensao_hv	HV Voltage Coil	HV 电压线圈
+t06	olho_ender	Eye of Ender	末影之眼
+t06	emissor_sensor	HV Emitter and Sensor	HV 发射器与传感器
+t06	banho_hv	HV Chemical Bath	HV 化学浸洗机
+t06	lente_laranja	Orange Lens	橙色透镜
+t06	wafer_lpic	LPIC Wafer	LPIC 晶圆
+t06	aco_vermelho	Red Steel	红钢
+t06	cortadora_hv	HV Cutter	HV 切割机
+t06	chip_lpic	LPIC Chip	LPIC 芯片
+t06	nak	Sodium-Potassium Alloy	钠钾合金
+t06	energy_hatch_hv	HV Energy Hatch	HV 能源仓
+t06	dynamo_hv	HV Dynamo Hatch	HV 动力仓
+t06	plus_hv	Massive Machines in HV	HV 的大型机器
+t06	transformador_hv	HV Transformer	HV 变压器
+t06	baterias_hv	HV Batteries	HV 电池
+t06	despacho	National Dispatch Center	国家调度中心
+t06	teto_k	Ceiling 0.89	上限 0.89
+t06	rede_time	Team Network	团队网络
+t06	hatch_sem_fio	HV Wireless Energy Hatch	HV 无线能源仓
+t06	dynamo_sem_fio	HV Wireless Dynamo	HV 无线动力仓
+t06	casco_filtro	Filter Casing	过滤器外壳
+t06	cleanroom	Cleanroom	超净间
+t06	dica_cleanroom	How the Cleanroom Works	超净间如何工作
+t06	indutor	Inductor	电感
+t06	processor_assembly	Processor Assembly (HV)	处理器集群（HV）
+t06	liga_azul	Blue Alloy	蓝色合金
+t06	workstation	Workstation (EV)	工作站（EV）
+t06	montadora_circ_hv	HV Circuit Assembler	HV 电路组装机
+t06	mainframe	Mainframe (IV)	大型主机（IV）
+t06	torre	Distillation Tower	蒸馏塔
+t06	lubrificante	Lubricant	润滑油
+t06	ponte_refino	Chemistry · Oil Refining	化学 · 石油精炼
+t06	craqueamento	Cracking Unit	裂化装置
+t06	turbina_gas	HV Gas Turbine	HV 燃气涡轮
+t06	freezer	Vacuum Freezer	真空冷冻机
+t06	ponte_ar	Chemistry · Liquid Air	化学 · 液态空气
+t06	mgb2	Magnesium Diboride	二硼化镁
+t06	campo_mv	MV Field Generator	MV 力场发生器
+t06	nicromo	Nichrome	镍铬合金
+t06	bobina_nicromo	Nichrome Coil	镍铬合金线圈
+t06	reator_hv	HV Chemical Reactor	HV 化学反应釜
+t06	ponte_tfe	Chemistry · Tetrafluoroethylene	化学 · 四氟乙烯
+t06	ptfe	PTFE	聚四氟乙烯
+t06	casco_inerte	Inert PTFE Casing	化学惰性聚四氟乙烯外壳
+t06	mixing_plus	Mixing Factory Plus	搅拌工厂 Plus
+t06	lcr	Large Chemical Reactor	大型化学反应釜
+t06	suporte_rotor	HV Rotor Holder	HV 转子支架
+t06	rotor_turbina	Turbine Rotor	涡轮转子
+t06	lst	Large Steam Turbine	大型蒸汽涡轮
+t07	lua	To the Moon	奔向月球
+t07	leitura_k	Reading 0.7	读数 0.7
+t07	casco_foguete	Rocket Assembly Casing	火箭装配外壳
+t07	plataforma	Launch Pad	发射台
+t07	montadora	Rocket Assembler	火箭装配机
+t07	casco_missao	Mission Control Casing	任务控制外壳
+t07	cosmodromo	Cosmodrome	航天发射场
+t07	teto_k	Ceiling 0.99	上限 0.99
+t07	painel_missao	Mission Panel	任务面板
+t07	boule_fosforo	Phosphorus-Doped Boule	掺磷单晶硅锭
+t07	wafer_fosforo	Phosphorus Wafer	掺磷晶圆
+t07	gravador_hv	HV Laser Engraver	HV 激光蚀刻机
+t07	lentes	Grey and Pink Lenses	灰色与粉色透镜
+t07	nand	NAND and NOR Memory	NAND 与 NOR 存储
+t07	data_stick	Data Stick	闪存
+t07	ponte_epoxi	Chemistry · Epoxy Resin	化学 · 环氧树脂
+t07	sonda	Lunar Probe	月球探测器
+t07	guia_lua	Moon Guide	月球指南
+t07	mapa_lunar	Lunar Map	月球地图
+t07	tela_planetas	Planet Screen	星球界面
+t07	ogiva	Nose Cone	火箭鼻锥
+t07	aletas	Fins	尾翼
+t07	tanque_gas	Gas Tank	气罐
+t07	tanque_aco	Steel Tank	钢储罐
+t07	motor_foguete	Steel Rocket Engine	钢制火箭引擎
+t07	foguete	Tier 1 Rocket	1 级火箭
+t07	abastecimento	Fuel the Rocket	给火箭加注燃料
+t07	amonia	Chemistry · Ammonia (Haber)	化学 · 氨（哈伯法）
+t07	hipocloroso	Hypochlorous Acid	次氯酸
+t07	metanol	Chemistry · Methanol	化学 · 甲醇
+t07	monocloramina	Monochloramine	一氯胺
+t07	dimetilamina	Dimethylamine	二甲胺
+t07	udmh	Dimethylhydrazine (UDMH)	偏二甲肼（UDMH）
+t07	n2o4	Dinitrogen Tetroxide	四氧化二氮
+t07	combustivel	Rocket Fuel	火箭燃料
+t07	engrenagem_o2	Oxygen Gear	氧气装置
+t07	traje	Tier 1 Space Suit	1 级宇航服
+t07	carregador_o2	Oxygen Loader	氧气装载机
+t07	vacuo	Vacuum and Cold	真空与严寒
+t07	pouso	Moon Landing	登陆月球
+t07	volta	The Way Back	返程
+t07	amostra	Lunar Samples	月球样本
+t07	ilmenita	Lunar Ilmenite	月球钛铁矿
+t07	extratora	Heat the Regolith	加热月壤
+t07	he3	Helium-3 from Regolith	月壤中的氦-3
+t07	magnesio	Lunar Magnesium	月球镁
+t07	ponte_kroll	0.8 · Titanium (Kroll)	0.8 · 钛（克罗尔法）
+t07	ponte_fusao	0.8 · Fusion Fuel	0.8 · 聚变燃料
+t07	gelo	Lunar Ice	月球冰
+t07	minerios	Lunar Ores	月球矿石
+t07	desh	Desh	戴斯
+t07	placa_desh	Desh Plate	戴斯板
+t07	rede_lua	The Team Network on the Moon	月球上的团队网络
+t07	oxigenio_local	Oxygen from Ice	冰中制氧
+t07	distribuidor	Oxygen Distributor	氧气分配器
+t07	camara_ar	Airlock	气闸
+t07	sensor_o2	Oxygen Sensor	氧气传感器
+t07	base_lunar	Lunar Base	月球基地
+t07	gravidade	Gravity Normalizer	重力调节器
+t07	rover	Lunar Rover	月球车
+t07	neodimio	Lunar Neodymium	月球钕
+t07	ponte_motor_ev	0.8 · EV Motor	0.8 · EV 电动马达
+t07	ponte_t2	0.8 · Tier 2 Rocket	0.8 · 2 级火箭
+t08	fusao	A Star on Earth	地上的恒星
+t08	leitura_k	Reading 0.8	读数 0.8
+t08	ticl4	Titanium Tetrachloride	四氯化钛
+t08	cloreto_ferro	Ferric Chloride	氯化铁
+t08	titanio_po	Magnesium Reduction	镁还原
+t08	reciclo_mg	Close the Magnesium Loop	镁循环
+t08	titanio_quente	Hot Titanium	热钛锭
+t08	titanio	Titanium	钛
+t08	ferramentas_ti	Titanium Tools	钛工具
+t08	rotor_ti	Titanium Rotor	钛转子
+t08	casco_ev	EV Machine Hull	EV 机器外壳
+t08	polarizadora	HV Polarizer	HV 两极磁化机
+t08	ima	Neodymium Magnet	钕磁铁
+t08	motor_ev	EV Motor	EV 电动马达
+t08	bomba_ev	EV Pump	EV 电动泵
+t08	acido_borico	Boric Acid	硼酸
+t08	bf3	Boron Trifluoride	三氟化硼
+t08	nabh4	Sodium Borohydride	硼氢化钠
+t08	diborano	Diborane	乙硼烷
+t08	ciclo_boro	Close the Boron Loop	硼循环
+t08	deshaborano	Deshaborane	戴斯硼烷
+t08	lox	Liquid Oxygen	液氧
+t08	combustivel_t2	Zip-D Fuel	Zip-D 燃料
+t08	placa_epoxi	Epoxy Plate	环氧树脂板
+t08	placa_epoxi_circ	Epoxy Circuit Board	环氧电路基板
+t08	placa_epoxi_impressa	Printed Epoxy Board	环氧印刷电路板
+t08	fibras	Carbon Fibers	碳纤维
+t08	glowstone	Glowstone Without the Nether	无需下界的萤石
+t08	wafer_nano	Nano CPU Wafer	纳米 CPU 晶圆
+t08	dois_hatches	Two Hatches, Now in EV	两个仓室，现在是 EV
+t08	chip_nano	Nano CPU Chip	纳米 CPU 芯片
+t08	processador_nano	Nano Processor	纳米处理器
+t08	indutor_smd	SMD Inductor	SMD 电感
+t08	montagem_nano	EV Circuit: Nano Assembly	EV 电路：纳米处理器集群
+t08	diodo_smd	SMD Diode	SMD 二极管
+t08	supercomputador	Nano Supercomputer (IV)	纳米超级计算机（IV）
+t08	mainframe_nano	Nano Mainframe (LuV)	纳米大型主机（LuV）
+t08	data_orb	Data Orb	数据球
+t08	acido_nitrico	Nitric Acid (Ostwald)	硝酸（奥斯特瓦尔德法）
+t08	lama_pgs	Platinum Group Sludge	铂族金属泥
+t08	agua_regia	Aqua Regia	王水
+t08	separacao	Separate the Platinum Group	分离铂族金属
+t08	platina	Platinum	铂
+t08	paladio	Palladium	钯
+t08	residuo	Gold from the Residue	残渣中的金
+t08	metais_raros	Rhodium, Osmium and Iridium Wait	铑、锇与铱尚待开发
+t08	agua_pesada	Heavy Water	重水
+t08	deuterio	Deuterium	氘
+t08	tritio	Tritium	氚
+t08	casco_tokamak	Titanium Chamber	钛制腔室
+t08	bobina	MgB₂ Coil	二硼化镁线圈
+t08	blindagem	Neutron Shielding	中子屏蔽
+t08	helio_liquido	Liquid Helium	液氦
+t08	tokamak	HV Tokamak	HV 托卡马克
+t08	bateria_ev	EV Vanadium Battery	EV 钒电池
+t08	partida	Startup Energy	启动能量
+t08	ignicao	D-T Ignition	氘氚点火
+t08	dhe3	Deuterium–Helium-3	氘-氦-3
+t08	manta	Lithium Breeding Blanket	锂增殖包层
+t08	saida_eu	Output in EU	以 EU 输出
+t08	teto_k	Type I Ceiling	I 型上限
+t08	tanque_desh	Desh Tank	戴斯储罐
+t08	motor_desh	Desh Engine	戴斯引擎
+t08	foguete_t2	Tier 2 Rocket	2 级火箭
+t08	sonda_marte	Mars Probe	火星探测器
+t08	mapa_marte	Mars Map	火星地图
+t08	aerogel	Silica Aerogel	二氧化硅气凝胶
+t08	traje_termico	Thermal Suit	隔热服
+t08	dica_marte	The Cold of Mars	火星的严寒
+t08	saida	On to Mars	前往火星
+t08	ponte_tipo1	Type I · Mars	I 型 · 火星

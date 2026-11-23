@@ -7,7 +7,7 @@ icon = "agronomica:crop_sticks"
 
 [entry]
 subtitle = "Systems: plants that work for you."
-requires = ["steam:entry"]
+requires = ["type0_1_steam_steel:entry"]
 text = """
 {image:gtia_quests:textures/quests/agronomica_farm.png width:96 height:96 align:center}
 
@@ -70,7 +70,7 @@ key = "seed_oil"
 title = "Seed Oil"
 role = "side"
 icon = "gtceu:seed_oil_bucket"
-deps = ["rapeseed", "steam:extractor"]
+deps = ["rapeseed", "type0_1_steam_steel:extrator"]
 subtitle = "Squeezed in the Steam Extractor."
 task = [{ fluid = "gtceu:seed_oil", amount = 1000 }]
 text = """
@@ -180,7 +180,7 @@ key = "vulcanised"
 title = "Vulcanised Rubber"
 role = "side"
 icon = "gtceu:rubber_ingot"
-deps = ["rubber_bush", "steam:alloy"]
+deps = ["rubber_bush", "type0_1_steam_steel:liga"]
 subtitle = "Latex and sulfur, the 1844 way."
 task = [{ item = "gtceu:rubber_ingot", count = 4 }]
 text = """
@@ -192,7 +192,8 @@ key = "biomass"
 title = "Biomass"
 role = "side"
 icon = "gtceu:biomass_bucket"
-deps = ["crossing", "lv:brewery"]
+deps = ["crossing", "type0_2_electricity:entry"]
+pending = "the Brewery is not in the Type 0 beta book yet (GTIA-D-421)"
 subtitle = "Grass into fuel."
 task = [{ fluid = "gtceu:biomass", amount = 1000 }]
 text = """
@@ -204,7 +205,7 @@ key = "seed_analyzer"
 title = "Seed Analyzer"
 role = "gate"
 icon = "typeomega:lv_seed_analyzer"
-deps = ["crossing", "lv:lv_sensor", "lv:lv_emitter"]
+deps = ["crossing", "type0_2_electricity:sensor", "type0_2_electricity:emissor"]
 subtitle = "Know what you are breeding."
 task = [{ item = "typeomega:lv_seed_analyzer" }]
 text = """
@@ -216,7 +217,7 @@ key = "npk_industrial"
 title = "Industrial NPK"
 role = "side"
 icon = "agronomica:fertilizer_npk"
-deps = ["npk_hand", "mv:haber", "mv:mv_mixer"]
+deps = ["npk_hand", "type0_7_moon:amonia", "type0_4_medium_voltage:misturador_mv"]
 subtitle = "Ammonia, phosphate, potash."
 task = [{ item = "agronomica:fertilizer_npk", count = 16 }]
 text = """
@@ -228,7 +229,7 @@ key = "greenhouse"
 title = "Greenhouse"
 role = "milestone"
 icon = "gtna:greenhouse"
-deps = ["seed_analyzer", "mv:mv_sensor", "mv:mv_pump", "mv:mv_power"]
+deps = ["seed_analyzer", "type0_5_end_of_mv:sensor_mv", "type0_4_medium_voltage:bomba_mv", "type0_4_medium_voltage:entry"]
 subtitle = "Hundreds of plants, one block entity."
 task = [{ item = "gtna:greenhouse" }]
 text = """
@@ -252,7 +253,7 @@ key = "hv_analyzer"
 title = "HV Seed Analyzer"
 role = "side"
 icon = "typeomega:hv_seed_analyzer"
-deps = ["seed_analyzer", "hv:hv_sensor", "hv:hv_emitter"]
+deps = ["seed_analyzer", "type0_6_power_grid:emissor_sensor"]
 subtitle = "Faster reading."
 task = [{ item = "typeomega:hv_seed_analyzer" }]
 text = """

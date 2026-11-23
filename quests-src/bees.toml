@@ -7,7 +7,7 @@ icon = "productivebees:bee_cage"
 
 [entry]
 subtitle = "Systems: metal that buzzes."
-requires = ["hv:hv_hull"]
+requires = ["type0_6_power_grid:entry"]
 text = """
 No hives grow in the wild here and no bee works for free. A bee goes into a cage, the cage goes into a machine, and the machine makes combs that turn into ore.
 
@@ -55,7 +55,8 @@ key = "biomass"
 title = "Biomass for Bees"
 role = "side"
 icon = "gtceu:biomass_bucket"
-deps = ["entry", "lv:brewery"]
+deps = ["entry", "type0_2_electricity:entry"]
+pending = "the Brewery is not in the Type 0 beta book yet (GTIA-D-421)"
 subtitle = "Breakfast."
 task = [{ fluid = "gtceu:biomass", amount = 1000 }]
 text = """
@@ -67,7 +68,7 @@ key = "metal_bee"
 title = "Metal Bee"
 role = "milestone"
 icon = "minecraft:iron_block"
-deps = ["wild_bee", "biomass", "hv:hv_cr"]
+deps = ["wild_bee", "biomass", "type0_6_power_grid:reator_hv"]
 subtitle = "Four blocks of metal and a lot of biomass."
 task = [{ checkmark = "I bred a metal bee" }]
 text = """
@@ -81,7 +82,7 @@ key = "apiary"
 title = "Industrial Apiary"
 role = "gate"
 icon = "typeomega:hv_industrial_apiary"
-deps = ["entry", "hv:hv_power", "hv:hv_sensor"]
+deps = ["entry", "type0_6_power_grid:turbina_gas", "type0_6_power_grid:emissor_sensor"]
 subtitle = "A hive with a power cable."
 task = [{ item = "typeomega:hv_industrial_apiary" }]
 text = """
@@ -116,7 +117,7 @@ key = "comb_ore"
 title = "Comb Leaching"
 role = "milestone"
 icon = "gtceu:purified_iron_ore"
-deps = ["comb", "lv:hydrochloric_acid"]
+deps = ["comb", "type0_2_electricity:ponte_cloro"]
 subtitle = "Four combs, four purified ores."
 task = [{ item = "gtceu:purified_iron_ore", count = 4 }]
 text = """
@@ -130,7 +131,7 @@ key = "treat"
 title = "Honey Treat"
 role = "side"
 icon = "productivebees:honey_treat"
-deps = ["honey", "hv:hv_mixer"]
+deps = ["honey", "type0_6_power_grid:versoes_hv"]
 subtitle = "Bribes for the Mutation Chamber."
 task = [{ item = "productivebees:honey_treat", count = 4 }]
 text = """
@@ -142,7 +143,7 @@ key = "mutation"
 title = "Mutation Chamber"
 role = "gate"
 icon = "typeomega:hv_mutation_chamber"
-deps = ["apiary", "treat", "hv:hv_emitter"]
+deps = ["apiary", "treat", "type0_6_power_grid:emissor_sensor"]
 subtitle = "No luck, only recipes."
 task = [{ item = "typeomega:hv_mutation_chamber" }]
 text = """

@@ -1,7 +1,7 @@
 {
 	chapter_groups: [
 		{ id: "5CDBA930BF6993C3", title: "{gtia.quest.group.5CDBA930BF6993C3}" }
-		{ id: "461BAA0C86EE43B3", title: "{gtia.quest.group.461BAA0C86EE43B3}" }
+		{ id: "390D444A6AEBE3D2", title: "{gtia.quest.group.390D444A6AEBE3D2}" }
 		{ id: "3FDC799CF6961510", title: "{gtia.quest.group.3FDC799CF6961510}" }
 		{ id: "148BC844BA1B4853", title: "{gtia.quest.group.148BC844BA1B4853}" }
 	]

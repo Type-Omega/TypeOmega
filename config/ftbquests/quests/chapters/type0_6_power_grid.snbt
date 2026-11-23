@@ -1,0 +1,1786 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "type0_6_power_grid"
+	group: "390D444A6AEBE3D2"
+	icon: "gtceu:hv_machine_hull"
+	id: "159220D6FDD9752B"
+	order_index: 8
+	quest_links: [
+		{
+			id: "21E595CA8BEA94AF"
+			linked_quest: "5338B6CDEA75CE2D"
+			shape: "gear"
+			size: 1.5d
+			x: 25.0d
+			y: 0.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"1D2312B21B27F74A"
+			]
+			description: [
+				"{gtia.quest.3A61F8B357B47A39.desc.0}"
+			]
+			icon: "gtceu:hv_machine_hull"
+			id: "3A61F8B357B47A39"
+			rewards: [ ]
+			shape: "circle"
+			size: 2.5d
+			subtitle: "{gtia.quest.3A61F8B357B47A39.subtitle}"
+			tasks: [
+				{
+					id: "2D4E613A4F9851C4"
+					type: "item"
+					item: "gtceu:hv_machine_hull"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.3A61F8B357B47A39.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3A61F8B357B47A39"
+			]
+			description: [
+				"{gtia.quest.7528896A52C0BCED.desc.0}"
+			]
+			icon: "minecraft:compass"
+			id: "7528896A52C0BCED"
+			optional: true
+			rewards: [ ]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{gtia.quest.7528896A52C0BCED.subtitle}"
+			tasks: [
+				{
+					id: "283C2B6C026151A0"
+					type: "checkmark"
+					title: "{gtia.quest.7528896A52C0BCED.task.283C2B6C026151A0}"
+				}
+			]
+			title: "{gtia.quest.7528896A52C0BCED.title}"
+			x: 0.0d
+			y: -2.75d
+		}
+		{
+			dependencies: [
+				"3A61F8B357B47A39"
+			]
+			description: [
+				"{gtia.quest.44CB086D95D875D4.desc.0}"
+			]
+			icon: "gtceu:hv_electric_motor"
+			id: "44CB086D95D875D4"
+			rewards: [ ]
+			shape: "circle"
+			size: 2.0d
+			subtitle: "{gtia.quest.44CB086D95D875D4.subtitle}"
+			tasks: [
+				{
+					id: "60A32A2C479FFC79"
+					type: "item"
+					item: "gtceu:hv_electric_motor"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.44CB086D95D875D4.title}"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"44CB086D95D875D4"
+			]
+			description: [
+				"{gtia.quest.1F28558BBD5ABB36.desc.0}"
+			]
+			icon: "gtceu:hv_macerator"
+			id: "1F28558BBD5ABB36"
+			rewards: [ ]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{gtia.quest.1F28558BBD5ABB36.subtitle}"
+			tasks: [
+				{
+					id: "1093D9D16A995111"
+					type: "item"
+					item: "gtceu:hv_macerator"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+				{
+					id: "4BF3FE515C0B3560"
+					type: "item"
+					item: "gtceu:hv_centrifuge"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+				{
+					id: "6BEDE2C9D440C4E1"
+					type: "item"
+					item: "gtceu:hv_electrolyzer"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.1F28558BBD5ABB36.title}"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"44CB086D95D875D4"
+			]
+			description: [
+				"{gtia.quest.7C75D8A25834AA53.desc.0}"
+			]
+			icon: "gtceu:hv_electric_piston"
+			id: "7C75D8A25834AA53"
+			rewards: [ ]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{gtia.quest.7C75D8A25834AA53.subtitle}"
+			tasks: [
+				{
+					id: "62112AA4A8D4A024"
+					type: "item"
+					item: "gtceu:hv_electric_piston"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.7C75D8A25834AA53.title}"
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"44CB086D95D875D4"
+			]
+			description: [
+				"{gtia.quest.2A7BE8CDAAA15AC7.desc.0}"
+			]
+			icon: "gtceu:hv_conveyor_module"
+			id: "2A7BE8CDAAA15AC7"
+			hide_dependent_lines: true
+			rewards: [ ]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{gtia.quest.2A7BE8CDAAA15AC7.subtitle}"
+			tasks: [
+				{
+					id: "746AA28F79F08311"
+					type: "item"
+					item: "gtceu:hv_conveyor_module"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.2A7BE8CDAAA15AC7.title}"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"44CB086D95D875D4"
+			]
+			description: [
+				"{gtia.quest.70447F5D8E3A371E.desc.0}"
+			]
+			icon: "gtceu:hv_electric_pump"
+			id: "70447F5D8E3A371E"
+			rewards: [ ]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{gtia.quest.70447F5D8E3A371E.subtitle}"
+			tasks: [
+				{
+					id: "45F336207A4B0D09"
+					type: "item"
+					item: "gtceu:hv_electric_pump"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.70447F5D8E3A371E.title}"
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"70447F5D8E3A371E"
+			]
+			description: [
+				"{gtia.quest.74DF073946E800DD.desc.0}"
+				""
+				"{gtia.quest.74DF073946E800DD.desc.2}"
+			]
+			icon: "gtceu:silicone_rubber_ingot"
+			id: "74DF073946E800DD"
+			rewards: [ ]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "{gtia.quest.74DF073946E800DD.subtitle}"
+			tasks: [
+				{
+					id: "025CC30C2EFDC791"
+					type: "item"
+					item: "gtceu:silicone_rubber_ingot"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.74DF073946E800DD.title}"
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"7C75D8A25834AA53"
+			]
+			description: [
+				"{gtia.quest.738186822A67033F.desc.0}"
+			]
+			icon: "gtceu:hv_robot_arm"
+			id: "738186822A67033F"
+			rewards: [ ]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{gtia.quest.738186822A67033F.subtitle}"
+			tasks: [
+				{
+					id: "4A38D3D3D3075A2E"
+					type: "item"
+					item: "gtceu:hv_robot_arm"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.738186822A67033F.title}"
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"738186822A67033F"
+			]
+			description: [
+				"{gtia.quest.1284D83DEFD434D9.desc.0}"
+			]
+			icon: "gtceu:auto_maintenance_hatch"
+			id: "1284D83DEFD434D9"
+			rewards: [ ]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{gtia.quest.1284D83DEFD434D9.subtitle}"
+			tasks: [
+				{
+					id: "31E0422A67F10DBA"
+					type: "item"
+					item: "gtceu:auto_maintenance_hatch"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.1284D83DEFD434D9.title}"
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"738186822A67033F"
+				"2A7BE8CDAAA15AC7"
+			]
+			description: [
+				"{gtia.quest.22D0D19E42F333B1.desc.0}"
+			]
+			icon: "gtceu:hv_assembler"
+			id: "22D0D19E42F333B1"
+			rewards: [ ]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{gtia.quest.22D0D19E42F333B1.subtitle}"
+			tasks: [
+				{
+					id: "4717AE5A64B50758"
+					type: "item"
+					item: "gtceu:hv_assembler"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.22D0D19E42F333B1.title}"
+			x: 10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"22D0D19E42F333B1"
+			]
+			description: [
+				"{gtia.quest.52BB45525E5B8C83.desc.0}"
+			]
+			icon: "gtceu:smd_resistor"
+			id: "52BB45525E5B8C83"
+			rewards: [ ]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{gtia.quest.52BB45525E5B8C83.subtitle}"
+			tasks: [
+				{
+					id: "599851403E02DAB8"
+					type: "item"
+					item: "gtceu:smd_resistor"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+				{
+					id: "46E2DEDF2BE5D69C"
+					type: "item"
+					item: "gtceu:smd_transistor"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+				{
+					id: "50155D9B068F8959"
+					type: "item"
+					item: "gtceu:smd_capacitor"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.52BB45525E5B8C83.title}"
+			x: 13.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"22D0D19E42F333B1"
+			]
+			description: [
+				"{gtia.quest.62593CA48D0E3F82.desc.0}"
+			]
+			icon: "gtceu:hv_voltage_coil"
+			id: "62593CA48D0E3F82"
+			rewards: [ ]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{gtia.quest.62593CA48D0E3F82.subtitle}"
+			tasks: [
+				{
+					id: "5C665F02BC8CB194"
+					type: "item"
+					item: "gtceu:hv_voltage_coil"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.62593CA48D0E3F82.title}"
+			x: 13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"3A61F8B357B47A39"
+			]
+			description: [
+				"{gtia.quest.59787607A3146FB1.desc.0}"
+			]
+			icon: "minecraft:ender_eye"
+			id: "59787607A3146FB1"
+			hide_dependency_lines: true
+			rewards: [ ]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{gtia.quest.59787607A3146FB1.subtitle}"
+			tasks: [
+				{
+					id: "42110211CAC65D93"
+					type: "item"
+					item: "minecraft:ender_eye"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.59787607A3146FB1.title}"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"59787607A3146FB1"
+				"44CB086D95D875D4"
+			]
+			description: [
+				"{gtia.quest.58B69F32DECBAC26.desc.0}"
+			]
+			icon: "gtceu:hv_emitter"
+			id: "58B69F32DECBAC26"
+			hide_dependent_lines: true
+			rewards: [ ]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{gtia.quest.58B69F32DECBAC26.subtitle}"
+			tasks: [
+				{
+					id: "1676646E2C5CD683"
+					type: "item"
+					item: "gtceu:hv_emitter"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+				{
+					id: "119D5121CD07C3E0"
+					type: "item"
+					item: "gtceu:hv_sensor"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.58B69F32DECBAC26.title}"
+			x: 10.5d
+			y: 0.0d
+			hide_dependency_lines: true
+		}
+		{
+			dependencies: [
+				"70447F5D8E3A371E"
+				"2A7BE8CDAAA15AC7"
+			]
+			description: [
+				"{gtia.quest.2AF997D420ADB7A3.desc.0}"
+			]
+			icon: "gtceu:hv_chemical_bath"
+			id: "2AF997D420ADB7A3"
+			rewards: [ ]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "{gtia.quest.2AF997D420ADB7A3.subtitle}"
+			tasks: [
+				{
+					id: "12A1CA862BC53951"
+					type: "item"
+					item: "gtceu:hv_chemical_bath"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.2AF997D420ADB7A3.title}"
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2AF997D420ADB7A3"
+			]
+			description: [
+				"{gtia.quest.5ECA2D711C47F7B9.desc.0}"
+			]
+			icon: "gtceu:orange_glass_lens"
+			id: "5ECA2D711C47F7B9"
+			rewards: [ ]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{gtia.quest.5ECA2D711C47F7B9.subtitle}"
+			tasks: [
+				{
+					id: "7623DFE8612B3DE5"
+					type: "item"
+					item: "gtceu:orange_glass_lens"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.5ECA2D711C47F7B9.title}"
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"5ECA2D711C47F7B9"
+			]
+			description: [
+				"{gtia.quest.0F7F6F5FB7E0BD1D.desc.0}"
+			]
+			icon: "gtceu:lpic_wafer"
+			id: "0F7F6F5FB7E0BD1D"
+			rewards: [ ]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{gtia.quest.0F7F6F5FB7E0BD1D.subtitle}"
+			tasks: [
+				{
+					id: "507A67E07C3C9161"
+					type: "item"
+					item: "gtceu:lpic_wafer"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.0F7F6F5FB7E0BD1D.title}"
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"1BC5E406FFE40EE3"
+			]
+			description: [
+				"{gtia.quest.20C8E2796070AE49.desc.0}"
+			]
+			icon: "gtceu:red_steel_ingot"
+			id: "20C8E2796070AE49"
+			rewards: [ ]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{gtia.quest.20C8E2796070AE49.subtitle}"
+			tasks: [
+				{
+					id: "70F58C22CEDE25F8"
+					type: "item"
+					item: "gtceu:red_steel_ingot"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+				{
+					id: "25B47E5E4EC57AFF"
+					type: "item"
+					item: "gtceu:red_steel_buzz_saw_blade"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.20C8E2796070AE49.title}"
+			x: 10.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"20C8E2796070AE49"
+				"2A7BE8CDAAA15AC7"
+			]
+			description: [
+				"{gtia.quest.1E5A60A9B6AD2F91.desc.0}"
+			]
+			icon: "gtceu:hv_cutter"
+			id: "1E5A60A9B6AD2F91"
+			rewards: [ ]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "{gtia.quest.1E5A60A9B6AD2F91.subtitle}"
+			tasks: [
+				{
+					id: "400E534B5A769597"
+					type: "item"
+					item: "gtceu:hv_cutter"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.1E5A60A9B6AD2F91.title}"
+			x: 13.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0F7F6F5FB7E0BD1D"
+				"1E5A60A9B6AD2F91"
+				"2A25DDDA023785A9"
+			]
+			description: [
+				"{gtia.quest.0BEEB750535DB630.desc.0}"
+			]
+			icon: "gtceu:lpic_chip"
+			id: "0BEEB750535DB630"
+			rewards: [ ]
+			shape: "circle"
+			size: 1.25d
+			subtitle: "{gtia.quest.0BEEB750535DB630.subtitle}"
+			tasks: [
+				{
+					id: "4792CDFE283549AD"
+					type: "item"
+					item: "gtceu:lpic_chip"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.0BEEB750535DB630.title}"
+			x: 15.5d
+			y: 2.5d
+			hide_dependency_lines: true
+		}
+		{
+			dependencies: [
+				"58924E6415175FE6"
+			]
+			description: [
+				"{gtia.quest.70ED06ECEFC524CB.desc.0}"
+			]
+			icon: "gtceu:sodium_potassium_bucket"
+			id: "70ED06ECEFC524CB"
+			rewards: [ ]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{gtia.quest.70ED06ECEFC524CB.subtitle}"
+			tasks: [
+				{
+					amount: 1000L
+					fluid: "gtceu:sodium_potassium"
+					id: "0D99B6C8EA0A6CEF"
+					type: "fluid"
+				}
+			]
+			title: "{gtia.quest.70ED06ECEFC524CB.title}"
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0BEEB750535DB630"
+				"62593CA48D0E3F82"
+				"70ED06ECEFC524CB"
+			]
+			description: [
+				"{gtia.quest.47022DC0A95F643C.desc.0}"
+			]
+			icon: "gtceu:hv_energy_input_hatch"
+			id: "47022DC0A95F643C"
+			rewards: [ ]
+			shape: "circle"
+			size: 2.0d
+			subtitle: "{gtia.quest.47022DC0A95F643C.subtitle}"
+			tasks: [
+				{
+					id: "7490DD41EF73199E"
+					type: "item"
+					item: "gtceu:hv_energy_input_hatch"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.47022DC0A95F643C.title}"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"62593CA48D0E3F82"
+				"0BEEB750535DB630"
+			]
+			description: [
+				"{gtia.quest.6AB7C87E7ACDF9DA.desc.0}"
+			]
+			icon: "gtceu:hv_energy_output_hatch"
+			id: "6AB7C87E7ACDF9DA"
+			hide_dependent_lines: true
+			rewards: [ ]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{gtia.quest.6AB7C87E7ACDF9DA.subtitle}"
+			tasks: [
+				{
+					id: "50BDC891B360A5AF"
+					type: "item"
+					item: "gtceu:hv_energy_output_hatch"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.6AB7C87E7ACDF9DA.title}"
+			x: 18.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"47022DC0A95F643C"
+				"336F0789AE0BA4D1"
+			]
+			description: [
+				"{gtia.quest.5EB34D156FFB861C.desc.0}"
+			]
+			icon: "typeomega:processing_plus"
+			id: "5EB34D156FFB861C"
+			optional: true
+			rewards: [ ]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{gtia.quest.5EB34D156FFB861C.subtitle}"
+			tasks: [
+				{
+					id: "672FB73B1310E84C"
+					type: "checkmark"
+					title: "{gtia.quest.5EB34D156FFB861C.task.672FB73B1310E84C}"
+				}
+			]
+			title: "{gtia.quest.5EB34D156FFB861C.title}"
+			x: 20.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"0BEEB750535DB630"
+			]
+			description: [
+				"{gtia.quest.4D3AE0AAD24F4479.desc.0}"
+			]
+			icon: "gtceu:hv_transformer_1a"
+			id: "4D3AE0AAD24F4479"
+			rewards: [ ]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{gtia.quest.4D3AE0AAD24F4479.subtitle}"
+			tasks: [
+				{
+					id: "1B795EAB6F9627B1"
+					type: "item"
+					item: "gtceu:hv_transformer_1a"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.4D3AE0AAD24F4479.title}"
+			x: 18.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"3A61F8B357B47A39"
+				"7E0695B61E847F30"
+			]
+			description: [
+				"{gtia.quest.776434F27DFAF2F4.desc.0}"
+			]
+			icon: "gtceu:hv_lithium_battery"
+			id: "776434F27DFAF2F4"
+			hide_dependency_lines: true
+			rewards: [ ]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{gtia.quest.776434F27DFAF2F4.subtitle}"
+			tasks: [
+				{
+					id: "1B685588AB163A6E"
+					type: "item"
+					item: "gtceu:hv_lithium_battery"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+				{
+					id: "06756B3678A993BB"
+					type: "item"
+					item: "gtceu:hv_battery_buffer_4x"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.776434F27DFAF2F4.title}"
+			x: 18.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1F7510E76EBAA11D"
+			]
+			description: [
+				"{gtia.quest.513CF304F4C9398C.desc.0}"
+			]
+			icon: "minecraft:compass"
+			id: "513CF304F4C9398C"
+			optional: true
+			rewards: [ ]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{gtia.quest.513CF304F4C9398C.subtitle}"
+			tasks: [
+				{
+					id: "47F5F4AE39B765C9"
+					type: "checkmark"
+					title: "{gtia.quest.513CF304F4C9398C.task.47F5F4AE39B765C9}"
+				}
+			]
+			title: "{gtia.quest.513CF304F4C9398C.title}"
+			x: 23.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1F7510E76EBAA11D"
+			]
+			description: [
+				"{gtia.quest.03D20B5473931CAE.desc.0}"
+			]
+			icon: "gtna:wireless_energy_hatch_1a_hv"
+			id: "03D20B5473931CAE"
+			optional: true
+			rewards: [ ]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{gtia.quest.03D20B5473931CAE.subtitle}"
+			tasks: [
+				{
+					id: "39EE198BADE31633"
+					type: "checkmark"
+					title: "{gtia.quest.03D20B5473931CAE.task.39EE198BADE31633}"
+				}
+			]
+			title: "{gtia.quest.03D20B5473931CAE.title}"
+			x: 26.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"1F7510E76EBAA11D"
+				"58B69F32DECBAC26"
+			]
+			description: [
+				"{gtia.quest.3C2D1FC738BD5E69.desc.0}"
+			]
+			icon: "gtna:wireless_energy_hatch_1a_hv"
+			id: "3C2D1FC738BD5E69"
+			rewards: [ ]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{gtia.quest.3C2D1FC738BD5E69.subtitle}"
+			tasks: [
+				{
+					id: "3378EA67D41B28BB"
+					type: "item"
+					item: "gtna:wireless_energy_hatch_1a_hv"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.3C2D1FC738BD5E69.title}"
+			x: 26.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"1F7510E76EBAA11D"
+				"6AB7C87E7ACDF9DA"
+				"58B69F32DECBAC26"
+			]
+			description: [
+				"{gtia.quest.56C5B8D2880A85CC.desc.0}"
+			]
+			icon: "gtna:wireless_dynamo_hatch_1a_hv"
+			id: "56C5B8D2880A85CC"
+			rewards: [ ]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{gtia.quest.56C5B8D2880A85CC.subtitle}"
+			tasks: [
+				{
+					id: "5F2A8D562A42AE1F"
+					type: "item"
+					item: "gtna:wireless_dynamo_hatch_1a_hv"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.56C5B8D2880A85CC.title}"
+			x: 26.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3A61F8B357B47A39"
+			]
+			description: [
+				"{gtia.quest.5866F5B052CA362A.desc.0}"
+			]
+			icon: "gtceu:filter_casing"
+			id: "5866F5B052CA362A"
+			rewards: [ ]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{gtia.quest.5866F5B052CA362A.subtitle}"
+			tasks: [
+				{
+					id: "2F8DE0BDC266A386"
+					type: "item"
+					item: "gtceu:filter_casing"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.5866F5B052CA362A.title}"
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"5866F5B052CA362A"
+				"44CB086D95D875D4"
+			]
+			description: [
+				"{gtia.quest.2A25DDDA023785A9.desc.0}"
+			]
+			icon: "gtceu:cleanroom"
+			id: "2A25DDDA023785A9"
+			rewards: [ ]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{gtia.quest.2A25DDDA023785A9.subtitle}"
+			tasks: [
+				{
+					id: "62C264A15CC3572B"
+					type: "item"
+					item: "gtceu:cleanroom"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.2A25DDDA023785A9.title}"
+			x: 5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"2A25DDDA023785A9"
+			]
+			description: [
+				"{gtia.quest.04396B388269E3DD.desc.0}"
+			]
+			icon: "gtceu:filter_casing"
+			id: "04396B388269E3DD"
+			optional: true
+			rewards: [ ]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{gtia.quest.04396B388269E3DD.subtitle}"
+			tasks: [
+				{
+					id: "27799262A22983CC"
+					type: "checkmark"
+					title: "{gtia.quest.04396B388269E3DD.task.27799262A22983CC}"
+				}
+			]
+			title: "{gtia.quest.04396B388269E3DD.title}"
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"6A00F56C2B42C8CB"
+				"67BECA99A2CC9560"
+			]
+			description: [
+				"{gtia.quest.26AB1911F70FCD57.desc.0}"
+			]
+			icon: "gtceu:inductor"
+			id: "26AB1911F70FCD57"
+			rewards: [ ]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{gtia.quest.26AB1911F70FCD57.subtitle}"
+			tasks: [
+				{
+					id: "48FF78FA8A5E76FE"
+					type: "item"
+					item: "gtceu:inductor"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.26AB1911F70FCD57.title}"
+			x: 5.5d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"26AB1911F70FCD57"
+				"639BF560AAC52206"
+			]
+			description: [
+				"{gtia.quest.13D45A44B6AE366A.desc.0}"
+			]
+			icon: "gtceu:micro_processor_assembly"
+			id: "13D45A44B6AE366A"
+			rewards: [ ]
+			shape: "circle"
+			size: 2.0d
+			subtitle: "{gtia.quest.13D45A44B6AE366A.subtitle}"
+			tasks: [
+				{
+					id: "486D0CB005D7E601"
+					type: "item"
+					item: "gtceu:micro_processor_assembly"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.13D45A44B6AE366A.title}"
+			x: 8.0d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"3F959B7ECA7E2421"
+			]
+			description: [
+				"{gtia.quest.2929CCDC53E58FDF.desc.0}"
+			]
+			icon: "gtceu:blue_alloy_ingot"
+			id: "2929CCDC53E58FDF"
+			rewards: [ ]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{gtia.quest.2929CCDC53E58FDF.subtitle}"
+			tasks: [
+				{
+					id: "620FF332D4472D80"
+					type: "item"
+					item: "gtceu:blue_alloy_ingot"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+				{
+					id: "4E9ADB037C986053"
+					type: "item"
+					item: "gtceu:blue_alloy_bolt"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.2929CCDC53E58FDF.title}"
+			x: 10.5d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"13D45A44B6AE366A"
+				"2929CCDC53E58FDF"
+				"2A25DDDA023785A9"
+			]
+			description: [
+				"{gtia.quest.0AA6E7198DC43E75.desc.0}"
+			]
+			icon: "gtceu:micro_processor_computer"
+			id: "0AA6E7198DC43E75"
+			rewards: [ ]
+			shape: "circle"
+			size: 2.0d
+			subtitle: "{gtia.quest.0AA6E7198DC43E75.subtitle}"
+			tasks: [
+				{
+					id: "3C65F35DA017E3D2"
+					type: "item"
+					item: "gtceu:micro_processor_computer"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.0AA6E7198DC43E75.title}"
+			x: 13.0d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"0AA6E7198DC43E75"
+				"58B69F32DECBAC26"
+				"738186822A67033F"
+			]
+			description: [
+				"{gtia.quest.4A7E4BF9BA8243FE.desc.0}"
+			]
+			icon: "gtceu:hv_circuit_assembler"
+			id: "4A7E4BF9BA8243FE"
+			rewards: [ ]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "{gtia.quest.4A7E4BF9BA8243FE.subtitle}"
+			tasks: [
+				{
+					id: "60E8E4B283B3A8A3"
+					type: "item"
+					item: "gtceu:hv_circuit_assembler"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.4A7E4BF9BA8243FE.title}"
+			x: 15.5d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"4A7E4BF9BA8243FE"
+			]
+			description: [
+				"{gtia.quest.24520172BED37E87.desc.0}"
+			]
+			icon: "gtceu:micro_processor_mainframe"
+			id: "24520172BED37E87"
+			rewards: [ ]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{gtia.quest.24520172BED37E87.subtitle}"
+			tasks: [
+				{
+					id: "45EBD244547B2C8A"
+					type: "item"
+					item: "gtceu:micro_processor_mainframe"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.24520172BED37E87.title}"
+			x: 18.0d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"0AA6E7198DC43E75"
+				"70447F5D8E3A371E"
+				"7977D689BD41C031"
+			]
+			description: [
+				"{gtia.quest.28218EBE936F9C83.desc.0}"
+			]
+			icon: "gtceu:distillation_tower"
+			id: "28218EBE936F9C83"
+			rewards: [ ]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{gtia.quest.28218EBE936F9C83.subtitle}"
+			tasks: [
+				{
+					id: "56B5FF7513257430"
+					type: "item"
+					item: "gtceu:distillation_tower"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.28218EBE936F9C83.title}"
+			x: 15.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"28218EBE936F9C83"
+			]
+			description: [
+				"{gtia.quest.23AA613AD2715F79.desc.0}"
+			]
+			icon: "gtceu:lubricant_bucket"
+			id: "23AA613AD2715F79"
+			rewards: [ ]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{gtia.quest.23AA613AD2715F79.subtitle}"
+			tasks: [
+				{
+					amount: 1000L
+					fluid: "gtceu:lubricant"
+					id: "21371DA4752A55B3"
+					type: "fluid"
+				}
+			]
+			title: "{gtia.quest.23AA613AD2715F79.title}"
+			x: 18.0d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"28218EBE936F9C83"
+				"7C61E0CAF3E2A6D2"
+			]
+			description: [
+				"{gtia.quest.7B1319AA86A6DC20.desc.0}"
+				""
+				"{gtia.quest.7B1319AA86A6DC20.desc.2}"
+			]
+			icon: "gtceu:naphtha_bucket"
+			id: "7B1319AA86A6DC20"
+			rewards: [ ]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "{gtia.quest.7B1319AA86A6DC20.subtitle}"
+			tasks: [
+				{
+					amount: 1000L
+					fluid: "gtceu:naphtha"
+					id: "471C68C8A7EBE66C"
+					type: "fluid"
+				}
+			]
+			title: "{gtia.quest.7B1319AA86A6DC20.title}"
+			x: 18.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"7B1319AA86A6DC20"
+			]
+			description: [
+				"{gtia.quest.268DEADC8B5E530C.desc.0}"
+			]
+			icon: "gtceu:cracker"
+			id: "268DEADC8B5E530C"
+			rewards: [ ]
+			shape: "gear"
+			size: 1.25d
+			subtitle: "{gtia.quest.268DEADC8B5E530C.subtitle}"
+			tasks: [
+				{
+					id: "5508E1A714CD4E26"
+					type: "item"
+					item: "gtceu:cracker"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.268DEADC8B5E530C.title}"
+			x: 20.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"7B1319AA86A6DC20"
+			]
+			description: [
+				"{gtia.quest.62929258C680F380.desc.0}"
+			]
+			icon: "gtceu:hv_gas_turbine"
+			id: "62929258C680F380"
+			rewards: [ ]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{gtia.quest.62929258C680F380.subtitle}"
+			tasks: [
+				{
+					id: "586626FBE49E71CF"
+					type: "item"
+					item: "gtceu:hv_gas_turbine"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.62929258C680F380.title}"
+			x: 20.5d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"0AA6E7198DC43E75"
+				"70447F5D8E3A371E"
+				"267C6E35C250AD66"
+			]
+			description: [
+				"{gtia.quest.24B8509CC132F0E5.desc.0}"
+			]
+			icon: "gtceu:vacuum_freezer"
+			id: "24B8509CC132F0E5"
+			rewards: [ ]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{gtia.quest.24B8509CC132F0E5.subtitle}"
+			tasks: [
+				{
+					id: "380E0648FF36718F"
+					type: "item"
+					item: "gtceu:vacuum_freezer"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.24B8509CC132F0E5.title}"
+			x: 15.5d
+			y: -9.5d
+			hide_dependency_lines: true
+		}
+		{
+			dependencies: [
+				"24B8509CC132F0E5"
+			]
+			description: [
+				"{gtia.quest.2165F42A8E2BAB6F.desc.0}"
+				""
+				"{gtia.quest.2165F42A8E2BAB6F.desc.2}"
+			]
+			icon: "gtceu:liquid_air_bucket"
+			id: "2165F42A8E2BAB6F"
+			rewards: [ ]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "{gtia.quest.2165F42A8E2BAB6F.subtitle}"
+			tasks: [
+				{
+					amount: 1000L
+					fluid: "gtceu:liquid_air"
+					id: "7FFD463E246091B9"
+					type: "fluid"
+				}
+			]
+			title: "{gtia.quest.2165F42A8E2BAB6F.title}"
+			x: 15.5d
+			y: -6.75d
+		}
+		{
+			dependencies: [
+				"24B8509CC132F0E5"
+			]
+			description: [
+				"{gtia.quest.01E28A1803F38B4A.desc.0}"
+			]
+			icon: "gtceu:magnesium_diboride_ingot"
+			id: "01E28A1803F38B4A"
+			rewards: [ ]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{gtia.quest.01E28A1803F38B4A.subtitle}"
+			tasks: [
+				{
+					id: "7A28CCC837517EA1"
+					type: "item"
+					item: "gtceu:magnesium_diboride_ingot"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.01E28A1803F38B4A.title}"
+			x: 18.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"01E28A1803F38B4A"
+				"59787607A3146FB1"
+			]
+			description: [
+				"{gtia.quest.55773C0FE587BE72.desc.0}"
+			]
+			icon: "gtceu:mv_field_generator"
+			id: "55773C0FE587BE72"
+			rewards: [ ]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{gtia.quest.55773C0FE587BE72.subtitle}"
+			tasks: [
+				{
+					id: "2F81746E91EE83E2"
+					type: "item"
+					item: "gtceu:mv_field_generator"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.55773C0FE587BE72.title}"
+			x: 20.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"24B8509CC132F0E5"
+			]
+			description: [
+				"{gtia.quest.74480582A23CD586.desc.0}"
+			]
+			icon: "gtceu:nichrome_ingot"
+			id: "74480582A23CD586"
+			rewards: [ ]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{gtia.quest.74480582A23CD586.subtitle}"
+			tasks: [
+				{
+					id: "243EF071A2801CFD"
+					type: "item"
+					item: "gtceu:nichrome_ingot"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.74480582A23CD586.title}"
+			x: 18.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"74480582A23CD586"
+				"22D0D19E42F333B1"
+			]
+			description: [
+				"{gtia.quest.4FC1307D623EB1A0.desc.0}"
+			]
+			icon: "gtceu:nichrome_coil_block"
+			id: "4FC1307D623EB1A0"
+			rewards: [ ]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{gtia.quest.4FC1307D623EB1A0.subtitle}"
+			tasks: [
+				{
+					id: "589E7D5912F97A4D"
+					type: "item"
+					item: "gtceu:nichrome_coil_block"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.4FC1307D623EB1A0.title}"
+			x: 20.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"44CB086D95D875D4"
+			]
+			description: [
+				"{gtia.quest.40A07F7EAA8622EA.desc.0}"
+			]
+			icon: "gtceu:hv_chemical_reactor"
+			id: "40A07F7EAA8622EA"
+			rewards: [ ]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "{gtia.quest.40A07F7EAA8622EA.subtitle}"
+			tasks: [
+				{
+					id: "044EAD6412CFC9AC"
+					type: "item"
+					item: "gtceu:hv_chemical_reactor"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.40A07F7EAA8622EA.title}"
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"40A07F7EAA8622EA"
+				"59557BA3E17B5A83"
+			]
+			description: [
+				"{gtia.quest.465CD040F6D37388.desc.0}"
+				""
+				"{gtia.quest.465CD040F6D37388.desc.2}"
+			]
+			icon: "gtceu:tetrafluoroethylene_bucket"
+			id: "465CD040F6D37388"
+			rewards: [ ]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "{gtia.quest.465CD040F6D37388.subtitle}"
+			tasks: [
+				{
+					amount: 1000L
+					fluid: "gtceu:tetrafluoroethylene"
+					id: "06467BF9D911E018"
+					type: "fluid"
+				}
+			]
+			title: "{gtia.quest.465CD040F6D37388.title}"
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"465CD040F6D37388"
+			]
+			description: [
+				"{gtia.quest.456D70AFB9508750.desc.0}"
+			]
+			icon: "gtceu:polytetrafluoroethylene_ingot"
+			id: "456D70AFB9508750"
+			rewards: [ ]
+			shape: "circle"
+			size: 1.25d
+			subtitle: "{gtia.quest.456D70AFB9508750.subtitle}"
+			tasks: [
+				{
+					id: "611E96A4BF9B87F7"
+					type: "item"
+					item: "gtceu:polytetrafluoroethylene_ingot"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.456D70AFB9508750.title}"
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"456D70AFB9508750"
+			]
+			description: [
+				"{gtia.quest.4E855206AB78A60E.desc.0}"
+			]
+			icon: "gtceu:inert_machine_casing"
+			id: "4E855206AB78A60E"
+			rewards: [ ]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{gtia.quest.4E855206AB78A60E.subtitle}"
+			tasks: [
+				{
+					id: "714F5C07D377612D"
+					type: "item"
+					item: "gtceu:inert_machine_casing"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.4E855206AB78A60E.title}"
+			x: 13.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"4E855206AB78A60E"
+				"7977D689BD41C031"
+				"267C6E35C250AD66"
+			]
+			description: [
+				"{gtia.quest.402519C2C61633D7.desc.0}"
+			]
+			icon: "typeomega:mixing_plus"
+			id: "402519C2C61633D7"
+			rewards: [ ]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{gtia.quest.402519C2C61633D7.subtitle}"
+			tasks: [
+				{
+					id: "1495FCC7474F6526"
+					type: "item"
+					item: "typeomega:mixing_plus"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.402519C2C61633D7.title}"
+			x: 15.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"4E855206AB78A60E"
+			]
+			description: [
+				"{gtia.quest.5477184F53F22640.desc.0}"
+			]
+			icon: "gtceu:large_chemical_reactor"
+			id: "5477184F53F22640"
+			rewards: [ ]
+			shape: "gear"
+			size: 1.25d
+			subtitle: "{gtia.quest.5477184F53F22640.subtitle}"
+			tasks: [
+				{
+					id: "5B957D41DDB17D59"
+					type: "item"
+					item: "gtceu:large_chemical_reactor"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.5477184F53F22640.title}"
+			x: 13.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"3A61F8B357B47A39"
+			]
+			description: [
+				"{gtia.quest.3B0326F6ED523439.desc.0}"
+			]
+			icon: "gtceu:hv_rotor_holder"
+			id: "3B0326F6ED523439"
+			hide_dependency_lines: true
+			rewards: [ ]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{gtia.quest.3B0326F6ED523439.subtitle}"
+			tasks: [
+				{
+					id: "044B36BE31A32192"
+					type: "item"
+					item: "gtceu:hv_rotor_holder"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.3B0326F6ED523439.title}"
+			x: 10.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"22D0D19E42F333B1"
+			]
+			description: [
+				"{gtia.quest.1A411E44EE338918.desc.0}"
+			]
+			icon: "gtceu:turbine_rotor"
+			id: "1A411E44EE338918"
+			hide_dependency_lines: true
+			rewards: [ ]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{gtia.quest.1A411E44EE338918.subtitle}"
+			tasks: [
+				{
+					id: "72695C41311DA530"
+					type: "item"
+					item: "gtceu:turbine_rotor"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.1A411E44EE338918.title}"
+			x: 10.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"3B0326F6ED523439"
+				"1A411E44EE338918"
+				"7D3EE80E6AC2C461"
+			]
+			description: [
+				"{gtia.quest.556C06C87CBBA4CC.desc.0}"
+			]
+			icon: "gtceu:steam_large_turbine"
+			id: "556C06C87CBBA4CC"
+			rewards: [ ]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{gtia.quest.556C06C87CBBA4CC.subtitle}"
+			tasks: [
+				{
+					id: "0051C791743F1CAB"
+					type: "item"
+					item: "gtceu:steam_large_turbine"
+					count: 1L
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			title: "{gtia.quest.556C06C87CBBA4CC.title}"
+			x: 13.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"47022DC0A95F643C"
+				"4D3AE0AAD24F4479"
+				"776434F27DFAF2F4"
+				"0AA6E7198DC43E75"
+			]
+			description: [
+				"{gtia.quest.1F7510E76EBAA11D.desc.0}"
+				""
+				"{gtia.quest.1F7510E76EBAA11D.desc.2}"
+				""
+				"{gtia.quest.1F7510E76EBAA11D.desc.4}"
+			]
+			icon: "gtceu:power_substation"
+			id: "1F7510E76EBAA11D"
+			rewards: [ ]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "{gtia.quest.1F7510E76EBAA11D.subtitle}"
+			tasks: [
+				{
+					id: "5C5B51E8724C3FC5"
+					type: "checkmark"
+					title: "{gtia.quest.1F7510E76EBAA11D.task.5C5B51E8724C3FC5}"
+				}
+			]
+			title: "{gtia.quest.1F7510E76EBAA11D.title}"
+			x: 23.0d
+			y: 0.0d
+			hide_dependency_lines: true
+		}
+	]
+	title: "{gtia.quest.chapter.159220D6FDD9752B}"
+	images: [
+		{
+			alpha: 255
+			click: ""
+			color: 16777215
+			corner: false
+			dev: false
+			height: 89.25d
+			hover: [ ]
+			image: "gtia_quests:textures/quests/backgrounds/hv.png"
+			order: -100
+			rotation: 0.0d
+			width: 89.25d
+			x: 12.625d
+			y: -1.375d
+		}
+	]
+}

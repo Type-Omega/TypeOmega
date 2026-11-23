@@ -5,8 +5,8 @@ key = "start"
 title = "Start"
 
 [[group]]
-key = "ascensions"
-title = "Ascensions"
+key = "type0"
+title = "Type 0"
 
 [[group]]
 key = "systems"
@@ -39,51 +39,111 @@ texture = "start"
 kind = "migrated"      # the author's approved chapter, read from start.original.snbt
 group = "start"
 order = 1
-next = "steam"
+next = "type0_0_first_fire"
 banner = "start"
 
+# GTIA-D-421: the Type 0 book (0.0 to 0.8), a development beta generated from the approved drafts by
+# tools/draft_to_questsrc.py. It replaces the Steam, LV, MV, HV, Power Generation and Wireless chapters
+# (sources in quests-src/legacy/). Positions are the drafts' own (layout = "fixed"). beta = true: the drafts ask for
+# recipes the core does not have yet (D-406 to D-424), so the reachability findings there are notes, not errors.
+
 [[chapter]]
-file = "steam"
+file = "type0_0_first_fire"
+layout = "fixed"
+background = "#4E4E52"
+texture = "start"
+kind = "generated"
+beta = true      # reachability and layout findings are notes (GTIA-D-421)
+group = "type0"
+order = 2
+next = "type0_1_steam_steel"
+
+[[chapter]]
+file = "type0_1_steam_steel"
 layout = "fixed"
 background = "#7A5126"
 texture = "steam"
 kind = "generated"
-group = "ascensions"
-banner = "steam"
-order = 2
-next = "lv"
+beta = true      # reachability and layout findings are notes (GTIA-D-421)
+group = "type0"
+order = 3
+next = "type0_2_electricity"
 
 [[chapter]]
-file = "lv"
+file = "type0_2_electricity"
 layout = "fixed"
 background = "#4C5259"
 texture = "lv"
 kind = "generated"
-group = "ascensions"
-banner = "lv"
-order = 3
-next = "mv"
+beta = true      # reachability and layout findings are notes (GTIA-D-421)
+group = "type0"
+order = 4
+next = "type0_3_blast_furnace"
 
 [[chapter]]
-file = "mv"
+file = "type0_3_blast_furnace"
+layout = "fixed"
+background = "#4C5259"
+texture = "lv"
+kind = "generated"
+beta = true      # reachability and layout findings are notes (GTIA-D-421)
+group = "type0"
+order = 5
+next = "type0_4_medium_voltage"
+
+[[chapter]]
+file = "type0_4_medium_voltage"
 layout = "fixed"
 background = "#1F4C8C"
 texture = "mv"
 kind = "generated"
-group = "ascensions"
-banner = "mv"
-order = 4
-next = "hv"
+beta = true      # reachability and layout findings are notes (GTIA-D-421)
+group = "type0"
+order = 6
+next = "type0_5_end_of_mv"
 
 [[chapter]]
-file = "hv"
+file = "type0_5_end_of_mv"
+layout = "fixed"
+background = "#1F4C8C"
+texture = "mv"
+kind = "generated"
+beta = true      # reachability and layout findings are notes (GTIA-D-421)
+group = "type0"
+order = 7
+next = "type0_6_power_grid"
+
+[[chapter]]
+file = "type0_6_power_grid"
 layout = "fixed"
 background = "#C9CFD8"
 texture = "hv"
 kind = "generated"
-group = "ascensions"
-banner = "hv"
-order = 5
+beta = true      # reachability and layout findings are notes (GTIA-D-421)
+group = "type0"
+order = 8
+next = "type0_7_moon"
+
+[[chapter]]
+file = "type0_7_moon"
+layout = "fixed"
+background = "#C9CFD8"
+texture = "hv"
+kind = "generated"
+beta = true      # reachability and layout findings are notes (GTIA-D-421)
+group = "type0"
+order = 9
+next = "type0_8_fusion"
+
+[[chapter]]
+file = "type0_8_fusion"
+layout = "fixed"
+background = "#6B4C8C"
+texture = "ev"
+kind = "generated"
+beta = true      # reachability and layout findings are notes (GTIA-D-421)
+group = "type0"
+order = 10
 
 [[chapter]]
 file = "agriculture"
@@ -91,7 +151,7 @@ background = "#2F5A2C"
 texture = "agriculture"
 kind = "generated"
 group = "systems"
-order = 6
+order = 11
 layout = "layered"
 banner = "agriculture"
 
@@ -101,26 +161,9 @@ background = "#8A6A1C"
 texture = "bees"
 kind = "generated"
 group = "systems"
-order = 7
+order = 12
 layout = "layered"
 banner = "bees"
-
-[[chapter]]
-file = "energy"
-background = "#5E5220"
-texture = "energy"
-kind = "generated"
-group = "systems"
-order = 8
-
-[[chapter]]
-file = "wireless"
-background = "#1D5E61"
-texture = "wireless"
-kind = "generated"
-legacy = true   # GTIA-D-351: redone with the quest atlas after Start to MV (Flux Matrix in HV)
-group = "systems"
-order = 9
 
 [[chapter]]
 file = "multiblocks"
@@ -128,7 +171,7 @@ background = "#30343B"
 texture = "reference"
 kind = "multiblocks"   # every multiblock of the pack, from quests-src/multiblocks.toml (tools/multiblock_goals.py)
 group = "reference"
-order = 10
+order = 13
 
 [[chapter]]
 file = "periodic"
@@ -136,4 +179,4 @@ background = "#30343B"
 texture = "reference"
 kind = "periodic"      # one quest per element, built from manifest/registry/elements.tsv
 group = "reference"
-order = 11
+order = 14

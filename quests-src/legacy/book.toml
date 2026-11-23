@@ -1,0 +1,67 @@
+# Chapters of the GT:IA book that the Type 0 beta replaced (GTIA-D-421), kept as they were in quests-src/book.toml.
+# Their sources are in this folder (and layout/ for the "gtnh" layout). To bring one back, move its TOML to
+# quests-src/ and its [[chapter]] block back to quests-src/book.toml.
+
+[[group]]
+key = "ascensions"
+title = "Ascensions"
+
+[[chapter]]
+file = "steam"
+layout = "fixed"
+background = "#7A5126"
+texture = "steam"
+kind = "generated"
+group = "ascensions"
+banner = "steam"
+order = 2
+next = "lv"
+
+[[chapter]]
+file = "lv"
+layout = "fixed"
+background = "#4C5259"
+texture = "lv"
+kind = "generated"
+group = "ascensions"
+banner = "lv"
+order = 3
+next = "mv"
+
+[[chapter]]
+file = "mv"
+layout = "fixed"
+background = "#1F4C8C"
+texture = "mv"
+kind = "generated"
+group = "ascensions"
+banner = "mv"
+order = 4
+next = "hv"
+
+[[chapter]]
+file = "hv"
+layout = "fixed"
+background = "#C9CFD8"
+texture = "hv"
+kind = "generated"
+group = "ascensions"
+banner = "hv"
+order = 5
+
+[[chapter]]
+file = "energy"
+background = "#5E5220"
+texture = "energy"
+kind = "generated"
+group = "systems"
+order = 8
+
+[[chapter]]
+file = "wireless"
+background = "#1D5E61"
+texture = "wireless"
+kind = "generated"
+legacy = true   # GTIA-D-351: redone with the quest atlas after Start to MV (Flux Matrix in HV)
+group = "systems"
+order = 9

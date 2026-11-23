@@ -413,8 +413,9 @@ class Book:
 
         # entry
         entry = spec["entry"]
-        add("entry", "entry", "spine", 0, 0, meta["title"], entry["subtitle"], entry["text"],
-            check_task("entry", entry.get("task", "Begin")), [self.resolve(file, r) for r in entry.get("requires", [])],
+        add("entry", "entry", "spine", 0, 0, entry.get("title", meta["title"]), entry["subtitle"], entry["text"],
+            tasks_of("entry", entry["task"]) if isinstance(entry.get("task"), list)
+            else check_task("entry", entry.get("task", "Begin")), [self.resolve(file, r) for r in entry.get("requires", [])],
             icon=meta["icon"], rewards=entry.get("reward"), extra=extra_of(entry))
 
         for quest in spec.get("quest", []):
@@ -642,12 +643,12 @@ class Book:
                  "other": "Wonders and Oddities"}
         tiers = {"steam": ("Steam Age Goals", "gtceu:lp_steam_solid_boiler", "start/Ready for Steam",
                            [{"item": "gtceu:bronze_ingot"}]),
-                 "lv": ("LV Goals", "gtceu:lv_machine_hull", "lv:entry", None),
-                 "mv": ("MV Goals", "gtceu:mv_machine_hull", "mv:entry", None),
-                 "hv": ("HV Goals", "gtceu:hv_machine_hull", "hv:entry", None)}
+                 "lv": ("LV Goals", "gtceu:lv_machine_hull", "type0_2_electricity:entry", None),
+                 "mv": ("MV Goals", "gtceu:mv_machine_hull", "type0_4_medium_voltage:entry", None),
+                 "hv": ("HV Goals", "gtceu:hv_machine_hull", "type0_6_power_grid:entry", None)}
         for row in rows[4:]:
             label = "UHV and Beyond Goals" if row == "uhv" else f"{row.upper() if row != 'luv' else 'LuV'} Goals"
-            tiers[row] = (label, f"gtceu:{row}_machine_hull", "hv:exit", None)
+            tiers[row] = (label, f"gtceu:{row}_machine_hull", "type0_8_fusion:casco_ev", None)
         # D-295: each goal gives a small pack of its row's metal, as GTNH's goals do; the reachability check makes sure
         # the metal can be made by the time the row opens.
         pack = {"steam": ("gtceu:bronze_ingot", 4), "lv": ("gtceu:steel_ingot", 4), "mv": ("gtceu:aluminium_ingot", 4),
@@ -978,6 +979,7 @@ def check_layout(book, quests_by_id, chapter_of, errors, notes) -> None:
     D-275/D-276: like GTO's books, crossings and long lines are allowed (reported as notes); a line over a quest is not."""
     import math
     checked = {c["file"] for c in book.chapters if c["kind"] == "generated" and not c.get("legacy")}
+    beta = {c["file"] for c in book.chapters if c.get("beta")}
     for file in sorted(checked):
         quests = {qid: q for qid, q in quests_by_id.items() if chapter_of[qid] == file}
         pos = {qid: (snbt.number(q["x"]), snbt.number(q["y"]), snbt.number(q.get("size", "1.0d"))) for qid, q in quests.items()}
@@ -999,7 +1001,7 @@ def check_layout(book, quests_by_id, chapter_of, errors, notes) -> None:
                     continue
                 u = max(0.0, min(1.0, ((cx - ax) * (bx - ax) + (cy - ay) * (by - ay)) / length ** 2))
                 if math.hypot(ax + u * (bx - ax) - cx, ay + u * (by - ay) - cy) < size * 0.45:
-                    errors.append(f"{file}: line {title(a)!r} -> {title(b)!r} runs over {title(c)!r}")
+                    (notes if file in beta else errors).append(f"{file}: line {title(a)!r} -> {title(b)!r} runs over {title(c)!r}")
 
         def cross(p1, p2, p3, p4):
             d = lambda a, b, c: (b[0] - a[0]) * (c[1] - a[1]) - (b[1] - a[1]) * (c[0] - a[0])
@@ -1024,6 +1026,7 @@ def check_reachability(book, quests_by_id, chapter_of, all_ids, errors, notes) -
         return
     book.build()  # fills allowed_machine_rewards
     legacy = {c["file"] for c in book.chapters if c.get("legacy")}
+    beta = {c["file"] for c in book.chapters if c.get("beta")}
     quests = {qid: q for qid, q in quests_by_id.items() if chapter_of[qid] not in ("periodic", "multiblocks")}
     for qid, q in quests.items():
         q["_allow_machine_reward"] = sorted(book.allowed_machine_rewards.get(qid, ()))
@@ -1036,6 +1039,11 @@ def check_reachability(book, quests_by_id, chapter_of, all_ids, errors, notes) -
             notes.append(f"{all_ids[qid]} (pending: {book.pending[qid]}): {message}")
         elif chapter_of[qid] in legacy:
             notes.append(f"{all_ids[qid]} (chapter not rewritten yet): {message}")
+        elif chapter_of[qid] in beta:
+            # EN: GTIA-D-421: the Type 0 book is a development beta drawn ahead of the recipe changes it needs.
+            # PT: GTIA-D-421: o livro do Tipo 0 é um beta de desenvolvimento desenhado antes das receitas que pede.
+            # ZH: GTIA-D-421：0 型任务书是开发测试版，先于其所需的配方改动绘制。
+            notes.append(f"{all_ids[qid]} (beta chapter): {message}")
         else:
             errors.append(f"{all_ids[qid]}: {message}")
 

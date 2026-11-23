@@ -242,27 +242,15 @@ hash = "7e88163a0edc7f75f7b0d79bc700f262cb80d6bf522f1dc150369069e54805da"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "a591cef12157c4cd00f7d32ea87a62cf829eb37881bb899d33cd59d8236596af"
+hash = "97cf24a5c694be67b73def73f282c1b3b53746fe3e6f97a06b7d035c59820ca4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/agriculture.snbt"
-hash = "0bf3e17fd260907ecff1b4aee4ff6422f3a6dfa493645d8937ff0ae63a9ba513"
+hash = "a31533bbe9d610021eec82c583b0a481ab0de1aba5eb198215a7e91643064c46"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bees.snbt"
-hash = "6a67f37c572edab071aeea95bb106d1ab9088521afdc72b0d33d77e07af0ab37"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/energy.snbt"
-hash = "7feccb3c80cc1bffaf89702bd70cd0ce347e31287fcc8ac76d73f3798098a8ce"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/hv.snbt"
-hash = "669bae1f388fc221c55bc6188d7f4ec1e53117979c8f898994e171f234a7facf"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/lv.snbt"
-hash = "1a200498728f46e939ce09d653f010a398a84639c2db2b61d15034bfbf9c0df6"
+hash = "218fd392c956cd97b0df00bb3f3cb5e45ff1da4cd8629621af351fefec76763d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/modes.snbt"
@@ -270,39 +258,59 @@ hash = "197086fbd5fbb078e609c91b3c8340cbfb2aed721574338fcdd93f5fb6741e4e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiblocks.snbt"
-hash = "5d58177e1f5aefdbd59939ea4a5cd2c15ffc50825357e78896b1356131d46b46"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/mv.snbt"
-hash = "4aaac0914356b5aae0104001841cb6fe46c48ea3d29b7b48cfde48778c5ac33d"
+hash = "3af481686ca8c3cabe0ad5fc799da00e54c8370428ccb737cc49d9418d15f566"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/periodic.snbt"
-hash = "b1e855630e461bdde5be0aa900d5c9f5780f6a155eef8566b81b672abe7cb56a"
+hash = "2b449df08e1ed6eb2edf48035d228d33cfb9a28cd70a8be6c4da85e62398efa3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/start.snbt"
-hash = "b795fc2924f44ce193bd274a06a3b2e294f4eccc8f45feff7e6b57d59b6231d9"
+hash = "c285cea9c06d46bfc062b0298e2537005325212f2821c2db526b2d4f9e780ab3"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/steam.snbt"
-hash = "7b64f04e56006b3ec88893f77c5d28a1d0679b8c3f2a639361878fed1b5d5793"
+file = "config/ftbquests/quests/chapters/type0_0_first_fire.snbt"
+hash = "0133e10dd5b393d90211d61f178ccb5bc214303de39a0f94f60824793759691f"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/type0_1_steam_steel.snbt"
+hash = "97f37d261109c6aa0c42bd74279e06b0bae51f125818443594584cc417d06ea7"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/type0_2_electricity.snbt"
+hash = "a97b6dd501bdee63386682545441fc774b6052a800f134e2eb449b10078e701a"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/type0_3_blast_furnace.snbt"
+hash = "1e83bcfa833110ae2a2a8336cce54831680d41c2215f189c00ead860ac98602f"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/type0_4_medium_voltage.snbt"
+hash = "5b987332114e2dd0a7008769af8119e256af1fc40359f0d51bfdf44cae86a4da"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/type0_5_end_of_mv.snbt"
+hash = "ba88b337acc7dea9670373cc58ef2f023b31a914e255f5c1a1ddb40fc28fdd56"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/type0_6_power_grid.snbt"
+hash = "654392bba43a8c9cf7614bbc1a24328c5afea62cb8d2ccbafea563a19ed47297"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/type0_7_moon.snbt"
+hash = "06e52d46a610d2c2d04479ba9af5393a5aa8b29fdb11d8ae5fdde814363a73b5"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/type0_8_fusion.snbt"
+hash = "19a7322fdab0c800d367dbfd1eca88e8f738e7f9e0993bf052d16f3710b10de9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
 hash = "d3cbcb36a9ec208eb46cf7695cd50f3e9d4947c65c6d60ef37f0eb51462f83d1"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/wireless.snbt"
-hash = "1f0c465413deea59402867dc14d573b2e9c23b35fd04201b554202dfc91450c4"
-
-[[files]]
 file = "config/ftbquests/quests/data.snbt"
 hash = "0fef376c367cb165e7b886c03ada2a3d32abee8abce89b7bf351edd0d6e196aa"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/5acfbfcc6e51ea8c.snbt"
-hash = "559bfe34ba2edaa727b80731eaa5e53ab47b02a947db216ec4e64ea1b529fe20"
 
 [[files]]
 file = "config/ftbxmodcompat.snbt"
@@ -434,15 +442,15 @@ hash = "c937050709b29ba62629f46d03b32a1e27a6c9ff970ad04a7242a4b8eab26e84"
 
 [[files]]
 file = "config/openloader/resources/gtia_quests/assets/gtia_quests/lang/en_us.json"
-hash = "58ee6042ded2b878e363ba9ac457cad86f16e953e9ead324310c21790b81794d"
+hash = "1070f4c165b71c88c0b2952131cfeaa8b68a83b0d62c7af041c8162144b33ffb"
 
 [[files]]
 file = "config/openloader/resources/gtia_quests/assets/gtia_quests/lang/pt_br.json"
-hash = "ebf35b9ba14bf3bf3931272834d11f70e9eff7d2edb7eba47932ac405f7c58f5"
+hash = "bbb114fd12fa1714b12035e2b0875c2f55a8cc4b38e82d431e11bfb2784e5c63"
 
 [[files]]
 file = "config/openloader/resources/gtia_quests/assets/gtia_quests/lang/zh_cn.json"
-hash = "975eeb04b58aefbc1fef03f5cdff07aef1e564994d30a2bd9e80ea90aeed0364"
+hash = "090b6c2774c29bef71d6645190dbd516bcbcd0ba4a2305bd7a96b535c896bf44"
 
 [[files]]
 file = "config/openloader/resources/gtia_quests/assets/gtia_quests/textures/quests/agronomica_farm.png"
