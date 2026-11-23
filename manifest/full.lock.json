@@ -933,7 +933,7 @@
     {
       "mod_id": "gtna",
       "filename": "gtna-0.6.1.jar",
-      "sha256": "aafd4295872cd6caee98c2bd053c5cfd8bd13e2b0251af8ece82630168481f43",
+      "sha256": "1af5e4c3d8aff8ddf035dc7c5421115864c5087a2301b61e5588642945e80076",
       "source": "local-build",
       "path": "/home/raishxn/MineProjects/GregTech-Nexus-Addon/build/libs/gtna-0.6.1.jar",
       "requires": []
@@ -1442,7 +1442,7 @@
     {
       "mod_id": "typeomega",
       "filename": "typeomega-0.1.0.jar",
-      "sha256": "f8fb1a51c6fae4b8c1eed7fcaf684d0bea921d7fcc1f68e88c2301a27adf0f08",
+      "sha256": "64b724cfd582e1e869a73234b290f403bff92a7a7624ad1694226814dcb6a55e",
       "source": "local-build",
       "path": "/home/raishxn/MineProjects/GTIA/core/build/libs/typeomega-0.1.0.jar",
       "requires": []

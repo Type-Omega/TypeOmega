@@ -51,7 +51,7 @@
 			description: [
 				"{gtia.quest.7C3DBEA64565131D.desc.0}"
 			]
-			icon: "minecraft:compass"
+			icon: "typeomega:kardashev_meter"
 			id: "7C3DBEA64565131D"
 			optional: true
 			rewards: [ ]

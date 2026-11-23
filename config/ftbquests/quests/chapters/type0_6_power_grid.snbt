@@ -51,7 +51,7 @@
 			description: [
 				"{gtia.quest.7528896A52C0BCED.desc.0}"
 			]
-			icon: "minecraft:compass"
+			icon: "typeomega:kardashev_meter"
 			id: "7528896A52C0BCED"
 			optional: true
 			rewards: [ ]
@@ -823,7 +823,7 @@
 			description: [
 				"{gtia.quest.513CF304F4C9398C.desc.0}"
 			]
-			icon: "minecraft:compass"
+			icon: "typeomega:kardashev_meter"
 			id: "513CF304F4C9398C"
 			optional: true
 			rewards: [ ]
@@ -1743,10 +1743,8 @@
 				"{gtia.quest.1F7510E76EBAA11D.desc.0}"
 				""
 				"{gtia.quest.1F7510E76EBAA11D.desc.2}"
-				""
-				"{gtia.quest.1F7510E76EBAA11D.desc.4}"
 			]
-			icon: "gtceu:power_substation"
+			icon: "typeomega:national_dispatch_center"
 			id: "1F7510E76EBAA11D"
 			rewards: [ ]
 			shape: "hexagon"
@@ -1755,8 +1753,11 @@
 			tasks: [
 				{
 					id: "5C5B51E8724C3FC5"
-					type: "checkmark"
-					title: "{gtia.quest.1F7510E76EBAA11D.task.5C5B51E8724C3FC5}"
+					type: "item"
+					item: "typeomega:national_dispatch_center"
+					count: 1L
+					consume_items: false
+					match_nbt: false
 				}
 			]
 			title: "{gtia.quest.1F7510E76EBAA11D.title}"

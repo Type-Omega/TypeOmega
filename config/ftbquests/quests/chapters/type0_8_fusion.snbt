@@ -40,7 +40,7 @@
 			description: [
 				"{gtia.quest.66BB610C38405E78.desc.0}"
 			]
-			icon: "minecraft:compass"
+			icon: "typeomega:kardashev_meter"
 			id: "66BB610C38405E78"
 			optional: true
 			rewards: [ ]
@@ -436,10 +436,8 @@
 			]
 			description: [
 				"{gtia.quest.4D4EDD4BB607C236.desc.0}"
-				""
-				"{gtia.quest.4D4EDD4BB607C236.desc.2}"
 			]
-			icon: "gtceu:borax_dust"
+			icon: "typeomega:boric_acid_dust"
 			id: "4D4EDD4BB607C236"
 			hide_dependency_lines: true
 			rewards: [ ]
@@ -449,8 +447,11 @@
 			tasks: [
 				{
 					id: "7C989087A03F5F74"
-					type: "checkmark"
-					title: "{gtia.quest.4D4EDD4BB607C236.task.7C989087A03F5F74}"
+					type: "item"
+					item: "typeomega:boric_acid_dust"
+					count: 1L
+					consume_items: false
+					match_nbt: false
 				}
 			]
 			title: "{gtia.quest.4D4EDD4BB607C236.title}"
@@ -463,10 +464,8 @@
 			]
 			description: [
 				"{gtia.quest.17BAC4416A7B99AF.desc.0}"
-				""
-				"{gtia.quest.17BAC4416A7B99AF.desc.2}"
 			]
-			icon: "gtceu:boron_dust"
+			icon: "typeomega:boron_trifluoride_bucket"
 			id: "17BAC4416A7B99AF"
 			rewards: [ ]
 			shape: "circle"
@@ -474,9 +473,10 @@
 			subtitle: "{gtia.quest.17BAC4416A7B99AF.subtitle}"
 			tasks: [
 				{
+					amount: 1000L
+					fluid: "typeomega:boron_trifluoride"
 					id: "169C27EE9D1E71DE"
-					type: "checkmark"
-					title: "{gtia.quest.17BAC4416A7B99AF.task.169C27EE9D1E71DE}"
+					type: "fluid"
 				}
 			]
 			title: "{gtia.quest.17BAC4416A7B99AF.title}"
@@ -489,10 +489,8 @@
 			]
 			description: [
 				"{gtia.quest.56CEEEB42E4CD2BD.desc.0}"
-				""
-				"{gtia.quest.56CEEEB42E4CD2BD.desc.2}"
 			]
-			icon: "gtceu:sodium_dust"
+			icon: "typeomega:sodium_borohydride_dust"
 			id: "56CEEEB42E4CD2BD"
 			rewards: [ ]
 			shape: "circle"
@@ -501,8 +499,11 @@
 			tasks: [
 				{
 					id: "7370FCC590CFDF6A"
-					type: "checkmark"
-					title: "{gtia.quest.56CEEEB42E4CD2BD.task.7370FCC590CFDF6A}"
+					type: "item"
+					item: "typeomega:sodium_borohydride_dust"
+					count: 1L
+					consume_items: false
+					match_nbt: false
 				}
 			]
 			title: "{gtia.quest.56CEEEB42E4CD2BD.title}"
@@ -516,10 +517,8 @@
 			]
 			description: [
 				"{gtia.quest.75C88560046AB7BF.desc.0}"
-				""
-				"{gtia.quest.75C88560046AB7BF.desc.2}"
 			]
-			icon: "gtceu:boron_dust"
+			icon: "typeomega:diborane_bucket"
 			id: "75C88560046AB7BF"
 			rewards: [ ]
 			shape: "circle"
@@ -527,9 +526,10 @@
 			subtitle: "{gtia.quest.75C88560046AB7BF.subtitle}"
 			tasks: [
 				{
+					amount: 1000L
+					fluid: "typeomega:diborane"
 					id: "0EF422B655C9EB6B"
-					type: "checkmark"
-					title: "{gtia.quest.75C88560046AB7BF.task.0EF422B655C9EB6B}"
+					type: "fluid"
 				}
 			]
 			title: "{gtia.quest.75C88560046AB7BF.title}"
@@ -543,7 +543,7 @@
 			description: [
 				"{gtia.quest.4D389ED4BFD59A71.desc.0}"
 			]
-			icon: "gtceu:sodium_dust"
+			icon: "typeomega:sodium_borohydride_dust"
 			id: "4D389ED4BFD59A71"
 			optional: true
 			rewards: [ ]
@@ -568,10 +568,8 @@
 			]
 			description: [
 				"{gtia.quest.49DDA9A1486B2B76.desc.0}"
-				""
-				"{gtia.quest.49DDA9A1486B2B76.desc.2}"
 			]
-			icon: "ad_astra:desh_ingot"
+			icon: "typeomega:deshaborane_bucket"
 			id: "49DDA9A1486B2B76"
 			rewards: [ ]
 			shape: "circle"
@@ -579,9 +577,10 @@
 			subtitle: "{gtia.quest.49DDA9A1486B2B76.subtitle}"
 			tasks: [
 				{
+					amount: 1000L
+					fluid: "typeomega:deshaborane"
 					id: "54A8920E5F96E416"
-					type: "checkmark"
-					title: "{gtia.quest.49DDA9A1486B2B76.task.54A8920E5F96E416}"
+					type: "fluid"
 				}
 			]
 			title: "{gtia.quest.49DDA9A1486B2B76.title}"
@@ -621,10 +620,8 @@
 			]
 			description: [
 				"{gtia.quest.16FF2FD491D612AF.desc.0}"
-				""
-				"{gtia.quest.16FF2FD491D612AF.desc.2}"
 			]
-			icon: "gtceu:rocket_fuel_bucket"
+			icon: "typeomega:zip_d_rocket_fuel_bucket"
 			id: "16FF2FD491D612AF"
 			rewards: [ ]
 			shape: "circle"
@@ -632,9 +629,10 @@
 			subtitle: "{gtia.quest.16FF2FD491D612AF.subtitle}"
 			tasks: [
 				{
+					amount: 1000L
+					fluid: "typeomega:zip_d_rocket_fuel"
 					id: "1F8E13C034BAC376"
-					type: "checkmark"
-					title: "{gtia.quest.16FF2FD491D612AF.task.1F8E13C034BAC376}"
+					type: "fluid"
 				}
 			]
 			title: "{gtia.quest.16FF2FD491D612AF.title}"
@@ -1277,10 +1275,8 @@
 			]
 			description: [
 				"{gtia.quest.63B863283BC87BBC.desc.0}"
-				""
-				"{gtia.quest.63B863283BC87BBC.desc.2}"
 			]
-			icon: "gtceu:deuterium_bucket"
+			icon: "typeomega:heavy_water_bucket"
 			id: "63B863283BC87BBC"
 			hide_dependency_lines: true
 			rewards: [ ]
@@ -1289,9 +1285,10 @@
 			subtitle: "{gtia.quest.63B863283BC87BBC.subtitle}"
 			tasks: [
 				{
+					amount: 1000L
+					fluid: "typeomega:heavy_water"
 					id: "0533B7DAF8F440C4"
-					type: "checkmark"
-					title: "{gtia.quest.63B863283BC87BBC.task.0533B7DAF8F440C4}"
+					type: "fluid"
 				}
 			]
 			title: "{gtia.quest.63B863283BC87BBC.title}"
@@ -1383,10 +1380,8 @@
 			]
 			description: [
 				"{gtia.quest.057171B430001709.desc.0}"
-				""
-				"{gtia.quest.057171B430001709.desc.2}"
 			]
-			icon: "gtceu:fusion_coil"
+			icon: "typeomega:tokamak_magnet_coil"
 			id: "057171B430001709"
 			rewards: [ ]
 			shape: "circle"
@@ -1395,8 +1390,11 @@
 			tasks: [
 				{
 					id: "689F958ABEEFA4FE"
-					type: "checkmark"
-					title: "{gtia.quest.057171B430001709.task.689F958ABEEFA4FE}"
+					type: "item"
+					item: "typeomega:tokamak_magnet_coil"
+					count: 1L
+					consume_items: false
+					match_nbt: false
 				}
 			]
 			title: "{gtia.quest.057171B430001709.title}"
@@ -1410,10 +1408,8 @@
 			]
 			description: [
 				"{gtia.quest.19F8B4730DCE70ED.desc.0}"
-				""
-				"{gtia.quest.19F8B4730DCE70ED.desc.2}"
 			]
-			icon: "gtceu:neutron_reflector"
+			icon: "typeomega:neutron_shield_casing"
 			id: "19F8B4730DCE70ED"
 			rewards: [ ]
 			shape: "circle"
@@ -1422,8 +1418,11 @@
 			tasks: [
 				{
 					id: "44817028CC6866CC"
-					type: "checkmark"
-					title: "{gtia.quest.19F8B4730DCE70ED.task.44817028CC6866CC}"
+					type: "item"
+					item: "typeomega:neutron_shield_casing"
+					count: 1L
+					consume_items: false
+					match_nbt: false
 				}
 			]
 			title: "{gtia.quest.19F8B4730DCE70ED.title}"
@@ -1468,10 +1467,8 @@
 			]
 			description: [
 				"{gtia.quest.79E4712146E67EC8.desc.0}"
-				""
-				"{gtia.quest.79E4712146E67EC8.desc.2}"
 			]
-			icon: "gtceu:luv_fusion_reactor"
+			icon: "typeomega:tokamak_hv"
 			id: "79E4712146E67EC8"
 			rewards: [ ]
 			shape: "gear"
@@ -1480,8 +1477,11 @@
 			tasks: [
 				{
 					id: "667D30374B90EC1F"
-					type: "checkmark"
-					title: "{gtia.quest.79E4712146E67EC8.task.667D30374B90EC1F}"
+					type: "item"
+					item: "typeomega:tokamak_hv"
+					count: 1L
+					consume_items: false
+					match_nbt: false
 				}
 			]
 			title: "{gtia.quest.79E4712146E67EC8.title}"
@@ -1600,10 +1600,8 @@
 			]
 			description: [
 				"{gtia.quest.2010253D2E214AC5.desc.0}"
-				""
-				"{gtia.quest.2010253D2E214AC5.desc.2}"
 			]
-			icon: "gtceu:lithium_dust"
+			icon: "typeomega:lithium_breeding_blanket"
 			id: "2010253D2E214AC5"
 			rewards: [ ]
 			shape: "circle"
@@ -1612,8 +1610,11 @@
 			tasks: [
 				{
 					id: "45B0246AF08E5A4B"
-					type: "checkmark"
-					title: "{gtia.quest.2010253D2E214AC5.task.45B0246AF08E5A4B}"
+					type: "item"
+					item: "typeomega:lithium_breeding_blanket"
+					count: 1L
+					consume_items: false
+					match_nbt: false
 				}
 			]
 			title: "{gtia.quest.2010253D2E214AC5.title}"
@@ -1653,7 +1654,7 @@
 			description: [
 				"{gtia.quest.7DBE5E20225238D1.desc.0}"
 			]
-			icon: "minecraft:compass"
+			icon: "typeomega:kardashev_meter"
 			id: "7DBE5E20225238D1"
 			optional: true
 			rewards: [ ]
@@ -1817,10 +1818,8 @@
 			]
 			description: [
 				"{gtia.quest.3F78490A0A5D0418.desc.0}"
-				""
-				"{gtia.quest.3F78490A0A5D0418.desc.2}"
 			]
-			icon: "gtceu:silicon_dioxide_dust"
+			icon: "typeomega:silica_aerogel_dust"
 			id: "3F78490A0A5D0418"
 			hide_dependency_lines: true
 			rewards: [ ]
@@ -1830,8 +1829,11 @@
 			tasks: [
 				{
 					id: "180C128686CE700A"
-					type: "checkmark"
-					title: "{gtia.quest.3F78490A0A5D0418.task.180C128686CE700A}"
+					type: "item"
+					item: "typeomega:silica_aerogel_dust"
+					count: 1L
+					consume_items: false
+					match_nbt: false
 				}
 			]
 			title: "{gtia.quest.3F78490A0A5D0418.title}"

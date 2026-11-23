@@ -1035,6 +1035,7 @@
 {"item":"gtceu:hp_steam_liquid_boiler","tier":1,"multiblock":false,"types":["gtceu:steam_boiler"]}
 {"item":"gtna:thermal_conductor_hatch","tier":6,"multiblock":false,"types":[]}
 {"item":"gtceu:uiv_packer","tier":11,"multiblock":false,"types":["gtceu:packer"]}
+{"item":"typeomega:tokamak_hv","tier":0,"multiblock":true,"types":["typeomega:tokamak_fusion"]}
 {"item":"gtceu:zpm_laser_engraver","tier":7,"multiblock":false,"types":["gtceu:laser_engraver"]}
 {"item":"gtceu:iv_forming_press","tier":5,"multiblock":false,"types":["gtceu:forming_press"]}
 {"item":"gtna:greenhouse","tier":0,"multiblock":true,"types":["gtna:greenhouse"]}
@@ -1655,6 +1656,7 @@
 {"item":"gtceu:uiv_autoclave","tier":11,"multiblock":false,"types":["gtceu:autoclave"]}
 {"item":"gtna:wireless_energy_hatch_16a_mv","tier":2,"multiblock":false,"types":[]}
 {"item":"gtna:infinite_input_hatch_luv","tier":6,"multiblock":false,"types":[]}
+{"item":"typeomega:national_dispatch_center","tier":0,"multiblock":true,"types":["typeomega:grid_dispatch"]}
 {"item":"gtceu:luv_transformer_4a","tier":6,"multiblock":false,"types":[]}
 {"item":"gtna:stone_superheater","tier":0,"multiblock":true,"types":["gtna:super_heater"]}
 {"item":"gtna:output_boost_item_bus_hv","tier":3,"multiblock":false,"types":[]}
@@ -1727,6 +1729,7 @@
 {"item":"gtceu:zpm_ore_washer","tier":7,"multiblock":false,"types":["gtceu:ore_washer"]}
 {"item":"gtna:infinite_input_hatch_uiv","tier":11,"multiblock":false,"types":[]}
 {"item":"gtceu:hv_assembler","tier":3,"multiblock":false,"types":["gtceu:assembler"]}
+{"item":"typeomega:cosmodrome","tier":0,"multiblock":true,"types":["typeomega:mission_control"]}
 {"item":"gtna:wireless_dynamo_hatch_64a_lv","tier":1,"multiblock":false,"types":[]}
 {"item":"gtna:wireless_dynamo_hatch_4a_mv","tier":2,"multiblock":false,"types":[]}
 {"item":"gtceu:uiv_lathe","tier":11,"multiblock":false,"types":["gtceu:lathe"]}

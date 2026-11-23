@@ -57,34 +57,17 @@ SUBTITLE = {  # role -> (en, pt, zh)
 }
 
 # EN: ids the drafts propose that the pack does not register yet (core work, D-406 to D-424). The quest becomes a
-#     checkmark with a stand-in icon; the Kardashev Meter quest asks for a compass until the block exists.
+#     checkmark with a stand-in icon.
 # PT: ids propostos nos rascunhos que o pack ainda não registra (trabalho do core, D-406 a D-424). A quest vira
-#     checkmark com ícone substituto; a do Medidor Kardashev pede uma bússola até o bloco existir.
-# ZH: 草稿中提出但整合包尚未注册的 ID（核心模组待办，D-406 至 D-424）。任务改为勾选并使用替代图标；
-#     卡尔达肖夫计任务在方块加入前暂用指南针。
+#     checkmark com ícone substituto.
+# ZH: 草稿中提出但整合包尚未注册的 ID（核心模组待办，D-406 至 D-424）。任务改为勾选并使用替代图标。
 STAND_IN = {
-    "typeomega:kardashev_meter": "minecraft:compass",
-    "typeomega:national_dispatch_center": "gtceu:power_substation",
-    "typeomega:mission_control_casing": "typeomega:rocket_assembly_casing",
-    "typeomega:cosmodrome": "typeomega:rocket_assembler",
-    "typeomega:lunar_probe": "gtceu:hv_emitter",
-    "typeomega:lunar_survey_data": "gtceu:data_stick",
-    "typeomega:boric_acid_dust": "gtceu:borax_dust",
-    "typeomega:boron_trifluoride_bucket": "gtceu:boron_dust",
-    "typeomega:sodium_borohydride_dust": "gtceu:sodium_dust",
-    "typeomega:diborane_bucket": "gtceu:boron_dust",
-    "typeomega:deshaborane_bucket": "ad_astra:desh_ingot",
-    "typeomega:zip_d_rocket_fuel_bucket": "gtceu:rocket_fuel_bucket",
-    "typeomega:heavy_water_bucket": "gtceu:deuterium_bucket",
-    "typeomega:tokamak_magnet_coil": "gtceu:fusion_coil",
-    "typeomega:neutron_shield_casing": "gtceu:neutron_reflector",
-    "typeomega:tokamak_hv": "gtceu:luv_fusion_reactor",
-    "typeomega:lithium_breeding_blanket": "gtceu:lithium_dust",
     "typeomega:mars_probe": "gtceu:ev_sensor",
     "typeomega:mars_survey_data": "gtceu:data_orb",
-    "typeomega:silica_aerogel": "gtceu:silicon_dioxide_dust",
 }
-STAND_IN_TASK = {"typeomega:kardashev_meter"}  # stand-ins good enough to ask for as the task itself
+STAND_IN_TASK: set[str] = set()  # stand-ins good enough to ask for as the task itself
+# Draft id -> the id the core registered under another name.
+ID_ALIAS = {"typeomega:silica_aerogel": "typeomega:silica_aerogel_dust"}
 
 # Tasks that are not "hold the item". (chapter, id) -> task list
 SPECIAL_TASKS = {("t07", "pouso"): [{"dimension": "ad_astra:moon"}]}
@@ -159,7 +142,7 @@ def main() -> int:
                 target = tuple(name.split(":", 1)) if re.match(r"t\d\d:", name) else (prefix, name)
                 parsed.append((target, hidden))
             quests[(prefix, qid)] = {"prefix": prefix, "id": qid, "key": key, "role": role, "size": size, "x": x,
-                                     "y": y, "deps": parsed, "items": item.split("|"),
+                                     "y": y, "deps": parsed, "items": [ID_ALIAS.get(i, i) for i in item.split("|")],
                                      "title": (en, label, zh), "first": i == 0}
     for q in quests.values():
         for target, _ in q["deps"]:

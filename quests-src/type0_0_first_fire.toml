@@ -374,16 +374,14 @@ title = "Kardashev Meter"
 role = "side"
 deps = ["placa_bronze"]
 subtitle = "Machine"
-icon = "minecraft:compass"
+icon = "typeomega:kardashev_meter"
 x = -4.75
 y = 17.75
 shape = "hexagon"
 size = 1.5
-task = [{ item = "minecraft:compass" }]
+task = [{ item = "typeomega:kardashev_meter" }]
 text = """
 An optional machine of this stage: nothing in the book waits for it.
-
-Beta: a stand-in item is asked for until the real one is in the pack.
 """
 
 [[quest]]

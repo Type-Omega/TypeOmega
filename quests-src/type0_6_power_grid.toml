@@ -24,7 +24,7 @@ title = "Reading 0.6"
 role = "hint"
 deps = ["entry"]
 subtitle = "Tip"
-icon = "minecraft:compass"
+icon = "typeomega:kardashev_meter"
 x = 0.0
 y = -2.75
 shape = "diamond"
@@ -443,18 +443,16 @@ Needed for: National Dispatch Center.
 title = "National Dispatch Center"
 deps = ["energy_hatch_hv", "transformador_hv", "baterias_hv", "workstation"]
 subtitle = "Chapter exit"
-icon = "gtceu:power_substation"
+icon = "typeomega:national_dispatch_center"
 x = 23.0
 y = 0.0
 shape = "hexagon"
 size = 3.0
-task = [{ checkmark = "Read and continue" }]
+task = [{ item = "typeomega:national_dispatch_center" }]
 text = """
 Finishes this chapter and opens 0.7 · Moon.
 
 Needed for: Ceiling 0.89, Team Network, HV Wireless Energy Hatch, HV Wireless Dynamo and To the Moon.
-
-Beta: this item is not in the pack yet, so the quest is a checkmark for now.
 """
 
 [[quest]]
@@ -463,7 +461,7 @@ title = "Ceiling 0.89"
 role = "hint"
 deps = ["exit"]
 subtitle = "Tip"
-icon = "minecraft:compass"
+icon = "typeomega:kardashev_meter"
 x = 23.0
 y = -3.0
 shape = "diamond"

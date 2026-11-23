@@ -1031,7 +1031,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtna-0.6.1.jar"
-hash = "aafd4295872cd6caee98c2bd053c5cfd8bd13e2b0251af8ece82630168481f43"
+hash = "1af5e4c3d8aff8ddf035dc7c5421115864c5087a2301b61e5588642945e80076"
 
 [[files]]
 file = "mods/guideme.pw.toml"
@@ -1299,7 +1299,7 @@ metafile = true
 
 [[files]]
 file = "mods/typeomega-0.1.0.jar"
-hash = "f8fb1a51c6fae4b8c1eed7fcaf684d0bea921d7fcc1f68e88c2301a27adf0f08"
+hash = "64b724cfd582e1e869a73234b290f403bff92a7a7624ad1694226814dcb6a55e"
 
 [[files]]
 file = "mods/typeomega-lib-0.6.0.jar"

@@ -668,10 +668,8 @@
 			]
 			description: [
 				"{gtia.quest.6D778CBA7BE4D5D6.desc.0}"
-				""
-				"{gtia.quest.6D778CBA7BE4D5D6.desc.2}"
 			]
-			icon: "minecraft:compass"
+			icon: "typeomega:kardashev_meter"
 			id: "6D778CBA7BE4D5D6"
 			rewards: [ ]
 			shape: "hexagon"
@@ -681,7 +679,7 @@
 				{
 					id: "1A8C7E826A4E8980"
 					type: "item"
-					item: "minecraft:compass"
+					item: "typeomega:kardashev_meter"
 					count: 1L
 					consume_items: false
 					match_nbt: false

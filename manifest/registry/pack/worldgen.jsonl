@@ -22,9 +22,9 @@
 {"vein":"gtceu:cassiterite_vein","dimensions":["minecraft:overworld"],"materials":["gtceu:tin","gtceu:cassiterite"],"blocks":[]}
 {"vein":"gtna:planet/diamond_vein","dimensions":["ad_astra:glacio","ad_astra:mars","ad_astra:mercury","ad_astra:moon","ad_astra:venus"],"materials":["gtceu:graphite","gtceu:graphite","gtceu:diamond","gtceu:coal"],"blocks":[]}
 {"vein":"typeomega:phase_matrix_deposit","dimensions":["minecraft:overworld"],"materials":["typeomega:phase_matrix"],"blocks":[]}
-{"vein":"gtceu:bauxite_vein_end","dimensions":["minecraft:the_end"],"materials":["gtceu:bauxite","gtceu:ilmenite","gtceu:aluminium"],"blocks":["minecraft:end_stone"]}
+{"vein":"gtceu:bauxite_vein_end","dimensions":["minecraft:the_end"],"materials":["gtceu:bauxite","gtceu:aluminium"],"blocks":["minecraft:end_stone"]}
 {"vein":"gtceu:molybdenum_vein","dimensions":["minecraft:the_nether"],"materials":["gtceu:wulfenite","gtceu:molybdenite","gtceu:molybdenum","gtceu:powellite"],"blocks":[]}
-{"vein":"gtceu:sheldonite_vein","dimensions":["minecraft:the_end"],"materials":["gtceu:bornite","gtceu:cooperite","gtceu:platinum","gtceu:palladium"],"blocks":[]}
+{"vein":"gtceu:sheldonite_vein","dimensions":["minecraft:the_end"],"materials":["gtceu:bornite","gtceu:cooperite"],"blocks":[]}
 {"vein":"gtceu:redstone_vein_ow","dimensions":["minecraft:overworld"],"materials":["gtceu:redstone","gtceu:ruby","gtceu:cinnabar"],"blocks":[]}
 {"vein":"gtceu:apatite_vein","dimensions":["minecraft:overworld"],"materials":["gtceu:apatite","gtceu:tricalcium_phosphate","gtceu:pyrochlore"],"blocks":[]}
 {"vein":"gtceu:certus_quartz","dimensions":["minecraft:the_nether"],"materials":["gtceu:quartzite","gtceu:certus_quartz","gtceu:barite"],"blocks":[]}

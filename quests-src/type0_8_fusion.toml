@@ -24,7 +24,7 @@ title = "Reading 0.8"
 role = "hint"
 deps = ["entry"]
 subtitle = "Tip"
-icon = "minecraft:compass"
+icon = "typeomega:kardashev_meter"
 x = 0.0
 y = -2.75
 shape = "diamond"
@@ -250,16 +250,15 @@ title = "Boric Acid"
 role = "side"
 deps = ["entry", "type0_6_power_grid:mgb2"]
 subtitle = "Material"
-icon = "gtceu:borax_dust"
+icon = "typeomega:boric_acid_dust"
 x = 15.5
 y = -15.0
 shape = "circle"
 size = 1.0
+task = [{ item = "typeomega:boric_acid_dust" }]
 hide_lines = true
 text = """
 Needed for: Boron Trifluoride and Sodium Borohydride.
-
-Beta: this item is not in the pack yet, so the quest is a checkmark for now.
 """
 
 [[quest]]
@@ -268,15 +267,14 @@ title = "Boron Trifluoride"
 role = "side"
 deps = ["acido_borico"]
 subtitle = "Material"
-icon = "gtceu:boron_dust"
+icon = "typeomega:boron_trifluoride_bucket"
 x = 18.0
 y = -17.5
 shape = "circle"
 size = 1.0
+task = [{ fluid = "typeomega:boron_trifluoride", amount = 1000 }]
 text = """
 Needed for: Diborane.
-
-Beta: this item is not in the pack yet, so the quest is a checkmark for now.
 """
 
 [[quest]]
@@ -285,15 +283,14 @@ title = "Sodium Borohydride"
 role = "side"
 deps = ["acido_borico"]
 subtitle = "Material"
-icon = "gtceu:sodium_dust"
+icon = "typeomega:sodium_borohydride_dust"
 x = 18.0
 y = -15.0
 shape = "circle"
 size = 1.0
+task = [{ item = "typeomega:sodium_borohydride_dust" }]
 text = """
 Needed for: Diborane.
-
-Beta: this item is not in the pack yet, so the quest is a checkmark for now.
 """
 
 [[quest]]
@@ -302,15 +299,14 @@ title = "Diborane"
 role = "side"
 deps = ["nabh4", "bf3"]
 subtitle = "Material"
-icon = "gtceu:boron_dust"
+icon = "typeomega:diborane_bucket"
 x = 20.5
 y = -15.0
 shape = "circle"
 size = 1.25
+task = [{ fluid = "typeomega:diborane", amount = 1000 }]
 text = """
 Needed for: Close the Boron Loop and Deshaborane.
-
-Beta: this item is not in the pack yet, so the quest is a checkmark for now.
 """
 
 [[quest]]
@@ -319,7 +315,7 @@ title = "Close the Boron Loop"
 role = "hint"
 deps = ["diborano"]
 subtitle = "Tip"
-icon = "gtceu:sodium_dust"
+icon = "typeomega:sodium_borohydride_dust"
 x = 23.0
 y = -17.5
 shape = "diamond"
@@ -334,15 +330,14 @@ title = "Deshaborane"
 role = "side"
 deps = ["diborano", "type0_7_moon:desh"]
 subtitle = "Milestone"
-icon = "ad_astra:desh_ingot"
+icon = "typeomega:deshaborane_bucket"
 x = 23.0
 y = -15.0
 shape = "circle"
 size = 1.5
+task = [{ fluid = "typeomega:deshaborane", amount = 1000 }]
 text = """
 Needed for: Zip-D Fuel.
-
-Beta: this item is not in the pack yet, so the quest is a checkmark for now.
 """
 
 [[quest]]
@@ -367,15 +362,14 @@ title = "Zip-D Fuel"
 role = "side"
 deps = ["deshaborano", "lox", "type0_6_power_grid:versoes_hv"]
 subtitle = "Milestone"
-icon = "gtceu:rocket_fuel_bucket"
+icon = "typeomega:zip_d_rocket_fuel_bucket"
 x = 25.5
 y = -12.5
 shape = "circle"
 size = 1.5
+task = [{ fluid = "typeomega:zip_d_rocket_fuel", amount = 1000 }]
 text = """
 Needed for: Tier 2 Rocket.
-
-Beta: this item is not in the pack yet, so the quest is a checkmark for now.
 """
 
 [[quest]]
@@ -752,16 +746,15 @@ title = "Heavy Water"
 role = "side"
 deps = ["entry"]
 subtitle = "Material"
-icon = "gtceu:deuterium_bucket"
+icon = "typeomega:heavy_water_bucket"
 x = 3.0
 y = 12.5
 shape = "circle"
 size = 1.0
+task = [{ fluid = "typeomega:heavy_water", amount = 1000 }]
 hide_lines = true
 text = """
 Needed for: Deuterium.
-
-Beta: this item is not in the pack yet, so the quest is a checkmark for now.
 """
 
 [[quest]]
@@ -820,15 +813,14 @@ title = "MgB₂ Coil"
 role = "side"
 deps = ["type0_6_power_grid:campo_mv"]
 subtitle = "Material"
-icon = "gtceu:fusion_coil"
+icon = "typeomega:tokamak_magnet_coil"
 x = 10.5
 y = 12.5
 shape = "circle"
 size = 1.0
+task = [{ item = "typeomega:tokamak_magnet_coil" }]
 text = """
 Needed for: HV Tokamak.
-
-Beta: this item is not in the pack yet, so the quest is a checkmark for now.
 """
 
 [[quest]]
@@ -837,15 +829,14 @@ title = "Neutron Shielding"
 role = "side"
 deps = ["type0_4_medium_voltage:polietileno", "type0_3_blast_furnace:ponte_fluor"]
 subtitle = "Material"
-icon = "gtceu:neutron_reflector"
+icon = "typeomega:neutron_shield_casing"
 x = 13.0
 y = 15.0
 shape = "circle"
 size = 1.0
+task = [{ item = "typeomega:neutron_shield_casing" }]
 text = """
 Needed for: HV Tokamak.
-
-Beta: this item is not in the pack yet, so the quest is a checkmark for now.
 """
 
 [[quest]]
@@ -870,15 +861,14 @@ title = "HV Tokamak"
 role = "side"
 deps = ["casco_tokamak", "bobina", "blindagem", "helio_liquido", "casco_ev", "bomba_ev", "montagem_nano", "tritio"]
 subtitle = "Multiblock"
-icon = "gtceu:luv_fusion_reactor"
+icon = "typeomega:tokamak_hv"
 x = 13.0
 y = 12.5
 shape = "gear"
 size = 2.5
+task = [{ item = "typeomega:tokamak_hv" }]
 text = """
 Needed for: Startup Energy.
-
-Beta: this item is not in the pack yet, so the quest is a checkmark for now.
 """
 
 [[quest]]
@@ -951,15 +941,14 @@ title = "Lithium Breeding Blanket"
 role = "side"
 deps = ["ignicao"]
 subtitle = "Material"
-icon = "gtceu:lithium_dust"
+icon = "typeomega:lithium_breeding_blanket"
 x = 15.5
 y = 17.5
 shape = "circle"
 size = 1.0
+task = [{ item = "typeomega:lithium_breeding_blanket" }]
 text = """
 Make it; later stages use it.
-
-Beta: this item is not in the pack yet, so the quest is a checkmark for now.
 """
 
 [[quest]]
@@ -983,7 +972,7 @@ title = "Type I Ceiling"
 role = "hint"
 deps = ["ignicao"]
 subtitle = "Tip"
-icon = "minecraft:compass"
+icon = "typeomega:kardashev_meter"
 x = 18.0
 y = 12.5
 shape = "diamond"
@@ -1081,16 +1070,15 @@ title = "Silica Aerogel"
 role = "side"
 deps = ["residuo"]
 subtitle = "Material"
-icon = "gtceu:silicon_dioxide_dust"
+icon = "typeomega:silica_aerogel_dust"
 x = 25.5
 y = 0.0
 shape = "circle"
 size = 1.0
+task = [{ item = "typeomega:silica_aerogel_dust" }]
 hide_lines = true
 text = """
 Needed for: Thermal Suit.
-
-Beta: this item is not in the pack yet, so the quest is a checkmark for now.
 """
 
 [[quest]]

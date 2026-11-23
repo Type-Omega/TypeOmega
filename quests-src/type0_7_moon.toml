@@ -24,7 +24,7 @@ title = "Reading 0.7"
 role = "hint"
 deps = ["entry"]
 subtitle = "Tip"
-icon = "minecraft:compass"
+icon = "typeomega:kardashev_meter"
 x = 0.0
 y = -2.75
 shape = "diamond"
@@ -88,15 +88,14 @@ title = "Mission Control Casing"
 role = "side"
 deps = ["type0_6_power_grid:workstation"]
 subtitle = "Material"
-icon = "typeomega:rocket_assembly_casing"
+icon = "typeomega:mission_control_casing"
 x = 9.0
 y = -5.0
 shape = "circle"
 size = 1.0
+task = [{ item = "typeomega:mission_control_casing" }]
 text = """
 Needed for: Cosmodrome.
-
-Beta: this item is not in the pack yet, so the quest is a checkmark for now.
 """
 
 [[quest]]
@@ -105,15 +104,14 @@ title = "Cosmodrome"
 role = "side"
 deps = ["montadora", "casco_missao", "type0_6_power_grid:hatch_sem_fio"]
 subtitle = "Multiblock"
-icon = "typeomega:rocket_assembler"
+icon = "typeomega:cosmodrome"
 x = 9.0
 y = -7.5
 shape = "gear"
 size = 2.5
+task = [{ item = "typeomega:cosmodrome" }]
 text = """
 Needed for: Ceiling 0.99, Mission Panel and Lunar Map.
-
-Beta: this item is not in the pack yet, so the quest is a checkmark for now.
 """
 
 [[quest]]
@@ -122,7 +120,7 @@ title = "Ceiling 0.99"
 role = "hint"
 deps = ["cosmodromo"]
 subtitle = "Tip"
-icon = "minecraft:compass"
+icon = "typeomega:kardashev_meter"
 x = 9.0
 y = -10.5
 shape = "diamond"
@@ -137,7 +135,7 @@ title = "Mission Panel"
 role = "hint"
 deps = ["cosmodromo"]
 subtitle = "Tip"
-icon = "typeomega:rocket_assembler"
+icon = "typeomega:cosmodrome"
 x = 10.75
 y = -9.75
 shape = "diamond"
@@ -267,15 +265,14 @@ title = "Lunar Probe"
 role = "side"
 deps = ["data_stick"]
 subtitle = "Milestone"
-icon = "gtceu:hv_emitter"
+icon = "typeomega:lunar_probe"
 x = 12.5
 y = -10.0
 shape = "circle"
 size = 2.0
+task = [{ item = "typeomega:lunar_probe" }]
 text = """
 Needed for: Lunar Map.
-
-Beta: this item is not in the pack yet, so the quest is a checkmark for now.
 """
 
 [[quest]]
@@ -299,15 +296,14 @@ title = "Lunar Map"
 role = "side"
 deps = ["sonda", "cosmodromo", "combustivel"]
 subtitle = "Milestone"
-icon = "gtceu:data_stick"
+icon = "typeomega:lunar_survey_data"
 x = 12.5
 y = -5.0
 shape = "circle"
 size = 2.0
+task = [{ item = "typeomega:lunar_survey_data" }]
 text = """
 Needed for: Moon Guide, Planet Screen and Moon Landing.
-
-Beta: this item is not in the pack yet, so the quest is a checkmark for now.
 """
 
 [[quest]]
@@ -316,7 +312,7 @@ title = "Planet Screen"
 role = "hint"
 deps = ["mapa_lunar"]
 subtitle = "Tip"
-icon = "gtceu:data_stick"
+icon = "typeomega:lunar_survey_data"
 x = 14.5
 y = -5.0
 shape = "diamond"

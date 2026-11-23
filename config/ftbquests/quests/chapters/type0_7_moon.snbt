@@ -51,7 +51,7 @@
 			description: [
 				"{gtia.quest.1C9505FB1D25F52C.desc.0}"
 			]
-			icon: "minecraft:compass"
+			icon: "typeomega:kardashev_meter"
 			id: "1C9505FB1D25F52C"
 			optional: true
 			rewards: [ ]
@@ -158,10 +158,8 @@
 			]
 			description: [
 				"{gtia.quest.4F68E3131F7F073C.desc.0}"
-				""
-				"{gtia.quest.4F68E3131F7F073C.desc.2}"
 			]
-			icon: "typeomega:rocket_assembly_casing"
+			icon: "typeomega:mission_control_casing"
 			id: "4F68E3131F7F073C"
 			rewards: [ ]
 			shape: "circle"
@@ -170,8 +168,11 @@
 			tasks: [
 				{
 					id: "69DE1F7EDFBFDD41"
-					type: "checkmark"
-					title: "{gtia.quest.4F68E3131F7F073C.task.69DE1F7EDFBFDD41}"
+					type: "item"
+					item: "typeomega:mission_control_casing"
+					count: 1L
+					consume_items: false
+					match_nbt: false
 				}
 			]
 			title: "{gtia.quest.4F68E3131F7F073C.title}"
@@ -186,10 +187,8 @@
 			]
 			description: [
 				"{gtia.quest.5BACF8FD062F8804.desc.0}"
-				""
-				"{gtia.quest.5BACF8FD062F8804.desc.2}"
 			]
-			icon: "typeomega:rocket_assembler"
+			icon: "typeomega:cosmodrome"
 			id: "5BACF8FD062F8804"
 			rewards: [ ]
 			shape: "gear"
@@ -198,8 +197,11 @@
 			tasks: [
 				{
 					id: "291A4EE5A678C924"
-					type: "checkmark"
-					title: "{gtia.quest.5BACF8FD062F8804.task.291A4EE5A678C924}"
+					type: "item"
+					item: "typeomega:cosmodrome"
+					count: 1L
+					consume_items: false
+					match_nbt: false
 				}
 			]
 			title: "{gtia.quest.5BACF8FD062F8804.title}"
@@ -213,7 +215,7 @@
 			description: [
 				"{gtia.quest.4442AC66B983EA6F.desc.0}"
 			]
-			icon: "minecraft:compass"
+			icon: "typeomega:kardashev_meter"
 			id: "4442AC66B983EA6F"
 			optional: true
 			rewards: [ ]
@@ -238,7 +240,7 @@
 			description: [
 				"{gtia.quest.52B63917E2A2F28F.desc.0}"
 			]
-			icon: "typeomega:rocket_assembler"
+			icon: "typeomega:cosmodrome"
 			id: "52B63917E2A2F28F"
 			optional: true
 			rewards: [ ]
@@ -478,10 +480,8 @@
 			]
 			description: [
 				"{gtia.quest.0AB8BFAF6C72A8F9.desc.0}"
-				""
-				"{gtia.quest.0AB8BFAF6C72A8F9.desc.2}"
 			]
-			icon: "gtceu:hv_emitter"
+			icon: "typeomega:lunar_probe"
 			id: "0AB8BFAF6C72A8F9"
 			rewards: [ ]
 			shape: "circle"
@@ -490,8 +490,11 @@
 			tasks: [
 				{
 					id: "675BC08F9C88638D"
-					type: "checkmark"
-					title: "{gtia.quest.0AB8BFAF6C72A8F9.task.675BC08F9C88638D}"
+					type: "item"
+					item: "typeomega:lunar_probe"
+					count: 1L
+					consume_items: false
+					match_nbt: false
 				}
 			]
 			title: "{gtia.quest.0AB8BFAF6C72A8F9.title}"
@@ -531,10 +534,8 @@
 			]
 			description: [
 				"{gtia.quest.0C09B9342F8E9FBE.desc.0}"
-				""
-				"{gtia.quest.0C09B9342F8E9FBE.desc.2}"
 			]
-			icon: "gtceu:data_stick"
+			icon: "typeomega:lunar_survey_data"
 			id: "0C09B9342F8E9FBE"
 			rewards: [ ]
 			shape: "circle"
@@ -543,8 +544,11 @@
 			tasks: [
 				{
 					id: "23F3BBA6A97A4F0C"
-					type: "checkmark"
-					title: "{gtia.quest.0C09B9342F8E9FBE.task.23F3BBA6A97A4F0C}"
+					type: "item"
+					item: "typeomega:lunar_survey_data"
+					count: 1L
+					consume_items: false
+					match_nbt: false
 				}
 			]
 			title: "{gtia.quest.0C09B9342F8E9FBE.title}"
@@ -558,7 +562,7 @@
 			description: [
 				"{gtia.quest.578B1801F5F2D83B.desc.0}"
 			]
-			icon: "gtceu:data_stick"
+			icon: "typeomega:lunar_survey_data"
 			id: "578B1801F5F2D83B"
 			optional: true
 			rewards: [ ]
