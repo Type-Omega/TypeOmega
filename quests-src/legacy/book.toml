@@ -65,3 +65,15 @@ kind = "generated"
 legacy = true   # GTIA-D-351: redone with the quest atlas after Start to MV (Flux Matrix in HV)
 group = "systems"
 order = 9
+
+# GTIA-D-426: the Start chapter was retired and 0.0 (First Fire) opens the book. Its sources are start.toml,
+# start.original.snbt and start-author-2026-09-30/ in this folder; the Welcome chapter is still built from them.
+[[chapter]]
+file = "start"
+background = "#4E4E52"
+texture = "start"
+kind = "migrated"      # the author's approved chapter, read from start.original.snbt
+group = "start"
+order = 1
+next = "type0_0_first_fire"
+banner = "start"

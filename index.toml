@@ -246,7 +246,7 @@ hash = "97cf24a5c694be67b73def73f282c1b3b53746fe3e6f97a06b7d035c59820ca4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/agriculture.snbt"
-hash = "a31533bbe9d610021eec82c583b0a481ab0de1aba5eb198215a7e91643064c46"
+hash = "c71d791f1d903da2b8b3a8a94d5cd7ea13db66f6a106449baae80c371e845bdf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bees.snbt"
@@ -258,55 +258,51 @@ hash = "197086fbd5fbb078e609c91b3c8340cbfb2aed721574338fcdd93f5fb6741e4e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiblocks.snbt"
-hash = "3af481686ca8c3cabe0ad5fc799da00e54c8370428ccb737cc49d9418d15f566"
+hash = "a7241f28978b67f63c55bff1dc1977eb67f4aef084e0e96efa5714fae85625d0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/periodic.snbt"
 hash = "2b449df08e1ed6eb2edf48035d228d33cfb9a28cd70a8be6c4da85e62398efa3"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/start.snbt"
-hash = "c285cea9c06d46bfc062b0298e2537005325212f2821c2db526b2d4f9e780ab3"
-
-[[files]]
 file = "config/ftbquests/quests/chapters/type0_0_first_fire.snbt"
-hash = "0133e10dd5b393d90211d61f178ccb5bc214303de39a0f94f60824793759691f"
+hash = "dc52ff7a19c04d7649972d6b357372a5dfd9071547bbfb48880c3aca0dc38cf6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/type0_1_steam_steel.snbt"
-hash = "97f37d261109c6aa0c42bd74279e06b0bae51f125818443594584cc417d06ea7"
+hash = "c6a679735c610f9643479003915699e6bd0ac1dbdc3dcece77ba65bc060a6036"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/type0_2_electricity.snbt"
-hash = "a97b6dd501bdee63386682545441fc774b6052a800f134e2eb449b10078e701a"
+hash = "06a0f4c6fa5b102b40e326ba63293293f2aa4fa9c7d32cfedb562c2a06072d81"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/type0_3_blast_furnace.snbt"
-hash = "1e83bcfa833110ae2a2a8336cce54831680d41c2215f189c00ead860ac98602f"
+hash = "efc5ff078fdc8fb8b2f741c1a5a69abb9328afe558f9a620c961409fe95a233a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/type0_4_medium_voltage.snbt"
-hash = "5b987332114e2dd0a7008769af8119e256af1fc40359f0d51bfdf44cae86a4da"
+hash = "391da4079f3da15b73aa2b9c90fa879ad576fd272691a182a3631ba52fb90a0d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/type0_5_end_of_mv.snbt"
-hash = "ba88b337acc7dea9670373cc58ef2f023b31a914e255f5c1a1ddb40fc28fdd56"
+hash = "09ae3c8f0530b1a8063c756408575976bfe65e0b3200611efc9ff8b091b4a020"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/type0_6_power_grid.snbt"
-hash = "654392bba43a8c9cf7614bbc1a24328c5afea62cb8d2ccbafea563a19ed47297"
+hash = "53bb36c6523d229a8d837df9cbe77ea41b1208ea711ee051fb077fb95a98a7ed"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/type0_7_moon.snbt"
-hash = "06e52d46a610d2c2d04479ba9af5393a5aa8b29fdb11d8ae5fdde814363a73b5"
+hash = "586fb21a07b82c6df470e0fefb7cbe9c50efe924c3fa5bab018720d1d8d99e4b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/type0_8_fusion.snbt"
-hash = "19a7322fdab0c800d367dbfd1eca88e8f738e7f9e0993bf052d16f3710b10de9"
+hash = "8c15a4c53ec5a12cabb67c32467707016ec5fe18a972b166fc7d6e479e1a9245"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
-hash = "d3cbcb36a9ec208eb46cf7695cd50f3e9d4947c65c6d60ef37f0eb51462f83d1"
+hash = "2b733e3ab6c9dd67475646a20a2c609fdddfe8ce023021bbdcc6b4610cba839d"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -442,15 +438,15 @@ hash = "c937050709b29ba62629f46d03b32a1e27a6c9ff970ad04a7242a4b8eab26e84"
 
 [[files]]
 file = "config/openloader/resources/gtia_quests/assets/gtia_quests/lang/en_us.json"
-hash = "1070f4c165b71c88c0b2952131cfeaa8b68a83b0d62c7af041c8162144b33ffb"
+hash = "61699e6582f55a831e92929027de5983342414ed5279f6bcf6bc1511b6147a33"
 
 [[files]]
 file = "config/openloader/resources/gtia_quests/assets/gtia_quests/lang/pt_br.json"
-hash = "bbb114fd12fa1714b12035e2b0875c2f55a8cc4b38e82d431e11bfb2784e5c63"
+hash = "5e5b0771881d4300f0cc137e410ffff23a9a8112c895ae409de641c456aece99"
 
 [[files]]
 file = "config/openloader/resources/gtia_quests/assets/gtia_quests/lang/zh_cn.json"
-hash = "090b6c2774c29bef71d6645190dbd516bcbcd0ba4a2305bd7a96b535c896bf44"
+hash = "637e8f91d24c5cc762c86c18800190c6da9e5f4dde37e8ee1d8bd7287dfa48f1"
 
 [[files]]
 file = "config/openloader/resources/gtia_quests/assets/gtia_quests/textures/quests/agronomica_farm.png"

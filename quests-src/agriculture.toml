@@ -192,12 +192,12 @@ key = "biomass"
 title = "Biomass"
 role = "side"
 icon = "gtceu:biomass_bucket"
-deps = ["crossing", "type0_2_electricity:entry"]
-pending = "the Brewery is not in the Type 0 beta book yet (GTIA-D-421)"
+deps = ["crossing", "type0_2_electricity:fermentador"]
+pending = "the LV Fermenter (GTIA-D-426) has no Biomass recipe yet: every Biomass recipe is of the Brewery type"
 subtitle = "Grass into fuel."
 task = [{ fluid = "gtceu:biomass", amount = 1000 }]
 text = """
-Four [item]Biomass Bundles[/] and water become [num]500 mB[/] of [item]Biomass[/] in the Brewery. Ferment it again for ethanol; the High Voltage bees drink it too.
+Four [item]Biomass Bundles[/] and water become [num]500 mB[/] of [item]Biomass[/] in the LV Fermenter. Ferment it again for ethanol; the High Voltage bees drink it too.
 """
 
 [[quest]]

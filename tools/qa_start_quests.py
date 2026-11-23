@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Audit the active authorial Start chapter, its preserved IDs and Prism copy."""
+"""Audit the book entry (GTIA-D-426): the 0.0 First Fire chapter and the Welcome chapter, the author's Welcome quests and the Prism copy."""
 import sys
 import tomllib
 from pathlib import Path
@@ -39,33 +39,36 @@ def audit():
  args=ap.parse_args()
  pack=Path(__file__).resolve().parents[1]
  source=pack/'config/ftbquests/quests'
- backup=pack/'quests-src/start-author-2026-09-30'
- d=Parser((source/'chapters/start.snbt').read_text()).parse()
- # D-291: the Start is split into Welcome and Start; both hold the author's quests.
+ legacy=pack/'quests-src/legacy'
+ backup=legacy/'start-author-2026-09-30'
+ sys.path.insert(0,str(pack/'tools')); from questgen import ident
+ # GTIA-D-426: the Start chapter is retired (sources in quests-src/legacy/); 0.0 First Fire opens the book and the
+ # Welcome, still cut from the author's Start, links to it.
+ assert not (source/'chapters/start.snbt').exists(),'The retired Start chapter must not be generated'
+ first=Parser((source/'chapters/type0_0_first_fire.snbt').read_text()).parse()
  w=Parser((source/'chapters/welcome.snbt').read_text()).parse()
- chapter_of={q['id']:'start' for q in d['quests']}|{q['id']:'welcome' for q in w['quests']}
- d['quests']=d['quests']+w['quests']
+ chapter_of={q['id']:'type0_0' for q in first['quests']}|{q['id']:'welcome' for q in w['quests']}
+ qs={q['id']:q for q in first['quests']+w['quests']}
+ assert len(qs)==len(first['quests'])+len(w['quests']),'A quest id is in both chapters'
  old=Parser((backup/'chapters/start.snbt').read_text()).parse()
- qs={q['id']:q for q in d['quests']}
- mq=Parser((source/'chapters/modes.snbt').read_text()).parse()['quests']; modes={q['id'] for q in mq}; journey_id=mq[0]['id']
+ mq=Parser((source/'chapters/modes.snbt').read_text()).parse()['quests']; modes={q['id'] for q in mq}
  mode_of=lambda q:next((m for m in q.get('dependencies',[]) if m in modes),None)
  kits={q['id']:q for q in qs.values() if mode_of(q)}  # Starting Kits per mode (GTIA-D-279)
- # The Journey kit of each Start step (start.toml [[mode_reward]]) carries the author's original rewards.
- sys.path.insert(0,str(pack/'tools')); from questgen import ident
- by_title={q.get('title'):q['id'] for q in Parser((pack/'quests-src/start.original.snbt').read_text()).parse()['quests']}
- meta=tomllib.loads((pack/'quests-src/start.toml').read_text())
+ by_title={q.get('title'):q['id'] for q in Parser((legacy/'start.original.snbt').read_text()).parse()['quests']}
+ meta=tomllib.loads((legacy/'start.toml').read_text())
  kit_of={by_title[s['title']]:ident(f"quest:start:{s['key']}_journey") for s in meta['mode_reward']}
- assert {q['id'] for q in old['quests']}<=set(qs) and len(old['quests'])==29  # the 29 approved quests (The Research Tree was removed with GTIA-D-226)
- ids=[d['id'],w['id']]
+ assert len(old['quests'])==29  # the 29 approved quests (The Research Tree was removed with GTIA-D-226)
+ ids=[first['id'],w['id']]
  for q in qs.values():
   ids.append(q['id'])
   assert q['title'] and q['subtitle'] and q['icon']
   assert len(q['subtitle'])<=70
   assert any(q['description']) and all(isinstance(t,str) and t.isascii() for t in q['description'])
   assert all((dep in qs or dep in modes) and dep!=q['id'] for dep in q.get('dependencies',[]))
+  assert all(dep in qs and chapter_of[dep]==chapter_of[q['id']] for dep in q.get('dependencies',[]) if dep not in modes),'A dependency crosses chapters'
   assert q['tasks']
   for t in q['tasks']:
-   ids.append(t['id']);assert t['title']
+   ids.append(t['id']);assert t['title'] if t['type']!='item' else True
    if t['type']=='item':
     assert t['consume_items']=='false' and t['match_nbt']=='false'
     assert isinstance(t['item'],str) and ':' in t['item']
@@ -87,8 +90,14 @@ def audit():
   if mode_of(a) and mode_of(b) and mode_of(a)!=mode_of(b):continue
   if chapter_of[a['id']]!=chapter_of[b['id']]:continue
   assert math.hypot(number(a,'x')-number(b,'x'),number(a,'y')-number(b,'y'))>(number(a,'size')+number(b,'size'))/2, 'Overlapping nodes'
- for a in old['quests']:
+ # The author's Welcome quests keep id, task ids and item rewards (the rest of the old Start lives in quests-src/legacy/).
+ renamed={f['new_title']:f['title'] for f in meta.get('text_fix',[]) if f.get('new_title')}
+ moved={renamed.get(t,t) for t in meta['welcome']['titles']}
+ kept=[a for a in old['quests'] if a['id'] in qs]
+ assert {by_title[t] for t in moved}=={a['id'] for a in kept} and len(kept)==len(moved)
+ for a in kept:
   b=qs[a['id']]
+  assert chapter_of[a['id']]=='welcome'
   assert {t['id'] for t in a['tasks']}=={t['id'] for t in b['tasks']}
   removed={x['item'] for x in meta.get('reward_removal',[]) if by_title.get(x['title'])==a['id']}
   item_id=lambda r:r.get('item',{}).get('id') if isinstance(r.get('item'),dict) else r.get('item')
@@ -96,19 +105,27 @@ def audit():
   if any(r['type']=='item' for r in a.get('rewards',[])):
    journey=[kits[kit_of[a['id']]]] if kit_of.get(a['id']) in kits else []
    assert a['rewards']==b['rewards'] or (not b['rewards'] and journey and journey[0]['rewards']==a['rewards']),'Author item reward changed'
- # The main route must be reachable without the optional branches.
- gate=qs['64D91166C361698D'];ancestors=set()
- def collect(i):
-  for dep in qs[i].get('dependencies',[]):
-   if dep not in ancestors:ancestors.add(dep);collect(dep)
- collect(gate['id'])
- assert gate['tasks'][0]['item']=='gtceu:coke_gem'
- assert '01780714D3006B80' in ancestors and '487911F0F530BC5C' in ancestors
- assert not ancestors.intersection({'44B99A5358D9A1A0','5ACCF4B9A48CCFFB','6B586DEF6A83F004','79F9D0A994CF9EDB','4B0F76331F09E588','75F8535E4B2326CE'})
- for rel in ['chapters/start.snbt','chapters/welcome.snbt','data.snbt','chapter_groups.snbt']:
+ # 0.0 is the entry of the book: the Welcome links to it, it depends on nothing, and everything in it hangs from it.
+ entry=ident('quest:type0_0_first_fire:entry')
+ assert entry in qs and chapter_of[entry]=='type0_0' and not qs[entry].get('dependencies'),'0.0 needs a free entry quest'
+ assert [l['linked_quest'] for l in w['quest_links']]==[entry],'The Welcome must link to the 0.0 entry'
+ welcome=by_title['Welcome to Infinity Ascension']
+ assert welcome in qs and chapter_of[welcome]=='welcome' and not [d for d in qs[welcome].get('dependencies',[]) if d not in modes]
+ both_kits={ident(f"quest:start:{m['key']}_both") for m in meta['mode_reward'] if m.get('both')}
+ def root_of(i,seen=()):
+  deps=[d for d in qs[i].get('dependencies',[]) if d in qs]
+  return {i} if not deps else set().union(*(root_of(d) for d in deps))
+ for i,q in qs.items():
+  if mode_of(q) or i in both_kits:continue  # the per-mode kits and intros open with the world's mode (GTIA-D-279); the shared kit has no road
+  assert root_of(i)=={entry if chapter_of[i]=='type0_0' else welcome},f'Not reachable from the chapter entry: {q["title"]}'
+ # 0.0 hands over to 0.1 (Steam and Steel) and has its first machine step.
+ nxt=ident('quest:type0_1_steam_steel:entry')
+ assert [l['linked_quest'] for l in first['quest_links']]==[nxt],'0.0 must link to the 0.1 entry'
+ assert first['order_index']=='2' or str(first['order_index'])=='2'
+ for rel in ['chapters/type0_0_first_fire.snbt','chapters/welcome.snbt','chapters/modes.snbt','data.snbt','chapter_groups.snbt']:
   Parser((source/rel).read_text()).parse()
   if args.check_prism:assert (source/rel).read_bytes()==(args.prism/rel).read_bytes(),f'Prism mismatch: {rel}'
- print(f'Start OK: {len(qs)} quests, {len(ids)} unique chapter/quest/task/reward IDs, no cycles or overlaps; titles, descriptions, icons and preserved item rewards.')
- print('start.snbt SHA-256:',hashlib.sha256((source/'chapters/start.snbt').read_bytes()).hexdigest())
+ print(f'Entry OK: {len(qs)} quests (0.0: {len(first["quests"])}, Welcome: {len(w["quests"])}), {len(ids)} unique chapter/quest/task/reward IDs, no cycles or overlaps; titles, descriptions, icons, the author\'s Welcome rewards and the Welcome -> 0.0 -> 0.1 links.')
+ print('type0_0_first_fire.snbt SHA-256:',hashlib.sha256((source/'chapters/type0_0_first_fire.snbt').read_bytes()).hexdigest())
 
 if __name__=='__main__':audit()

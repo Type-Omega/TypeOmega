@@ -55,12 +55,12 @@ key = "biomass"
 title = "Biomass for Bees"
 role = "side"
 icon = "gtceu:biomass_bucket"
-deps = ["entry", "type0_2_electricity:entry"]
-pending = "the Brewery is not in the Type 0 beta book yet (GTIA-D-421)"
+deps = ["entry", "type0_2_electricity:fermentador"]
+pending = "the LV Fermenter (GTIA-D-426) has no Biomass recipe yet: every Biomass recipe is of the Brewery type"
 subtitle = "Breakfast."
 task = [{ fluid = "gtceu:biomass", amount = 1000 }]
 text = """
-[num]1,000 mB[/] of [item]Biomass[/] per new bee. The Brewery makes it from plants; Elephant Grass from the Agriculture chapter is the best feed.
+[num]1,000 mB[/] of [item]Biomass[/] per new bee. The LV Fermenter makes it from plants; Elephant Grass from the Agriculture chapter is the best feed.
 """
 
 [[quest]]

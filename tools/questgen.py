@@ -13,8 +13,9 @@ A chapter is described in `quests-src/<file>.toml` with the lanes and rows a que
     machines   x = 3, 4.5 ...     machines and multiblocks
     outer      x = 7.5 ...        optional extras and hints
 
-Rows are 1.5 apart. Ids are derived from names, so rebuilding never changes an id a player's progress depends on. The Start chapter keeps the author's approved quests: it is read from
-`quests-src/start.original.snbt` and only gains shapes, sizes, optional marks, a group, a new quest and a link.
+Rows are 1.5 apart. Ids are derived from names, so rebuilding never changes an id a player's progress depends on. The old Start chapter was retired
+by GTIA-D-426; its sources are in `quests-src/legacy/` (start.original.snbt, start.toml). The Welcome chapter is still built from
+them: it keeps the author's reading quests and the world's mode, and links to the 0.0 chapter.
 """
 
 from __future__ import annotations
@@ -33,6 +34,7 @@ from snbt import Raw, double, long  # noqa: E402
 PACK = Path(__file__).resolve().parents[1]
 ROOT = PACK.parent
 SRC = PACK / "quests-src"
+LEGACY = SRC / "legacy"
 OUT = PACK / "config" / "ftbquests" / "quests"
 REGISTRY = PACK / "manifest" / "registry"
 
@@ -263,14 +265,14 @@ class Book:
 
     def chapter_id(self, file: str) -> str:
         if file == "start":
-            return snbt.loads((SRC / "start.original.snbt").read_text(encoding="utf-8"))["id"]
+            return snbt.loads((LEGACY / "start.original.snbt").read_text(encoding="utf-8"))["id"]
         return ident("chapter:" + file)
 
     def qid(self, file: str, key: str) -> str:
         return ident(f"quest:{file}:{key}")
 
     def start_quest(self, title: str) -> str:
-        start = snbt.loads((SRC / "start.original.snbt").read_text(encoding="utf-8"))
+        start = snbt.loads((LEGACY / "start.original.snbt").read_text(encoding="utf-8"))
         for quest in start["quests"]:
             if quest.get("title") == title:
                 return quest["id"]
@@ -460,8 +462,8 @@ class Book:
 
     # -- Start: the author's approved chapter, plus presentation and a link onward
     def build_start(self, chapter: dict) -> dict:
-        start = snbt.loads((SRC / "start.original.snbt").read_text(encoding="utf-8"))
-        meta = tomllib.loads((SRC / "start.toml").read_text(encoding="utf-8"))
+        start = snbt.loads((LEGACY / "start.original.snbt").read_text(encoding="utf-8"))
+        meta = tomllib.loads((LEGACY / "start.toml").read_text(encoding="utf-8"))
         roles = meta["roles"]
         # D-276: the approved Start keeps its text, tasks and rewards; only its layout comes from start.toml.
         positions = meta.get("positions", {})
@@ -485,7 +487,11 @@ class Book:
         by_title = {q.get("title"): q for q in start["quests"]}
 
         def ref(name: str) -> str:
-            return ident("quest:start:" + name[4:]) if name.startswith("new:") else by_title[name]["id"]
+            if name.startswith("new:"):
+                return ident("quest:start:" + name[4:])
+            if name.split(":", 1)[0] in self.specs:  # GTIA-D-426: "<chapter>:<key>", a quest of a generated chapter
+                return self.quest_ids[name]
+            return by_title[name]["id"]
 
         for new in meta.get("new_quest", []):
             style = ROLES[new["role"]]
@@ -641,7 +647,7 @@ class Book:
                  "ore": "Ores and Mining", "processing": "Processing and Assembly", "power": "Power",
                  "bio": "Farming and Life", "data": "Storage and Data", "space": "Space",
                  "other": "Wonders and Oddities"}
-        tiers = {"steam": ("Steam Age Goals", "gtceu:lp_steam_solid_boiler", "start/Ready for Steam",
+        tiers = {"steam": ("Steam Age Goals", "gtceu:lp_steam_solid_boiler", "type0_1_steam_steel:entry",
                            [{"item": "gtceu:bronze_ingot"}]),
                  "lv": ("LV Goals", "gtceu:lv_machine_hull", "type0_2_electricity:entry", None),
                  "mv": ("MV Goals", "gtceu:mv_machine_hull", "type0_4_medium_voltage:entry", None),
@@ -769,8 +775,12 @@ class Book:
         chapters_out = {}
         for chapter in self.chapters:
             if chapter["kind"] == "welcome":
-                continue  # built together with the Start, below
-            if chapter["kind"] == "migrated":
+                # GTIA-D-426: the Start chapter is retired (sources in quests-src/legacy/); the Welcome is still cut out
+                # of it, so the author's reading quests keep their ids, and its chapter is not written.
+                # PT: o capítulo Start foi desativado; o Welcome ainda sai dele, o Start em si não é escrito.
+                # ZH: Start 章节已停用；Welcome 仍由它生成，Start 本身不再输出。
+                self.build_start(chapter)
+            elif chapter["kind"] == "migrated":
                 chapters_out[chapter["file"]] = self.build_start(chapter)
             elif chapter["kind"] == "multiblocks":
                 chapters_out[chapter["file"]] = self.build_multiblocks(chapter)

@@ -8,7 +8,7 @@ link_y = 7.0
 title = "Welcome"
 icon = "minecraft:grass_block"
 order = 0
-link_to = "new:wood"
+link_to = "type0_0_first_fire:entry"   # GTIA-D-426: the Welcome opens 0.0
 link_x = 10.0
 link_y = 0.0
 titles = [
@@ -99,7 +99,7 @@ titles = [
 title = "How to Read This Chapter"
 new_title = "How to Read the Book"
 old = "The central column is the main route."
-new = "In the Start chapter the road is the main route: it runs right, turns down, runs back left and turns again."
+new = "In each chapter the lines between quests are the main route: follow them from one quest to the next."
 
 [[text_fix]]
 title = "How to Read This Chapter"
@@ -109,7 +109,7 @@ new = "The information quests in this chapter can be read right away."
 [[text_fix]]
 title = "Welcome to Infinity Ascension"
 old = "Follow the central path from top to bottom."
-new = "In the Start chapter, follow the road from left to right and down."
+new = "Start with the First Fire chapter and follow the lines from quest to quest."
 
 [[text_fix]]
 title = "Welcome to Infinity Ascension"
@@ -159,9 +159,9 @@ icon = "minecraft:oak_sapling"
 x = 7.5
 y = 0
 deps = ["Room for a Factory"]
-subtitle = "The Start chapter is next."
+subtitle = "First Fire is next."
 text = """
-That is everything you need to know before the first tree. The Start chapter takes you from a log to your first Coke, one step at a time.
+That is everything you need to know before the first tree. The First Fire chapter (0.0) takes you from a campfire to your first Bronze, one step at a time.
 """
 
 [[new_quest]]

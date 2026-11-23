@@ -28,19 +28,9 @@ title = "Reference"
 file = "welcome"
 background = "#3B3F46"
 texture = "welcome"
-kind = "welcome"       # built with the Start: the author's reading quests and the world's mode (D-291)
+kind = "welcome"       # the author's reading quests and the world's mode (D-291); links to 0.0 (GTIA-D-426)
 group = "start"
 order = 0
-
-[[chapter]]
-file = "start"
-background = "#4E4E52"
-texture = "start"
-kind = "migrated"      # the author's approved chapter, read from start.original.snbt
-group = "start"
-order = 1
-next = "type0_0_first_fire"
-banner = "start"
 
 # GTIA-D-421: the Type 0 book (0.0 to 0.8), a development beta generated from the approved drafts by
 # tools/draft_to_questsrc.py. It replaces the Steam, LV, MV, HV, Power Generation and Wireless chapters
