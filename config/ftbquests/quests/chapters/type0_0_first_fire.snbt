@@ -949,6 +949,669 @@
 			x: 0.0d
 			y: 20.25d
 		}
+		{
+			dependencies: [
+				"7CC6AB08CEB50AFA"
+				"270B3B2AA4C678D7"
+				"4231C12C585214A4"
+			]
+			description: [
+				"{gtia.quest.50CA86FFB6A31F0B.desc.0}"
+			]
+			id: "50CA86FFB6A31F0B"
+			hide_dependency_lines: true
+			rewards: [
+				{
+					id: "1C084D648EDD222F"
+					item: {
+						Count: 1
+						id: "gtceu:prospector.hv"
+						tag: {
+							Charge: 1600000L
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{gtia.quest.50CA86FFB6A31F0B.subtitle}"
+			tasks: [
+				{
+					id: "25E7D4FDFC634125"
+					type: "checkmark"
+					title: "{gtia.quest.50CA86FFB6A31F0B.task.25E7D4FDFC634125}"
+				}
+			]
+			title: "{gtia.quest.50CA86FFB6A31F0B.title}"
+			x: -4.5d
+			y: 11.5d
+			hide_until_deps_complete: true
+			icon: "gtceu:prospector.hv"
+		}
+		{
+			dependencies: [
+				"7CC6AB08CEB50AFA"
+				"270B3B2AA4C678D7"
+				"4231C12C585214A4"
+			]
+			description: [
+				"{gtia.quest.52F0EE58500632F0.desc.0}"
+			]
+			id: "52F0EE58500632F0"
+			hide_dependency_lines: true
+			rewards: [
+				{
+					id: "6133278C2F56EAD7"
+					item: "gtceu:prospector.lv"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{gtia.quest.52F0EE58500632F0.subtitle}"
+			tasks: [
+				{
+					id: "18051F2EF955726B"
+					type: "checkmark"
+					title: "{gtia.quest.52F0EE58500632F0.task.18051F2EF955726B}"
+				}
+			]
+			title: "{gtia.quest.52F0EE58500632F0.title}"
+			x: -4.5d
+			y: 10.0d
+			hide_until_deps_complete: true
+			icon: "gtceu:prospector.lv"
+		}
+		{
+			dependencies: [
+				"1E8B2B8F9D36A6DF"
+				"270B3B2AA4C678D7"
+				"4231C12C585214A4"
+			]
+			description: [
+				"{gtia.quest.1DB1CFB1E6F277F9.desc.0}"
+			]
+			id: "1DB1CFB1E6F277F9"
+			hide_dependency_lines: true
+			rewards: [
+				{
+					id: "23D7AC96401162AD"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_hammer"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+								RelocateMobDrops: 1b
+							}
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								HarvestLevel: 6
+								MaxDamage: 65534
+								ToolSpeed: 184.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3300352EE61C3FA1"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_file"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+								RelocateMobDrops: 1b
+							}
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								MaxDamage: 65534
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D708B57C7E8C8F2"
+					item: {
+						Count: 1
+						id: "gtceu:damascus_steel_mortar"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								MaxDamage: 1023
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{gtia.quest.1DB1CFB1E6F277F9.subtitle}"
+			tasks: [
+				{
+					id: "29A048EA09B52B39"
+					type: "checkmark"
+					title: "{gtia.quest.1DB1CFB1E6F277F9.task.29A048EA09B52B39}"
+				}
+			]
+			title: "{gtia.quest.1DB1CFB1E6F277F9.title}"
+			x: 3.25d
+			y: 22.0d
+			hide_until_deps_complete: true
+			icon: "gtceu:neutronium_hammer"
+		}
+		{
+			dependencies: [
+				"1E8B2B8F9D36A6DF"
+				"270B3B2AA4C678D7"
+				"4231C12C585214A4"
+			]
+			description: [
+				"{gtia.quest.1D479D166C9BDE79.desc.0}"
+			]
+			id: "1D479D166C9BDE79"
+			hide_dependency_lines: true
+			rewards: [
+				{
+					id: "2C6327FC39FD95D9"
+					item: "gtceu:steel_hammer"
+					type: "item"
+				}
+				{
+					id: "3761B88F4E78B74D"
+					item: "gtceu:steel_file"
+					type: "item"
+				}
+				{
+					id: "084F4CAEFAD01A5E"
+					item: "gtceu:steel_mortar"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{gtia.quest.1D479D166C9BDE79.subtitle}"
+			tasks: [
+				{
+					id: "22042215A04A7AD1"
+					type: "checkmark"
+					title: "{gtia.quest.1D479D166C9BDE79.task.22042215A04A7AD1}"
+				}
+			]
+			title: "{gtia.quest.1D479D166C9BDE79.title}"
+			x: 3.25d
+			y: 13.75d
+			hide_until_deps_complete: true
+			icon: "gtceu:steel_hammer"
+		}
+		{
+			dependencies: [
+				"79750C338B0EE976"
+				"0C75C356D8235C45"
+				"5431731425AA9939"
+				"270B3B2AA4C678D7"
+				"4231C12C585214A4"
+			]
+			description: [
+				"{gtia.quest.4E6A563336EF2A38.desc.0}"
+			]
+			id: "4E6A563336EF2A38"
+			hide_dependency_lines: true
+			rewards: [
+				{
+					id: "0C4CD0C36D9C960D"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_wire_cutter"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+								RelocateMobDrops: 1b
+							}
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								HarvestLevel: 6
+								MaxDamage: 65534
+								ToolSpeed: 184.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A81919291132188"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_screwdriver"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+								RelocateMobDrops: 1b
+							}
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								MaxDamage: 65534
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7DB4231B1C1037BC"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_saw"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								HarvestIce: 1b
+								RelocateMinedBlocks: 1b
+								RelocateMobDrops: 1b
+							}
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								MaxDamage: 65534
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D09F2CA48A3000D"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_knife"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+								RelocateMobDrops: 1b
+							}
+							GT.Tool: {
+								AttackDamage: 100.0f
+								AttackSpeed: 3.5f
+								DefaultEnchantments: [ ]
+								MaxDamage: 65534
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06C243A95A2757DD"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_wrench"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								Mode: 2b
+								RelocateMinedBlocks: 1b
+								RelocateMobDrops: 1b
+							}
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								HarvestLevel: 6
+								MaxDamage: 65534
+								ToolSpeed: 184.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47205DD8C3EDE517"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_crowbar"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+								RelocateMobDrops: 1b
+							}
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								HarvestLevel: 6
+								MaxDamage: 65534
+								ToolSpeed: 184.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72AE9368C37F4B8F"
+					item: {
+						Count: 1
+						id: "gtceu:polybenzimidazole_mallet"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								MaxDamage: 1023
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{gtia.quest.4E6A563336EF2A38.subtitle}"
+			tasks: [
+				{
+					id: "542ED2CD6822CD00"
+					type: "checkmark"
+					title: "{gtia.quest.4E6A563336EF2A38.task.542ED2CD6822CD00}"
+				}
+			]
+			title: "{gtia.quest.4E6A563336EF2A38.title}"
+			x: 4.5d
+			y: 22.0d
+			hide_until_deps_complete: true
+			icon: "gtceu:neutronium_wire_cutter"
+		}
+		{
+			dependencies: [
+				"79750C338B0EE976"
+				"0C75C356D8235C45"
+				"5431731425AA9939"
+				"270B3B2AA4C678D7"
+				"4231C12C585214A4"
+			]
+			description: [
+				"{gtia.quest.4579ED5C07633F87.desc.0}"
+			]
+			id: "4579ED5C07633F87"
+			hide_dependency_lines: true
+			rewards: [
+				{
+					id: "226081765B9D8E5E"
+					item: "gtceu:steel_wire_cutter"
+					type: "item"
+				}
+				{
+					id: "71C4DB8C91276F8C"
+					item: "gtceu:steel_screwdriver"
+					type: "item"
+				}
+				{
+					id: "1E6C9D798F838B89"
+					item: "gtceu:steel_saw"
+					type: "item"
+				}
+				{
+					id: "5E06CEABE922CDA1"
+					item: "gtceu:steel_knife"
+					type: "item"
+				}
+				{
+					id: "2288D38BED631CF9"
+					item: "gtceu:steel_wrench"
+					type: "item"
+				}
+				{
+					id: "74A188F12FE440E8"
+					item: "gtceu:steel_crowbar"
+					type: "item"
+				}
+				{
+					id: "33C4858E9FB6EB5A"
+					item: "gtceu:rubber_mallet"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{gtia.quest.4579ED5C07633F87.subtitle}"
+			tasks: [
+				{
+					id: "54324C8830223848"
+					type: "checkmark"
+					title: "{gtia.quest.4579ED5C07633F87.task.54324C8830223848}"
+				}
+			]
+			title: "{gtia.quest.4579ED5C07633F87.title}"
+			x: 1.5d
+			y: 17.75d
+			hide_until_deps_complete: true
+			icon: "gtceu:steel_wire_cutter"
+		}
+		{
+			dependencies: [
+				"5F469188B16FB743"
+				"270B3B2AA4C678D7"
+				"4231C12C585214A4"
+			]
+			description: [
+				"{gtia.quest.64F13D49D69597B4.desc.0}"
+			]
+			id: "64F13D49D69597B4"
+			hide_dependency_lines: true
+			rewards: [
+				{
+					count: 64
+					id: "30D61795CFFE0506"
+					item: "gtceu:coke_block"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{gtia.quest.64F13D49D69597B4.subtitle}"
+			tasks: [
+				{
+					id: "5E2DB6B40C07FF6D"
+					type: "checkmark"
+					title: "{gtia.quest.64F13D49D69597B4.task.5E2DB6B40C07FF6D}"
+				}
+			]
+			title: "{gtia.quest.64F13D49D69597B4.title}"
+			x: 4.0d
+			y: 23.5d
+			hide_until_deps_complete: true
+			icon: "gtceu:coke_block"
+		}
+		{
+			dependencies: [
+				"5F469188B16FB743"
+				"270B3B2AA4C678D7"
+				"4231C12C585214A4"
+			]
+			description: [
+				"{gtia.quest.740B58820F6BD11A.desc.0}"
+			]
+			id: "740B58820F6BD11A"
+			hide_dependency_lines: true
+			rewards: [
+				{
+					count: 16
+					id: "0158D27AEAEAC9C0"
+					item: "gtceu:coke_block"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{gtia.quest.740B58820F6BD11A.subtitle}"
+			tasks: [
+				{
+					id: "0199534928DF9704"
+					type: "checkmark"
+					title: "{gtia.quest.740B58820F6BD11A.task.0199534928DF9704}"
+				}
+			]
+			title: "{gtia.quest.740B58820F6BD11A.title}"
+			x: 4.0d
+			y: 10.0d
+			hide_until_deps_complete: true
+			icon: "gtceu:coke_block"
+		}
+		{
+			dependencies: [
+				"384381BB85B9D608"
+				"270B3B2AA4C678D7"
+				"4231C12C585214A4"
+			]
+			description: [
+				"{gtia.quest.22A18B78340F3BE8.desc.0}"
+			]
+			id: "22A18B78340F3BE8"
+			hide_dependency_lines: true
+			rewards: [
+				{
+					count: 64
+					id: "1571FD708D251250"
+					item: "gtceu:bronze_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{gtia.quest.22A18B78340F3BE8.subtitle}"
+			tasks: [
+				{
+					id: "6D8AE7A3281BC4E2"
+					type: "checkmark"
+					title: "{gtia.quest.22A18B78340F3BE8.task.6D8AE7A3281BC4E2}"
+				}
+			]
+			title: "{gtia.quest.22A18B78340F3BE8.title}"
+			x: -4.25d
+			y: 19.5d
+			hide_until_deps_complete: true
+			icon: "gtceu:bronze_ingot"
+		}
+		{
+			dependencies: [
+				"384381BB85B9D608"
+				"270B3B2AA4C678D7"
+				"4231C12C585214A4"
+			]
+			description: [
+				"{gtia.quest.5E5F83145D36BBC8.desc.0}"
+			]
+			id: "5E5F83145D36BBC8"
+			hide_dependency_lines: true
+			rewards: [
+				{
+					count: 16
+					id: "565E00AB3A6279EB"
+					item: "gtceu:bronze_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{gtia.quest.5E5F83145D36BBC8.subtitle}"
+			tasks: [
+				{
+					id: "6B30F391020D0D6D"
+					type: "checkmark"
+					title: "{gtia.quest.5E5F83145D36BBC8.task.6B30F391020D0D6D}"
+				}
+			]
+			title: "{gtia.quest.5E5F83145D36BBC8.title}"
+			x: -4.25d
+			y: 15.5d
+			hide_until_deps_complete: true
+			icon: "gtceu:bronze_ingot"
+		}
+		{
+			dependencies: [
+				"0F1792BB4F85D64C"
+				"270B3B2AA4C678D7"
+			]
+			description: [
+				"{gtia.quest.6135D798E3EB1878.desc.0}"
+			]
+			id: "6135D798E3EB1878"
+			hide_dependency_lines: true
+			rewards: [
+				{
+					id: "3C6E5A199D924081"
+					item: {
+						Count: 1
+						id: "gtna:echoite_vajra"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								DisableShields: 1b
+								Mode: 2b
+								RelocateMinedBlocks: 1b
+								RelocateMobDrops: 1b
+								TreeFelling: 1b
+							}
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								HarvestLevel: 6
+								MaxDamage: 63
+								ToolSpeed: 12.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{gtia.quest.6135D798E3EB1878.subtitle}"
+			tasks: [
+				{
+					id: "4A9B048198E05AC7"
+					type: "checkmark"
+					title: "{gtia.quest.6135D798E3EB1878.task.4A9B048198E05AC7}"
+				}
+			]
+			title: "{gtia.quest.6135D798E3EB1878.title}"
+			x: 0.0d
+			y: 22.75d
+			hide_until_deps_complete: true
+			icon: "gtna:echoite_vajra"
+		}
 	]
 	title: "{gtia.quest.chapter.0F8F242648996782}"
 	images: [
@@ -958,14 +1621,14 @@
 			color: 16777215
 			corner: false
 			dev: false
-			height: 83.0d
+			height: 85.25d
 			hover: [ ]
 			image: "gtia_quests:textures/quests/backgrounds/start.png"
 			order: -100
 			rotation: 0.0d
-			width: 83.0d
+			width: 85.25d
 			x: 0.0d
-			y: 10.25d
+			y: 11.375d
 		}
 	]
 }

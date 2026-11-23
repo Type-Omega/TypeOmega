@@ -447,6 +447,41 @@ class Book:
                     lx, ly = 0.0, (exit_spec["row"] + 2) * ROW
                 links.append({"id": ident(f"link:{file}:{nxt}"), "linked_quest": self.qid(nxt, "entry"),
                               "shape": "gear", "size": double(1.5), "x": double(lx), "y": double(ly)})
+        # EN: GTIA-D-427: the starting kits of the retired Start chapter come back as per-mode quests of a generated
+        #     chapter. `after` is the quest whose completion unlocks the kit; Journey copies the author's rewards
+        #     from the legacy Start (`journey_from` = its quest title), Normal lists its own items. The kit sits
+        #     beside its quest with no drawn line, and only shows in worlds of its mode.
+        # PT: GTIA-D-427: os kits iniciais do capítulo Start desativado voltam como quests por modo de um capítulo
+        #     gerado. `after` é a quest cuja conclusão libera o kit; o Journey copia as recompensas do autor do
+        #     Start antigo (`journey_from` = título da quest), o Normal lista os próprios itens. O kit fica ao lado
+        #     da quest, sem linha, e só aparece em mundos do seu modo.
+        # ZH: GTIA-D-427：已停用 Start 章节的初始套装以按模式区分的任务形式回到生成章节。`after` 是解锁套装的任务；
+        #     Journey 从旧 Start 复制作者的奖励（`journey_from` = 任务标题），Normal 自带物品列表。套装紧邻其任务，
+        #     不画连线，只在对应模式的世界中显示。
+        legacy_quests = None
+        for kit in spec.get("mode_kit", []):
+            gate = [self.resolve(file, d) for d in [kit["after"], *kit.get("also", [])]]
+            for mode in MODES:
+                if f"{mode}_text" not in kit:
+                    continue
+                key = f"{kit['key']}_{mode}"
+                rewards = None
+                if mode == "journey" and "journey_from" in kit:
+                    if legacy_quests is None:
+                        legacy_quests = {q["title"]: q for q in snbt.loads(
+                            (LEGACY / "start.original.snbt").read_text(encoding="utf-8"))["quests"]}
+                    source = legacy_quests[kit["journey_from"]]["rewards"]
+                else:
+                    rewards = kit[mode]
+                add(key, "side", "spine", 0, 0, kit["title"], kit[f"{mode}_subtitle"], kit[f"{mode}_text"],
+                    check_task(key, "Claim"), gate, rewards=rewards,
+                    extra={"x": kit["x"], "y": kit["y"], "shape": "diamond", "size": 1.0, "mode": mode,
+                           "hide_lines": True})
+                quest = quests[-1]
+                if rewards is None:
+                    quest["rewards"] = [{**r, "id": ident(f"reward:{file}:{key}:{i}")} for i, r in enumerate(source)]
+                first = quest["rewards"][0]["item"]
+                quest["icon"] = first if isinstance(first, str) else first["id"]
         return {
             "default_hide_dependency_lines": Raw("false"),
             "default_quest_shape": "circle",

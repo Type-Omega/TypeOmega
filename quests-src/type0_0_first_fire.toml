@@ -527,3 +527,79 @@ size = 1.0
 text = """
 Fill a boiler with water before you light it: a hot, dry boiler explodes when water arrives.
 """
+
+[[mode_kit]]
+key = "kit_prospector"
+after = "indicadores"
+x = -4.5
+y = 10.0
+title = "Starting Kit"
+journey_from = "Your First Workbench"
+journey_subtitle = "Journey kit."
+journey_text = "Claim the charged HV Prospector. Use it to find ore deposits before you dig long tunnels; it locates resources but does not mine them."
+normal_subtitle = "Normal kit."
+normal_text = "Claim an LV Prospector. Give it a battery and use it to find ore deposits before you dig long tunnels."
+normal = [{ item = "gtceu:prospector.lv" }]
+
+[[mode_kit]]
+key = "kit_hand_tools"
+after = "ferramentas"
+x = 3.25
+y = 13.75
+title = "Starting Kit"
+journey_from = "The First GregTech Tools"
+journey_subtitle = "Journey kit."
+journey_text = "Journey worlds start strong: these are the tools the author picked."
+normal_subtitle = "Normal kit."
+normal_text = "Normal worlds get tools of the age: steel, built to last the Steam Age."
+normal = [{ item = "gtceu:steel_hammer" }, { item = "gtceu:steel_file" }, { item = "gtceu:steel_mortar" }]
+
+[[mode_kit]]
+key = "kit_tool_set"
+after = "alicate"
+also = ["chave", "serra"]
+x = 4.5
+y = 17.75
+title = "Starting Kit"
+journey_from = "Complete the Tool Kit"
+journey_subtitle = "Journey kit."
+journey_text = "Journey worlds start strong: these are the tools the author picked."
+normal_subtitle = "Normal kit."
+normal_text = "Normal worlds get tools of the age: steel, built to last the Steam Age."
+normal = [{ item = "gtceu:steel_wire_cutter" }, { item = "gtceu:steel_screwdriver" }, { item = "gtceu:steel_saw" }, { item = "gtceu:steel_knife" }, { item = "gtceu:steel_wrench" }, { item = "gtceu:steel_crowbar" }, { item = "gtceu:rubber_mallet" }]
+
+[[mode_kit]]
+key = "kit_coke"
+after = "carvao"
+x = 4.0
+y = 10.0
+title = "Coke for the First Boilers"
+journey_from = "Coke for the First Boilers"
+journey_subtitle = "A starting stock of boiler fuel."
+journey_text = "Claim 64 Coke Blocks to light your first boilers. The Coke Oven comes with the next chapter: from there on, fuel is your factory's job."
+normal_subtitle = "A starting stock of boiler fuel."
+normal_text = "Claim 16 Coke Blocks to light your first boilers. The Coke Oven comes with the next chapter: from there on, fuel is your factory's job."
+normal = [{ item = "gtceu:coke_block", count = 16 }]
+
+[[mode_kit]]
+key = "kit_bronze"
+after = "bronze"
+x = -4.25
+y = 15.5
+title = "Bronze for the First Machines"
+journey_from = "Bronze for the First Machines"
+journey_subtitle = "A starting stock of the Steam alloy."
+journey_text = "Claim 64 Bronze Ingots for your first steam machine parts, then make your own from Copper and Tin."
+normal_subtitle = "A starting stock of the Steam alloy."
+normal_text = "Claim 16 Bronze Ingots for your first steam machine parts, then make your own from Copper and Tin."
+normal = [{ item = "gtceu:bronze_ingot", count = 16 }]
+
+[[mode_kit]]
+key = "kit_vajra"
+after = "exit"
+x = 0.0
+y = 22.75
+title = "A Tool for the Next Stage"
+journey_from = "A Tool for the Next Stage"
+journey_subtitle = "Equipment for a growing mining operation."
+journey_text = "Claim the Echoite Vajra to help gather resources for your growing factory. Read its tooltip and interaction modes before mining near your machines."

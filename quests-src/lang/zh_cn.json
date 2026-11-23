@@ -2940,5 +2940,11 @@
  "On to Mars": "前往火星",
  "Needed for: Type I · Mars.": "用于：I 型 · 火星。",
  "Type I · Mars": "I 型 · 火星",
- "Type I begins with the landing on Mars.": "I 型从登陆火星开始。"
+ "Type I begins with the landing on Mars.": "I 型从登陆火星开始。",
+ "Claim the charged HV Prospector. Use it to find ore deposits before you dig long tunnels; it locates resources but does not mine them.": "领取已充能的 HV 勘探器。在挖长隧道之前用它寻找矿床；它只负责定位，不会替你挖矿。",
+ "Claim an LV Prospector. Give it a battery and use it to find ore deposits before you dig long tunnels.": "领取一个 LV 勘探器。装上电池，在挖长隧道之前用它寻找矿床。",
+ "Claim 64 Coke Blocks to light your first boilers. The Coke Oven comes with the next chapter: from there on, fuel is your factory's job.": "领取 64 个焦炭块点燃第一批锅炉。焦炉在下一章：从那时起，燃料由你的工厂负责。",
+ "Claim 16 Coke Blocks to light your first boilers. The Coke Oven comes with the next chapter: from there on, fuel is your factory's job.": "领取 16 个焦炭块点燃第一批锅炉。焦炉在下一章：从那时起，燃料由你的工厂负责。",
+ "Claim 64 Bronze Ingots for your first steam machine parts, then make your own from Copper and Tin.": "领取 64 个青铜锭用于第一批蒸汽机器零件，之后用铜和锡自己制作。",
+ "Claim the Echoite Vajra to help gather resources for your growing factory. Read its tooltip and interaction modes before mining near your machines.": "领取回响金刚杵，帮助你为不断壮大的工厂收集资源。在机器附近挖掘前请阅读其提示和交互模式。"
 }
