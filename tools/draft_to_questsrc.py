@@ -84,77 +84,49 @@ REWARDS = {
 }
 
 
-# EN: GTIA-D-427: the starting kits of the retired Start chapter, now rewards of 0.0 quests. Per mode: Journey copies
-#     the author's rewards from quests-src/legacy/start.original.snbt (`journey_from`); Normal gets steel tools and
-#     smaller supplies. The Normal steel mining hammer of the old "A Tool for the Next Stage" is left out: the Welcome's
-#     Mining Kit (D-348) already gives it. Each kit sits beside its quest (`after`) and shows only in its mode.
-# PT: GTIA-D-427: os kits iniciais do capítulo Start desativado, agora recompensas de quests do 0,0. Por modo: o
-#     Journey copia as recompensas do autor de quests-src/legacy/start.original.snbt (`journey_from`); o Normal recebe
-#     ferramentas de aço e suprimentos menores. O martelo de mineração de aço do Normal na antiga "A Tool for the Next
-#     Stage" fica de fora: o Kit de Mineração do Welcome (D-348) já o dá. Cada kit fica ao lado da quest (`after`).
-# ZH: GTIA-D-427：已停用 Start 章节的初始套装，现为 0.0 任务的奖励。按模式：Journey 从 legacy/start.original.snbt
-#     复制作者的奖励（`journey_from`）；Normal 获得钢制工具和较少的补给。旧的“A Tool for the Next Stage”里
-#     Normal 的钢制采矿锤不再给出：Welcome 的采矿套装（D-348）已提供。每个套装紧邻其任务（`after`）。
-_JOURNEY = ("Journey kit.", "Kit do Journey.", "旅途模式套装。")
-_NORMAL = ("Normal kit.", "Kit do Normal.", "普通模式套装。")
-_J_TOOLS = ("Journey worlds start strong: these are the tools the author picked.",
-            "Mundos Journey começam fortes: estas são as ferramentas escolhidas pelo autor.",
-            "旅途模式的世界起点很强：这些是作者挑选的工具。")
-_N_TOOLS = ("Normal worlds get tools of the age: steel, built to last the Steam Age.",
-            "Mundos Normal recebem ferramentas da época: aço, feitas para durar a Era do Vapor.",
-            "普通模式的世界获得当前时代的工具：钢制，足以撑过蒸汽时代。")
+# EN: GTIA-D-427/D-436: the starting kits of the retired Start chapter, now rewards of 0.0 quests: steel tools and
+#     small supplies (the one mode is the former Normal). The steel mining hammer of the old "A Tool for the Next
+#     Stage" is left out: the Welcome's Mining Kit (D-348) already gives it. Each kit sits beside its quest (`after`).
+# PT: GTIA-D-427/D-436: os kits iniciais do capítulo Start desativado, agora recompensas de quests do 0,0: ferramentas
+#     de aço e suprimentos pequenos (o modo único é o antigo Normal). O martelo de mineração de aço da antiga "A Tool
+#     for the Next Stage" fica de fora: o Kit de Mineração do Welcome (D-348) já o dá. Cada kit fica ao lado da quest.
+# ZH: GTIA-D-427/D-436：已停用 Start 章节的初始套装，现为 0.0 任务的奖励：钢制工具和少量补给（唯一模式即原普通模式）。
+#     旧的“A Tool for the Next Stage”里的钢制采矿锤不再给出：Welcome 的采矿套装（D-348）已提供。每个套装紧邻其任务。
+_KIT = ("Starting kit.", "Kit inicial.", "起始套装。")
+_TOOLS = ("Tools of the age: steel, built to last the Steam Age.",
+          "Ferramentas da época: aço, feitas para durar a Era do Vapor.",
+          "当前时代的工具：钢制，足以撑过蒸汽时代。")
 KITS = {
     "t00": [
         {"key": "kit_prospector", "after": "indicadores", "x": -4.5, "y": 10.0, "title": ("Starting Kit", "Kit Inicial", "起始套装"),
-         "journey_from": "Your First Workbench",
-         "normal": [{"item": "gtceu:prospector.lv"}],
-         "journey_texts": (_JOURNEY, (
-             "Claim the charged HV Prospector. Use it to find ore deposits before you dig long tunnels; it locates resources but does not mine them.",
-             "Pegue o Prospector HV carregado. Use-o para achar depósitos de minério antes de cavar túneis longos; ele localiza recursos, mas não minera.",
-             "领取已充能的 HV 勘探器。在挖长隧道之前用它寻找矿床；它只负责定位，不会替你挖矿。")),
-         "normal_texts": (_NORMAL, (
+         "reward": [{"item": "gtceu:prospector.lv"}],
+         "texts": (_KIT, (
              "Claim an LV Prospector. Give it a battery and use it to find ore deposits before you dig long tunnels.",
              "Pegue um Prospector LV. Coloque uma bateria nele e use-o para achar depósitos de minério antes de cavar túneis longos.",
              "领取一个 LV 勘探器。装上电池，在挖长隧道之前用它寻找矿床。"))},
         {"key": "kit_hand_tools", "after": "ferramentas", "x": 3.25, "y": 13.75, "title": ("Starting Kit", "Kit Inicial", "起始套装"),
-         "journey_from": "The First GregTech Tools",
-         "normal": [{"item": "gtceu:steel_hammer"}, {"item": "gtceu:steel_file"}, {"item": "gtceu:steel_mortar"}],
-         "journey_texts": (_JOURNEY, _J_TOOLS), "normal_texts": (_NORMAL, _N_TOOLS)},
+         "reward": [{"item": "gtceu:steel_hammer"}, {"item": "gtceu:steel_file"}, {"item": "gtceu:steel_mortar"}],
+         "texts": (_KIT, _TOOLS)},
         {"key": "kit_tool_set", "after": "alicate", "also": ["chave", "serra"], "x": 4.5, "y": 17.75,
-         "title": ("Starting Kit", "Kit Inicial", "起始套装"), "journey_from": "Complete the Tool Kit",
-         "normal": [{"item": "gtceu:steel_wire_cutter"}, {"item": "gtceu:steel_screwdriver"}, {"item": "gtceu:steel_saw"},
+         "title": ("Starting Kit", "Kit Inicial", "起始套装"),
+         "reward": [{"item": "gtceu:steel_wire_cutter"}, {"item": "gtceu:steel_screwdriver"}, {"item": "gtceu:steel_saw"},
                     {"item": "gtceu:steel_knife"}, {"item": "gtceu:steel_wrench"}, {"item": "gtceu:steel_crowbar"},
                     {"item": "gtceu:rubber_mallet"}],
-         "journey_texts": (_JOURNEY, _J_TOOLS), "normal_texts": (_NORMAL, _N_TOOLS)},
+         "texts": (_KIT, _TOOLS)},
         {"key": "kit_coke", "after": "carvao", "x": 4.0, "y": 10.0,
          "title": ("Coke for the First Boilers", "Coque para as Primeiras Caldeiras", "用于第一批锅炉的焦炭"),
-         "journey_from": "Coke for the First Boilers", "normal": [{"item": "gtceu:coke_block", "count": 16}],
-         "journey_texts": (("A starting stock of boiler fuel.", "Um estoque inicial de combustível para caldeira.", "锅炉燃料的初始储备。"), (
-             "Claim 64 Coke Blocks to light your first boilers. The Coke Oven comes with the next chapter: from there on, fuel is your factory's job.",
-             "Pegue 64 Blocos de Coque para acender as primeiras caldeiras. O Forno de Coque vem no próximo capítulo: daí em diante, combustível é trabalho da sua fábrica.",
-             "领取 64 个焦炭块点燃第一批锅炉。焦炉在下一章：从那时起，燃料由你的工厂负责。")),
-         "normal_texts": (("A starting stock of boiler fuel.", "Um estoque inicial de combustível para caldeira.", "锅炉燃料的初始储备。"), (
+         "reward": [{"item": "gtceu:coke_block", "count": 16}],
+         "texts": (("A starting stock of boiler fuel.", "Um estoque inicial de combustível para caldeira.", "锅炉燃料的初始储备。"), (
              "Claim 16 Coke Blocks to light your first boilers. The Coke Oven comes with the next chapter: from there on, fuel is your factory's job.",
              "Pegue 16 Blocos de Coque para acender as primeiras caldeiras. O Forno de Coque vem no próximo capítulo: daí em diante, combustível é trabalho da sua fábrica.",
              "领取 16 个焦炭块点燃第一批锅炉。焦炉在下一章：从那时起，燃料由你的工厂负责。"))},
         {"key": "kit_bronze", "after": "bronze", "x": -4.25, "y": 15.5,
          "title": ("Bronze for the First Machines", "Bronze para as Primeiras Máquinas", "用于第一批机器的青铜"),
-         "journey_from": "Bronze for the First Machines", "normal": [{"item": "gtceu:bronze_ingot", "count": 16}],
-         "journey_texts": (("A starting stock of the Steam alloy.", "Um estoque inicial da liga do Vapor.", "蒸汽时代合金的初始储备。"), (
-             "Claim 64 Bronze Ingots for your first steam machine parts, then make your own from Copper and Tin.",
-             "Pegue 64 Lingotes de Bronze para as primeiras peças de máquinas a vapor, depois faça o seu com Cobre e Estanho.",
-             "领取 64 个青铜锭用于第一批蒸汽机器零件，之后用铜和锡自己制作。")),
-         "normal_texts": (("A starting stock of the Steam alloy.", "Um estoque inicial da liga do Vapor.", "蒸汽时代合金的初始储备。"), (
+         "reward": [{"item": "gtceu:bronze_ingot", "count": 16}],
+         "texts": (("A starting stock of the Steam alloy.", "Um estoque inicial da liga do Vapor.", "蒸汽时代合金的初始储备。"), (
              "Claim 16 Bronze Ingots for your first steam machine parts, then make your own from Copper and Tin.",
              "Pegue 16 Lingotes de Bronze para as primeiras peças de máquinas a vapor, depois faça o seu com Cobre e Estanho.",
              "领取 16 个青铜锭用于第一批蒸汽机器零件，之后用铜和锡自己制作。"))},
-        {"key": "kit_vajra", "after": "exit", "x": 0.0, "y": 22.75,
-         "title": ("A Tool for the Next Stage", "Uma Ferramenta para a Próxima Etapa", "下一阶段的工具"),
-         "journey_from": "A Tool for the Next Stage",
-         "journey_texts": (("Equipment for a growing mining operation.", "Equipamento para uma mineração que cresce.", "为不断扩大的采矿作业准备的装备。"), (
-             "Claim the Echoite Vajra to help gather resources for your growing factory. Read its tooltip and interaction modes before mining near your machines.",
-             "Pegue o Vajra de Ecoíta para ajudar a juntar recursos para a sua fábrica em crescimento. Leia o tooltip e os modos de interação antes de minerar perto das suas máquinas.",
-             "领取回响金刚杵，帮助你为不断壮大的工厂收集资源。在机器附近挖掘前请阅读其提示和交互模式。"))},
     ],
 }
 
@@ -415,15 +387,8 @@ def main() -> int:
             if "also" in kit:
                 fields["also"] = kit["also"]
             fields.update(x=float(kit["x"]), y=float(kit["y"]), title=text(*kit["title"]),
-                          journey_from=kit["journey_from"])
-            for mode in ("journey", "normal"):
-                texts = kit.get(f"{mode}_texts")
-                if texts:
-                    fields[f"{mode}_subtitle"] = text(*texts[0])
-                    fields[f"{mode}_text"] = text(*texts[1])
-            if "normal" in kit:
-                fields["normal"] = kit["normal"]
-            body.append("[[mode_kit]]\n" + "\n".join(f"{k} = {toml_value(v)}" for k, v in fields.items()))
+                          subtitle=text(*kit["texts"][0]), text=text(*kit["texts"][1]), reward=kit["reward"])
+            body.append("[[kit]]\n" + "\n".join(f"{k} = {toml_value(v)}" for k, v in fields.items()))
         (SRC / f"{d['file']}.toml").write_text("\n".join(lines) + "\n" + "\n\n".join(body) + "\n", encoding="utf-8")
         print(f"wrote quests-src/{d['file']}.toml ({len(d['Q'])} quests)")
 

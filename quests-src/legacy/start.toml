@@ -48,7 +48,7 @@ titles = [
 "A Tool for the Next Stage" = "side"
 
 [positions]
-# Welcome: the welcome quest in the middle, reading on the left, the world's mode above, the workshop on the right.
+# Welcome: the welcome quest in the middle, reading on the left, the workshop on the right.
 "Welcome to Infinity Ascension" = [0, 0]
 "How to Read This Chapter" = [-3, -2]
 "Before You Begin" = [-3, 0]
@@ -94,7 +94,7 @@ titles = [
 "Build a Coke Oven" = ["new:bricks", "new:plates"]
 "Ready for Steam" = ["Build a Coke Oven"]
 
-# The two lines that described the old layout, and the kit line that only fit Journey.
+# The two lines that described the old layout, and the kit line of the old Vanadium Steel tools.
 [[text_fix]]
 title = "How to Read This Chapter"
 new_title = "How to Read the Book"
@@ -114,25 +114,9 @@ new = "Start with the First Fire chapter and follow the lines from quest to ques
 [[text_fix]]
 title = "Welcome to Infinity Ascension"
 old = "Check this task and claim your Vanadium Steel Axe, Pickaxe and Shovel. They last about twice as long as Fluix tools and mine everything up to diamond level, so keep them for gathering wood and your first resources."
-new = "Check this task and claim your Starting Kit next to it; the tools in it depend on your world's mode."
+new = "Check this task and claim your Starting Kit next to it."
 
 # ------------------------------------------------------------------ Welcome: new quests and tips
-
-[[new_quest]]
-key = "rules"
-chapter = "welcome"
-role = "hint"
-title = "GTIA Rules"
-icon = "minecraft:writable_book"
-x = 0
-y = -5
-deps = ["Welcome to Infinity Ascension"]
-subtitle = "What your world's mode changes."
-text = """
-Type [item]/typeomega rules[/] to see every rule of this world: recipe speed and cost, steam, maintenance, tools, ore veins, survival and the rest, each with its Journey and Normal value.
-
-The rules are fixed when the world is made. A few of them are read when the game starts, so a new world with other values asks you to restart first.
-"""
 
 [[new_quest]]
 key = "community"
@@ -294,7 +278,7 @@ subtitle = "A whole tree in one swing."
 text = """
 Hold the [item]Ultimine[/] key (grave accent by default) while you break a block and every connected block of the same kind breaks too: a whole tree, a whole ore vein.
 
-It breaks up to [num]128[/] blocks in Journey and [num]64[/] in Normal, and each block still costs hunger and tool durability.
+It breaks up to [num]64[/] blocks, and each block still costs hunger and tool durability.
 """
 
 [[new_quest]]
@@ -339,7 +323,7 @@ subtitle = "Tools stay in the grid."
 text = """
 GregTech tools are ingredients: they stay in the crafting grid and lose durability with each use. The [item]Hammer[/] also crushes ores into Crushed Ore, more than one ingot's worth later on.
 
-The [item]Wrench[/] turns and picks up machines, the [item]Screwdriver[/] changes their modes, the [item]Wire Cutter[/] connects cables. In Normal worlds GregTech blocks need the right tool to drop.
+The [item]Wrench[/] turns and picks up machines, the [item]Screwdriver[/] changes their modes, the [item]Wire Cutter[/] connects cables. GregTech blocks need the right tool to drop.
 """
 
 [[new_quest]]
@@ -387,47 +371,25 @@ A boiler heats up slowly and only makes steam once it is hot. Never let it run d
 High Pressure boilers are made of steel and give much more steam from the same fuel. The Steam chapter starts with both.
 """
 
-# ------------------------------------------------------------------ modes
+# ------------------------------------------------------------------ starting kits
+# GTIA-D-279/D-436: these Start steps give a starting kit of tier tools, in a quest of its own, instead of the
+# author's rewards.
 
-[[mode_intro]]
-key = "mode"
-chapter = "welcome"
-x = 0
-y = -3
-journey_title = "Journey World"
-journey_subtitle = "A gentler pace."
-journey_icon = "minecraft:totem_of_undying"
-journey_text = """
-This world is [item]Journey[/]. Same quests, same machines, kinder numbers: recipes are faster and cheaper, boilers give more steam, machines need no maintenance, vanilla recipes are simpler, you keep your inventory on death and radioactive materials do not hurt.
-
-[tip]/typeomega rules[/] lists every rule and its value. The mode is fixed when the world is made.
-"""
-normal_title = "Normal World"
-normal_subtitle = "The pack as designed."
-normal_icon = "gtceu:steel_pickaxe"
-normal_text = """
-This world is [item]Normal[/]: the full pack, with the numbers it was balanced for. Maintenance, material hazards, catalyst wear and the organ requirements of other planets are all on.
-
-[tip]/typeomega rules[/] lists every rule and its value. The mode is fixed when the world is made.
-"""
-
-[[mode_reward]]
+[[kit_reward]]
 key = "welcome_kit"
 chapter = "welcome"
 title = "Welcome to Infinity Ascension"
 reward_title = "Starting Kit"
 x = 2.5
 y = -2.25
-journey_subtitle = "Journey kit."
-journey_text = "Journey worlds start strong: these are the tools the author picked."
-normal_subtitle = "Normal kit."
-normal_text = "Normal worlds get tools of the age: steel, built to last the Steam Age."
-normal = [
+subtitle = "Starting kit."
+text = "Tools of the age: steel, built to last the Steam Age."
+reward = [
     { item = "gtceu:steel_axe" },
     { item = "gtceu:steel_pickaxe" },
     { item = "gtceu:steel_shovel" },
 ]
-# GTIA-D-348: the mining kit, in both modes, in a quest of its own.
+# GTIA-D-348: the mining kit, in a quest of its own.
 both_title = "Mining Kit"
 both_subtitle = "Fortune works on GregTech ores."
 both_text = "A steel pickaxe with Fortune III, Unbreaking III and Efficiency III, and a Steel Mining Hammer for 3 x 3 tunnels. Fortune multiplies the raw ore of every GregTech ore, as it does in vanilla."
@@ -436,47 +398,41 @@ both = [
     { item = "gtceu:steel_mining_hammer" },
 ]
 
-[[mode_reward]]
+[[kit_reward]]
 key = "workbench_kit"
 title = "Your First Workbench"
 reward_title = "Starting Kit"
 x = 3.75
 y = 1.75
-journey_subtitle = "Journey kit."
-journey_text = "Journey worlds start strong: these are the tools the author picked."
-normal_subtitle = "Normal kit."
-normal_text = "Normal worlds get tools of the age: steel, built to last the Steam Age."
-normal = [
+subtitle = "Starting kit."
+text = "Tools of the age: steel, built to last the Steam Age."
+reward = [
     { item = "gtceu:prospector.lv" },
 ]
 
-[[mode_reward]]
+[[kit_reward]]
 key = "tools_kit"
 title = "The First GregTech Tools"
 reward_title = "Starting Kit"
 x = 15
 y = 5.5
-journey_subtitle = "Journey kit."
-journey_text = "Journey worlds start strong: these are the tools the author picked."
-normal_subtitle = "Normal kit."
-normal_text = "Normal worlds get tools of the age: steel, built to last the Steam Age."
-normal = [
+subtitle = "Starting kit."
+text = "Tools of the age: steel, built to last the Steam Age."
+reward = [
     { item = "gtceu:steel_hammer" },
     { item = "gtceu:steel_file" },
     { item = "gtceu:steel_mortar" },
 ]
 
-[[mode_reward]]
+[[kit_reward]]
 key = "toolkit_kit"
 title = "Complete the Tool Kit"
 reward_title = "Starting Kit"
 x = 10
 y = 1.75
-journey_subtitle = "Journey kit."
-journey_text = "Journey worlds start strong: these are the tools the author picked."
-normal_subtitle = "Normal kit."
-normal_text = "Normal worlds get tools of the age: steel, built to last the Steam Age."
-normal = [
+subtitle = "Starting kit."
+text = "Tools of the age: steel, built to last the Steam Age."
+reward = [
     { item = "gtceu:steel_wire_cutter" },
     { item = "gtceu:steel_screwdriver" },
     { item = "gtceu:steel_saw" },
@@ -485,28 +441,6 @@ normal = [
     { item = "gtceu:steel_crowbar" },
     { item = "gtceu:rubber_mallet" },
 ]
-
-# The Steam supplies are per-mode kits (D-291): the author's quest is Journey's, Normal gets a smaller twin.
-[[mode_split]]
-key = "coke_supply"
-title = "Coke for the First Boilers"
-normal_subtitle = "A starting stock of boiler fuel."
-normal_text = "Claim 16 Coke Blocks to light your first boilers. Keep the Coke Oven running: from here on, fuel is your factory's job."
-normal = [{ item = "gtceu:coke_block", count = 16 }]
-
-[[mode_split]]
-key = "bronze_supply"
-title = "Bronze for the First Machines"
-normal_subtitle = "A starting stock of the Steam alloy."
-normal_text = "Claim 16 Bronze Ingots for your first steam machine parts, then make your own from Copper and Tin."
-normal = [{ item = "gtceu:bronze_ingot", count = 16 }]
-
-[[mode_split]]
-key = "tool_supply"
-title = "A Tool for the Next Stage"
-normal_subtitle = "Equipment for a growing mining operation."
-normal_text = "Claim a Steel Mining Hammer: it breaks a 3 x 3 area at once, a good friend for the long tunnels of the Steam Age."
-normal = [{ item = "gtceu:steel_mining_hammer" }]
 
 # GTIA-D-347: the personal dimension portal moves from "Room for a Factory" to the Steam chapter (Large Steam Machines).
 [[reward_removal]]

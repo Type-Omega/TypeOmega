@@ -306,32 +306,6 @@
 				"48ED4F35ECCFD529"
 			]
 			description: [
-				"{gtia.quest.1E3D206AD1480630.desc.0}"
-				""
-				"{gtia.quest.1E3D206AD1480630.desc.2}"
-			]
-			icon: "minecraft:writable_book"
-			id: "1E3D206AD1480630"
-			optional: true
-			shape: "pentagon"
-			size: 1.0d
-			subtitle: "{gtia.quest.1E3D206AD1480630.subtitle}"
-			tasks: [
-				{
-					id: "714658BBC72907AD"
-					title: "{gtia.quest.1E3D206AD1480630.task.714658BBC72907AD}"
-					type: "checkmark"
-				}
-			]
-			title: "{gtia.quest.1E3D206AD1480630.title}"
-			x: 0.0d
-			y: -5.0d
-		}
-		{
-			dependencies: [
-				"48ED4F35ECCFD529"
-			]
-			description: [
 				"{gtia.quest.4C58C4CD61D5370D.desc.0}"
 				""
 				"{gtia.quest.4C58C4CD61D5370D.desc.2}"
@@ -455,50 +429,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"270B3B2AA4C678D7"
-			]
-			description: [
-				"{gtia.quest.781C717CA1C571FD.desc.0}"
-			]
-			id: "781C717CA1C571FD"
-			rewards: [
-				{
-					id: "27F543A7FB625F00"
-					item: "gtceu:vanadium_steel_axe"
-					type: "item"
-				}
-				{
-					id: "7F82185C25C25A3A"
-					item: "gtceu:vanadium_steel_pickaxe"
-					type: "item"
-				}
-				{
-					id: "3E9B1C4A7D2F5061"
-					item: "gtceu:vanadium_steel_shovel"
-					type: "item"
-				}
-			]
-			shape: "diamond"
-			size: 1.0d
-			subtitle: "{gtia.quest.781C717CA1C571FD.subtitle}"
-			tasks: [
-				{
-					id: "37B52909AFEE3ABA"
-					title: "{gtia.quest.781C717CA1C571FD.task.37B52909AFEE3ABA}"
-					type: "checkmark"
-				}
-			]
-			title: "{gtia.quest.781C717CA1C571FD.title}"
-			x: 2.5d
-			y: -2.25d
-			icon: "gtceu:vanadium_steel_axe"
-			hide_until_deps_complete: true
-		}
-		{
-			dependencies: [
-				"4231C12C585214A4"
-			]
+			dependencies: [ ]
 			description: [
 				"{gtia.quest.4AB61B15543297E5.desc.0}"
 			]
@@ -534,7 +465,6 @@
 			x: 2.5d
 			y: -2.25d
 			icon: "gtceu:steel_axe"
-			hide_until_deps_complete: true
 		}
 		{
 			dependencies: [ ]
@@ -573,60 +503,6 @@
 			x: 3.75d
 			y: -2.25d
 		}
-		{
-			dependencies: [
-				"270B3B2AA4C678D7"
-			]
-			description: [
-				"{gtia.quest.584AA28B1CB94C4A.desc.0}"
-				""
-				"{gtia.quest.584AA28B1CB94C4A.desc.2}"
-			]
-			icon: "minecraft:totem_of_undying"
-			id: "584AA28B1CB94C4A"
-			rewards: [ ]
-			shape: "square"
-			size: 1.25d
-			subtitle: "{gtia.quest.584AA28B1CB94C4A.subtitle}"
-			tasks: [
-				{
-					id: "0DCEE4E483A70A8E"
-					type: "checkmark"
-					title: "{gtia.quest.584AA28B1CB94C4A.task.0DCEE4E483A70A8E}"
-				}
-			]
-			title: "{gtia.quest.584AA28B1CB94C4A.title}"
-			x: 0.0d
-			y: -3.0d
-			hide_until_deps_complete: true
-		}
-		{
-			dependencies: [
-				"4231C12C585214A4"
-			]
-			description: [
-				"{gtia.quest.4840C870BDD00959.desc.0}"
-				""
-				"{gtia.quest.4840C870BDD00959.desc.2}"
-			]
-			icon: "gtceu:steel_pickaxe"
-			id: "4840C870BDD00959"
-			rewards: [ ]
-			shape: "square"
-			size: 1.25d
-			subtitle: "{gtia.quest.4840C870BDD00959.subtitle}"
-			tasks: [
-				{
-					id: "27EA78A139B7BEF3"
-					type: "checkmark"
-					title: "{gtia.quest.4840C870BDD00959.task.27EA78A139B7BEF3}"
-				}
-			]
-			title: "{gtia.quest.4840C870BDD00959.title}"
-			x: 0.0d
-			y: -3.0d
-			hide_until_deps_complete: true
-		}
 	]
 	title: "{gtia.quest.chapter.0215D27F91E7C457}"
 	images: [
@@ -643,7 +519,7 @@
 			rotation: 0.0d
 			width: 74.5d
 			x: 1.25d
-			y: -1.0d
+			y: 0.375d
 		}
 	]
 }

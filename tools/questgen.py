@@ -15,7 +15,7 @@ A chapter is described in `quests-src/<file>.toml` with the lanes and rows a que
 
 Rows are 1.5 apart. Ids are derived from names, so rebuilding never changes an id a player's progress depends on. The old Start chapter was retired
 by GTIA-D-426; its sources are in `quests-src/legacy/` (start.original.snbt, start.toml). The Welcome chapter is still built from
-them: it keeps the author's reading quests and the world's mode, and links to the 0.0 chapter.
+them: it keeps the author's reading quests and links to the 0.0 chapter.
 """
 
 from __future__ import annotations
@@ -157,28 +157,13 @@ def periodic_cell(z: int) -> tuple[float, int]:
     raise ValueError(f"no cell for element {z}")
 
 
-# GTIA-D-254/D-279: a world is Journey or Normal. GTIACore tags the player (gtia_journey / gtia_normal); one hidden
-# quest per mode checks that tag as an FTB Quests stage, and mode-only quests depend on it.
-MODES = ("journey", "normal")
-
-
-def mode_quest(mode: str) -> str:
-    return ident(f"quest:modes:{mode}")
-
-
-def modes_chapter() -> dict:
-    quests = [{"description": [f"Done in {m.capitalize()} worlds."], "id": mode_quest(m), "invisible": Raw("true"), "shape": "circle", "size": double(1.0),
-               "tasks": [{"id": ident(f"task:modes:{m}"), "stage": f"gtia_{m}", "type": "gamestage"}],
-               "title": m.capitalize(), "x": double(2.0 * i), "y": double(0.0)} for i, m in enumerate(MODES)]
-    return {"always_invisible": Raw("true"), "default_hide_dependency_lines": Raw("true"),
-            "default_quest_shape": "circle", "filename": "modes", "id": ident("chapter:modes"),
-            "order_index": Raw("99"), "quest_links": [], "quests": quests, "title": "Modes"}
-
-
-def add_mode(quest: dict, mode: str) -> None:
-    """Show the quest only in worlds of that mode."""
-    quest.setdefault("dependencies", []).append(mode_quest(mode))
-    quest["hide_until_deps_complete"] = Raw("true")
+# EN: GTIA-D-436: Type Omega has one mode, the former Normal. Kits keep the "_normal" suffix in their key, so the
+#     ids that players claimed under GTIA-D-427 stay the same.
+# PT: GTIA-D-436: o Type Omega tem um modo só, o antigo Normal. Os kits mantêm o sufixo "_normal" na chave, para os
+#     ids já resgatados na GTIA-D-427 continuarem os mesmos.
+# ZH: GTIA-D-436：Type Omega 只有一种模式，即原普通模式。套装的键保留 "_normal" 后缀，使 GTIA-D-427 中玩家已领取的
+#     id 保持不变。
+KIT_SUFFIX = "_normal"
 
 
 BANNERS = PACK / "config" / "openloader" / "resources" / "gtia_quests" / "assets" / "gtia_quests" / "textures" / "quests" / "banners"
@@ -353,7 +338,7 @@ class Book:
 
         def extra_of(quest):
             extra = {k: quest[k] for k in ("shape", "size", "optional", "dep_mode", "min_deps", "hide_lines",
-                                            "hidden", "hide_dependents", "allow_machine_reward", "pending", "mode") if k in quest}
+                                            "hidden", "hide_dependents", "allow_machine_reward", "pending") if k in quest}
             if "column" in quest or "x" in quest:
                 extra["x"] = quest["x"] if "x" in quest else spec["columns"][quest["column"]]
                 extra["y"] = quest["y"] if "y" in quest else spec["rows"][quest["grid_row"]]
@@ -401,8 +386,6 @@ class Book:
                 x, y = lane_x(lane, col), row * ROW
             q["x"] = double(x)
             q["y"] = double(y)
-            if extra.get("mode"):
-                add_mode(q, extra["mode"])
             quests.append(q)
             positions.append((key, x, y, style["size"]))
             if extra.get("pending"):
@@ -447,41 +430,20 @@ class Book:
                     lx, ly = 0.0, (exit_spec["row"] + 2) * ROW
                 links.append({"id": ident(f"link:{file}:{nxt}"), "linked_quest": self.qid(nxt, "entry"),
                               "shape": "gear", "size": double(1.5), "x": double(lx), "y": double(ly)})
-        # EN: GTIA-D-427: the starting kits of the retired Start chapter come back as per-mode quests of a generated
-        #     chapter. `after` is the quest whose completion unlocks the kit; Journey copies the author's rewards
-        #     from the legacy Start (`journey_from` = its quest title), Normal lists its own items. The kit sits
-        #     beside its quest with no drawn line, and only shows in worlds of its mode.
-        # PT: GTIA-D-427: os kits iniciais do capítulo Start desativado voltam como quests por modo de um capítulo
-        #     gerado. `after` é a quest cuja conclusão libera o kit; o Journey copia as recompensas do autor do
-        #     Start antigo (`journey_from` = título da quest), o Normal lista os próprios itens. O kit fica ao lado
-        #     da quest, sem linha, e só aparece em mundos do seu modo.
-        # ZH: GTIA-D-427：已停用 Start 章节的初始套装以按模式区分的任务形式回到生成章节。`after` 是解锁套装的任务；
-        #     Journey 从旧 Start 复制作者的奖励（`journey_from` = 任务标题），Normal 自带物品列表。套装紧邻其任务，
-        #     不画连线，只在对应模式的世界中显示。
-        legacy_quests = None
-        for kit in spec.get("mode_kit", []):
+        # EN: GTIA-D-427/D-436: the starting kits of the retired Start chapter, one per quest. `after` is the quest
+        #     whose completion unlocks the kit; the kit sits beside it with no drawn line.
+        # PT: GTIA-D-427/D-436: os kits iniciais do capítulo Start desativado, um por quest. `after` é a quest cuja
+        #     conclusão libera o kit; o kit fica ao lado dela, sem linha.
+        # ZH: GTIA-D-427/D-436：已停用 Start 章节的初始套装，每个任务一个。`after` 是解锁套装的任务；套装紧邻其任务，
+        #     不画连线。
+        for kit in spec.get("kit", []):
             gate = [self.resolve(file, d) for d in [kit["after"], *kit.get("also", [])]]
-            for mode in MODES:
-                if f"{mode}_text" not in kit:
-                    continue
-                key = f"{kit['key']}_{mode}"
-                rewards = None
-                if mode == "journey" and "journey_from" in kit:
-                    if legacy_quests is None:
-                        legacy_quests = {q["title"]: q for q in snbt.loads(
-                            (LEGACY / "start.original.snbt").read_text(encoding="utf-8"))["quests"]}
-                    source = legacy_quests[kit["journey_from"]]["rewards"]
-                else:
-                    rewards = kit[mode]
-                add(key, "side", "spine", 0, 0, kit["title"], kit[f"{mode}_subtitle"], kit[f"{mode}_text"],
-                    check_task(key, "Claim"), gate, rewards=rewards,
-                    extra={"x": kit["x"], "y": kit["y"], "shape": "diamond", "size": 1.0, "mode": mode,
-                           "hide_lines": True})
-                quest = quests[-1]
-                if rewards is None:
-                    quest["rewards"] = [{**r, "id": ident(f"reward:{file}:{key}:{i}")} for i, r in enumerate(source)]
-                first = quest["rewards"][0]["item"]
-                quest["icon"] = first if isinstance(first, str) else first["id"]
+            key = kit["key"] + KIT_SUFFIX
+            add(key, "side", "spine", 0, 0, kit["title"], kit["subtitle"], kit["text"], check_task(key, "Claim"), gate,
+                rewards=kit["reward"], extra={"x": kit["x"], "y": kit["y"], "shape": "diamond", "size": 1.0,
+                                              "hide_lines": True})
+            first = quests[-1]["rewards"][0]["item"]
+            quests[-1]["icon"] = first if isinstance(first, str) else first["id"]
         return {
             "default_hide_dependency_lines": Raw("false"),
             "default_quest_shape": "circle",
@@ -577,34 +539,30 @@ class Book:
             lines[hits[0]] = lines[hits[0]].replace(fix["old"], fix["new"])
             if fix.get("new_title"):
                 quest["title"] = fix["new_title"]
-        # D-279: some Start rewards depend on the mode. Journey keeps the author's rewards; Normal gets tier ones.
-        # D-348: `both` is a kit for both modes (an item may carry `nbt`, e.g. enchantments), in a quest of its own
-        # next to the mode kits, so the author's Journey rewards stay as they are.
+        # D-279/D-436: some author rewards of the Start give way to a starting kit of tier tools, a quest of its own.
+        # D-348: `both` is a second kit (an item may carry `nbt`, e.g. enchantments) next to it.
         def kit_reward(key, i, r):
             item = r["item"] if "nbt" not in r else {"Count": Raw("1b"), "id": r["item"], "tag": Raw(r["nbt"])}
             return {**({"count": Raw(str(r["count"]))} if r.get("count", 1) > 1 else {}),
                     "id": ident(f"reward:start:{key}:{i}"), "item": item, "type": "item"}
 
-        for spec in meta.get("mode_reward", []):
+        for spec in meta.get("kit_reward", []):
             base = by_title[spec["title"]]
-            journey_rewards, base["rewards"] = base.get("rewards", []), []
-            for mode, rewards, dx in (("journey", journey_rewards, 0.0), ("normal", None, 0.0)):
-                key = f"{spec['key']}_{mode}"
-                if rewards is None:
-                    rewards = [kit_reward(key, i, r) for i, r in enumerate(spec["normal"])]
-                # Visible from the start in worlds of its mode; it completes with the same task as its Start step,
-                # so the kit is claimed when that step is done (a dependency on the step would hide it until then).
-                tasks = [{**task, "id": ident(f"task:start:{key}:{i}")} for i, task in enumerate(base.get("tasks", []))]
-                quest = {"dependencies": [], "description": paragraphs(spec[f"{mode}_text"]),
-                         "id": ident("quest:start:" + key), "rewards": rewards, "shape": "diamond",
-                         "size": double(1.0), "subtitle": spec[f"{mode}_subtitle"],
-                         "tasks": tasks or [{"id": ident(f"task:start:{key}"), "type": "checkmark", "title": "Claim"}],
-                         "title": spec["reward_title"], "x": double(spec["x"] + dx), "y": double(spec["y"])}
-                first = rewards[0].get("item") if rewards else None
-                quest["icon"] = first if isinstance(first, str) else (first or {}).get("id") or base.get("icon", "minecraft:chest")
-                quest["_chapter"] = spec.get("chapter", "start")
-                add_mode(quest, mode)
-                start["quests"].append(quest)
+            base["rewards"] = []
+            key = spec["key"] + KIT_SUFFIX
+            rewards = [kit_reward(key, i, r) for i, r in enumerate(spec["reward"])]
+            # Visible from the start; it completes with the same task as its Start step, so the kit is claimed when
+            # that step is done (a dependency on the step would hide it until then).
+            tasks = [{**task, "id": ident(f"task:start:{key}:{i}")} for i, task in enumerate(base.get("tasks", []))]
+            quest = {"dependencies": [], "description": paragraphs(spec["text"]),
+                     "id": ident("quest:start:" + key), "rewards": rewards, "shape": "diamond",
+                     "size": double(1.0), "subtitle": spec["subtitle"],
+                     "tasks": tasks or [{"id": ident(f"task:start:{key}"), "type": "checkmark", "title": "Claim"}],
+                     "title": spec["reward_title"], "x": double(spec["x"]), "y": double(spec["y"])}
+            first = rewards[0].get("item") if rewards else None
+            quest["icon"] = first if isinstance(first, str) else (first or {}).get("id") or base.get("icon", "minecraft:chest")
+            quest["_chapter"] = spec.get("chapter", "start")
+            start["quests"].append(quest)
             if spec.get("both"):
                 key = spec["key"] + "_both"
                 tasks = [{**task, "id": ident(f"task:start:{key}:{i}")} for i, task in enumerate(base.get("tasks", []))]
@@ -616,36 +574,6 @@ class Book:
                          "title": spec["both_title"], "icon": spec["both"][0]["item"],
                          "x": double(spec["x"] + spec.get("both_dx", 1.25)), "y": double(spec["y"])}
                 quest["_chapter"] = spec.get("chapter", "start")
-                start["quests"].append(quest)
-        # D-291: the Steam supplies become per-mode kits in place: the author's quest is Journey's, a twin with
-        # smaller supplies is Normal's.
-        for spec in meta.get("mode_split", []):
-            base = by_title[spec["title"]]
-            twin = {k: v for k, v in base.items() if k not in ("id", "rewards", "tasks", "description", "subtitle")}
-            key = spec["key"] + "_normal"
-            twin["dependencies"] = list(base.get("dependencies", []))
-            twin["id"] = ident("quest:start:" + key)
-            twin["description"] = paragraphs(spec["normal_text"])
-            twin["subtitle"] = spec["normal_subtitle"]
-            twin["tasks"] = [{"id": ident(f"task:start:{key}"), "title": "Claim", "type": "checkmark"}]
-            twin["rewards"] = [{**({"count": Raw(str(r["count"]))} if r.get("count", 1) > 1 else {}),
-                                "id": ident(f"reward:start:{key}:{i}"), "item": r["item"], "type": "item"}
-                               for i, r in enumerate(spec["normal"])]
-            twin["icon"] = spec["normal"][0]["item"]
-            add_mode(base, "journey")
-            add_mode(twin, "normal")
-            start["quests"].append(twin)
-        # D-278: one opening quest per mode says what the world's mode changes.
-        for spec in meta.get("mode_intro", []):
-            for mode in MODES:
-                quest = {"dependencies": [], "description": paragraphs(spec[f"{mode}_text"]),
-                         "icon": spec[f"{mode}_icon"], "id": ident(f"quest:start:{spec['key']}_{mode}"), "rewards": [],
-                         "shape": "square", "size": double(1.25), "subtitle": spec[f"{mode}_subtitle"],
-                         "tasks": [{"id": ident(f"task:start:{spec['key']}_{mode}"), "type": "checkmark",
-                                    "title": "Got it"}],
-                         "title": spec[f"{mode}_title"], "x": double(spec["x"]), "y": double(spec["y"]),
-                         "_chapter": spec.get("chapter", "start")}
-                add_mode(quest, mode)
                 start["quests"].append(quest)
         # D-291: the quests of the Welcome chapter move out of Start with their ids, so progress stays.
         moved = set(meta.get("welcome", {}).get("titles", []))
@@ -828,7 +756,6 @@ class Book:
         self.reduce_dependencies(chapters_out)
         self.thin_dependencies(chapters_out)
         self.arrange(chapters_out)
-        chapters_out["modes"] = modes_chapter()
         return chapters_out
 
     def arrange(self, chapters_out) -> None:
@@ -1240,14 +1167,10 @@ def cmd_check() -> int:
                 check_item(item, where)
                 if isinstance(item, str) and not re.fullmatch(r"[a-z0-9_.-]+:[a-z0-9_./-]+", item):
                     errors.append(f"{where}: malformed item id {item!r}")
-            mode = next((m for m in MODES if mode_quest(m) in q.get("dependencies", [])), None)
-            positions.append((q.get("title"), snbt.number(q["x"]), snbt.number(q["y"]), snbt.number(q.get("size", "1.0d")),
-                              mode))
-        for i, (a, ax, ay, asize, am) in enumerate(positions):
-            for b, bx, by, bsize, bm in positions[i + 1:]:
+            positions.append((q.get("title"), snbt.number(q["x"]), snbt.number(q["y"]), snbt.number(q.get("size", "1.0d"))))
+        for i, (a, ax, ay, asize) in enumerate(positions):
+            for b, bx, by, bsize in positions[i + 1:]:
                 reach = (asize + bsize) / 2
-                if am and bm and am != bm:
-                    continue  # quests of different modes never show together / modos diferentes nunca aparecem juntos
                 if abs(ax - bx) < reach and abs(ay - by) < reach:
                     errors.append(f"{path.stem}: {a!r} and {b!r} overlap")
     for qid, q in quests_by_id.items():

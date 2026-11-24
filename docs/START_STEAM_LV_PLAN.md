@@ -16,7 +16,7 @@ Status tags used here:
 - **No research tree.** We tried one and dropped it. It felt like a worse copy of GTO.
 - **Quest book is the main guide.** It's vertical and laid out like a snake (GTO/GTNH style), one chapter per tier. The tone is funny and irreverent like GTO, with Moni-style explanations. English first, then PT-BR.
 - **Every quest must be doable at that point.** `questgen check` reads the pack's real recipes and flags impossible tasks, rewards you can't reach yet and machines handed out for free.
-- **Modes.** Normal/Journey (later Expert) are picked when you create the world and locked, like GTO Rules.
+- **One mode.** Every world uses the same balance (the former Normal); there are no difficulty presets.
 
 ## Start — **done**
 

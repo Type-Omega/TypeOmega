@@ -30,7 +30,7 @@ The full roadmap (MV → HV → space → EV+) exists as a guide. We only polish
 - [ ] **GTIA-04 · LV chapter:** built, untested (61 quests, v2). It goes turbine → motors → build lines → chlor-alkali (Electrolyzer) → wood line (Distillery) → plastic → EBF → Aluminium, and exits at Good Electronic Circuit + MV hull.
 - [ ] **GTIA-05 · Survival playthrough:** play the whole slice on a clean instance, write down the bottlenecks and fix them.
 - [x] **GTIA-06 · No custom chemistry multiblocks up to HV.** The real chemistry runs as recipes in GTCEu and GTNA machines (D-335).
-- [ ] **GTIA-22 · Easy start:** a Fortune pickaxe in the starting kit that works on GregTech ores, FTB Ultimine from the start, the personal dimension in Steam, wireless steam only in Journey.
+- [ ] **GTIA-22 · Easy start:** a Fortune pickaxe in the starting kit that works on GregTech ores, FTB Ultimine from the start, the personal dimension in Steam, steam through pipes (no wireless steam hatches).
 - [ ] **GTIA-07 · Quest polish:** the reward economy (pack currency + shop), tier title art and tone pass.
 
 ## Stage 2 — LV → MV → HV
@@ -59,7 +59,7 @@ The full roadmap (MV → HV → space → EV+) exists as a guide. We only polish
 
 ## Later / studying
 
-- [x] Journey and Normal presets with 52 GTIA Rules and mode-only quests (Expert postponed).
+- [x] One mode for every world (the world rules and the Journey/Normal presets were removed).
 - [ ] PT-BR and ZH translations (English first).
 - [ ] Migrating mod management to packwiz, GTO-style, before the first release.
 

@@ -51,12 +51,12 @@ def audit():
  qs={q['id']:q for q in first['quests']+w['quests']}
  assert len(qs)==len(first['quests'])+len(w['quests']),'A quest id is in both chapters'
  old=Parser((backup/'chapters/start.snbt').read_text()).parse()
- mq=Parser((source/'chapters/modes.snbt').read_text()).parse()['quests']; modes={q['id'] for q in mq}
- mode_of=lambda q:next((m for m in q.get('dependencies',[]) if m in modes),None)
- kits={q['id']:q for q in qs.values() if mode_of(q)}  # Starting Kits per mode (GTIA-D-279)
+ # GTIA-D-436: one mode only; no modes chapter and no quest gated by a mode.
+ assert not (source/'chapters/modes.snbt').exists(),'The modes chapter must not be generated'
  by_title={q.get('title'):q['id'] for q in Parser((legacy/'start.original.snbt').read_text()).parse()['quests']}
  meta=tomllib.loads((legacy/'start.toml').read_text())
- kit_of={by_title[s['title']]:ident(f"quest:start:{s['key']}_journey") for s in meta['mode_reward']}
+ # Start steps whose author rewards gave way to a starting kit (GTIA-D-279/D-436).
+ kit_of={by_title[s['title']]:ident(f"quest:start:{s['key']}_normal") for s in meta['kit_reward']}
  assert len(old['quests'])==29  # the 29 approved quests (The Research Tree was removed with GTIA-D-226)
  ids=[first['id'],w['id']]
  for q in qs.values():
@@ -64,8 +64,9 @@ def audit():
   assert q['title'] and q['subtitle'] and q['icon']
   assert len(q['subtitle'])<=70
   assert any(q['description']) and all(isinstance(t,str) and t.isascii() for t in q['description'])
-  assert all((dep in qs or dep in modes) and dep!=q['id'] for dep in q.get('dependencies',[]))
-  assert all(dep in qs and chapter_of[dep]==chapter_of[q['id']] for dep in q.get('dependencies',[]) if dep not in modes),'A dependency crosses chapters'
+  assert all(dep in qs and dep!=q['id'] for dep in q.get('dependencies',[]))
+  assert all(chapter_of[dep]==chapter_of[q['id']] for dep in q.get('dependencies',[])),'A dependency crosses chapters'
+  assert not any(w in line for line in q['description']+[q['title'],q['subtitle']] for w in ('Journey','Normal world','typeomega rules')),f'Mode text left: {q["title"]}'
   assert q['tasks']
   for t in q['tasks']:
    ids.append(t['id']);assert t['title'] if t['type']!='item' else True
@@ -87,7 +88,6 @@ def audit():
  for i in qs:visit(i)
  def number(q,k):return float(str(q[k]).rstrip('d'))
  for a,b in itertools.combinations(qs.values(),2):
-  if mode_of(a) and mode_of(b) and mode_of(a)!=mode_of(b):continue
   if chapter_of[a['id']]!=chapter_of[b['id']]:continue
   assert math.hypot(number(a,'x')-number(b,'x'),number(a,'y')-number(b,'y'))>(number(a,'size')+number(b,'size'))/2, 'Overlapping nodes'
  # The author's Welcome quests keep id, task ids and item rewards (the rest of the old Start lives in quests-src/legacy/).
@@ -103,26 +103,25 @@ def audit():
   item_id=lambda r:r.get('item',{}).get('id') if isinstance(r.get('item'),dict) else r.get('item')
   if removed:a=dict(a,rewards=[r for r in a.get('rewards',[]) if item_id(r) not in removed])
   if any(r['type']=='item' for r in a.get('rewards',[])):
-   journey=[kits[kit_of[a['id']]]] if kit_of.get(a['id']) in kits else []
-   assert a['rewards']==b['rewards'] or (not b['rewards'] and journey and journey[0]['rewards']==a['rewards']),'Author item reward changed'
+   assert a['rewards']==b['rewards'] or (not b['rewards'] and kit_of.get(a['id']) in qs),'Author item reward changed'
  # 0.0 is the entry of the book: the Welcome links to it, it depends on nothing, and everything in it hangs from it.
  entry=ident('quest:type0_0_first_fire:entry')
  assert entry in qs and chapter_of[entry]=='type0_0' and not qs[entry].get('dependencies'),'0.0 needs a free entry quest'
  assert [l['linked_quest'] for l in w['quest_links']]==[entry],'The Welcome must link to the 0.0 entry'
  welcome=by_title['Welcome to Infinity Ascension']
- assert welcome in qs and chapter_of[welcome]=='welcome' and not [d for d in qs[welcome].get('dependencies',[]) if d not in modes]
- both_kits={ident(f"quest:start:{m['key']}_both") for m in meta['mode_reward'] if m.get('both')}
+ assert welcome in qs and chapter_of[welcome]=='welcome' and not qs[welcome].get('dependencies')
+ free_kits={ident(f"quest:start:{m['key']}{suffix}") for m in meta['kit_reward'] for suffix in ('_normal','_both')}
  def root_of(i,seen=()):
   deps=[d for d in qs[i].get('dependencies',[]) if d in qs]
   return {i} if not deps else set().union(*(root_of(d) for d in deps))
  for i,q in qs.items():
-  if mode_of(q) or i in both_kits:continue  # the per-mode kits and intros open with the world's mode (GTIA-D-279); the shared kit has no road
+  if i in free_kits:continue  # the Welcome kits complete with their step's task and have no road (GTIA-D-279)
   assert root_of(i)=={entry if chapter_of[i]=='type0_0' else welcome},f'Not reachable from the chapter entry: {q["title"]}'
  # 0.0 hands over to 0.1 (Steam and Steel) and has its first machine step.
  nxt=ident('quest:type0_1_steam_steel:entry')
  assert [l['linked_quest'] for l in first['quest_links']]==[nxt],'0.0 must link to the 0.1 entry'
  assert first['order_index']=='2' or str(first['order_index'])=='2'
- for rel in ['chapters/type0_0_first_fire.snbt','chapters/welcome.snbt','chapters/modes.snbt','data.snbt','chapter_groups.snbt']:
+ for rel in ['chapters/type0_0_first_fire.snbt','chapters/welcome.snbt','data.snbt','chapter_groups.snbt']:
   Parser((source/rel).read_text()).parse()
   if args.check_prism:assert (source/rel).read_bytes()==(args.prism/rel).read_bytes(),f'Prism mismatch: {rel}'
  print(f'Entry OK: {len(qs)} quests (0.0: {len(first["quests"])}, Welcome: {len(w["quests"])}), {len(ids)} unique chapter/quest/task/reward IDs, no cycles or overlaps; titles, descriptions, icons, the author\'s Welcome rewards and the Welcome -> 0.0 -> 0.1 links.')

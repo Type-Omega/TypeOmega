@@ -246,15 +246,11 @@ hash = "97cf24a5c694be67b73def73f282c1b3b53746fe3e6f97a06b7d035c59820ca4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/agriculture.snbt"
-hash = "c71d791f1d903da2b8b3a8a94d5cd7ea13db66f6a106449baae80c371e845bdf"
+hash = "8b6cfd9dade72f05aa036bb4af7a64206f484156297455eb4fe7354a58d061ad"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bees.snbt"
 hash = "218fd392c956cd97b0df00bb3f3cb5e45ff1da4cd8629621af351fefec76763d"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/modes.snbt"
-hash = "197086fbd5fbb078e609c91b3c8340cbfb2aed721574338fcdd93f5fb6741e4e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiblocks.snbt"
@@ -266,7 +262,7 @@ hash = "2b449df08e1ed6eb2edf48035d228d33cfb9a28cd70a8be6c4da85e62398efa3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/type0_0_first_fire.snbt"
-hash = "dc52ff7a19c04d7649972d6b357372a5dfd9071547bbfb48880c3aca0dc38cf6"
+hash = "00f4249f03ab0109c600a00f0713e1f09341b64e28ed8e67510886665333f8b9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/type0_1_steam_steel.snbt"
@@ -302,7 +298,7 @@ hash = "8c15a4c53ec5a12cabb67c32467707016ec5fe18a972b166fc7d6e479e1a9245"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
-hash = "2b733e3ab6c9dd67475646a20a2c609fdddfe8ce023021bbdcc6b4610cba839d"
+hash = "52057d8193c490ceaa9cd68c186f2663b45686df6b63dfeb6195eb02252fd30d"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -438,15 +434,15 @@ hash = "c937050709b29ba62629f46d03b32a1e27a6c9ff970ad04a7242a4b8eab26e84"
 
 [[files]]
 file = "config/openloader/resources/gtia_quests/assets/gtia_quests/lang/en_us.json"
-hash = "2152c4697c72a982d9071e5e4dbcc969bba6205af2cba1289fc34ae2f88ffe5f"
+hash = "f8a5336e2053b01956ce1cdf96088c6e0d29cbc9d1270d114090cb7ec036ffb8"
 
 [[files]]
 file = "config/openloader/resources/gtia_quests/assets/gtia_quests/lang/pt_br.json"
-hash = "4896c8e9b6e075c94be015029f96c506f8bef014907c2c2d7c0d07c14a37edd4"
+hash = "63ec8a28a66e2aa01a3d82ccf3bbdb5ca571bcd5833f0156dd03c23da3c31c30"
 
 [[files]]
 file = "config/openloader/resources/gtia_quests/assets/gtia_quests/lang/zh_cn.json"
-hash = "7e536aaf0f11e06b64277282031843ef0d93fb58ccb7dc77e83c15f90e0a46fe"
+hash = "593e9c6fb07d2afda386782d2fb931b26ecaa26c15cbfe19c23fc9f5fc9ecf05"
 
 [[files]]
 file = "config/openloader/resources/gtia_quests/assets/gtia_quests/textures/quests/agronomica_farm.png"

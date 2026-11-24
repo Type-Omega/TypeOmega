@@ -28,7 +28,7 @@ title = "Reference"
 file = "welcome"
 background = "#3B3F46"
 texture = "welcome"
-kind = "welcome"       # the author's reading quests and the world's mode (D-291); links to 0.0 (GTIA-D-426)
+kind = "welcome"       # the author's reading quests (D-291); links to 0.0 (GTIA-D-426)
 group = "start"
 order = 0
 
