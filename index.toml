@@ -670,6 +670,11 @@ hash = "0f4c2198603cd84a14dc6741729d0b0dcf509574776e620c36c3e7180082db32"
 metafile = true
 
 [[files]]
+file = "mods/ae2wtlib.pw.toml"
+hash = "e31af7ef2931c862a72b8c77b9147bb22a609d9f037d852ea7de86e2453999a7"
+metafile = true
+
+[[files]]
 file = "mods/agronomica-0.1.0.jar"
 hash = "6fed12b0bb721e5bd1ff1ef047d556f15e6be0ea875ddadad356f90380621eb0"
 
@@ -799,6 +804,11 @@ metafile = true
 [[files]]
 file = "mods/culllessleaves.pw.toml"
 hash = "225182cc2f9781b8382e79c9a2b9380c2e7891015ac8c3ef78529783a09bf6bc"
+metafile = true
+
+[[files]]
+file = "mods/curios.pw.toml"
+hash = "55d77d596c2d805f28b47ea53725ccaa220d2857177cad3909e48d8c12b2a2cb"
 metafile = true
 
 [[files]]
@@ -1023,7 +1033,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtna-0.6.2.jar"
-hash = "402bf78947f7e85a5cd87cc0a07c3e4a9960290354a8333843766eec2e58ea33"
+hash = "6016c834ce8f97d796efe9ba61195381f763d5097d411590d03f87a924fd95de"
 
 [[files]]
 file = "mods/guideme.pw.toml"
@@ -1291,7 +1301,7 @@ metafile = true
 
 [[files]]
 file = "mods/typeomega-0.1.0.jar"
-hash = "c3fc340b0ba2977d1abb9a9af333c888524e96e7f9f3475fba520411742e5b21"
+hash = "ad322f2baf79a6d81912661d2bc397d55e5ba3adaa18160c1bde3c97350e003d"
 
 [[files]]
 file = "mods/typeomega-lib-0.6.1.jar"
@@ -1305,6 +1315,11 @@ metafile = true
 [[files]]
 file = "mods/usclb.pw.toml"
 hash = "12f89bc6c0fda77ce685281c42f038bb5b2fa78aa23e15234fecf22aff4f3454"
+metafile = true
+
+[[files]]
+file = "mods/wcwt.pw.toml"
+hash = "463f1df676d4b95e4a21b40c669e8d49fc2a2458946bbcd9985f2682fe80f2b8"
 metafile = true
 
 [[files]]

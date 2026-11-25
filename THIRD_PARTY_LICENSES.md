@@ -19,6 +19,7 @@ No quest text, texture or config was copied from other modpacks (GTO, GTL, GTNH,
 | `ad_astra_rocketed` | ad_astra_rocketed-forge-1.20.1-1.0.5.jar | [CurseForge](https://www.curseforge.com/projects/996980) |
 | `adastraextra` | adastraextra-forge-1.20.1-1.2.3.jar | [CurseForge](https://www.curseforge.com/projects/957097) |
 | `ae2` | appliedenergistics2-forge-15.4.10.jar | [CurseForge](https://www.curseforge.com/projects/223794) |
+| `ae2wtlib` | ae2wtlib-15.3.3-forge.jar | [CurseForge](https://www.curseforge.com/projects/459929) |
 | `agronomica` | agronomica-0.1.0.jar | [GitHub](https://github.com/Type-Omega/Agronomica) (org mod, LGPL-3.0; shipped in the pack until its first release) |
 | `aiimprovements` | AI-Improvements-1.20-0.5.2.jar | [CurseForge](https://www.curseforge.com/projects/233019) |
 | `alltheleaks` | alltheleaks-1.1.3+1.20.1-forge.jar | [CurseForge](https://www.curseforge.com/projects/1091339) |
@@ -45,6 +46,7 @@ No quest text, texture or config was copied from other modpacks (GTO, GTL, GTNH,
 | `creativecore` | CreativeCore_FORGE_v2.12.40_mc1.20.1.jar | [CurseForge](https://www.curseforge.com/projects/257814) |
 | `cryonicconfig` | cryonicconfig-forge-1.0.0+mc1.20.1.jar | [CurseForge](https://www.curseforge.com/projects/1208896) |
 | `culllessleaves` | CullLessLeaves-Reforged-1.20.1-1.0.5.jar | [CurseForge](https://www.curseforge.com/projects/840788) |
+| `curios` | curios-forge-5.14.1+1.20.1.jar | [CurseForge](https://www.curseforge.com/projects/309927) |
 | `defaultoptions` | defaultoptions-forge-1.20.1-18.0.5.jar | [CurseForge](https://www.curseforge.com/projects/232131) |
 | `doespotatotick` | doespotatotick-1.20.1-5.6.3.jar | [CurseForge](https://www.curseforge.com/projects/825355) |
 | `duplicationless` | duplicationless-1.20.1-1.2.1.jar | [CurseForge](https://www.curseforge.com/projects/1380105) |
@@ -144,6 +146,7 @@ No quest text, texture or config was copied from other modpacks (GTO, GTL, GTNH,
 | `trashcans` | trashcans-1.1.1-forge-mc1.20.4.jar | [CurseForge](https://www.curseforge.com/projects/394535) |
 | `unilib` | UniLib-1.2.1+1.20.1-forge.jar | [CurseForge](https://www.curseforge.com/projects/1056812) |
 | `usclb` | usclb-0.0.26.jar | [CurseForge](https://www.curseforge.com/projects/664224) |
+| `wcwt` | wcwt-1.20.1.11.jar | [CurseForge](https://www.curseforge.com/projects/1546802) |
 | `xaerominimap` | xaerominimap-forge-1.20.1-26.5.0.jar | [CurseForge](https://www.curseforge.com/projects/263420) |
 | `xaeroworldmap` | xaeroworldmap-forge-1.20.1-1.46.0.jar | [CurseForge](https://www.curseforge.com/projects/317780) |
 | `xtonesreworked` | xtonesreworked-1.0.4-F_1.20.1-47.2.0.jar | [CurseForge](https://www.curseforge.com/projects/694231) |

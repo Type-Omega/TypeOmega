@@ -8,6 +8,7 @@
     "ad_astra_rocketed",
     "adastraextra",
     "ae2",
+    "ae2wtlib",
     "agronomica",
     "aiimprovements",
     "alltheleaks",
@@ -36,6 +37,7 @@
     "creativecore",
     "cryonicconfig",
     "culllessleaves",
+    "curios",
     "defaultoptions",
     "doespotatotick",
     "duplicationless",
@@ -142,6 +144,7 @@
     "typeomegalib",
     "unilib",
     "usclb",
+    "wcwt",
     "xaerominimap",
     "xaeroworldmap",
     "xtonesreworked",
@@ -215,6 +218,20 @@
       "file_id": 7148487,
       "requires": [
         "guideme"
+      ]
+    },
+    {
+      "mod_id": "ae2wtlib",
+      "filename": "ae2wtlib-15.3.3-forge.jar",
+      "sha256": "39e5cede37d5c6a07592d6c1e83398791e037f3d434bc44f7460cd085a4de5f4",
+      "source": "curseforge",
+      "project_id": 459929,
+      "file_id": 7251206,
+      "requires": [
+        "ae2",
+        "architectury",
+        "cloth_config",
+        "curios"
       ]
     },
     {
@@ -473,6 +490,15 @@
       "source": "curseforge",
       "project_id": 840788,
       "file_id": 4917082,
+      "requires": []
+    },
+    {
+      "mod_id": "curios",
+      "filename": "curios-forge-5.14.1+1.20.1.jar",
+      "sha256": "1e817919a35b37cf30524aaec73f0ca5130452f23f168f844854df282eb8e51f",
+      "source": "curseforge",
+      "project_id": 309927,
+      "file_id": 6418456,
       "requires": []
     },
     {
@@ -933,7 +959,7 @@
     {
       "mod_id": "gtna",
       "filename": "gtna-0.6.2.jar",
-      "sha256": "402bf78947f7e85a5cd87cc0a07c3e4a9960290354a8333843766eec2e58ea33",
+      "sha256": "6016c834ce8f97d796efe9ba61195381f763d5097d411590d03f87a924fd95de",
       "source": "local-build",
       "path": "/home/raishxn/MineProjects/GregTech-Nexus-Addon/build/libs/gtna-0.6.2.jar",
       "requires": []
@@ -1442,7 +1468,7 @@
     {
       "mod_id": "typeomega",
       "filename": "typeomega-0.1.0.jar",
-      "sha256": "c3fc340b0ba2977d1abb9a9af333c888524e96e7f9f3475fba520411742e5b21",
+      "sha256": "ad322f2baf79a6d81912661d2bc397d55e5ba3adaa18160c1bde3c97350e003d",
       "source": "local-build",
       "path": "/home/raishxn/MineProjects/GTIA/core/build/libs/typeomega-0.1.0.jar",
       "requires": []
@@ -1472,6 +1498,18 @@
       "project_id": 664224,
       "file_id": 6664039,
       "requires": []
+    },
+    {
+      "mod_id": "wcwt",
+      "filename": "wcwt-1.20.1.11.jar",
+      "sha256": "4bdfa5cd0f2d778fd57cb020e88b56c4eaf6a14ef85c7ade808906021f5d7864",
+      "source": "curseforge",
+      "project_id": 1546802,
+      "file_id": 9036216,
+      "requires": [
+        "ae2",
+        "ae2wtlib"
+      ]
     },
     {
       "mod_id": "xaerominimap",
