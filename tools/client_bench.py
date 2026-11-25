@@ -20,13 +20,13 @@ import subprocess
 import time
 from pathlib import Path
 
-# EN: GTIA_BENCH_PRISM_DIR runs a second Prism (own data dir, instance "GTIA bench" sharing the pack's minecraft/),
+# EN: TYPEOMEGA_BENCH_PRISM_DIR runs a second Prism (own data dir, instance "GTIA bench" sharing the pack's minecraft/),
 #     so heap flags can change and that Prism can close while the author's Prism keeps running.
-# PT: GTIA_BENCH_PRISM_DIR usa uma segunda Prism (pasta própria, instância "GTIA bench" com o minecraft/ do pack),
+# PT: TYPEOMEGA_BENCH_PRISM_DIR usa uma segunda Prism (pasta própria, instância "GTIA bench" com o minecraft/ do pack),
 #     para mudar o heap e fechar essa Prism sem tocar na Prism do autor.
-# ZH: 设置 GTIA_BENCH_PRISM_DIR 时使用第二个 Prism（独立数据目录，"GTIA bench" 实例共享整合包的 minecraft/），
+# ZH: 设置 TYPEOMEGA_BENCH_PRISM_DIR 时使用第二个 Prism（独立数据目录，"GTIA bench" 实例共享整合包的 minecraft/），
 #     可修改堆参数并关闭它，而不影响作者正在运行的 Prism。
-PRISM_DIR = os.environ.get("GTIA_BENCH_PRISM_DIR", "")
+PRISM_DIR = os.environ.get("TYPEOMEGA_BENCH_PRISM_DIR", "")
 INSTANCE = (Path(PRISM_DIR) / "instances/GTIA bench" if PRISM_DIR
             else Path.home() / ".local/share/PrismLauncher/instances/GTIA (full pack)")
 CFG = INSTANCE / "instance.cfg"

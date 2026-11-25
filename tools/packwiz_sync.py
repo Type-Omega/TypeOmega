@@ -31,7 +31,7 @@ LOCK = PACK / "manifest" / "full.lock.json"
 CLIENT_ONLY = PACK / "manifest" / "client-only.txt"
 SERVER_ONLY = PACK / "manifest" / "server-only.txt"
 MODS = PACK / "mods"
-CACHE = Path(os.environ.get("GTIA_MOD_CACHE", Path.home() / "MineProjects" / "GTIA-arquivo" / "mod-cache"))
+CACHE = Path(os.environ.get("TYPEOMEGA_MOD_CACHE", Path.home() / "MineProjects" / "GTIA-arquivo" / "mod-cache"))
 
 
 def display_name(jar: Path, fallback: str) -> str:

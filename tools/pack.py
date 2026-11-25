@@ -40,18 +40,18 @@ PROFILES = {
                     "lock": MANIFEST / "first-slice.lock.json", "instance": "GTIA First Slice (clean)"},
 }
 PROFILE = PROFILES["full"]
-CACHE = Path(os.environ.get("GTIA_MOD_CACHE", Path.home() / "MineProjects" / "GTIA-arquivo" / "mod-cache"))
+CACHE = Path(os.environ.get("TYPEOMEGA_MOD_CACHE", Path.home() / "MineProjects" / "GTIA-arquivo" / "mod-cache"))
 PRISM = Path(os.environ.get("PRISM_INSTANCES", Path.home() / ".local/share/PrismLauncher/instances"))
 TEMPLATE_INSTANCE = "GregTech Infinity Ascension"
 BUILT_IN = {"forge", "minecraft"}
 
 LOCAL_BUILDS = {
-    "typeomega": Path(os.environ.get("GTIA_JAR", ROOT / "core/build/libs/typeomega-0.1.0.jar")),
+    "typeomega": Path(os.environ.get("TYPEOMEGA_JAR", ROOT / "core/build/libs/typeomega-0.1.0.jar")),
     "gtna": Path(os.environ.get(
         "GTNA_JAR", Path.home() / "MineProjects/GregTech-Nexus-Addon/build/libs/gtna-0.6.2.jar")),
     # Shared library of the org's mods (D-262); TypeOmega Core and GTNA require it.
     "typeomegalib": Path(os.environ.get(
-        "GTIALIB_JAR", ROOT.parent / "GTIA-arquivo/jar-backups/2026-11-23-typeomega-lib-0.6.1/typeomega-lib-0.6.1.jar")),
+        "TYPEOMEGALIB_JAR", ROOT.parent / "GTIA-arquivo/jar-backups/2026-11-23-typeomega-lib-0.6.1/typeomega-lib-0.6.1.jar")),
     # Measured performance fixes (D-263).
     "ascopt": Path(os.environ.get(
         "ASCOPT_JAR", ROOT.parent / "GTIA-arquivo/jar-backups/2026-10-17-ascopt-0.2.1/ascopt-0.2.1.jar")),

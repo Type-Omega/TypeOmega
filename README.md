@@ -116,7 +116,7 @@ python3 tools/packwiz_sync.py       # write mods/*.pw.toml, copy the local jars,
 python3 tools/packwiz_sync.py --check
 ```
 
-A mod that a dedicated server can't load goes in `manifest/client-only.txt` (`tools/server_smoke.py` lists them). TypeOmega Core and GTNA are local builds; set `GTIA_JAR` / `GTNA_JAR` if your jars are elsewhere.
+A mod that a dedicated server can't load goes in `manifest/client-only.txt` (`tools/server_smoke.py` lists them). TypeOmega Core and GTNA are local builds; set `TYPEOMEGA_JAR` / `GTNA_JAR` if your jars are elsewhere.
 
 ### Configs and quests
 

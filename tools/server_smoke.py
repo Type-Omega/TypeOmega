@@ -2,12 +2,12 @@
 """Boot a dedicated Forge server with exactly the locked mods and report whether it loads.
 
     server_smoke.py            install the server once, copy the locked mods and config, start, wait for "Done", stop
-    GTIA_PROFILE=first-slice server_smoke.py   the same with the small subset (default profile: full)
+    TYPEOMEGA_PROFILE=first-slice server_smoke.py   the same with the small subset (default profile: full)
     server_smoke.py --export-recipes   also have TypeOmega Core write every loaded recipe, item and fluid of the full pack
                                        to manifest/registry/pack/ (used by questgen's reachability check)
 
 Run `pack.py fetch` first (this tool reads the mod cache). The server lives outside the repository, in
-GTIA_SMOKE_DIR (default ~/MineProjects/GTIA-arquivo/server-smoke). It is a smoke test: a server never loads
+TYPEOMEGA_SMOKE_DIR (default ~/MineProjects/GTIA-arquivo/server-smoke). It is a smoke test: a server never loads
 client-only code, so the screen, the EMI line and rendering still need a real client.
 
 The Forge installer fails on a processor hash with Java 17 on this machine and succeeds with Java 21, so the
@@ -29,13 +29,13 @@ import urllib.request
 from pathlib import Path
 
 PACK = Path(__file__).resolve().parents[1]
-PROFILE = os.environ.get("GTIA_PROFILE", "full")
+PROFILE = os.environ.get("TYPEOMEGA_PROFILE", "full")
 LOCK = PACK / "manifest" / f"{PROFILE}.lock.json"
-CACHE = Path(os.environ.get("GTIA_MOD_CACHE", Path.home() / "MineProjects/GTIA-arquivo/mod-cache"))
-WORK = Path(os.environ.get("GTIA_SMOKE_DIR", Path.home() / "MineProjects/GTIA-arquivo/server-smoke"))
+CACHE = Path(os.environ.get("TYPEOMEGA_MOD_CACHE", Path.home() / "MineProjects/GTIA-arquivo/mod-cache"))
+WORK = Path(os.environ.get("TYPEOMEGA_SMOKE_DIR", Path.home() / "MineProjects/GTIA-arquivo/server-smoke"))
 JAVA_INSTALL = os.environ.get("JAVA_INSTALL", "/usr/lib/jvm/java-21-openjdk/bin/java")
 JAVA_RUN = os.environ.get("JAVA_RUN", str(Path.home() / ".local/share/PrismLauncher/java/java-runtime-gamma/bin/java"))
-TIMEOUT = int(os.environ.get("GTIA_SMOKE_TIMEOUT", "420"))
+TIMEOUT = int(os.environ.get("TYPEOMEGA_SMOKE_TIMEOUT", "420"))
 EXPORT = WORK / "export"
 EXPORT_TARGET = PACK / "manifest" / "registry" / "pack"
 EXPORT_FILES = ("recipes.jsonl", "machines.jsonl", "worldgen.jsonl", "items.txt", "fluids.txt")

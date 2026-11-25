@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Server -> client traffic with one player near N working machines (LDLib sync cost).
 
-    GTIA_BENCH_PRISM_DIR=... net_bench.py --machines 0 500 [--seconds 60]
+    TYPEOMEGA_BENCH_PRISM_DIR=... net_bench.py --machines 0 500 [--seconds 60]
 
 Boots the locked pack on a dedicated server, places N working LV furnaces with `typeomegalib bench grid`, connects the
 bench Prism client (never the author's Prism), teleports the player next to the grid and reads the TCP bytes the
@@ -98,7 +98,7 @@ def main() -> int:
     ap.add_argument("--seconds", type=int, default=60)
     args = ap.parse_args()
     if not client.PRISM_DIR:
-        raise SystemExit("set GTIA_BENCH_PRISM_DIR (a separate Prism) so the author's Prism is never touched")
+        raise SystemExit("set TYPEOMEGA_BENCH_PRISM_DIR (a separate Prism) so the author's Prism is never touched")
     lock = json.loads(smoke.LOCK.read_text(encoding="utf-8"))
     smoke.install_server(lock["forge"])
     backup = client.CFG.with_suffix(".cfg.bench-backup")

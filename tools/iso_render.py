@@ -35,7 +35,7 @@ CONTROLLER_CASING = {"gtceu:large_chemical_reactor": "gtceu:inert_machine_casing
 class Assets:
     def __init__(self):
         self.zips = {}
-        extra = [Path(p) for p in os.environ.get("GTIA_EXTRA_JARS", "").split(os.pathsep) if p]
+        extra = [Path(p) for p in os.environ.get("TYPEOMEGA_EXTRA_JARS", "").split(os.pathsep) if p]
         for jar in sorted(CACHE.glob("*.jar")) + extra:
             try:
                 z = zipfile.ZipFile(jar)
