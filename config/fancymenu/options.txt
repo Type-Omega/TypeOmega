@@ -26,10 +26,10 @@ S:custom_game_intro_skip_text = '';
 ##[window]
 
 B:show_custom_window_icon = 'true';
-S:custom_window_icon_macos = 'config/fancymenu/assets/gtia_icon_mac.png';
-S:custom_window_icon_32 = 'config/fancymenu/assets/gtia_icon_32.png';
-S:custom_window_title = 'GregTech: Infinity Ascension';
-S:custom_window_icon_16 = 'config/fancymenu/assets/gtia_icon_16.png';
+S:custom_window_icon_macos = 'config/fancymenu/assets/typeomega_icon_mac.png';
+S:custom_window_icon_32 = 'config/fancymenu/assets/typeomega_icon_32.png';
+S:custom_window_title = 'Type Omega';
+S:custom_window_icon_16 = 'config/fancymenu/assets/typeomega_icon_16.png';
 
 
 ##[global_customizations]

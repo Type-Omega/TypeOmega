@@ -41,7 +41,7 @@ def pack_info() -> dict[str, str]:
 
 def staged(version: str | None) -> Path:
     """A copy of the pack (without git or build output) with the requested version, refreshed."""
-    work = Path(tempfile.mkdtemp(prefix="gtia-release-"))
+    work = Path(tempfile.mkdtemp(prefix="typeomega-release-"))
     shutil.copytree(PACK, work, dirs_exist_ok=True,
                     ignore=shutil.ignore_patterns(".git", "__pycache__", "result", "server-result", "*.zip"))
     if version:
@@ -68,7 +68,7 @@ def cmd_curseforge(out: Path, version: str | None) -> Path:
 def cmd_server(out: Path, version: str | None) -> Path:
     work = staged(version)
     info = pack_info() if not version else {**pack_info(), "version": version}
-    root = Path(tempfile.mkdtemp(prefix="gtia-server-"))
+    root = Path(tempfile.mkdtemp(prefix="typeomega-server-"))
     for folder in SHIPPED:
         if (work / folder).exists():
             shutil.copytree(work / folder, root / folder, ignore=shutil.ignore_patterns(".gitkeep"))
@@ -76,7 +76,7 @@ def cmd_server(out: Path, version: str | None) -> Path:
     for jar in (work / "mods").glob("*.jar"):
         shutil.copy2(jar, root / "mods" / jar.name)
     # packwiz-installer metadata with the server-side remote mods only; the jars above are already in place.
-    meta = root / "gtia-installer" / "pack"
+    meta = root / "typeomega-installer" / "pack"
     (meta / "mods").mkdir(parents=True)
     shutil.copy2(work / "pack.toml", meta / "pack.toml")
     (meta / "index.toml").write_text('hash-format = "sha256"\n')
@@ -90,7 +90,7 @@ def cmd_server(out: Path, version: str | None) -> Path:
     for name in ("restore-backup.sh", "restore-backup.bat", "restore-backup.ps1"):
         shutil.copy2(work / name, root / name)
     shutil.copy2(work / "LICENSE.txt", root / "LICENSE.txt")
-    (root / "gtia-installer" / "versions.txt").write_text(
+    (root / "typeomega-installer" / "versions.txt").write_text(
         f"pack={info['version']}\nminecraft={info['minecraft']}\nforge={info['forge']}\n")
     target = out / f"{slug(info['name'])}-server-{info['version']}.zip"
     with zipfile.ZipFile(target, "w", zipfile.ZIP_DEFLATED) as z:

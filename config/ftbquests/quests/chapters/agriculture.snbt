@@ -13,26 +13,26 @@
 				"164B4BE647B71EEA"
 			]
 			description: [
-				"{image:gtia_quests:textures/quests/agronomica_farm.png width:96 height:96 align:center}"
+				"{image:typeomega_quests:textures/quests/agronomica_farm.png width:96 height:96 align:center}"
 				""
-				"{gtia.quest.15C00FA8C66E0F43.desc.2}"
+				"{typeomega.quest.15C00FA8C66E0F43.desc.2}"
 				""
-				"{gtia.quest.15C00FA8C66E0F43.desc.4}"
+				"{typeomega.quest.15C00FA8C66E0F43.desc.4}"
 			]
 			icon: "agronomica:crop_sticks"
 			id: "15C00FA8C66E0F43"
 			rewards: [ ]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "{gtia.quest.15C00FA8C66E0F43.subtitle}"
+			subtitle: "{typeomega.quest.15C00FA8C66E0F43.subtitle}"
 			tasks: [
 				{
 					id: "7E92FE287C46B6CD"
 					type: "checkmark"
-					title: "{gtia.quest.15C00FA8C66E0F43.task.7E92FE287C46B6CD}"
+					title: "{typeomega.quest.15C00FA8C66E0F43.task.7E92FE287C46B6CD}"
 				}
 			]
-			title: "{gtia.quest.15C00FA8C66E0F43.title}"
+			title: "{typeomega.quest.15C00FA8C66E0F43.title}"
 			x: 0.0d
 			y: -7.0d
 		}
@@ -41,15 +41,15 @@
 				"15C00FA8C66E0F43"
 			]
 			description: [
-				"{gtia.quest.79D264DC2DF604DE.desc.0}"
+				"{typeomega.quest.79D264DC2DF604DE.desc.0}"
 				""
-				"{gtia.quest.79D264DC2DF604DE.desc.2}"
+				"{typeomega.quest.79D264DC2DF604DE.desc.2}"
 			]
 			id: "79D264DC2DF604DE"
 			rewards: [ ]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "{gtia.quest.79D264DC2DF604DE.subtitle}"
+			subtitle: "{typeomega.quest.79D264DC2DF604DE.subtitle}"
 			tasks: [
 				{
 					id: "66DD65A577A08E78"
@@ -60,7 +60,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.79D264DC2DF604DE.title}"
+			title: "{typeomega.quest.79D264DC2DF604DE.title}"
 			x: 2.5d
 			y: -7.0d
 		}
@@ -69,14 +69,14 @@
 				"15C00FA8C66E0F43"
 			]
 			description: [
-				"{gtia.quest.5C6E1876A86071AF.desc.0}"
+				"{typeomega.quest.5C6E1876A86071AF.desc.0}"
 			]
 			icon: "agronomica:seeds"
 			id: "5C6E1876A86071AF"
 			rewards: [ ]
 			shape: "square"
 			size: 1.0d
-			subtitle: "{gtia.quest.5C6E1876A86071AF.subtitle}"
+			subtitle: "{typeomega.quest.5C6E1876A86071AF.subtitle}"
 			tasks: [
 				{
 					id: "49C340EF7B9981A3"
@@ -87,7 +87,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.5C6E1876A86071AF.title}"
+			title: "{typeomega.quest.5C6E1876A86071AF.title}"
 			x: 3.0d
 			y: -5.5d
 		}
@@ -96,14 +96,14 @@
 				"79D264DC2DF604DE"
 			]
 			description: [
-				"{gtia.quest.280C95B44BE970BE.desc.0}"
+				"{typeomega.quest.280C95B44BE970BE.desc.0}"
 			]
 			icon: "agronomica:hemp_fiber"
 			id: "280C95B44BE970BE"
 			rewards: [ ]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "{gtia.quest.280C95B44BE970BE.subtitle}"
+			subtitle: "{typeomega.quest.280C95B44BE970BE.subtitle}"
 			tasks: [
 				{
 					id: "66E8D85B93D83101"
@@ -114,7 +114,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.280C95B44BE970BE.title}"
+			title: "{typeomega.quest.280C95B44BE970BE.title}"
 			x: 5.0d
 			y: -9.0d
 		}
@@ -123,14 +123,14 @@
 				"79D264DC2DF604DE"
 			]
 			description: [
-				"{gtia.quest.2CF80B31D06F2D33.desc.0}"
+				"{typeomega.quest.2CF80B31D06F2D33.desc.0}"
 			]
 			icon: "agronomica:oily_seed"
 			id: "2CF80B31D06F2D33"
 			rewards: [ ]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "{gtia.quest.2CF80B31D06F2D33.subtitle}"
+			subtitle: "{typeomega.quest.2CF80B31D06F2D33.subtitle}"
 			tasks: [
 				{
 					id: "486F9BFDABD729DD"
@@ -141,7 +141,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.2CF80B31D06F2D33.title}"
+			title: "{typeomega.quest.2CF80B31D06F2D33.title}"
 			x: 2.5d
 			y: -9.0d
 		}
@@ -150,14 +150,14 @@
 				"2724B083A24C27AA"
 			]
 			description: [
-				"{gtia.quest.61CDEB8D78DFB807.desc.0}"
+				"{typeomega.quest.61CDEB8D78DFB807.desc.0}"
 			]
 			icon: "gtceu:seed_oil_bucket"
 			id: "61CDEB8D78DFB807"
 			rewards: [ ]
 			shape: "square"
 			size: 1.0d
-			subtitle: "{gtia.quest.61CDEB8D78DFB807.subtitle}"
+			subtitle: "{typeomega.quest.61CDEB8D78DFB807.subtitle}"
 			tasks: [
 				{
 					amount: 1000L
@@ -166,7 +166,7 @@
 					type: "fluid"
 				}
 			]
-			title: "{gtia.quest.61CDEB8D78DFB807.title}"
+			title: "{typeomega.quest.61CDEB8D78DFB807.title}"
 			x: 2.5d
 			y: 1.0d
 		}
@@ -175,7 +175,7 @@
 				"61CDEB8D78DFB807"
 			]
 			description: [
-				"{gtia.quest.690F090EAB32DC94.desc.0}"
+				"{typeomega.quest.690F090EAB32DC94.desc.0}"
 			]
 			icon: "gtceu:lp_steam_liquid_boiler"
 			id: "690F090EAB32DC94"
@@ -183,15 +183,15 @@
 			rewards: [ ]
 			shape: "pentagon"
 			size: 1.25d
-			subtitle: "{gtia.quest.690F090EAB32DC94.subtitle}"
+			subtitle: "{typeomega.quest.690F090EAB32DC94.subtitle}"
 			tasks: [
 				{
 					id: "04994EA5609D4D34"
 					type: "checkmark"
-					title: "{gtia.quest.690F090EAB32DC94.task.04994EA5609D4D34}"
+					title: "{typeomega.quest.690F090EAB32DC94.task.04994EA5609D4D34}"
 				}
 			]
-			title: "{gtia.quest.690F090EAB32DC94.title}"
+			title: "{typeomega.quest.690F090EAB32DC94.title}"
 			x: 4.5d
 			y: 1.0d
 		}
@@ -200,16 +200,16 @@
 				"79D264DC2DF604DE"
 			]
 			description: [
-				"{gtia.quest.6D5D193145CB0911.desc.0}"
+				"{typeomega.quest.6D5D193145CB0911.desc.0}"
 				""
-				"{gtia.quest.6D5D193145CB0911.desc.2}"
+				"{typeomega.quest.6D5D193145CB0911.desc.2}"
 			]
 			icon: "agronomica:fertilizer_npk"
 			id: "6D5D193145CB0911"
 			rewards: [ ]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "{gtia.quest.6D5D193145CB0911.subtitle}"
+			subtitle: "{typeomega.quest.6D5D193145CB0911.subtitle}"
 			tasks: [
 				{
 					id: "099616F1C3F1304B"
@@ -236,7 +236,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.6D5D193145CB0911.title}"
+			title: "{typeomega.quest.6D5D193145CB0911.title}"
 			x: 5.0d
 			y: -7.0d
 		}
@@ -245,14 +245,14 @@
 				"6D5D193145CB0911"
 			]
 			description: [
-				"{gtia.quest.5C0076AE44C3EB29.desc.0}"
+				"{typeomega.quest.5C0076AE44C3EB29.desc.0}"
 			]
 			icon: "agronomica:fertilizer_npk"
 			id: "5C0076AE44C3EB29"
 			rewards: [ ]
 			shape: "square"
 			size: 1.0d
-			subtitle: "{gtia.quest.5C0076AE44C3EB29.subtitle}"
+			subtitle: "{typeomega.quest.5C0076AE44C3EB29.subtitle}"
 			tasks: [
 				{
 					id: "51325C852BDDC41C"
@@ -263,7 +263,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.5C0076AE44C3EB29.title}"
+			title: "{typeomega.quest.5C0076AE44C3EB29.title}"
 			x: 7.5d
 			y: -6.5d
 		}
@@ -272,14 +272,14 @@
 				"79D264DC2DF604DE"
 			]
 			description: [
-				"{gtia.quest.540A418CDBD31773.desc.0}"
+				"{typeomega.quest.540A418CDBD31773.desc.0}"
 			]
 			icon: "agronomica:compost_barrel"
 			id: "540A418CDBD31773"
 			rewards: [ ]
 			shape: "square"
 			size: 1.0d
-			subtitle: "{gtia.quest.540A418CDBD31773.subtitle}"
+			subtitle: "{typeomega.quest.540A418CDBD31773.subtitle}"
 			tasks: [
 				{
 					id: "1EC7331488E5B570"
@@ -290,7 +290,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.540A418CDBD31773.title}"
+			title: "{typeomega.quest.540A418CDBD31773.title}"
 			x: 5.0d
 			y: -5.0d
 		}
@@ -299,14 +299,14 @@
 				"540A418CDBD31773"
 			]
 			description: [
-				"{gtia.quest.49E154954764A4ED.desc.0}"
+				"{typeomega.quest.49E154954764A4ED.desc.0}"
 			]
 			icon: "agronomica:compost"
 			id: "49E154954764A4ED"
 			rewards: [ ]
 			shape: "square"
 			size: 0.75d
-			subtitle: "{gtia.quest.49E154954764A4ED.subtitle}"
+			subtitle: "{typeomega.quest.49E154954764A4ED.subtitle}"
 			tasks: [
 				{
 					id: "17C55B5B7CE85B9A"
@@ -317,7 +317,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.49E154954764A4ED.title}"
+			title: "{typeomega.quest.49E154954764A4ED.title}"
 			x: 6.5d
 			y: -5.0d
 		}
@@ -326,16 +326,16 @@
 				"280C95B44BE970BE"
 			]
 			description: [
-				"{gtia.quest.40D5BC0F0055731A.desc.0}"
+				"{typeomega.quest.40D5BC0F0055731A.desc.0}"
 				""
-				"{gtia.quest.40D5BC0F0055731A.desc.2}"
+				"{typeomega.quest.40D5BC0F0055731A.desc.2}"
 			]
 			icon: "agronomica:biomass_bundle"
 			id: "40D5BC0F0055731A"
 			rewards: [ ]
 			shape: "gear"
 			size: 2.25d
-			subtitle: "{gtia.quest.40D5BC0F0055731A.subtitle}"
+			subtitle: "{typeomega.quest.40D5BC0F0055731A.subtitle}"
 			tasks: [
 				{
 					id: "0AF06E22BA759EB6"
@@ -346,7 +346,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.40D5BC0F0055731A.title}"
+			title: "{typeomega.quest.40D5BC0F0055731A.title}"
 			x: 7.5d
 			y: -9.0d
 		}
@@ -355,7 +355,7 @@
 				"40D5BC0F0055731A"
 			]
 			description: [
-				"{gtia.quest.3387CEA15F0DDD4E.desc.0}"
+				"{typeomega.quest.3387CEA15F0DDD4E.desc.0}"
 			]
 			icon: "minecraft:book"
 			id: "3387CEA15F0DDD4E"
@@ -363,15 +363,15 @@
 			rewards: [ ]
 			shape: "pentagon"
 			size: 1.25d
-			subtitle: "{gtia.quest.3387CEA15F0DDD4E.subtitle}"
+			subtitle: "{typeomega.quest.3387CEA15F0DDD4E.subtitle}"
 			tasks: [
 				{
 					id: "1081796D16BC8BD0"
 					type: "checkmark"
-					title: "{gtia.quest.3387CEA15F0DDD4E.task.1081796D16BC8BD0}"
+					title: "{typeomega.quest.3387CEA15F0DDD4E.task.1081796D16BC8BD0}"
 				}
 			]
-			title: "{gtia.quest.3387CEA15F0DDD4E.title}"
+			title: "{typeomega.quest.3387CEA15F0DDD4E.title}"
 			x: 9.5d
 			y: -11.0d
 		}
@@ -380,14 +380,14 @@
 				"40D5BC0F0055731A"
 			]
 			description: [
-				"{gtia.quest.002D387591CB9B9D.desc.0}"
+				"{typeomega.quest.002D387591CB9B9D.desc.0}"
 			]
 			icon: "agronomica:latex"
 			id: "002D387591CB9B9D"
 			rewards: [ ]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "{gtia.quest.002D387591CB9B9D.subtitle}"
+			subtitle: "{typeomega.quest.002D387591CB9B9D.subtitle}"
 			tasks: [
 				{
 					id: "1A080A7F05FA3DAE"
@@ -398,7 +398,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.002D387591CB9B9D.title}"
+			title: "{typeomega.quest.002D387591CB9B9D.title}"
 			x: 9.5d
 			y: -7.0d
 		}
@@ -407,14 +407,14 @@
 				"7FE0DA8B87378139"
 			]
 			description: [
-				"{gtia.quest.4D49C4B1B20C5EC3.desc.0}"
+				"{typeomega.quest.4D49C4B1B20C5EC3.desc.0}"
 			]
 			icon: "gtceu:rubber_ingot"
 			id: "4D49C4B1B20C5EC3"
 			rewards: [ ]
 			shape: "square"
 			size: 1.0d
-			subtitle: "{gtia.quest.4D49C4B1B20C5EC3.subtitle}"
+			subtitle: "{typeomega.quest.4D49C4B1B20C5EC3.subtitle}"
 			tasks: [
 				{
 					id: "56CC991A7B44D5FA"
@@ -425,7 +425,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.4D49C4B1B20C5EC3.title}"
+			title: "{typeomega.quest.4D49C4B1B20C5EC3.title}"
 			x: -2.0d
 			y: -7.0d
 		}
@@ -434,14 +434,14 @@
 				"395D2A907E599190"
 			]
 			description: [
-				"{gtia.quest.5A8DE80B2B95A82C.desc.0}"
+				"{typeomega.quest.5A8DE80B2B95A82C.desc.0}"
 			]
 			icon: "gtceu:biomass_bucket"
 			id: "5A8DE80B2B95A82C"
 			rewards: [ ]
 			shape: "square"
 			size: 1.0d
-			subtitle: "{gtia.quest.5A8DE80B2B95A82C.subtitle}"
+			subtitle: "{typeomega.quest.5A8DE80B2B95A82C.subtitle}"
 			tasks: [
 				{
 					amount: 1000L
@@ -450,7 +450,7 @@
 					type: "fluid"
 				}
 			]
-			title: "{gtia.quest.5A8DE80B2B95A82C.title}"
+			title: "{typeomega.quest.5A8DE80B2B95A82C.title}"
 			x: 0.0d
 			y: -9.0d
 		}
@@ -460,14 +460,14 @@
 				"2C68292446A12B9C"
 			]
 			description: [
-				"{gtia.quest.56013617611B005C.desc.0}"
+				"{typeomega.quest.56013617611B005C.desc.0}"
 			]
 			icon: "typeomega:lv_seed_analyzer"
 			id: "56013617611B005C"
 			rewards: [ ]
 			shape: "hexagon"
 			size: 1.75d
-			subtitle: "{gtia.quest.56013617611B005C.subtitle}"
+			subtitle: "{typeomega.quest.56013617611B005C.subtitle}"
 			tasks: [
 				{
 					id: "6E035B6553F3A705"
@@ -478,7 +478,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.56013617611B005C.title}"
+			title: "{typeomega.quest.56013617611B005C.title}"
 			x: 10.0d
 			y: -9.0d
 		}
@@ -487,14 +487,14 @@
 				"5C0076AE44C3EB29"
 			]
 			description: [
-				"{gtia.quest.6AE53EA8632C0F32.desc.0}"
+				"{typeomega.quest.6AE53EA8632C0F32.desc.0}"
 			]
 			icon: "agronomica:fertilizer_npk"
 			id: "6AE53EA8632C0F32"
 			rewards: [ ]
 			shape: "square"
 			size: 1.0d
-			subtitle: "{gtia.quest.6AE53EA8632C0F32.subtitle}"
+			subtitle: "{typeomega.quest.6AE53EA8632C0F32.subtitle}"
 			tasks: [
 				{
 					id: "7A41155C9BF9D21D"
@@ -505,7 +505,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.6AE53EA8632C0F32.title}"
+			title: "{typeomega.quest.6AE53EA8632C0F32.title}"
 			x: 10.5d
 			y: -5.5d
 		}
@@ -515,14 +515,14 @@
 				"7D975DF31DC0C447"
 			]
 			description: [
-				"{gtia.quest.113F593262989A47.desc.0}"
+				"{typeomega.quest.113F593262989A47.desc.0}"
 			]
 			icon: "gtna:greenhouse"
 			id: "113F593262989A47"
 			rewards: [ ]
 			shape: "gear"
 			size: 2.25d
-			subtitle: "{gtia.quest.113F593262989A47.subtitle}"
+			subtitle: "{typeomega.quest.113F593262989A47.subtitle}"
 			tasks: [
 				{
 					id: "345DEC9F6B750C56"
@@ -533,7 +533,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.113F593262989A47.title}"
+			title: "{typeomega.quest.113F593262989A47.title}"
 			x: 12.5d
 			y: -8.5d
 		}
@@ -542,14 +542,14 @@
 				"113F593262989A47"
 			]
 			description: [
-				"{gtia.quest.4C222A05EE2D18AE.desc.0}"
+				"{typeomega.quest.4C222A05EE2D18AE.desc.0}"
 			]
 			icon: "agronomica:hemp_fiber"
 			id: "4C222A05EE2D18AE"
 			rewards: [ ]
 			shape: "square"
 			size: 1.0d
-			subtitle: "{gtia.quest.4C222A05EE2D18AE.subtitle}"
+			subtitle: "{typeomega.quest.4C222A05EE2D18AE.subtitle}"
 			tasks: [
 				{
 					id: "3A256A0EBDE7A63A"
@@ -560,7 +560,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.4C222A05EE2D18AE.title}"
+			title: "{typeomega.quest.4C222A05EE2D18AE.title}"
 			x: 15.0d
 			y: -8.5d
 		}
@@ -569,14 +569,14 @@
 				"58B69F32DECBAC26"
 			]
 			description: [
-				"{gtia.quest.72AB8F349180CB28.desc.0}"
+				"{typeomega.quest.72AB8F349180CB28.desc.0}"
 			]
 			icon: "typeomega:hv_seed_analyzer"
 			id: "72AB8F349180CB28"
 			rewards: [ ]
 			shape: "square"
 			size: 1.0d
-			subtitle: "{gtia.quest.72AB8F349180CB28.subtitle}"
+			subtitle: "{typeomega.quest.72AB8F349180CB28.subtitle}"
 			tasks: [
 				{
 					id: "5FDD479D023BD62D"
@@ -587,12 +587,12 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.72AB8F349180CB28.title}"
+			title: "{typeomega.quest.72AB8F349180CB28.title}"
 			x: 0.0d
 			y: -5.0d
 		}
 	]
-	title: "{gtia.quest.chapter.1CDFB08E1A218016}"
+	title: "{typeomega.quest.chapter.1CDFB08E1A218016}"
 	images: [
 		{
 			alpha: 255
@@ -602,7 +602,7 @@
 			dev: false
 			height: 80.0d
 			hover: [ ]
-			image: "gtia_quests:textures/quests/backgrounds/agriculture.png"
+			image: "typeomega_quests:textures/quests/backgrounds/agriculture.png"
 			order: -100
 			rotation: 0.0d
 			width: 80.0d
@@ -617,7 +617,7 @@
 			dev: false
 			height: 2.0d
 			hover: [ ]
-			image: "gtia_quests:textures/quests/banners/agriculture.png"
+			image: "typeomega_quests:textures/quests/banners/agriculture.png"
 			order: 0
 			rotation: 0.0d
 			width: 7.0d

@@ -1,5 +1,5 @@
 {
-  description = "GregTech Infinity Ascension modpack";
+  description = "Type Omega modpack";
 
   inputs = {
     flake-utils.url = "github:numtide/flake-utils";

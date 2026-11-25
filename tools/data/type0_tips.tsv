@@ -1,5 +1,5 @@
 # One-line text for the Type 0 tip and guide quests (checkmark tasks), by draft chapter and quest id
-# (tools/draft_to_questsrc.py). Tab-separated: chapter, id, en_us, pt_br, zh_cn. Beta text (GTIA-D-421).
+# (tools/draft_to_questsrc.py). Tab-separated: chapter, id, en_us, pt_br, zh_cn. Beta text (D-421).
 t00	mapa	Press M for the world map and B to add a waypoint; mark your base and every ore vein you find.	Aperte M para o mapa e B para criar um ponto; marque a base e cada veio que achar.	按 M 打开世界地图，按 B 添加路径点；标记基地和找到的每条矿脉。
 t00	chunks	Claim your base chunks in the FTB Chunks map so nothing breaks or explodes there.	Reivindique os chunks da base no mapa do FTB Chunks para nada quebrar ou explodir ali.	在 FTB Chunks 地图中领取基地区块，防止被破坏或爆炸。
 t00	emi	Hover an item and press R for its recipes and U for its uses; every quest here can be looked up this way.	Passe o mouse num item e aperte R para receitas e U para usos; toda quest daqui pode ser consultada assim.	鼠标悬停物品，按 R 查看配方，按 U 查看用途；这里的每个任务都能这样查。

@@ -1,10 +1,10 @@
 # Third-party content
 
-GTIA does not redistribute third-party mods in this repository. `manifest/full.lock.json` lists each mod with its source and SHA-256, and `tools/pack.py fetch` downloads them from their original pages. Every mod keeps its own license; check its project page.
+Type Omega does not redistribute third-party mods in this repository. `manifest/full.lock.json` lists each mod with its source and SHA-256, and `tools/pack.py fetch` downloads them from their original pages. Every mod keeps its own license; check its project page.
 
-GTIA's own mods:
+Type Omega's own mods:
 
-- **GTIACore** (`typeomega`): LGPL-3.0.
+- **TypeOmega Core** (`typeomega`): LGPL-3.0.
 - **GregTech Nexus Addon** (`gtna`): see https://github.com/Type-Omega/GregTech-Nexus-Addon.
 - **ModernSpace** (`modernspace`), **ModernManipulator** (`modern_manipulator`) and **Crafting Chain** (`craftingchain`): by the same author, see https://github.com/Raishxn/ModernSpace, https://github.com/Raishxn/ModernManipulator and https://github.com/Raishxn/CraftingChain.
 

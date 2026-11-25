@@ -58,9 +58,9 @@ def lang_tables() -> dict[str, dict[str, str]]:
             name = f"assets/{ns}/lang/en_us.json"
             if name in z.namelist():
                 tables[ns] = json.loads(z.read(name))
-    gtia = PACK.parent / "core" / "src" / "generated" / "resources" / "assets" / "typeomega" / "lang" / "en_us.json"
-    if gtia.exists():
-        tables["typeomega"] = json.loads(gtia.read_text())
+    core_lang = PACK.parent / "core" / "src" / "generated" / "resources" / "assets" / "typeomega" / "lang" / "en_us.json"
+    if core_lang.exists():
+        tables["typeomega"] = json.loads(core_lang.read_text())
     return tables
 
 
@@ -76,7 +76,7 @@ def text_keys(item: str, tables: dict[str, dict[str, str]]) -> list[str]:
                 n += 1
         elif pattern.format(ns=ns, path=path) in table:
             keys.append(pattern.format(ns=ns, path=path))
-    # GTIA tooltips are sectioned (fact, main, auxiliary, requirements)
+    # Type Omega tooltips are sectioned (fact, main, auxiliary, requirements)
     keys += sorted(k for k in table if k.startswith(f"typeomega.machine.{path}.tooltip.") and k not in keys
                    and ns == "typeomega")
     return keys

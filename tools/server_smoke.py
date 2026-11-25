@@ -3,7 +3,7 @@
 
     server_smoke.py            install the server once, copy the locked mods and config, start, wait for "Done", stop
     GTIA_PROFILE=first-slice server_smoke.py   the same with the small subset (default profile: full)
-    server_smoke.py --export-recipes   also have GTIACore write every loaded recipe, item and fluid of the full pack
+    server_smoke.py --export-recipes   also have TypeOmega Core write every loaded recipe, item and fluid of the full pack
                                        to manifest/registry/pack/ (used by questgen's reachability check)
 
 Run `pack.py fetch` first (this tool reads the mod cache). The server lives outside the repository, in
@@ -48,7 +48,7 @@ def install_server(forge: str) -> None:
     installer = WORK / "forge-installer.jar"
     if not installer.exists():
         url = f"https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-{forge}/forge-1.20.1-{forge}-installer.jar"
-        request = urllib.request.Request(url, headers={"User-Agent": "gtia-pack-tool"})  # the Forge maven rejects urllib's default
+        request = urllib.request.Request(url, headers={"User-Agent": "typeomega-pack-tool"})  # the Forge maven rejects urllib's default
         with urllib.request.urlopen(request, timeout=120) as response, open(installer, "wb") as out:
             shutil.copyfileobj(response, out)
     result = subprocess.run([JAVA_INSTALL, "-jar", str(installer), "--installServer"], cwd=WORK,

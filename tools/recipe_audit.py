@@ -50,7 +50,7 @@ def main() -> int:
             if not sent and re.search(r"Done \([\d.]+s\)", log.read_text(errors="replace")):
                 bench.send(server, "typeomega audit recipes")
                 sent = True
-            if report.exists() and "GTIA recipe audit" in log.read_text(errors="replace"):
+            if report.exists() and "Type Omega recipe audit" in log.read_text(errors="replace"):
                 break
             time.sleep(1)
         if server.poll() is None:

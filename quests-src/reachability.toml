@@ -32,7 +32,7 @@ items = [
     # turns plant scraps into compost in the world.
     "agronomica:seeds", "agronomica:hemp_fiber", "agronomica:oily_seed", "agronomica:biomass_bundle",
     "agronomica:latex", "agronomica:compost",
-    # vanilla bee nests still generate (only Productive Bees' nests are off, GTIA-D-268)
+    # vanilla bee nests still generate (only Productive Bees' nests are off, D-268)
     "minecraft:honey_bottle", "minecraft:honeycomb", "minecraft:bee_nest",
     # AE2 meteorites fall in the Overworld: sky stone, certus quartz and the four inscriber presses come from them
     "ae2:sky_stone_block", "ae2:certus_quartz_crystal", "ae2:calculation_processor_press",
@@ -45,7 +45,7 @@ fluids = ["minecraft:water", "minecraft:lava", "minecraft:milk"]
 # quest with a dimension task for that dimension is done.
 [reward_only]
 # Items with no recipe on purpose: the book gives them, so a reward of one is not an error.
-# GTIA-D-347: the personal dimension portal is the reward of a Steam quest.
+# D-347: the personal dimension portal is the reward of a Steam quest.
 items = ["modernspace:personal_space_portal"]
 
 [dimension_items]

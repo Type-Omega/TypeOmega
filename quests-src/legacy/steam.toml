@@ -239,7 +239,7 @@ y = 4.5
 shape = "circle"
 size = 1
 deps = ["bronze_age"]
-subtitle = "Infinity Ascension's own ore."
+subtitle = "Type Omega's own ore."
 task = [{ item = "typeomega:raw_phase_matrix", count = 4 }]
 text = """
 [item]Phase Matrix[/] deposits sit in the stone of the Overworld between [num]Y 40 and 60[/], marked by indicators on the surface. Your Prospector finds them too.

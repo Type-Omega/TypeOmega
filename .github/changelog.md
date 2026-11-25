@@ -8,8 +8,8 @@
 - **Two more aluminium routes** at MV: press the dust into **Crude Aluminium** and melt it slowly in the EBF, or reduce Alumina with carbon (half the yield of the Hall-Héroult Cell).
 
 ### Changes
-- **The old Start chapter is retired (GTIA-D-426)**: the book now opens with **Welcome**, which leads to **0.0 First Fire**; the Start chapter's sources moved to `quests-src/legacy/` and its Starting Kits are gone from the book. The Agriculture and Bees Biomass quests now ask for the **LV Fermenter** (from 0.2) instead of the Brewery, which the Type 0 book does not have; the LV Fermenter now makes Biomass from 4 Biomass Bundles and 1,000 mB of water (300 mB at 30 EU/t, less than the Brewery's 500 mB), so both quests are live.
-- The core mod is now **TypeOmegaCore** (mod ID `typeomega`) on **TypeOmega Lib 0.6.1** (mod ID `typeomegalib`) and **GTNA 0.6.2**, the renamed GTIA Lib; Agronomica moved to the new lib. Core items, blocks and fluids use the `typeomega:` namespace instead of `gtia:`, and the old IDs are not remapped, so worlds from earlier builds lose those items.
+- **The old Start chapter is retired (D-426)**: the book now opens with **Welcome**, which leads to **0.0 First Fire**; the Start chapter's sources moved to `quests-src/legacy/` and its Starting Kits are gone from the book. The Agriculture and Bees Biomass quests now ask for the **LV Fermenter** (from 0.2) instead of the Brewery, which the Type 0 book does not have; the LV Fermenter now makes Biomass from 4 Biomass Bundles and 1,000 mB of water (300 mB at 30 EU/t, less than the Brewery's 500 mB), so both quests are live.
+- The core mod is now **TypeOmegaCore** (mod ID `typeomega`) on **TypeOmega Lib 0.6.1** (mod ID `typeomegalib`) and **GTNA 0.6.2**, formerly GTIA Lib; Agronomica moved to the new lib. Core items, blocks and fluids use the `typeomega:` namespace instead of the old `gtia:` namespace, and the old IDs are not remapped, so worlds from earlier builds lose those items.
 - The **Integrated Ore Processor** controller is now made on the IV Assembly Line.
 - **Electrolyzer** (as in GTNH): silicates and clays need MV; aluminosilicates and ruby give Alumina for the Hall-Héroult Cell instead of aluminium dust; bastnasite gives Rare Earth instead of cerium.
 - Aluminium dust in the EBF needs HV (480 EU/t).
@@ -30,11 +30,11 @@
 - A **Journey World** / **Normal World** quest at the start of the book says what your world's mode changes; the mode's Starting Kits are visible from the first minute.
 
 ### Changes
-- **One route per base chemical**: GTCEu and GTNA shortcuts that skipped GTIA's chemistry plants are gone in both modes (aluminium from bauxite/sapphire/clay electrolysis, sulfuric acid, ammonia, nitric acid, chlor-alkali without the Diaphragm Cell, soda ash, titanium tetrachloride and titanium outside the Kroll Reactor, quicklime, ethylene from ethanol or glycerol, log pyrolysis). By-products of ores, distillation and recycling stay, and so does ethylene from cracking. The quests for nitric acid, ammonia, titanium, vinyl acetate and polyethylene now point to the GTIA plants.
-- **Steam, LV, MV and HV follow the GTNH 2.9 chapter layout**: quests sit where their GTNH counterpart is, with GTIA-only quests next to the quest they come from. Multiblock renders are gone from the map and the text (press R for the EMI preview).
+- **One route per base chemical**: GTCEu and GTNA shortcuts that skipped Type Omega's chemistry plants are gone in both modes (aluminium from bauxite/sapphire/clay electrolysis, sulfuric acid, ammonia, nitric acid, chlor-alkali without the Diaphragm Cell, soda ash, titanium tetrachloride and titanium outside the Kroll Reactor, quicklime, ethylene from ethanol or glycerol, log pyrolysis). By-products of ores, distillation and recycling stay, and so does ethylene from cracking. The quests for nitric acid, ammonia, titanium, vinyl acetate and polyethylene now point to the Type Omega plants.
+- **Steam, LV, MV and HV follow the GTNH 2.9 chapter layout**: quests sit where their GTNH counterpart is, with Type Omega-only quests next to the quest they come from. Multiblock renders are gone from the map and the text (press R for the EMI preview).
 - **Quest book layout** redone in the GTNH way: chapters read left to right in dependency columns, small quests sit around the quest they come from, collections form tidy blocks, and lines that would cross the chapter are hidden. Steam went from 102 crossing lines to 5. Darker book background and thick red/green lines.
 - **Creating a world** with a preset that changes startup rules (Journey, or a Custom one) now asks you to **Save and Quit** first, like GTO's difficulty; when you start the game again the create-world screen keeps your choice. Opening a saved world that needs other startup values asks too.
-- The **Rocket Assembler** and **Greenhouse** controllers face out of their structures; their tooltips follow the GTIA layout.
+- The **Rocket Assembler** and **Greenhouse** controllers face out of their structures; their tooltips follow the Type Omega layout.
 - New Discord invite: https://discord.gg/TW5vugknk5
 
 ### Fixes
@@ -52,8 +52,8 @@ Start → HV is now playable end to end: every quest asks for something you can 
   - **Claus Unit** (HV): hydrogen sulfide from oil desulfurization becomes sulfur over Bayer alumina.
   - **Kroll Reactor** (HV): the Moon's ilmenite (or rutile) to titanium tetrachloride, then titanium with magnesium under argon.
   - **Siemens Reactor** (HV): silicon → trichlorosilane → polysilicon; 16 polysilicon grow a silicon boule in the EBF.
-- **GTIA Rules: 54 rules.** Eight match GTO Rules: rubber tree chance, infinite bedrock fluids, require GregTech tools, material hazards, extra regeneration (food threshold and strength), planets need organs, organ cost. Two are GTIA's own, for the chemistry plants: **catalyst wear** (Normal: a catalyst has a 1% chance to wear out per run, so it becomes a supply line; Journey: never) and **heat recovery** (Journey: 1.5× the steam the plants make from their reaction heat).
-- **New main menu**: animated space-factory background, animated GT:IA logo, four buttons in a row and a Discord button. The game window shows the pack name and icon.
+- **Type Omega Rules: 54 rules.** Eight match GTO Rules: rubber tree chance, infinite bedrock fluids, require GregTech tools, material hazards, extra regeneration (food threshold and strength), planets need organs, organ cost. Two are Type Omega's own, for the chemistry plants: **catalyst wear** (Normal: a catalyst has a 1% chance to wear out per run, so it becomes a supply line; Journey: never) and **heat recovery** (Journey: 1.5× the steam the plants make from their reaction heat).
+- **New main menu**: animated space-factory background, animated Type Omega logo, four buttons in a row and a Discord button. The game window shows the pack name and icon.
 - **Highlight images** in the quest book: isometric pictures of 19 multiblocks, from the Wood Retort to the Rocket Assembler.
 - Quests for the organs, the four new plants and polysilicon.
 

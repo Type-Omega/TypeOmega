@@ -70,7 +70,7 @@
 			subtitle: "Your materials, machines and progression."
 			icon: "minecraft:book"
 			description: [
-				"GTCEu Modern provides the foundation of the factory. GTIACore and GregTech Nexus Addon add the materials, machines and larger systems used by Infinity Ascension."
+				"GTCEu Modern provides the foundation of the factory. TypeOmega Core and GregTech Nexus Addon add the materials, machines and larger systems used by Type Omega."
 				""
 				"The campaign follows Start, Steam, LV and the higher voltage tiers. This chapter prepares your first workshop; it does not require electricity."
 				""
@@ -109,10 +109,10 @@
 			]
 			x: 0.0d
 			y: 0.0d
-			title: "Welcome to Infinity Ascension"
+			title: "Welcome to Type Omega"
 			subtitle: "From a small workshop to an infinite factory."
 			description: [
-				"Welcome to GregTech Infinity Ascension! Your journey begins with a workbench, a furnace and a handful of ores, then grows into a factory powered by steam and electricity."
+				"Welcome to Type Omega! Your journey begins with a workbench, a furnace and a handful of ores, then grows into a factory powered by steam and electricity."
 				""
 				"Follow the central path from top to bottom. Side branches introduce useful supplies, tools and building aids. Open a quest to read its instructions; hover over a task or reward to see the item it uses."
 				""

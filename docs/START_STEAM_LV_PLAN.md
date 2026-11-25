@@ -1,4 +1,4 @@
-# GTIA — Start, Steam and LV: what we want and what's planned
+# Type Omega — Start, Steam and LV: what we want and what's planned
 
 Status tags used here:
 

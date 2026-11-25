@@ -3,8 +3,8 @@
 
     iso_render.py <machine id> <out.png> [--block 8] [--max 128]
 
-Shapes come from tools/data/multiblock_shapes.json (written by the GTIACore GameTest ShapeDumpGameTests); textures
-from the mod jars in the mod cache and from the GTIACore resources. Machines and hatches have dynamic models, so a
+Shapes come from tools/data/multiblock_shapes.json (written by the TypeOmega Core GameTest ShapeDumpGameTests); textures
+from the mod jars in the mod cache and from the TypeOmega Core resources. Machines and hatches have dynamic models, so a
 controller is drawn as its casing with its front overlay and a hatch as a voltage hull side.
 """
 import argparse
@@ -23,7 +23,7 @@ CACHE = Path.home() / "MineProjects/GTIA-arquivo/mod-cache"
 CORE_ASSETS = Path.home() / "MineProjects/GTIA/core/src/main/resources/assets"
 CORE_GEN = Path.home() / "MineProjects/GTIA/core/src/generated/resources/assets"
 SHAPES = ROOT / "tools/data/multiblock_shapes.json"
-# Casing a controller of another mod shows; GTIA controllers take the most common casing of their structure.
+# Casing a controller of another mod shows; Type Omega controllers take the most common casing of their structure.
 CONTROLLER_CASING = {"gtceu:large_chemical_reactor": "gtceu:inert_machine_casing",
                      "gtceu:electric_blast_furnace": "gtceu:heatproof_machine_casing",
                      "gtceu:vacuum_freezer": "gtceu:frostproof_machine_casing",

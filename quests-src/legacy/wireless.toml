@@ -11,7 +11,7 @@ GTNA moves steam and electricity through the air. Steam hatches share steam over
 [[quest]]
 key = "steam_output"
 mode = "journey"
-pending = "Journey only: the pack export is a Normal world, which has no wireless steam recipes (GTIA-D-340)"
+pending = "Journey only: the pack export is a Normal world, which has no wireless steam recipes (D-340)"
 lane = "materials"
 row = 1
 role = "spine"
@@ -27,7 +27,7 @@ Put the output hatch next to a boiler and its steam goes into the wireless netwo
 [[quest]]
 key = "steam_input"
 mode = "journey"
-pending = "Journey only: the pack export is a Normal world, which has no wireless steam recipes (GTIA-D-340)"
+pending = "Journey only: the pack export is a Normal world, which has no wireless steam recipes (D-340)"
 lane = "spine"
 row = 2
 role = "spine"
@@ -57,7 +57,7 @@ The Steam Manufacturer assembles hydraulic parts and upgrades steam hatches. It 
 [[quest]]
 key = "steam_steel"
 mode = "journey"
-pending = "Journey only: the pack export is a Normal world, which has no wireless steam recipes (GTIA-D-340)"
+pending = "Journey only: the pack export is a Normal world, which has no wireless steam recipes (D-340)"
 lane = "spine"
 row = 3
 role = "spine"

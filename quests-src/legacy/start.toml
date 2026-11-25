@@ -8,11 +8,11 @@ link_y = 7.0
 title = "Welcome"
 icon = "minecraft:grass_block"
 order = 0
-link_to = "type0_0_first_fire:entry"   # GTIA-D-426: the Welcome opens 0.0
+link_to = "type0_0_first_fire:entry"   # D-426: the Welcome opens 0.0
 link_x = 10.0
 link_y = 0.0
 titles = [
-    "Welcome to Infinity Ascension", "How to Read the Book", "Before You Begin", "About the Pack",
+    "Welcome to Type Omega", "How to Read the Book", "Before You Begin", "About the Pack",
     "Room for a Factory", "Freeze Daylight", "Freeze Weather", "Night Vision",
 ]
 
@@ -20,7 +20,7 @@ titles = [
 "How to Read This Chapter" = "hint"
 "Before You Begin" = "hint"
 "About the Pack" = "hint"
-"Welcome to Infinity Ascension" = "entry"
+"Welcome to Type Omega" = "entry"
 "Room for a Factory" = "spine"
 "Your First Workbench" = "spine"
 "Freeze Daylight" = "optional"
@@ -49,7 +49,7 @@ titles = [
 
 [positions]
 # Welcome: the welcome quest in the middle, reading on the left, the workshop on the right.
-"Welcome to Infinity Ascension" = [0, 0]
+"Welcome to Type Omega" = [0, 0]
 "How to Read This Chapter" = [-3, -2]
 "Before You Begin" = [-3, 0]
 "About the Pack" = [-3, 2]
@@ -82,10 +82,10 @@ titles = [
 
 # Dependencies that follow the new road (D-291). Everything else keeps the author's.
 [deps]
-"How to Read This Chapter" = ["Welcome to Infinity Ascension"]
-"Before You Begin" = ["Welcome to Infinity Ascension"]
-"About the Pack" = ["Welcome to Infinity Ascension"]
-"Room for a Factory" = ["Welcome to Infinity Ascension"]
+"How to Read This Chapter" = ["Welcome to Type Omega"]
+"Before You Begin" = ["Welcome to Type Omega"]
+"About the Pack" = ["Welcome to Type Omega"]
+"Room for a Factory" = ["Welcome to Type Omega"]
 "Freeze Daylight" = ["Room for a Factory"]
 "Freeze Weather" = ["Room for a Factory"]
 "Night Vision" = ["Room for a Factory"]
@@ -107,12 +107,12 @@ old = "The information quests at the top can be read immediately."
 new = "The information quests in this chapter can be read right away."
 
 [[text_fix]]
-title = "Welcome to Infinity Ascension"
+title = "Welcome to Type Omega"
 old = "Follow the central path from top to bottom."
 new = "Start with the First Fire chapter and follow the lines from quest to quest."
 
 [[text_fix]]
-title = "Welcome to Infinity Ascension"
+title = "Welcome to Type Omega"
 old = "Check this task and claim your Vanadium Steel Axe, Pickaxe and Shovel. They last about twice as long as Fluix tools and mine everything up to diamond level, so keep them for gathering wood and your first resources."
 new = "Check this task and claim your Starting Kit next to it."
 
@@ -126,7 +126,7 @@ title = "Community and Wiki"
 icon = "minecraft:bell"
 x = 0
 y = 3
-deps = ["Welcome to Infinity Ascension"]
+deps = ["Welcome to Type Omega"]
 subtitle = "Questions, bugs and ideas."
 text = """
 The pack's Discord is [item]discord.gg/TW5vugknk5[/]: questions, bug reports and playtesting.
@@ -188,7 +188,7 @@ title = "Maps and Claims"
 icon = "minecraft:filled_map"
 x = 2.5
 y = 3
-deps = ["Welcome to Infinity Ascension"]
+deps = ["Welcome to Type Omega"]
 subtitle = "Find your way back."
 text = """
 The minimap in the corner and the full map ([item]M[/]) are Xaero's. Add a waypoint at your base and at every ore vein you find.
@@ -304,7 +304,7 @@ icon = "typeomega:phase_matrix_ore"
 x = 17.5
 y = 1.25
 deps = ["A Wider Mineral Collection"]
-subtitle = "Infinity Ascension's own ore."
+subtitle = "Type Omega's own ore."
 text = """
 [item]Phase Matrix[/] veins sit between [num]Y 40[/] and [num]Y 60[/]. Crushed twice, the ore gives Impure Phase Dust, which turns iron into [item]Pulsating Alloy[/] and, with Red Alloy, into [item]Conductive Alloy[/], a wire that loses nothing.
 
@@ -372,13 +372,13 @@ High Pressure boilers are made of steel and give much more steam from the same f
 """
 
 # ------------------------------------------------------------------ starting kits
-# GTIA-D-279/D-436: these Start steps give a starting kit of tier tools, in a quest of its own, instead of the
+# D-279/D-436: these Start steps give a starting kit of tier tools, in a quest of its own, instead of the
 # author's rewards.
 
 [[kit_reward]]
 key = "welcome_kit"
 chapter = "welcome"
-title = "Welcome to Infinity Ascension"
+title = "Welcome to Type Omega"
 reward_title = "Starting Kit"
 x = 2.5
 y = -2.25
@@ -389,7 +389,7 @@ reward = [
     { item = "gtceu:steel_pickaxe" },
     { item = "gtceu:steel_shovel" },
 ]
-# GTIA-D-348: the mining kit, in a quest of its own.
+# D-348: the mining kit, in a quest of its own.
 both_title = "Mining Kit"
 both_subtitle = "Fortune works on GregTech ores."
 both_text = "A steel pickaxe with Fortune III, Unbreaking III and Efficiency III, and a Steel Mining Hammer for 3 x 3 tunnels. Fortune multiplies the raw ore of every GregTech ore, as it does in vanilla."
@@ -442,7 +442,7 @@ reward = [
     { item = "gtceu:rubber_mallet" },
 ]
 
-# GTIA-D-347: the personal dimension portal moves from "Room for a Factory" to the Steam chapter (Large Steam Machines).
+# D-347: the personal dimension portal moves from "Room for a Factory" to the Steam chapter (Large Steam Machines).
 [[reward_removal]]
 title = "Room for a Factory"
 item = "modernspace:personal_space_portal"

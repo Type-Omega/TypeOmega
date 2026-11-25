@@ -1,4 +1,4 @@
-# KubeJS do GTIA
+# KubeJS do Type Omega
 
 **Fora da primeira fatia.** O mod KubeJS não está em `manifest/first-slice.lock.json`, então `tools/pack.py instance` não
 copia esta pasta. Ela guarda material que só vale com KubeJS instalado:
@@ -8,4 +8,4 @@ copia esta pasta. Ela guarda material que só vale com KubeJS instalado:
 
 Quando o KubeJS entrar no conjunto de mods (acrescente `kubejs` ao `manifest/first-slice.seeds` e rode
 `python3 tools/pack.py lock`), a ferramenta passa a copiar esta pasta para a instância. Scripts de receita só devem entrar aqui
-depois de verificados em jogo; a progressão atual é controlada pelos nós de pesquisa do GTIACore e pelo motor do GTNA.
+depois de verificados em jogo; a progressão atual é controlada pelos nós de pesquisa do TypeOmega Core e pelo motor do GTNA.

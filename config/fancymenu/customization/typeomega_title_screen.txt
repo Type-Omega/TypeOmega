@@ -16,7 +16,7 @@ menu_background {
   instance_identifier = 2d3d8928-edc2-45c1-8bd5-c29b2515ecf0-1768308499326
   background_type = image
   show_background = true
-  image_path = [source:local]/config/fancymenu/assets/gtia_background.gif
+  image_path = [source:local]/config/fancymenu/assets/typeomega_background.gif
   slide = false
   repeat_texture = false
   parallax = false
@@ -27,7 +27,7 @@ menu_background {
 }
 
 element {
-  source = [source:local]/config/fancymenu/assets/gtia_emblem.png
+  source = [source:local]/config/fancymenu/assets/typeomega_emblem.png
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5
@@ -71,7 +71,7 @@ element {
 }
 
 element {
-  source = [source:local]/config/fancymenu/assets/gtia_text_logo.png
+  source = [source:local]/config/fancymenu/assets/typeomega_text_logo.png
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5
@@ -177,8 +177,8 @@ vanilla_button {
 vanilla_button {
   button_element_executable_block_identifier = 0f3d57c9-c807-464c-8f02-36fa0aca0331-1768308410494
   [executable_block:0f3d57c9-c807-464c-8f02-36fa0aca0331-1768308410494][type:generic] = [executables:]
-  backgroundnormal = [source:local]/config/fancymenu/assets/gtia_button_normal.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/gtia_button_hover.png
+  backgroundnormal = [source:local]/config/fancymenu/assets/typeomega_button_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/typeomega_button_hover.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -234,7 +234,7 @@ vanilla_button {
   automated_button_clicks = 0
   parallax_intensity_x = 0.7
   parallax_intensity_y = 0.7
-  label = {"placeholder":"local","values":{"key":"gtia.menu.settings"}}
+  label = {"placeholder":"local","values":{"key":"typeomega.menu.settings"}}
 }
 
 vanilla_button {
@@ -480,8 +480,8 @@ vanilla_button {
 vanilla_button {
   button_element_executable_block_identifier = bdc6e5f9-cb44-4109-a192-ab3ce7ac13c4-1768308410494
   [executable_block:bdc6e5f9-cb44-4109-a192-ab3ce7ac13c4-1768308410494][type:generic] = [executables:]
-  backgroundnormal = [source:local]/config/fancymenu/assets/gtia_button_normal.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/gtia_button_hover.png
+  backgroundnormal = [source:local]/config/fancymenu/assets/typeomega_button_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/typeomega_button_hover.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -537,14 +537,14 @@ vanilla_button {
   automated_button_clicks = 0
   parallax_intensity_x = 0.7
   parallax_intensity_y = 0.7
-  label = {"placeholder":"local","values":{"key":"gtia.menu.multiplayer"}}
+  label = {"placeholder":"local","values":{"key":"typeomega.menu.multiplayer"}}
 }
 
 vanilla_button {
   button_element_executable_block_identifier = 4cb34910-6edf-4e48-bc54-fc43c36c7a34-1768308410494
   [executable_block:4cb34910-6edf-4e48-bc54-fc43c36c7a34-1768308410494][type:generic] = [executables:]
-  backgroundnormal = [source:local]/config/fancymenu/assets/gtia_button_normal.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/gtia_button_hover.png
+  backgroundnormal = [source:local]/config/fancymenu/assets/typeomega_button_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/typeomega_button_hover.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -600,7 +600,7 @@ vanilla_button {
   automated_button_clicks = 0
   parallax_intensity_x = 0.7
   parallax_intensity_y = 0.7
-  label = {"placeholder":"local","values":{"key":"gtia.menu.singleplayer"}}
+  label = {"placeholder":"local","values":{"key":"typeomega.menu.singleplayer"}}
 }
 
 vanilla_button {
@@ -726,8 +726,8 @@ vanilla_button {
 vanilla_button {
   button_element_executable_block_identifier = 733768f6-07cd-49fd-a5ba-70037332b337-1768308410494
   [executable_block:733768f6-07cd-49fd-a5ba-70037332b337-1768308410494][type:generic] = [executables:]
-  backgroundnormal = [source:local]/config/fancymenu/assets/gtia_button_normal.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/gtia_button_hover.png
+  backgroundnormal = [source:local]/config/fancymenu/assets/typeomega_button_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/typeomega_button_hover.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -783,7 +783,7 @@ vanilla_button {
   automated_button_clicks = 0
   parallax_intensity_x = 0.7
   parallax_intensity_y = 0.7
-  label = {"placeholder":"local","values":{"key":"gtia.menu.quit"}}
+  label = {"placeholder":"local","values":{"key":"typeomega.menu.quit"}}
 }
 
 vanilla_button {
@@ -915,7 +915,7 @@ element {
   nine_slice_border_x = 5
   nine_slice_border_y = 5
   hoverlabel = = 
-  description = {"placeholder":"local","values":{"key":"gtia.menu.discord"}}
+  description = {"placeholder":"local","values":{"key":"typeomega.menu.discord"}}
   label = = 
   navigatable = true
   widget_active_state_requirement_container_identifier = 79a78a46-97b0-47bf-ba31-dc54fff1a3f0-1768314010027
@@ -968,6 +968,6 @@ element {
   parallax_intensity_y = 0.5
   label = 
   hoverlabel = 
-  backgroundnormal = [source:local]/config/fancymenu/assets/gtia_discord.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/gtia_discord_hover.png
+  backgroundnormal = [source:local]/config/fancymenu/assets/typeomega_discord.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/typeomega_discord_hover.png
 }

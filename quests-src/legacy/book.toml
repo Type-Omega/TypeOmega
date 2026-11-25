@@ -1,4 +1,4 @@
-# Chapters of the GT:IA book that the Type 0 beta replaced (GTIA-D-421), kept as they were in quests-src/book.toml.
+# Chapters of the Type Omega book that the Type 0 beta replaced (D-421), kept as they were in quests-src/book.toml.
 # Their sources are in this folder (and layout/ for the "gtnh" layout). To bring one back, move its TOML to
 # quests-src/ and its [[chapter]] block back to quests-src/book.toml.
 
@@ -62,11 +62,11 @@ file = "wireless"
 background = "#1D5E61"
 texture = "wireless"
 kind = "generated"
-legacy = true   # GTIA-D-351: redone with the quest atlas after Start to MV (Flux Matrix in HV)
+legacy = true   # D-351: redone with the quest atlas after Start to MV (Flux Matrix in HV)
 group = "systems"
 order = 9
 
-# GTIA-D-426: the Start chapter was retired and 0.0 (First Fire) opens the book. Its sources are start.toml,
+# D-426: the Start chapter was retired and 0.0 (First Fire) opens the book. Its sources are start.toml,
 # start.original.snbt and start-author-2026-09-30/ in this folder; the Welcome chapter is still built from them.
 [[chapter]]
 file = "start"

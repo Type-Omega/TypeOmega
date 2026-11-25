@@ -1,4 +1,4 @@
-name = "GregTech Infinity Ascension"
+name = "Type Omega"
 author = "Raishxn"
 version = "0.1.0-dev"
 pack-format = "packwiz:1.1.0"
@@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "e83ddc640b7375490257ab73b877c7bb418af14c2701d3f738abe9fa00e7ef4f"
+hash = "4b5a18e732c97d6eb8d96eb94d322b248c3a1d0bff8fbed5d9e1b09db5c2ea74"
 
 [versions]
 forge = "47.4.23"

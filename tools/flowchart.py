@@ -172,7 +172,7 @@ def write_drawio(path: Path, title: str, plain: str, roles, labels, groups, edge
             cells.append(f'<mxCell id="e{n}" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#e8e8e8;'
                          f'endArrow=block;endSize=4;" edge="1" parent="1" source="{ids[a]}" target="{ids[b]}">'
                          f'<mxGeometry relative="1" as="geometry"/></mxCell>')
-    xml = (f'<mxfile host="gtia-flowchart"><diagram name="{escape(title)}"><mxGraphModel background="#181818" grid="0">'
+    xml = (f'<mxfile host="typeomega-flowchart"><diagram name="{escape(title)}"><mxGraphModel background="#181818" grid="0">'
            f'<root><mxCell id="0"/><mxCell id="1" parent="0"/>{"".join(cells)}</root></mxGraphModel></diagram></mxfile>')
     path.write_text(xml, encoding="utf-8")
 
@@ -187,7 +187,7 @@ if __name__ == "__main__":
         print("wrote", OUT / f"{name}.png", "and", OUT / f"{name}.drawio")
         sys.exit(0)
     import tempfile
-    work = Path(tempfile.mkdtemp(prefix="gtia-flowcharts-"))
+    work = Path(tempfile.mkdtemp(prefix="typeomega-flowcharts-"))
     for spec in sorted(SRC.glob("*.toml")):
         png = work / (spec.stem + ".png")
         render(tomllib.loads(spec.read_text(encoding="utf-8")), png)

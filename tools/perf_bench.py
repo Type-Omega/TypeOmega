@@ -139,7 +139,7 @@ def main() -> int:
     ap.add_argument("--replace", action="append", default=[], help="mod_id=path/to.jar instead of the locked jar")
     ap.add_argument("--remove", action="append", default=[], help="locked mod_id to leave out")
     ap.add_argument("--off", action="append", default=[], help="Ascension Optimizer feature to turn off")
-    ap.add_argument("--tick", help="machine_id:count, e.g. gtceu:lv_electric_furnace:2000 (needs GTIA Lib)")
+    ap.add_argument("--tick", help="machine_id:count, e.g. gtceu:lv_electric_furnace:2000 (needs TypeOmega Lib)")
     args = ap.parse_args()
     lock = json.loads(smoke.LOCK.read_text(encoding="utf-8"))
     smoke.install_server(lock["forge"])

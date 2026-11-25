@@ -17,7 +17,7 @@ labels: [release]
 ----
 ### PRs to add before X.Y.Z-dev-N:
 
-#### GTIACore
+#### TypeOmega Core
 - [ ] https://github.com/Type-Omega/TypeOmegaCore/pull/
 
 #### GTNA
@@ -26,4 +26,4 @@ labels: [release]
 #### Modpack
 - [ ] https://github.com/Type-Omega/TypeOmega/pull/
 
-<!-- Mark blockers with (Critical). Note dependencies, e.g. "(depending on GTIACore#12)". -->
+<!-- Mark blockers with (Critical). Note dependencies, e.g. "(depending on TypeOmegaCore#12)". -->

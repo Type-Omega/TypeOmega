@@ -424,7 +424,7 @@ text = """
 A multiblock turbine: its output depends on the rotor you put in its holder and on the dynamo hatch it feeds. The rotor wears out and has to be replaced.
 """
 
-# ------------------------------------------------------------------ fuels Infinity Ascension makes on its own
+# ------------------------------------------------------------------ fuels Type Omega makes on its own
 
 [[quest]]
 key = "fuel_ethanol"

@@ -1,6 +1,6 @@
 # Mods not on Modrinth whose jar may ship inside the .mrpack (licence or author allows it).
 modern_manipulator  # the pack author's own port
-# Mods only on CurseForge: the pack author allowed shipping their jars (2026-10-17, GTIA-D-285); the owners were told
+# Mods only on CurseForge: the pack author allowed shipping their jars (2026-10-17, D-285); the owners were told
 # and any of them is removed at once if its owner asks.
 ad_astra_giselle_addon
 ad_astra_rocketed

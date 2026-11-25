@@ -1,4 +1,4 @@
-# Contributing to GTIA
+# Contributing to Type Omega
 
 Thanks for helping! The pack is in early development, so the most useful things right now are:
 
@@ -23,7 +23,7 @@ Open an issue with:
   ```
   `check` must pass with no errors before a PR.
 - **Mods:** don't add jars or `.pw.toml` files by hand. Propose the mod in an issue first. If it's accepted, it goes into the lock with `tools/pack.py lock` and `mods/` is regenerated with `tools/packwiz_sync.py`.
-- **Machines and recipes** live in Java (GTIACore and GTNA). KubeJS is only for small tweaks.
+- **Machines and recipes** live in Java (TypeOmega Core and GTNA). KubeJS is only for small tweaks.
 - **Art:** don't replace existing textures. Propose new ones in an issue.
 
 ## Design rules

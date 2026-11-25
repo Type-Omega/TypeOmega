@@ -1,4 +1,4 @@
-# Agriculture (GTIA-D-260, D-267, D-271, D-273): Agronomica crops from the Steam Age to the MV Greenhouse.
+# Agriculture (D-260, D-267, D-271, D-273): Agronomica crops from the Steam Age to the MV Greenhouse.
 # Positions come from the layered layout (book.toml: layout = "layered").
 
 [chapter]
@@ -9,7 +9,7 @@ icon = "agronomica:crop_sticks"
 subtitle = "Systems: plants that work for you."
 requires = ["type0_1_steam_steel:entry"]
 text = """
-{image:gtia_quests:textures/quests/agronomica_farm.png width:96 height:96 align:center}
+{image:typeomega_quests:textures/quests/agronomica_farm.png width:96 height:96 align:center}
 
 Agronomica crops grow on [item]Crop Sticks[/], cross-breed into new species and drain their soil as they grow. They give fibre, oil, latex and biomass: the raw stuff of rope, fuel, rubber and ethanol.
 

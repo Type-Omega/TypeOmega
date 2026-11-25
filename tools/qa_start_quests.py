@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Audit the book entry (GTIA-D-426): the 0.0 First Fire chapter and the Welcome chapter, the author's Welcome quests and the Prism copy."""
+"""Audit the book entry (D-426): the 0.0 First Fire chapter and the Welcome chapter, the author's Welcome quests and the Prism copy."""
 import sys
 import tomllib
 from pathlib import Path
@@ -42,7 +42,7 @@ def audit():
  legacy=pack/'quests-src/legacy'
  backup=legacy/'start-author-2026-09-30'
  sys.path.insert(0,str(pack/'tools')); from questgen import ident
- # GTIA-D-426: the Start chapter is retired (sources in quests-src/legacy/); 0.0 First Fire opens the book and the
+ # D-426: the Start chapter is retired (sources in quests-src/legacy/); 0.0 First Fire opens the book and the
  # Welcome, still cut from the author's Start, links to it.
  assert not (source/'chapters/start.snbt').exists(),'The retired Start chapter must not be generated'
  first=Parser((source/'chapters/type0_0_first_fire.snbt').read_text()).parse()
@@ -51,13 +51,13 @@ def audit():
  qs={q['id']:q for q in first['quests']+w['quests']}
  assert len(qs)==len(first['quests'])+len(w['quests']),'A quest id is in both chapters'
  old=Parser((backup/'chapters/start.snbt').read_text()).parse()
- # GTIA-D-436: one mode only; no modes chapter and no quest gated by a mode.
+ # D-436: one mode only; no modes chapter and no quest gated by a mode.
  assert not (source/'chapters/modes.snbt').exists(),'The modes chapter must not be generated'
  by_title={q.get('title'):q['id'] for q in Parser((legacy/'start.original.snbt').read_text()).parse()['quests']}
  meta=tomllib.loads((legacy/'start.toml').read_text())
- # Start steps whose author rewards gave way to a starting kit (GTIA-D-279/D-436).
+ # Start steps whose author rewards gave way to a starting kit (D-279/D-436).
  kit_of={by_title[s['title']]:ident(f"quest:start:{s['key']}_normal") for s in meta['kit_reward']}
- assert len(old['quests'])==29  # the 29 approved quests (The Research Tree was removed with GTIA-D-226)
+ assert len(old['quests'])==29  # the 29 approved quests (The Research Tree was removed with D-226)
  ids=[first['id'],w['id']]
  for q in qs.values():
   ids.append(q['id'])
@@ -108,14 +108,14 @@ def audit():
  entry=ident('quest:type0_0_first_fire:entry')
  assert entry in qs and chapter_of[entry]=='type0_0' and not qs[entry].get('dependencies'),'0.0 needs a free entry quest'
  assert [l['linked_quest'] for l in w['quest_links']]==[entry],'The Welcome must link to the 0.0 entry'
- welcome=by_title['Welcome to Infinity Ascension']
+ welcome=by_title['Welcome to Type Omega']
  assert welcome in qs and chapter_of[welcome]=='welcome' and not qs[welcome].get('dependencies')
  free_kits={ident(f"quest:start:{m['key']}{suffix}") for m in meta['kit_reward'] for suffix in ('_normal','_both')}
  def root_of(i,seen=()):
   deps=[d for d in qs[i].get('dependencies',[]) if d in qs]
   return {i} if not deps else set().union(*(root_of(d) for d in deps))
  for i,q in qs.items():
-  if i in free_kits:continue  # the Welcome kits complete with their step's task and have no road (GTIA-D-279)
+  if i in free_kits:continue  # the Welcome kits complete with their step's task and have no road (D-279)
   assert root_of(i)=={entry if chapter_of[i]=='type0_0' else welcome},f'Not reachable from the chapter entry: {q["title"]}'
  # 0.0 hands over to 0.1 (Steam and Steel) and has its first machine step.
  nxt=ident('quest:type0_1_steam_steel:entry')

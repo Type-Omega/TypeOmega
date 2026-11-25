@@ -1617,7 +1617,7 @@ text = """
 The HV analyzer and the mutation chamber continue in the Agriculture chapter.
 """
 
-# ------------------------------------------------------------------ organs (GTIA-D-279), HV chemistry (GTIA-D-281)
+# ------------------------------------------------------------------ organs (D-279), HV chemistry (D-281)
 
 [[quest]]
 key = "organ_modifier"
@@ -1774,7 +1774,7 @@ icon = "typeomega:alumina_dust"
 deps = ["claus"]
 subtitle = "Normal worlds only."
 text = """
-In [item]Normal[/] worlds the catalyst of a GTIA chemistry plant has a [num]1%[/] chance to wear out on every run, so keep a supply line for it. In [item]Journey[/] worlds catalysts last forever.
+In [item]Normal[/] worlds the catalyst of a Type Omega chemistry plant has a [num]1%[/] chance to wear out on every run, so keep a supply line for it. In [item]Journey[/] worlds catalysts last forever.
 """
 
 [[quest]]

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reproducible base for the GTIA modpack: lock, fetch, verify and build a clean Prism instance.
+"""Reproducible base for the Type Omega modpack: lock, fetch, verify and build a clean Prism instance.
 
     pack.py lock      resolve the profile's mods and their required dependencies into a lockfile
     pack.py fetch     fetch every locked mod into the cache, checking SHA-256 (local builds are copied)
@@ -11,7 +11,7 @@ Profiles (`--profile`): `full` (default) is the whole pack, every active mod of 
 listed with a reason in manifest/full.exclude; `first-slice` is the small Start -> LV subset used for quick smoke tests.
 
 Remote mods come from the audited inventory (`source-audit-*.tsv`), which records the CurseForge project and
-file ids and the SHA-256 of the exact jar. They are downloaded through CurseMaven. GTIACore and GTNA are local
+file ids and the SHA-256 of the exact jar. They are downloaded through CurseMaven. TypeOmega Core and GTNA are local
 builds, so their hash changes with every rebuild: `lock` records the current one and `fetch` refuses a different
 jar unless you pass `--accept-local`. Nothing here touches an existing instance.
 """
@@ -49,23 +49,23 @@ LOCAL_BUILDS = {
     "typeomega": Path(os.environ.get("GTIA_JAR", ROOT / "core/build/libs/typeomega-0.1.0.jar")),
     "gtna": Path(os.environ.get(
         "GTNA_JAR", Path.home() / "MineProjects/GregTech-Nexus-Addon/build/libs/gtna-0.6.2.jar")),
-    # Shared library of the org's mods (GTIA-D-262); GTIACore and GTNA require it.
+    # Shared library of the org's mods (D-262); TypeOmega Core and GTNA require it.
     "typeomegalib": Path(os.environ.get(
         "GTIALIB_JAR", ROOT.parent / "GTIA-arquivo/jar-backups/2026-11-23-typeomega-lib-0.6.1/typeomega-lib-0.6.1.jar")),
-    # Measured performance fixes (GTIA-D-263).
+    # Measured performance fixes (D-263).
     "ascopt": Path(os.environ.get(
         "ASCOPT_JAR", ROOT.parent / "GTIA-arquivo/jar-backups/2026-10-17-ascopt-0.2.1/ascopt-0.2.1.jar")),
     # Until ModernSpace 0.3.0 is on CurseForge, the GitHub release jar ships in the pack like the two above.
     "modernspace": Path(os.environ.get(
         "MODERNSPACE_JAR", ROOT.parent / "GTIA-arquivo/jar-backups/2026-10-11-modernspace-0.3.1/modernspace-0.3.1.jar")),
-    # Org crop mod (GTIA-D-260, D-267); local build until its first release.
+    # Org crop mod (D-260, D-267); local build until its first release.
     "agronomica": Path(os.environ.get(
         "AGRONOMICA_JAR", Path.home() / "MineProjects/Agronomica/build/libs/agronomica-0.1.0.jar")),
-    # Productive Bees for the HV bee line (GTIA-D-259, D-268), Modrinth jar kept in the archive.
+    # Productive Bees for the HV bee line (D-259, D-268), Modrinth jar kept in the archive.
     "productivebees": Path(os.environ.get(
         "PRODUCTIVEBEES_JAR",
         ROOT.parent / "GTIA-arquivo/jar-backups/2026-10-16-productivebees-12.6.0/productivebees-1.20.1-12.6.0.jar")),
-    # Crafting Chain replaces Fabricate (GTIA-D-257); shipped in the pack until it is on CurseForge.
+    # Crafting Chain replaces Fabricate (D-257); shipped in the pack until it is on CurseForge.
     "craftingchain": Path(os.environ.get(
         "CRAFTINGCHAIN_JAR",
         ROOT.parent / "GTIA-arquivo/jar-backups/2026-10-11-craftingchain-0.1.0/craftingchain-0.1.0.jar")),
@@ -188,7 +188,7 @@ def read_lock() -> dict:
 
 
 def url_of(entry: dict) -> str:
-    slug = f"gtia-{entry['project_id']}"
+    slug = f"typeomega-{entry['project_id']}"
     return f"https://www.cursemaven.com/curse/maven/{slug}/{entry['file_id']}/{slug}-{entry['file_id']}.jar"
 
 
@@ -223,7 +223,7 @@ def cmd_fetch(args) -> int:
             print(f"NO SOURCE for {entry['filename']}")
             bad += 1
             continue
-        request = urllib.request.Request(url_of(entry), headers={"User-Agent": "gtia-pack-tool"})
+        request = urllib.request.Request(url_of(entry), headers={"User-Agent": "typeomega-pack-tool"})
         with urllib.request.urlopen(request, timeout=120) as response, open(target, "wb") as out:
             shutil.copyfileobj(response, out)
         if sha256(target) != entry["sha256"]:

@@ -35,7 +35,7 @@ if (Test-Path $index) {
     }
 }
 
-$tmp = Join-Path ([IO.Path]::GetTempPath()) ('gtia-restore-' + [guid]::NewGuid())
+$tmp = Join-Path ([IO.Path]::GetTempPath()) ('typeomega-restore-' + [guid]::NewGuid())
 try {
     Expand-Archive -LiteralPath $zip.FullName -DestinationPath $tmp
     # Client backups contain saves\<world>\, server backups contain <world>\.

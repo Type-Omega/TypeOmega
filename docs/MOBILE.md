@@ -1,6 +1,6 @@
 # Playing on Android
 
-GregTech Infinity Ascension runs on Android phones and tablets through the **Amethyst** launcher, the same way GregTech: New Horizons does.
+Type Omega runs on Android phones and tablets through the **Amethyst** launcher, the same way GregTech: New Horizons does.
 
 > **Status:** the mobile pack (`.mrpack`) ships with every release from 0.1.0-dev-5 on. Mods that are only on CurseForge are included inside it; if a mod's author asks us to remove theirs, we will at once.
 
@@ -24,7 +24,7 @@ GregTech Infinity Ascension runs on Android phones and tablets through the **Ame
 5. **Add your account.** Open Amethyst and tap **+ Add account**.
 6. **Import the pack.** Tap the profile selector (it shows **(Default)** and a Minecraft version), then **+ Create new profile** → **Create modpack profile** → import a zip or mrpack, and pick the `.mrpack` from step 3. Wait until the import finishes.
 7. **Set the memory.** Back on the main screen, tap the settings icon (top right) → **Java tweaks**, and set the memory from the table above.
-8. **Pick the profile.** Tap the profile selector again and choose **GregTech Infinity Ascension** with the version you installed.
+8. **Pick the profile.** Tap the profile selector again and choose **Type Omega** with the version you installed.
 9. **Play.** The first launch takes several minutes. The screen may stay black for a few seconds before the loading screen appears; that is normal.
 
 ## Tips

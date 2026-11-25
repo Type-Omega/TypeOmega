@@ -22,14 +22,14 @@
 				"1EE43649788EFF34"
 			]
 			description: [
-				"{gtia.quest.7682D6FC240F6F43.desc.0}"
+				"{typeomega.quest.7682D6FC240F6F43.desc.0}"
 			]
 			icon: "gtceu:electric_blast_furnace"
 			id: "7682D6FC240F6F43"
 			rewards: [ ]
 			shape: "circle"
 			size: 2.5d
-			subtitle: "{gtia.quest.7682D6FC240F6F43.subtitle}"
+			subtitle: "{typeomega.quest.7682D6FC240F6F43.subtitle}"
 			tasks: [
 				{
 					id: "06EFB33970167E62"
@@ -40,7 +40,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.7682D6FC240F6F43.title}"
+			title: "{typeomega.quest.7682D6FC240F6F43.title}"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -49,7 +49,7 @@
 				"7682D6FC240F6F43"
 			]
 			description: [
-				"{gtia.quest.7C3DBEA64565131D.desc.0}"
+				"{typeomega.quest.7C3DBEA64565131D.desc.0}"
 			]
 			icon: "typeomega:kardashev_meter"
 			id: "7C3DBEA64565131D"
@@ -57,15 +57,15 @@
 			rewards: [ ]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "{gtia.quest.7C3DBEA64565131D.subtitle}"
+			subtitle: "{typeomega.quest.7C3DBEA64565131D.subtitle}"
 			tasks: [
 				{
 					id: "6F6157A2313D6A56"
 					type: "checkmark"
-					title: "{gtia.quest.7C3DBEA64565131D.task.6F6157A2313D6A56}"
+					title: "{typeomega.quest.7C3DBEA64565131D.task.6F6157A2313D6A56}"
 				}
 			]
-			title: "{gtia.quest.7C3DBEA64565131D.title}"
+			title: "{typeomega.quest.7C3DBEA64565131D.title}"
 			x: 0.0d
 			y: -2.5d
 		}
@@ -75,14 +75,14 @@
 				"1152F3AEC309C8C8"
 			]
 			description: [
-				"{gtia.quest.01DFB812CD4F68B4.desc.0}"
+				"{typeomega.quest.01DFB812CD4F68B4.desc.0}"
 			]
 			icon: "gtceu:lv_voltage_coil"
 			id: "01DFB812CD4F68B4"
 			rewards: [ ]
 			shape: "circle"
 			size: 1.0d
-			subtitle: "{gtia.quest.01DFB812CD4F68B4.subtitle}"
+			subtitle: "{typeomega.quest.01DFB812CD4F68B4.subtitle}"
 			tasks: [
 				{
 					id: "3D91128A02DC8D5E"
@@ -93,7 +93,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.01DFB812CD4F68B4.title}"
+			title: "{typeomega.quest.01DFB812CD4F68B4.title}"
 			x: 5.0d
 			y: -2.5d
 		}
@@ -102,14 +102,14 @@
 				"01DFB812CD4F68B4"
 			]
 			description: [
-				"{gtia.quest.1FD268C12FEB6EA4.desc.0}"
+				"{typeomega.quest.1FD268C12FEB6EA4.desc.0}"
 			]
 			icon: "gtceu:lv_energy_input_hatch"
 			id: "1FD268C12FEB6EA4"
 			rewards: [ ]
 			shape: "circle"
 			size: 1.25d
-			subtitle: "{gtia.quest.1FD268C12FEB6EA4.subtitle}"
+			subtitle: "{typeomega.quest.1FD268C12FEB6EA4.subtitle}"
 			tasks: [
 				{
 					id: "38F0D7C3E4D67D9D"
@@ -120,7 +120,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.1FD268C12FEB6EA4.title}"
+			title: "{typeomega.quest.1FD268C12FEB6EA4.title}"
 			x: 7.5d
 			y: -2.5d
 		}
@@ -130,14 +130,14 @@
 				"3A5889F01D97258F"
 			]
 			description: [
-				"{gtia.quest.2A6D82D83872C430.desc.0}"
+				"{typeomega.quest.2A6D82D83872C430.desc.0}"
 			]
 			icon: "gtceu:cupronickel_ingot"
 			id: "2A6D82D83872C430"
 			rewards: [ ]
 			shape: "circle"
 			size: 1.0d
-			subtitle: "{gtia.quest.2A6D82D83872C430.subtitle}"
+			subtitle: "{typeomega.quest.2A6D82D83872C430.subtitle}"
 			tasks: [
 				{
 					id: "601260C84050057E"
@@ -148,7 +148,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.2A6D82D83872C430.title}"
+			title: "{typeomega.quest.2A6D82D83872C430.title}"
 			x: 2.5d
 			y: 0.0d
 		}
@@ -158,14 +158,14 @@
 				"1152F3AEC309C8C8"
 			]
 			description: [
-				"{gtia.quest.52D9A833C53375E0.desc.0}"
+				"{typeomega.quest.52D9A833C53375E0.desc.0}"
 			]
 			icon: "gtceu:cupronickel_double_wire"
 			id: "52D9A833C53375E0"
 			rewards: [ ]
 			shape: "circle"
 			size: 1.0d
-			subtitle: "{gtia.quest.52D9A833C53375E0.subtitle}"
+			subtitle: "{typeomega.quest.52D9A833C53375E0.subtitle}"
 			tasks: [
 				{
 					id: "1BF5963E218E25E2"
@@ -176,7 +176,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.52D9A833C53375E0.title}"
+			title: "{typeomega.quest.52D9A833C53375E0.title}"
 			x: 5.0d
 			y: 0.0d
 		}
@@ -186,14 +186,14 @@
 				"092EB91FF8E5E082"
 			]
 			description: [
-				"{gtia.quest.1BFCB649C0E13CCA.desc.0}"
+				"{typeomega.quest.1BFCB649C0E13CCA.desc.0}"
 			]
 			icon: "gtceu:cupronickel_coil_block"
 			id: "1BFCB649C0E13CCA"
 			rewards: [ ]
 			shape: "circle"
 			size: 1.25d
-			subtitle: "{gtia.quest.1BFCB649C0E13CCA.subtitle}"
+			subtitle: "{typeomega.quest.1BFCB649C0E13CCA.subtitle}"
 			tasks: [
 				{
 					id: "3E5C6902FD69B7B4"
@@ -204,7 +204,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.1BFCB649C0E13CCA.title}"
+			title: "{typeomega.quest.1BFCB649C0E13CCA.title}"
 			x: 7.5d
 			y: 0.0d
 		}
@@ -214,14 +214,14 @@
 				"3A5889F01D97258F"
 			]
 			description: [
-				"{gtia.quest.5FE893B1788AD42A.desc.0}"
+				"{typeomega.quest.5FE893B1788AD42A.desc.0}"
 			]
 			icon: "gtceu:invar_plate"
 			id: "5FE893B1788AD42A"
 			rewards: [ ]
 			shape: "circle"
 			size: 1.0d
-			subtitle: "{gtia.quest.5FE893B1788AD42A.subtitle}"
+			subtitle: "{typeomega.quest.5FE893B1788AD42A.subtitle}"
 			tasks: [
 				{
 					id: "5DEBB237A8E252A7"
@@ -240,7 +240,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.5FE893B1788AD42A.title}"
+			title: "{typeomega.quest.5FE893B1788AD42A.title}"
 			x: 5.0d
 			y: 2.5d
 		}
@@ -249,14 +249,14 @@
 				"5FE893B1788AD42A"
 			]
 			description: [
-				"{gtia.quest.2DB7E90CE03DC87B.desc.0}"
+				"{typeomega.quest.2DB7E90CE03DC87B.desc.0}"
 			]
 			icon: "gtceu:heatproof_machine_casing"
 			id: "2DB7E90CE03DC87B"
 			rewards: [ ]
 			shape: "circle"
 			size: 1.0d
-			subtitle: "{gtia.quest.2DB7E90CE03DC87B.subtitle}"
+			subtitle: "{typeomega.quest.2DB7E90CE03DC87B.subtitle}"
 			tasks: [
 				{
 					id: "10417FD1945A0106"
@@ -267,7 +267,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.2DB7E90CE03DC87B.title}"
+			title: "{typeomega.quest.2DB7E90CE03DC87B.title}"
 			x: 7.5d
 			y: 2.5d
 		}
@@ -276,7 +276,7 @@
 				"7682D6FC240F6F43"
 			]
 			description: [
-				"{gtia.quest.0D44CCE4F2B58516.desc.0}"
+				"{typeomega.quest.0D44CCE4F2B58516.desc.0}"
 			]
 			icon: "gtceu:maintenance_hatch"
 			id: "0D44CCE4F2B58516"
@@ -284,7 +284,7 @@
 			rewards: [ ]
 			shape: "circle"
 			size: 1.0d
-			subtitle: "{gtia.quest.0D44CCE4F2B58516.subtitle}"
+			subtitle: "{typeomega.quest.0D44CCE4F2B58516.subtitle}"
 			tasks: [
 				{
 					id: "76828A1F39620A5A"
@@ -295,7 +295,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.0D44CCE4F2B58516.title}"
+			title: "{typeomega.quest.0D44CCE4F2B58516.title}"
 			x: 10.0d
 			y: -2.5d
 		}
@@ -304,7 +304,7 @@
 				"7682D6FC240F6F43"
 			]
 			description: [
-				"{gtia.quest.3ACAC3D46989934B.desc.0}"
+				"{typeomega.quest.3ACAC3D46989934B.desc.0}"
 			]
 			icon: "gtceu:lv_input_bus"
 			id: "3ACAC3D46989934B"
@@ -312,7 +312,7 @@
 			rewards: [ ]
 			shape: "circle"
 			size: 1.0d
-			subtitle: "{gtia.quest.3ACAC3D46989934B.subtitle}"
+			subtitle: "{typeomega.quest.3ACAC3D46989934B.subtitle}"
 			tasks: [
 				{
 					id: "4B79157FEF78A21D"
@@ -347,7 +347,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.3ACAC3D46989934B.title}"
+			title: "{typeomega.quest.3ACAC3D46989934B.title}"
 			x: 10.0d
 			y: 2.5d
 		}
@@ -356,7 +356,7 @@
 				"7682D6FC240F6F43"
 			]
 			description: [
-				"{gtia.quest.491C9482795B99A1.desc.0}"
+				"{typeomega.quest.491C9482795B99A1.desc.0}"
 			]
 			icon: "gtceu:lv_muffler_hatch"
 			id: "491C9482795B99A1"
@@ -364,7 +364,7 @@
 			rewards: [ ]
 			shape: "circle"
 			size: 1.0d
-			subtitle: "{gtia.quest.491C9482795B99A1.subtitle}"
+			subtitle: "{typeomega.quest.491C9482795B99A1.subtitle}"
 			tasks: [
 				{
 					id: "6C60DB2CEEF1FE39"
@@ -375,7 +375,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.491C9482795B99A1.title}"
+			title: "{typeomega.quest.491C9482795B99A1.title}"
 			x: 7.5d
 			y: 5.0d
 		}
@@ -389,14 +389,14 @@
 				"491C9482795B99A1"
 			]
 			description: [
-				"{gtia.quest.6CA0C8722BA7B083.desc.0}"
+				"{typeomega.quest.6CA0C8722BA7B083.desc.0}"
 			]
 			icon: "gtceu:electric_blast_furnace"
 			id: "6CA0C8722BA7B083"
 			rewards: [ ]
 			shape: "circle"
 			size: 2.0d
-			subtitle: "{gtia.quest.6CA0C8722BA7B083.subtitle}"
+			subtitle: "{typeomega.quest.6CA0C8722BA7B083.subtitle}"
 			tasks: [
 				{
 					id: "4194C9F46FEF31CD"
@@ -407,7 +407,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.6CA0C8722BA7B083.title}"
+			title: "{typeomega.quest.6CA0C8722BA7B083.title}"
 			x: 10.0d
 			y: 0.0d
 		}
@@ -416,7 +416,7 @@
 				"6CA0C8722BA7B083"
 			]
 			description: [
-				"{gtia.quest.7A4954ACBD71773B.desc.0}"
+				"{typeomega.quest.7A4954ACBD71773B.desc.0}"
 			]
 			icon: "gtceu:cupronickel_coil_block"
 			id: "7A4954ACBD71773B"
@@ -424,15 +424,15 @@
 			rewards: [ ]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "{gtia.quest.7A4954ACBD71773B.subtitle}"
+			subtitle: "{typeomega.quest.7A4954ACBD71773B.subtitle}"
 			tasks: [
 				{
 					id: "025FF1C393A891D4"
 					type: "checkmark"
-					title: "{gtia.quest.7A4954ACBD71773B.task.025FF1C393A891D4}"
+					title: "{typeomega.quest.7A4954ACBD71773B.task.025FF1C393A891D4}"
 				}
 			]
-			title: "{gtia.quest.7A4954ACBD71773B.title}"
+			title: "{typeomega.quest.7A4954ACBD71773B.title}"
 			x: 12.5d
 			y: -2.5d
 		}
@@ -441,14 +441,14 @@
 				"6CA0C8722BA7B083"
 			]
 			description: [
-				"{gtia.quest.032B5DA0B689B7DE.desc.0}"
+				"{typeomega.quest.032B5DA0B689B7DE.desc.0}"
 			]
 			icon: "gtceu:steel_ingot"
 			id: "032B5DA0B689B7DE"
 			rewards: [ ]
 			shape: "circle"
 			size: 1.0d
-			subtitle: "{gtia.quest.032B5DA0B689B7DE.subtitle}"
+			subtitle: "{typeomega.quest.032B5DA0B689B7DE.subtitle}"
 			tasks: [
 				{
 					id: "6120818F06674B68"
@@ -459,7 +459,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.032B5DA0B689B7DE.title}"
+			title: "{typeomega.quest.032B5DA0B689B7DE.title}"
 			x: 12.5d
 			y: 2.5d
 		}
@@ -468,14 +468,14 @@
 				"6CA0C8722BA7B083"
 			]
 			description: [
-				"{gtia.quest.6779A797E97C9C1B.desc.0}"
+				"{typeomega.quest.6779A797E97C9C1B.desc.0}"
 			]
 			icon: "typeomega:large_furnace"
 			id: "6779A797E97C9C1B"
 			rewards: [ ]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "{gtia.quest.6779A797E97C9C1B.subtitle}"
+			subtitle: "{typeomega.quest.6779A797E97C9C1B.subtitle}"
 			tasks: [
 				{
 					id: "0C63DE22C84D577C"
@@ -486,7 +486,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.6779A797E97C9C1B.title}"
+			title: "{typeomega.quest.6779A797E97C9C1B.title}"
 			x: 15.0d
 			y: 0.0d
 		}
@@ -496,14 +496,14 @@
 				"1FB54A02C5238DE7"
 			]
 			description: [
-				"{gtia.quest.68E9692F12971271.desc.0}"
+				"{typeomega.quest.68E9692F12971271.desc.0}"
 			]
 			icon: "gtceu:oxygen_bucket"
 			id: "68E9692F12971271"
 			rewards: [ ]
 			shape: "circle"
 			size: 1.0d
-			subtitle: "{gtia.quest.68E9692F12971271.subtitle}"
+			subtitle: "{typeomega.quest.68E9692F12971271.subtitle}"
 			tasks: [
 				{
 					amount: 1000L
@@ -512,7 +512,7 @@
 					type: "fluid"
 				}
 			]
-			title: "{gtia.quest.68E9692F12971271.title}"
+			title: "{typeomega.quest.68E9692F12971271.title}"
 			x: 2.5d
 			y: -2.5d
 		}
@@ -522,14 +522,14 @@
 				"7762D8B3A833FDF0"
 			]
 			description: [
-				"{gtia.quest.725F1E8FCBB1BF05.desc.0}"
+				"{typeomega.quest.725F1E8FCBB1BF05.desc.0}"
 			]
 			icon: "gtceu:lv_arc_furnace"
 			id: "725F1E8FCBB1BF05"
 			rewards: [ ]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "{gtia.quest.725F1E8FCBB1BF05.subtitle}"
+			subtitle: "{typeomega.quest.725F1E8FCBB1BF05.subtitle}"
 			tasks: [
 				{
 					id: "62E5FD3E89A61928"
@@ -540,7 +540,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.725F1E8FCBB1BF05.title}"
+			title: "{typeomega.quest.725F1E8FCBB1BF05.title}"
 			x: 2.5d
 			y: -5.0d
 		}
@@ -550,14 +550,14 @@
 				"68E9692F12971271"
 			]
 			description: [
-				"{gtia.quest.34D68453EBB8630A.desc.0}"
+				"{typeomega.quest.34D68453EBB8630A.desc.0}"
 			]
 			icon: "gtceu:annealed_copper_ingot"
 			id: "34D68453EBB8630A"
 			rewards: [ ]
 			shape: "circle"
 			size: 1.0d
-			subtitle: "{gtia.quest.34D68453EBB8630A.subtitle}"
+			subtitle: "{typeomega.quest.34D68453EBB8630A.subtitle}"
 			tasks: [
 				{
 					id: "15A304BB705BA486"
@@ -568,7 +568,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.34D68453EBB8630A.title}"
+			title: "{typeomega.quest.34D68453EBB8630A.title}"
 			x: 5.0d
 			y: -5.0d
 		}
@@ -577,7 +577,7 @@
 				"725F1E8FCBB1BF05"
 			]
 			description: [
-				"{gtia.quest.63FB11D186E7E528.desc.0}"
+				"{typeomega.quest.63FB11D186E7E528.desc.0}"
 			]
 			icon: "gtceu:wrought_iron_ingot"
 			id: "63FB11D186E7E528"
@@ -585,7 +585,7 @@
 			rewards: [ ]
 			shape: "circle"
 			size: 1.0d
-			subtitle: "{gtia.quest.63FB11D186E7E528.subtitle}"
+			subtitle: "{typeomega.quest.63FB11D186E7E528.subtitle}"
 			tasks: [
 				{
 					id: "76AEBA7757EA5BBE"
@@ -596,7 +596,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.63FB11D186E7E528.title}"
+			title: "{typeomega.quest.63FB11D186E7E528.title}"
 			x: 5.0d
 			y: -7.5d
 		}
@@ -606,14 +606,14 @@
 				"1152F3AEC309C8C8"
 			]
 			description: [
-				"{gtia.quest.68801CCADCB51423.desc.0}"
+				"{typeomega.quest.68801CCADCB51423.desc.0}"
 			]
 			icon: "gtceu:fine_annealed_copper_wire"
 			id: "68801CCADCB51423"
 			rewards: [ ]
 			shape: "circle"
 			size: 1.0d
-			subtitle: "{gtia.quest.68801CCADCB51423.subtitle}"
+			subtitle: "{typeomega.quest.68801CCADCB51423.subtitle}"
 			tasks: [
 				{
 					id: "36E21CDE601C4EB6"
@@ -624,7 +624,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.68801CCADCB51423.title}"
+			title: "{typeomega.quest.68801CCADCB51423.title}"
 			x: 7.5d
 			y: -5.0d
 		}
@@ -634,14 +634,14 @@
 				"62FB9842CD36A1A7"
 			]
 			description: [
-				"{gtia.quest.3825BFF26088344B.desc.0}"
+				"{typeomega.quest.3825BFF26088344B.desc.0}"
 			]
 			icon: "gtceu:lv_chemical_bath"
 			id: "3825BFF26088344B"
 			rewards: [ ]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "{gtia.quest.3825BFF26088344B.subtitle}"
+			subtitle: "{typeomega.quest.3825BFF26088344B.subtitle}"
 			tasks: [
 				{
 					id: "59D50F5E8167FE31"
@@ -652,7 +652,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.3825BFF26088344B.title}"
+			title: "{typeomega.quest.3825BFF26088344B.title}"
 			x: 5.0d
 			y: -10.0d
 		}
@@ -662,14 +662,14 @@
 				"675852E9FEC00322"
 			]
 			description: [
-				"{gtia.quest.3D52E65AA7B083D8.desc.0}"
+				"{typeomega.quest.3D52E65AA7B083D8.desc.0}"
 			]
 			icon: "gtna:large_steam_bath"
 			id: "3D52E65AA7B083D8"
 			rewards: [ ]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "{gtia.quest.3D52E65AA7B083D8.subtitle}"
+			subtitle: "{typeomega.quest.3D52E65AA7B083D8.subtitle}"
 			tasks: [
 				{
 					id: "307E8300A6AD08B9"
@@ -680,7 +680,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.3D52E65AA7B083D8.title}"
+			title: "{typeomega.quest.3D52E65AA7B083D8.title}"
 			x: 7.5d
 			y: -10.0d
 		}
@@ -691,14 +691,14 @@
 				"38405D3C982D41BD"
 			]
 			description: [
-				"{gtia.quest.5A4B22AD97B52D4D.desc.0}"
+				"{typeomega.quest.5A4B22AD97B52D4D.desc.0}"
 			]
 			icon: "gtceu:gallium_dust"
 			id: "5A4B22AD97B52D4D"
 			rewards: [ ]
 			shape: "circle"
 			size: 1.0d
-			subtitle: "{gtia.quest.5A4B22AD97B52D4D.subtitle}"
+			subtitle: "{typeomega.quest.5A4B22AD97B52D4D.subtitle}"
 			tasks: [
 				{
 					id: "38C1FF4D0E4E8B13"
@@ -717,7 +717,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.5A4B22AD97B52D4D.title}"
+			title: "{typeomega.quest.5A4B22AD97B52D4D.title}"
 			x: 7.5d
 			y: -7.5d
 		}
@@ -727,14 +727,14 @@
 				"0894BE8B2745C3C5"
 			]
 			description: [
-				"{gtia.quest.3D778BAC260E1DE9.desc.0}"
+				"{typeomega.quest.3D778BAC260E1DE9.desc.0}"
 			]
 			icon: "gtceu:gallium_arsenide_dust"
 			id: "3D778BAC260E1DE9"
 			rewards: [ ]
 			shape: "circle"
 			size: 1.0d
-			subtitle: "{gtia.quest.3D778BAC260E1DE9.subtitle}"
+			subtitle: "{typeomega.quest.3D778BAC260E1DE9.subtitle}"
 			tasks: [
 				{
 					id: "3EE5446B8D3A8FD9"
@@ -745,7 +745,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.3D778BAC260E1DE9.title}"
+			title: "{typeomega.quest.3D778BAC260E1DE9.title}"
 			x: 10.0d
 			y: -7.5d
 		}
@@ -756,14 +756,14 @@
 				"185BECDCD039DA87"
 			]
 			description: [
-				"{gtia.quest.56843E7E67B8F88B.desc.0}"
+				"{typeomega.quest.56843E7E67B8F88B.desc.0}"
 			]
 			icon: "gtceu:diode"
 			id: "56843E7E67B8F88B"
 			rewards: [ ]
 			shape: "circle"
 			size: 1.25d
-			subtitle: "{gtia.quest.56843E7E67B8F88B.subtitle}"
+			subtitle: "{typeomega.quest.56843E7E67B8F88B.subtitle}"
 			tasks: [
 				{
 					id: "7A9208D5AEA48A25"
@@ -774,7 +774,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.56843E7E67B8F88B.title}"
+			title: "{typeomega.quest.56843E7E67B8F88B.title}"
 			x: 10.0d
 			y: -5.0d
 		}
@@ -783,14 +783,14 @@
 				"1FB54A02C5238DE7"
 			]
 			description: [
-				"{gtia.quest.57BD216C289EF5FA.desc.0}"
+				"{typeomega.quest.57BD216C289EF5FA.desc.0}"
 			]
 			icon: "gtceu:glue_bucket"
 			id: "57BD216C289EF5FA"
 			rewards: [ ]
 			shape: "circle"
 			size: 1.0d
-			subtitle: "{gtia.quest.57BD216C289EF5FA.subtitle}"
+			subtitle: "{typeomega.quest.57BD216C289EF5FA.subtitle}"
 			tasks: [
 				{
 					amount: 1000L
@@ -799,7 +799,7 @@
 					type: "fluid"
 				}
 			]
-			title: "{gtia.quest.57BD216C289EF5FA.title}"
+			title: "{typeomega.quest.57BD216C289EF5FA.title}"
 			x: 7.5d
 			y: -12.5d
 		}
@@ -808,14 +808,14 @@
 				"57BD216C289EF5FA"
 			]
 			description: [
-				"{gtia.quest.20AEB7859BE1F396.desc.0}"
+				"{typeomega.quest.20AEB7859BE1F396.desc.0}"
 			]
 			icon: "gtceu:phenolic_circuit_board"
 			id: "20AEB7859BE1F396"
 			rewards: [ ]
 			shape: "circle"
 			size: 1.0d
-			subtitle: "{gtia.quest.20AEB7859BE1F396.subtitle}"
+			subtitle: "{typeomega.quest.20AEB7859BE1F396.subtitle}"
 			tasks: [
 				{
 					id: "0A99DD47023798CB"
@@ -826,7 +826,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.20AEB7859BE1F396.title}"
+			title: "{typeomega.quest.20AEB7859BE1F396.title}"
 			x: 10.0d
 			y: -10.0d
 		}
@@ -835,16 +835,16 @@
 				"5FCC9B4C8CC08783"
 			]
 			description: [
-				"{gtia.quest.42B6BF594E3CB09B.desc.0}"
+				"{typeomega.quest.42B6BF594E3CB09B.desc.0}"
 				""
-				"{gtia.quest.42B6BF594E3CB09B.desc.2}"
+				"{typeomega.quest.42B6BF594E3CB09B.desc.2}"
 			]
 			icon: "gtceu:sodium_persulfate_bucket"
 			id: "42B6BF594E3CB09B"
 			rewards: [ ]
 			shape: "octagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.42B6BF594E3CB09B.subtitle}"
+			subtitle: "{typeomega.quest.42B6BF594E3CB09B.subtitle}"
 			tasks: [
 				{
 					amount: 1000L
@@ -853,7 +853,7 @@
 					type: "fluid"
 				}
 			]
-			title: "{gtia.quest.42B6BF594E3CB09B.title}"
+			title: "{typeomega.quest.42B6BF594E3CB09B.title}"
 			x: 10.0d
 			y: -12.5d
 		}
@@ -862,14 +862,14 @@
 				"0DD4B553E5ACF7A6"
 			]
 			description: [
-				"{gtia.quest.7855371D01D29EE0.desc.0}"
+				"{typeomega.quest.7855371D01D29EE0.desc.0}"
 			]
 			icon: "gtceu:silver_foil"
 			id: "7855371D01D29EE0"
 			rewards: [ ]
 			shape: "circle"
 			size: 1.0d
-			subtitle: "{gtia.quest.7855371D01D29EE0.subtitle}"
+			subtitle: "{typeomega.quest.7855371D01D29EE0.subtitle}"
 			tasks: [
 				{
 					id: "3323929766324FCF"
@@ -880,7 +880,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.7855371D01D29EE0.title}"
+			title: "{typeomega.quest.7855371D01D29EE0.title}"
 			x: 12.5d
 			y: -10.0d
 		}
@@ -892,14 +892,14 @@
 				"11B1D953F675D865"
 			]
 			description: [
-				"{gtia.quest.4A8EB48685AF515F.desc.0}"
+				"{typeomega.quest.4A8EB48685AF515F.desc.0}"
 			]
 			icon: "gtceu:phenolic_printed_circuit_board"
 			id: "4A8EB48685AF515F"
 			rewards: [ ]
 			shape: "circle"
 			size: 1.0d
-			subtitle: "{gtia.quest.4A8EB48685AF515F.subtitle}"
+			subtitle: "{typeomega.quest.4A8EB48685AF515F.subtitle}"
 			tasks: [
 				{
 					id: "5FA10B64D717C353"
@@ -910,7 +910,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.4A8EB48685AF515F.title}"
+			title: "{typeomega.quest.4A8EB48685AF515F.title}"
 			x: 12.5d
 			y: -7.5d
 		}
@@ -921,14 +921,14 @@
 				"08F7B2DDD147AB0B"
 			]
 			description: [
-				"{gtia.quest.0E52A4BF27ACBCB3.desc.0}"
+				"{typeomega.quest.0E52A4BF27ACBCB3.desc.0}"
 			]
 			icon: "gtceu:good_electronic_circuit"
 			id: "0E52A4BF27ACBCB3"
 			rewards: [ ]
 			shape: "circle"
 			size: 2.0d
-			subtitle: "{gtia.quest.0E52A4BF27ACBCB3.subtitle}"
+			subtitle: "{typeomega.quest.0E52A4BF27ACBCB3.subtitle}"
 			tasks: [
 				{
 					id: "02359A75753D8071"
@@ -939,7 +939,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.0E52A4BF27ACBCB3.title}"
+			title: "{typeomega.quest.0E52A4BF27ACBCB3.title}"
 			x: 12.5d
 			y: -5.0d
 		}
@@ -949,14 +949,14 @@
 				"16FF5A0B1AC70E89"
 			]
 			description: [
-				"{gtia.quest.0A9221404FB9FAAF.desc.0}"
+				"{typeomega.quest.0A9221404FB9FAAF.desc.0}"
 			]
 			icon: "gtceu:lv_circuit_assembler"
 			id: "0A9221404FB9FAAF"
 			rewards: [ ]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "{gtia.quest.0A9221404FB9FAAF.subtitle}"
+			subtitle: "{typeomega.quest.0A9221404FB9FAAF.subtitle}"
 			tasks: [
 				{
 					id: "6C2CC337931B9972"
@@ -967,7 +967,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.0A9221404FB9FAAF.title}"
+			title: "{typeomega.quest.0A9221404FB9FAAF.title}"
 			x: 15.0d
 			y: -5.0d
 		}
@@ -976,7 +976,7 @@
 				"7682D6FC240F6F43"
 			]
 			description: [
-				"{gtia.quest.51217F9B23470AF9.desc.0}"
+				"{typeomega.quest.51217F9B23470AF9.desc.0}"
 			]
 			icon: "gtceu:bauxite_dust"
 			id: "51217F9B23470AF9"
@@ -984,7 +984,7 @@
 			rewards: [ ]
 			shape: "circle"
 			size: 1.0d
-			subtitle: "{gtia.quest.51217F9B23470AF9.subtitle}"
+			subtitle: "{typeomega.quest.51217F9B23470AF9.subtitle}"
 			tasks: [
 				{
 					id: "2459890728057EE1"
@@ -995,7 +995,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.51217F9B23470AF9.title}"
+			title: "{typeomega.quest.51217F9B23470AF9.title}"
 			x: 5.0d
 			y: 7.5d
 		}
@@ -1004,16 +1004,16 @@
 				"51217F9B23470AF9"
 			]
 			description: [
-				"{gtia.quest.27681F504A4B0195.desc.0}"
+				"{typeomega.quest.27681F504A4B0195.desc.0}"
 				""
-				"{gtia.quest.27681F504A4B0195.desc.2}"
+				"{typeomega.quest.27681F504A4B0195.desc.2}"
 			]
 			icon: "typeomega:alumina_dust"
 			id: "27681F504A4B0195"
 			rewards: [ ]
 			shape: "octagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.27681F504A4B0195.subtitle}"
+			subtitle: "{typeomega.quest.27681F504A4B0195.subtitle}"
 			tasks: [
 				{
 					id: "390743AF0ABA88F7"
@@ -1024,7 +1024,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.27681F504A4B0195.title}"
+			title: "{typeomega.quest.27681F504A4B0195.title}"
 			x: 7.5d
 			y: 7.5d
 		}
@@ -1033,16 +1033,16 @@
 				"5FCC9B4C8CC08783"
 			]
 			description: [
-				"{gtia.quest.0508E951778B03BC.desc.0}"
+				"{typeomega.quest.0508E951778B03BC.desc.0}"
 				""
-				"{gtia.quest.0508E951778B03BC.desc.2}"
+				"{typeomega.quest.0508E951778B03BC.desc.2}"
 			]
 			icon: "gtceu:lepidolite_dust"
 			id: "0508E951778B03BC"
 			rewards: [ ]
 			shape: "octagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.0508E951778B03BC.subtitle}"
+			subtitle: "{typeomega.quest.0508E951778B03BC.subtitle}"
 			tasks: [
 				{
 					id: "4DAB5651FA9F6AEE"
@@ -1053,7 +1053,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.0508E951778B03BC.title}"
+			title: "{typeomega.quest.0508E951778B03BC.title}"
 			x: 7.5d
 			y: 10.0d
 		}
@@ -1063,16 +1063,16 @@
 				"0508E951778B03BC"
 			]
 			description: [
-				"{gtia.quest.07BD93305A70B7D7.desc.0}"
+				"{typeomega.quest.07BD93305A70B7D7.desc.0}"
 				""
-				"{gtia.quest.07BD93305A70B7D7.desc.2}"
+				"{typeomega.quest.07BD93305A70B7D7.desc.2}"
 			]
 			icon: "typeomega:cryolite_dust"
 			id: "07BD93305A70B7D7"
 			rewards: [ ]
 			shape: "octagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.07BD93305A70B7D7.subtitle}"
+			subtitle: "{typeomega.quest.07BD93305A70B7D7.subtitle}"
 			tasks: [
 				{
 					id: "5AB7A62595BD50FE"
@@ -1083,7 +1083,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.07BD93305A70B7D7.title}"
+			title: "{typeomega.quest.07BD93305A70B7D7.title}"
 			x: 10.0d
 			y: 7.5d
 		}
@@ -1093,7 +1093,7 @@
 				"7F7D51AC08EEF3D0"
 			]
 			description: [
-				"{gtia.quest.09F174EFD13D02AF.desc.0}"
+				"{typeomega.quest.09F174EFD13D02AF.desc.0}"
 			]
 			icon: "gtceu:lv_distillery"
 			id: "09F174EFD13D02AF"
@@ -1101,7 +1101,7 @@
 			rewards: [ ]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "{gtia.quest.09F174EFD13D02AF.subtitle}"
+			subtitle: "{typeomega.quest.09F174EFD13D02AF.subtitle}"
 			tasks: [
 				{
 					id: "25694048E2CEB843"
@@ -1112,7 +1112,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.09F174EFD13D02AF.title}"
+			title: "{typeomega.quest.09F174EFD13D02AF.title}"
 			x: 5.0d
 			y: 12.5d
 		}
@@ -1122,16 +1122,16 @@
 				"35D6E7CBDE41A7C0"
 			]
 			description: [
-				"{gtia.quest.1BDF049259BC58A5.desc.0}"
+				"{typeomega.quest.1BDF049259BC58A5.desc.0}"
 				""
-				"{gtia.quest.1BDF049259BC58A5.desc.2}"
+				"{typeomega.quest.1BDF049259BC58A5.desc.2}"
 			]
 			icon: "gtceu:wood_tar_bucket"
 			id: "1BDF049259BC58A5"
 			rewards: [ ]
 			shape: "octagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.1BDF049259BC58A5.subtitle}"
+			subtitle: "{typeomega.quest.1BDF049259BC58A5.subtitle}"
 			tasks: [
 				{
 					amount: 1000L
@@ -1140,7 +1140,7 @@
 					type: "fluid"
 				}
 			]
-			title: "{gtia.quest.1BDF049259BC58A5.title}"
+			title: "{typeomega.quest.1BDF049259BC58A5.title}"
 			x: 7.5d
 			y: 12.5d
 		}
@@ -1150,14 +1150,14 @@
 				"0894BE8B2745C3C5"
 			]
 			description: [
-				"{gtia.quest.7FBDDB5CF271C03B.desc.0}"
+				"{typeomega.quest.7FBDDB5CF271C03B.desc.0}"
 			]
 			icon: "typeomega:carbon_anode"
 			id: "7FBDDB5CF271C03B"
 			rewards: [ ]
 			shape: "circle"
 			size: 1.0d
-			subtitle: "{gtia.quest.7FBDDB5CF271C03B.subtitle}"
+			subtitle: "{typeomega.quest.7FBDDB5CF271C03B.subtitle}"
 			tasks: [
 				{
 					id: "460A04940723B8FC"
@@ -1168,7 +1168,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.7FBDDB5CF271C03B.title}"
+			title: "{typeomega.quest.7FBDDB5CF271C03B.title}"
 			x: 10.0d
 			y: 10.0d
 		}
@@ -1177,16 +1177,16 @@
 				"09F174EFD13D02AF"
 			]
 			description: [
-				"{gtia.quest.7C61E0CAF3E2A6D2.desc.0}"
+				"{typeomega.quest.7C61E0CAF3E2A6D2.desc.0}"
 				""
-				"{gtia.quest.7C61E0CAF3E2A6D2.desc.2}"
+				"{typeomega.quest.7C61E0CAF3E2A6D2.desc.2}"
 			]
 			icon: "gtceu:oil_heavy_bucket"
 			id: "7C61E0CAF3E2A6D2"
 			rewards: [ ]
 			shape: "octagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.7C61E0CAF3E2A6D2.subtitle}"
+			subtitle: "{typeomega.quest.7C61E0CAF3E2A6D2.subtitle}"
 			tasks: [
 				{
 					amount: 1000L
@@ -1195,7 +1195,7 @@
 					type: "fluid"
 				}
 			]
-			title: "{gtia.quest.7C61E0CAF3E2A6D2.title}"
+			title: "{typeomega.quest.7C61E0CAF3E2A6D2.title}"
 			x: 5.0d
 			y: 15.0d
 		}
@@ -1204,7 +1204,7 @@
 				"1FD268C12FEB6EA4"
 			]
 			description: [
-				"{gtia.quest.2D8F6688123E22DE.desc.0}"
+				"{typeomega.quest.2D8F6688123E22DE.desc.0}"
 			]
 			icon: "gtceu:lv_energy_input_hatch"
 			id: "2D8F6688123E22DE"
@@ -1213,15 +1213,15 @@
 			rewards: [ ]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "{gtia.quest.2D8F6688123E22DE.subtitle}"
+			subtitle: "{typeomega.quest.2D8F6688123E22DE.subtitle}"
 			tasks: [
 				{
 					id: "6B875937F3B01A60"
 					type: "checkmark"
-					title: "{gtia.quest.2D8F6688123E22DE.task.6B875937F3B01A60}"
+					title: "{typeomega.quest.2D8F6688123E22DE.task.6B875937F3B01A60}"
 				}
 			]
-			title: "{gtia.quest.2D8F6688123E22DE.title}"
+			title: "{typeomega.quest.2D8F6688123E22DE.title}"
 			x: 10.0d
 			y: 5.0d
 		}
@@ -1233,14 +1233,14 @@
 				"2D8F6688123E22DE"
 			]
 			description: [
-				"{gtia.quest.191DDE67898C4659.desc.0}"
+				"{typeomega.quest.191DDE67898C4659.desc.0}"
 			]
 			icon: "gtceu:aluminium_ingot"
 			id: "191DDE67898C4659"
 			rewards: [ ]
 			shape: "circle"
 			size: 2.0d
-			subtitle: "{gtia.quest.191DDE67898C4659.subtitle}"
+			subtitle: "{typeomega.quest.191DDE67898C4659.subtitle}"
 			tasks: [
 				{
 					id: "16456DC858EE9284"
@@ -1251,7 +1251,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.191DDE67898C4659.title}"
+			title: "{typeomega.quest.191DDE67898C4659.title}"
 			x: 12.5d
 			y: 5.0d
 		}
@@ -1261,7 +1261,7 @@
 				"32AD658AC7209322"
 			]
 			description: [
-				"{gtia.quest.5DF55B71153E3A6D.desc.0}"
+				"{typeomega.quest.5DF55B71153E3A6D.desc.0}"
 			]
 			icon: "gtceu:cobalt_dust"
 			id: "5DF55B71153E3A6D"
@@ -1269,7 +1269,7 @@
 			rewards: [ ]
 			shape: "circle"
 			size: 1.0d
-			subtitle: "{gtia.quest.5DF55B71153E3A6D.subtitle}"
+			subtitle: "{typeomega.quest.5DF55B71153E3A6D.subtitle}"
 			tasks: [
 				{
 					id: "6AB705861D2713C5"
@@ -1280,7 +1280,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.5DF55B71153E3A6D.title}"
+			title: "{typeomega.quest.5DF55B71153E3A6D.title}"
 			x: 12.5d
 			y: 10.0d
 		}
@@ -1291,14 +1291,14 @@
 				"7425592C2BF036E4"
 			]
 			description: [
-				"{gtia.quest.389C0053A3D1E3C9.desc.0}"
+				"{typeomega.quest.389C0053A3D1E3C9.desc.0}"
 			]
 			icon: "gtceu:cobalt_brass_buzz_saw_blade"
 			id: "389C0053A3D1E3C9"
 			rewards: [ ]
 			shape: "circle"
 			size: 1.0d
-			subtitle: "{gtia.quest.389C0053A3D1E3C9.subtitle}"
+			subtitle: "{typeomega.quest.389C0053A3D1E3C9.subtitle}"
 			tasks: [
 				{
 					id: "5652F3C90FAF2A29"
@@ -1309,7 +1309,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.389C0053A3D1E3C9.title}"
+			title: "{typeomega.quest.389C0053A3D1E3C9.title}"
 			x: 15.0d
 			y: 7.5d
 		}
@@ -1318,14 +1318,14 @@
 				"389C0053A3D1E3C9"
 			]
 			description: [
-				"{gtia.quest.699DE902F2193C95.desc.0}"
+				"{typeomega.quest.699DE902F2193C95.desc.0}"
 			]
 			icon: "gtceu:lv_cutter"
 			id: "699DE902F2193C95"
 			rewards: [ ]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "{gtia.quest.699DE902F2193C95.subtitle}"
+			subtitle: "{typeomega.quest.699DE902F2193C95.subtitle}"
 			tasks: [
 				{
 					id: "68A802D1F43E9AA6"
@@ -1336,7 +1336,7 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.699DE902F2193C95.title}"
+			title: "{typeomega.quest.699DE902F2193C95.title}"
 			x: 17.5d
 			y: 7.5d
 		}
@@ -1347,16 +1347,16 @@
 				"63FB11D186E7E528"
 			]
 			description: [
-				"{gtia.quest.15564BF91174FB74.desc.0}"
+				"{typeomega.quest.15564BF91174FB74.desc.0}"
 				""
-				"{gtia.quest.15564BF91174FB74.desc.2}"
+				"{typeomega.quest.15564BF91174FB74.desc.2}"
 			]
 			icon: "gtceu:mv_machine_hull"
 			id: "15564BF91174FB74"
 			rewards: [ ]
 			shape: "hexagon"
 			size: 3.0d
-			subtitle: "{gtia.quest.15564BF91174FB74.subtitle}"
+			subtitle: "{typeomega.quest.15564BF91174FB74.subtitle}"
 			tasks: [
 				{
 					id: "73DCE036BFF6EE23"
@@ -1367,12 +1367,12 @@
 					match_nbt: false
 				}
 			]
-			title: "{gtia.quest.15564BF91174FB74.title}"
+			title: "{typeomega.quest.15564BF91174FB74.title}"
 			x: 17.5d
 			y: 0.0d
 		}
 	]
-	title: "{gtia.quest.chapter.7EAD3A014D53C19C}"
+	title: "{typeomega.quest.chapter.7EAD3A014D53C19C}"
 	images: [
 		{
 			alpha: 255
@@ -1382,7 +1382,7 @@
 			dev: false
 			height: 88.5d
 			hover: [ ]
-			image: "gtia_quests:textures/quests/backgrounds/lv.png"
+			image: "typeomega_quests:textures/quests/backgrounds/lv.png"
 			order: -100
 			rotation: 0.0d
 			width: 88.5d

@@ -1200,7 +1200,7 @@ text = """
 Cut the CPU wafer in the MV Cutter. Each chip becomes the heart of a Microprocessor in High Voltage.
 """
 
-# ------------------------------------------------------------------ Ostwald (GTIA-D-281)
+# ------------------------------------------------------------------ Ostwald (D-281)
 
 [[quest]]
 key = "ostwald"

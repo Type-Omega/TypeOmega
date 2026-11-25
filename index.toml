@@ -141,43 +141,43 @@ file = "config/extremesoundmuffler-client.toml"
 hash = "1b411abdba711cc22542812c34d840a686c8ff50eac65e3917c8e27934fbdfb3"
 
 [[files]]
-file = "config/fancymenu/assets/gtia_background.gif"
+file = "config/fancymenu/assets/typeomega_background.gif"
 hash = "a1474100b2e55fce8096c929fc1357a54f4bf3464f5a0560e6302b81c2138c3a"
 
 [[files]]
-file = "config/fancymenu/assets/gtia_button_hover.png"
+file = "config/fancymenu/assets/typeomega_button_hover.png"
 hash = "20fc875b3e1f8c7df6db426c75546225beb715db9fe9bfaf2fefe158702246d2"
 
 [[files]]
-file = "config/fancymenu/assets/gtia_button_normal.png"
+file = "config/fancymenu/assets/typeomega_button_normal.png"
 hash = "c62ba9eeb6f207d7dc62c2cf9649ca91677f888d95e25160fbc319a3812e18f1"
 
 [[files]]
-file = "config/fancymenu/assets/gtia_discord.png"
+file = "config/fancymenu/assets/typeomega_discord.png"
 hash = "2b83a10afc0d62292c5e7f81f4db153c742f96b5a8155f84a6e52dfccee18c6d"
 
 [[files]]
-file = "config/fancymenu/assets/gtia_discord_hover.png"
+file = "config/fancymenu/assets/typeomega_discord_hover.png"
 hash = "36f7401383c0bba7cd7ecc77ffeda5fb0a2c1e20d7a69927246c818f37fafc5f"
 
 [[files]]
-file = "config/fancymenu/assets/gtia_emblem.png"
+file = "config/fancymenu/assets/typeomega_emblem.png"
 hash = "2e1c6826744e7fbf971cf50bf2dea9fb9b736aa2b97d98fc574cfcd40da383f0"
 
 [[files]]
-file = "config/fancymenu/assets/gtia_icon_16.png"
+file = "config/fancymenu/assets/typeomega_icon_16.png"
 hash = "131ee1d6e401a9f20d3225e1b0285937eeb253cca4bd458779d2e3ed756e0ac6"
 
 [[files]]
-file = "config/fancymenu/assets/gtia_icon_32.png"
+file = "config/fancymenu/assets/typeomega_icon_32.png"
 hash = "257b39754352d53ed51fca728e69b52f48bae90df5c0a714dae4a4aa13552c2e"
 
 [[files]]
-file = "config/fancymenu/assets/gtia_icon_mac.png"
+file = "config/fancymenu/assets/typeomega_icon_mac.png"
 hash = "64151f4fc4a25b09d610dff4ad7b6a0dafb6580c5e704617a729ff90be607533"
 
 [[files]]
-file = "config/fancymenu/assets/gtia_text_logo.png"
+file = "config/fancymenu/assets/typeomega_text_logo.png"
 hash = "c0a8ed3d9ccf0aa64b352f5095bd5da5c98bf985b450f86d781f36d60fed9a3d"
 
 [[files]]
@@ -185,12 +185,12 @@ file = "config/fancymenu/customizablemenus.txt"
 hash = "4c68ab99c906dd487952f61bf33c0635039a8bbff3f02099e3cd8272fe51b4aa"
 
 [[files]]
-file = "config/fancymenu/customization/gtia_title_screen.txt"
-hash = "b772448f9c72360987c390b5d2ae69cdbf0c0487e7081845c987d413918e27c6"
+file = "config/fancymenu/customization/typeomega_title_screen.txt"
+hash = "54f4f0a8121112f9b4cd333c788c3065fa78b8a8d661af07e2394162ded825c0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "45b360d155863ebd9a3c9a042d625c3f669fd036435470d580f81c5a7de374bc"
+hash = "fe6227178f7bf5311bf47ad84db6baa0e1648407456c44a8737826501fbf182e"
 
 [[files]]
 file = "config/fast_recipe_search.toml"
@@ -242,63 +242,63 @@ hash = "7e88163a0edc7f75f7b0d79bc700f262cb80d6bf522f1dc150369069e54805da"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "97cf24a5c694be67b73def73f282c1b3b53746fe3e6f97a06b7d035c59820ca4"
+hash = "2ab0ae9cf3e0bbd830a15ff94eff000ffac884b418986d45e1fb8dbe8822befa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/agriculture.snbt"
-hash = "8b6cfd9dade72f05aa036bb4af7a64206f484156297455eb4fe7354a58d061ad"
+hash = "598835f43ddbdb0547a5cc72bac057b7ca4592514d2dcda148d1d748e7530219"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bees.snbt"
-hash = "218fd392c956cd97b0df00bb3f3cb5e45ff1da4cd8629621af351fefec76763d"
+hash = "3d0b177d58f8823151aff8bcc42d74cab17278d1831cbf05f16fdba82d156c6d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiblocks.snbt"
-hash = "a7241f28978b67f63c55bff1dc1977eb67f4aef084e0e96efa5714fae85625d0"
+hash = "0fc665c183fc10baa6f99699b7e2f520d5b74c64356978672be3b3d5517b826e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/periodic.snbt"
-hash = "2b449df08e1ed6eb2edf48035d228d33cfb9a28cd70a8be6c4da85e62398efa3"
+hash = "d8120682982ada6c64b652555123dee50e96fa16eb58c5324f36b07df5311c1a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/type0_0_first_fire.snbt"
-hash = "00f4249f03ab0109c600a00f0713e1f09341b64e28ed8e67510886665333f8b9"
+hash = "a467654e7f562d1c774238d2d52f7e94bd0c7bbc0f02a4f5aecdf9404db03b30"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/type0_1_steam_steel.snbt"
-hash = "c6a679735c610f9643479003915699e6bd0ac1dbdc3dcece77ba65bc060a6036"
+hash = "c9e82c427c65c67af1d3804426c06d13ad5102913f2098211a7c6ec9a8171bc1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/type0_2_electricity.snbt"
-hash = "06a0f4c6fa5b102b40e326ba63293293f2aa4fa9c7d32cfedb562c2a06072d81"
+hash = "c4b35c2a4d794a4f68f3b2bb15ed73b882f376a8ee3db715a673edb8b6507e27"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/type0_3_blast_furnace.snbt"
-hash = "efc5ff078fdc8fb8b2f741c1a5a69abb9328afe558f9a620c961409fe95a233a"
+hash = "0f4eb3b8ee86f3f3aa2e545f4d7e5e2ee3368100a7e2ef82f36c4c5ebc75d8aa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/type0_4_medium_voltage.snbt"
-hash = "391da4079f3da15b73aa2b9c90fa879ad576fd272691a182a3631ba52fb90a0d"
+hash = "399317e5595cfc42651bc05cef1dd8b5eb5ac6bafe32e1e98cca7d45c00ee284"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/type0_5_end_of_mv.snbt"
-hash = "09ae3c8f0530b1a8063c756408575976bfe65e0b3200611efc9ff8b091b4a020"
+hash = "8c831a1e9e84585a889180651f0188f1f2c14be1b3b4516f4f71144fff001100"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/type0_6_power_grid.snbt"
-hash = "53bb36c6523d229a8d837df9cbe77ea41b1208ea711ee051fb077fb95a98a7ed"
+hash = "039ba7d71c65b3da314ab6015f2a16af7f17cfbbb09e2fc6e2c6fd8e8d1eb7b3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/type0_7_moon.snbt"
-hash = "586fb21a07b82c6df470e0fefb7cbe9c50efe924c3fa5bab018720d1d8d99e4b"
+hash = "6441293ca955d3ca214b2c0bf91468635dc313d1ed829ad4ecd0d146c52f0fec"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/type0_8_fusion.snbt"
-hash = "8c15a4c53ec5a12cabb67c32467707016ec5fe18a972b166fc7d6e479e1a9245"
+hash = "5e95f780223506f7900eed3b33bd3c15e664451c76ff5c69722ee7bfcceb4b2d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
-hash = "52057d8193c490ceaa9cd68c186f2663b45686df6b63dfeb6195eb02252fd30d"
+hash = "263573eaa1c89f5477da772b99f3c5a88be4af56d363a8ed4e2b73ea15548c49"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -390,7 +390,7 @@ hash = "d40a0510a5eaf56e3c48e881348d7d826c5a1f61aa29b69cf0fc33dd96d6fdcd"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "3dcc0b0d00a7b7ad5ae7464a4d51e24f4d9530d7a220861e8e61dca80d4a7022"
+hash = "cfe269dd56f38aa84a98c0ac7e1a015d628d0d9db93f59a6d1113008630c3cc9"
 
 [[files]]
 file = "config/moremorelang-client.toml"
@@ -413,128 +413,128 @@ file = "config/openloader/advanced_options.json"
 hash = "d08c3a750d2f50f0d6e66217e92bbbecc102ad91f66b8a263e48d1b6388bba3e"
 
 [[files]]
-file = "config/openloader/resources/gtia_menu/assets/gtia_menu/lang/en_us.json"
-hash = "a46c643ddf241f852c5a029a7caa85f121c470628f72e23058f133056578ecdf"
+file = "config/openloader/resources/typeomega_menu/assets/typeomega_menu/lang/en_us.json"
+hash = "3c1cc157722f9e0e4710d4d9acf8b05fc74666d5f54bbba32f9691bc25c7e3e2"
 
 [[files]]
-file = "config/openloader/resources/gtia_menu/assets/gtia_menu/lang/pt_br.json"
-hash = "7c74270ff0355d288b2ddd2a4cc12a9314a57a9899b24dd725d24d02ea44edaf"
+file = "config/openloader/resources/typeomega_menu/assets/typeomega_menu/lang/pt_br.json"
+hash = "b24ec4124c791edd172889fb47919cafa504fc7204233639414d84abc667b62e"
 
 [[files]]
-file = "config/openloader/resources/gtia_menu/assets/gtia_menu/lang/zh_cn.json"
-hash = "1d363e26e8e8b8b3f8c5e93d2e5c6972d5979c370d91e19569ddf5749397ec7f"
+file = "config/openloader/resources/typeomega_menu/assets/typeomega_menu/lang/zh_cn.json"
+hash = "3399e8cd8699785e0e8f721c158f33a85df06dc5c9d2617600e1df48018d8561"
 
 [[files]]
-file = "config/openloader/resources/gtia_menu/pack.mcmeta"
-hash = "3d90683b98442451779d53f907e3daaf2a969ce25c47001b338151ef55cb0c79"
+file = "config/openloader/resources/typeomega_menu/pack.mcmeta"
+hash = "b87f674d1385d787c721551a2fe9b3aee2785735efee4142470d87f6fdd31288"
 
 [[files]]
-file = "config/openloader/resources/gtia_quests/assets/ftbquests/ftb_quests_theme.txt"
-hash = "c937050709b29ba62629f46d03b32a1e27a6c9ff970ad04a7242a4b8eab26e84"
+file = "config/openloader/resources/typeomega_quests/assets/ftbquests/ftb_quests_theme.txt"
+hash = "6d220997e67daca2ace45645777d47b57b0b75fa2e9c5db544d95dd5cbd30f3f"
 
 [[files]]
-file = "config/openloader/resources/gtia_quests/assets/gtia_quests/lang/en_us.json"
-hash = "f8a5336e2053b01956ce1cdf96088c6e0d29cbc9d1270d114090cb7ec036ffb8"
+file = "config/openloader/resources/typeomega_quests/assets/typeomega_quests/lang/en_us.json"
+hash = "5d573849d421ee54393e8426d1550c0430f965d64913c90740a2d54ce92a75c8"
 
 [[files]]
-file = "config/openloader/resources/gtia_quests/assets/gtia_quests/lang/pt_br.json"
-hash = "63ec8a28a66e2aa01a3d82ccf3bbdb5ca571bcd5833f0156dd03c23da3c31c30"
+file = "config/openloader/resources/typeomega_quests/assets/typeomega_quests/lang/pt_br.json"
+hash = "8f63640f18db50cbeb49a7a73abd73f222a8dfd8afd639890a36df842a8d5a4d"
 
 [[files]]
-file = "config/openloader/resources/gtia_quests/assets/gtia_quests/lang/zh_cn.json"
-hash = "593e9c6fb07d2afda386782d2fb931b26ecaa26c15cbfe19c23fc9f5fc9ecf05"
+file = "config/openloader/resources/typeomega_quests/assets/typeomega_quests/lang/zh_cn.json"
+hash = "4da62e9b6797d855e9d4dbcbcea93bd6a3636ea2730382a487aaeb2071044170"
 
 [[files]]
-file = "config/openloader/resources/gtia_quests/assets/gtia_quests/textures/quests/agronomica_farm.png"
+file = "config/openloader/resources/typeomega_quests/assets/typeomega_quests/textures/quests/agronomica_farm.png"
 hash = "4d94fa62d1331aac3841506d5830248441b9f87ea90681e3608af20899e7f3cb"
 
 [[files]]
-file = "config/openloader/resources/gtia_quests/assets/gtia_quests/textures/quests/backgrounds/agriculture.png"
+file = "config/openloader/resources/typeomega_quests/assets/typeomega_quests/textures/quests/backgrounds/agriculture.png"
 hash = "c54cb94c67a7b350d42bb8ee42cf1effa10d2edd94174b27d79b0033c5f7475c"
 
 [[files]]
-file = "config/openloader/resources/gtia_quests/assets/gtia_quests/textures/quests/backgrounds/bees.png"
+file = "config/openloader/resources/typeomega_quests/assets/typeomega_quests/textures/quests/backgrounds/bees.png"
 hash = "e3bd084d2aa5d3b811f17324d7905bdacd3da985f75406e753e6c4d883e6bbd6"
 
 [[files]]
-file = "config/openloader/resources/gtia_quests/assets/gtia_quests/textures/quests/backgrounds/energy.png"
+file = "config/openloader/resources/typeomega_quests/assets/typeomega_quests/textures/quests/backgrounds/energy.png"
 hash = "d358f98be8b7cb2da4d7b4b831b991c27cf2e32c9b6f3681cf5a9fecf84331da"
 
 [[files]]
-file = "config/openloader/resources/gtia_quests/assets/gtia_quests/textures/quests/backgrounds/era_grid.png"
+file = "config/openloader/resources/typeomega_quests/assets/typeomega_quests/textures/quests/backgrounds/era_grid.png"
 hash = "ca0fa4676d1eb48b5a6783e121b591012ec6528f0c1f97b78e563bf80062731a"
 
 [[files]]
-file = "config/openloader/resources/gtia_quests/assets/gtia_quests/textures/quests/backgrounds/ev.png"
+file = "config/openloader/resources/typeomega_quests/assets/typeomega_quests/textures/quests/backgrounds/ev.png"
 hash = "ff6d3e10d9059fc3c9322f4ade8265b1973ad6b5c13529f5a8efe3f734109847"
 
 [[files]]
-file = "config/openloader/resources/gtia_quests/assets/gtia_quests/textures/quests/backgrounds/hv.png"
+file = "config/openloader/resources/typeomega_quests/assets/typeomega_quests/textures/quests/backgrounds/hv.png"
 hash = "e2479aff8cc9b690f935236f7ee15144cba47e96fb63934ecfd76d77ab562eba"
 
 [[files]]
-file = "config/openloader/resources/gtia_quests/assets/gtia_quests/textures/quests/backgrounds/iv.png"
+file = "config/openloader/resources/typeomega_quests/assets/typeomega_quests/textures/quests/backgrounds/iv.png"
 hash = "7b5b3ddc66df9f03e371a1e6ffca7369cffcf640880881e008f63eeb5e203a32"
 
 [[files]]
-file = "config/openloader/resources/gtia_quests/assets/gtia_quests/textures/quests/backgrounds/lv.png"
+file = "config/openloader/resources/typeomega_quests/assets/typeomega_quests/textures/quests/backgrounds/lv.png"
 hash = "8c7d84062fd1cdd2c1d82762f25fbe342a1e881eaa05486f120ff9ae51ac4763"
 
 [[files]]
-file = "config/openloader/resources/gtia_quests/assets/gtia_quests/textures/quests/backgrounds/mv.png"
+file = "config/openloader/resources/typeomega_quests/assets/typeomega_quests/textures/quests/backgrounds/mv.png"
 hash = "7b24b960cb6762f73cf000e5413d1de5b1f50d27b8e219d9bb0c94ca2ca4733e"
 
 [[files]]
-file = "config/openloader/resources/gtia_quests/assets/gtia_quests/textures/quests/backgrounds/reference.png"
+file = "config/openloader/resources/typeomega_quests/assets/typeomega_quests/textures/quests/backgrounds/reference.png"
 hash = "93571dcddeb9bf25926d16615563d96d3b3d53b507b58581239c48da8490379d"
 
 [[files]]
-file = "config/openloader/resources/gtia_quests/assets/gtia_quests/textures/quests/backgrounds/start.png"
+file = "config/openloader/resources/typeomega_quests/assets/typeomega_quests/textures/quests/backgrounds/start.png"
 hash = "7f9ed4f804d6ffbb05a0673d7a67ba3609fca595f7c35467c67f5a0ffad3de6d"
 
 [[files]]
-file = "config/openloader/resources/gtia_quests/assets/gtia_quests/textures/quests/backgrounds/steam.png"
+file = "config/openloader/resources/typeomega_quests/assets/typeomega_quests/textures/quests/backgrounds/steam.png"
 hash = "4883e75d1ccede728a33f3dee9b307b515a8d01bb242952b6d766c171f8770a6"
 
 [[files]]
-file = "config/openloader/resources/gtia_quests/assets/gtia_quests/textures/quests/backgrounds/welcome.png"
+file = "config/openloader/resources/typeomega_quests/assets/typeomega_quests/textures/quests/backgrounds/welcome.png"
 hash = "6cdee584ce24dc7fc4a1670ba066d0c48a066b33ffe23bba7dd4b051a4796e45"
 
 [[files]]
-file = "config/openloader/resources/gtia_quests/assets/gtia_quests/textures/quests/backgrounds/wireless.png"
+file = "config/openloader/resources/typeomega_quests/assets/typeomega_quests/textures/quests/backgrounds/wireless.png"
 hash = "6cb5660e9e98756e8a018c5ff3be513fe5ecda169b0ebe2e0a3c8ac86a8d15a9"
 
 [[files]]
-file = "config/openloader/resources/gtia_quests/assets/gtia_quests/textures/quests/banners/agriculture.png"
+file = "config/openloader/resources/typeomega_quests/assets/typeomega_quests/textures/quests/banners/agriculture.png"
 hash = "43864a6e3b0c42b1d342ce22df0591ca82b918899abcafbece5150371e6d541f"
 
 [[files]]
-file = "config/openloader/resources/gtia_quests/assets/gtia_quests/textures/quests/banners/bees.png"
+file = "config/openloader/resources/typeomega_quests/assets/typeomega_quests/textures/quests/banners/bees.png"
 hash = "3beed7bf232f696aa58ced29246755e5325ba9ccd1f83f034988a921ae0d718e"
 
 [[files]]
-file = "config/openloader/resources/gtia_quests/assets/gtia_quests/textures/quests/banners/hv.png"
+file = "config/openloader/resources/typeomega_quests/assets/typeomega_quests/textures/quests/banners/hv.png"
 hash = "82a081fdc6097dfd4730eb2e9a4d4d3824d9f2ac7a0add26b0c1ae83b546c77f"
 
 [[files]]
-file = "config/openloader/resources/gtia_quests/assets/gtia_quests/textures/quests/banners/lv.png"
+file = "config/openloader/resources/typeomega_quests/assets/typeomega_quests/textures/quests/banners/lv.png"
 hash = "446a5e87c355f4f8909eb5e6fc71eac2e8fd4b3436bfb8815bb4f048780b5167"
 
 [[files]]
-file = "config/openloader/resources/gtia_quests/assets/gtia_quests/textures/quests/banners/mv.png"
+file = "config/openloader/resources/typeomega_quests/assets/typeomega_quests/textures/quests/banners/mv.png"
 hash = "e6d0eedf96529ff70556dac3a7307ff282966b00a7232981241a469a0ec205e1"
 
 [[files]]
-file = "config/openloader/resources/gtia_quests/assets/gtia_quests/textures/quests/banners/start.png"
+file = "config/openloader/resources/typeomega_quests/assets/typeomega_quests/textures/quests/banners/start.png"
 hash = "9c2bfde0d0c3415fca245b2a3290d701474b4a879d6bb05a1b776f7bc3594035"
 
 [[files]]
-file = "config/openloader/resources/gtia_quests/assets/gtia_quests/textures/quests/banners/steam.png"
+file = "config/openloader/resources/typeomega_quests/assets/typeomega_quests/textures/quests/banners/steam.png"
 hash = "ecbf0e78300612c17de0923d29bf46a2a58a1622fb50c59b913eafeaf7b90020"
 
 [[files]]
-file = "config/openloader/resources/gtia_quests/pack.mcmeta"
-hash = "eb411edb33ad2e71187d3a3838d7d550c79234013152c1a5315745c9bce9281d"
+file = "config/openloader/resources/typeomega_quests/pack.mcmeta"
+hash = "a15f7289997e3f11cf8e3ed0dea4716ffa84554f7ed67b60a24b0511c75849a3"
 
 [[files]]
 file = "config/polymorph-integrations.toml"
@@ -1353,7 +1353,7 @@ hash = "a83232ab09ba35893184caa9a2728df2643e6b5939f8eaf45a133dbc13bd958f"
 
 [[files]]
 file = "restore-backup.ps1"
-hash = "b2ed4db8b4a81a999cad44d27335c24fbb59ad625814c80b1825e3a1717c305f"
+hash = "cdcbb2f5bbda3b6678c9f008a00b65f5cc4e0b551f06a0b369d4af486ebed15a"
 
 [[files]]
 file = "restore-backup.sh"

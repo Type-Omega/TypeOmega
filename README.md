@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="docs/assets/logo.png" width="160" alt="GregTech Infinity Ascension logo" />
+  <img src="docs/assets/logo.png" width="160" alt="Type Omega logo" />
 </p>
 
-# GregTech Infinity Ascension (GTIA)
+# Type Omega
 
-A GregTech modpack for Minecraft 1.20.1 built on **GTCEu Modern**, **[GregTech Nexus Addon (GTNA)](https://github.com/Type-Omega/GregTech-Nexus-Addon)** and **[GTIACore](https://github.com/Type-Omega/TypeOmegaCore)**.
+A GregTech modpack for Minecraft 1.20.1 built on **GTCEu Modern**, **[GregTech Nexus Addon (GTNA)](https://github.com/Type-Omega/GregTech-Nexus-Addon)** and **[TypeOmega Core](https://github.com/Type-Omega/TypeOmegaCore)**.
 
-GTIA is guided GregTech where the factory is the star: Satisfactory-style megafactories, real industrial chemistry and long production lines. You start in Steam, go electric, head to space and keep scaling. Large machines, wireless power and AE2 are part of the main path, not side content. The quest book is the main guide, and it's written with a sense of humour.
+Type Omega is guided GregTech where the factory is the star: Satisfactory-style megafactories, real industrial chemistry and long production lines. You start in Steam, go electric, head to space and keep scaling. Large machines, wireless power and AE2 are part of the main path, not side content. The quest book is the main guide, and it's written with a sense of humour.
 
 > **Status: early development.** Builds are for testers. Start → Steam → LV → MV → HV is playable with the quest book from the first log to the Moon; see the [roadmap](ROADMAP.md) and the [Start → HV plan](docs/START_STEAM_LV_PLAN.md).
 
@@ -96,7 +96,7 @@ Measured on the full pack inside a world (4 GB heap, 2 runs each, `tools/client_
 
 | Path | What it is |
 | --- | --- |
-| `pack.toml`, `index.toml`, `mods/` | The packwiz pack. One `.pw.toml` per CurseForge mod, plus the GTIACore and GTNA jars |
+| `pack.toml`, `index.toml`, `mods/` | The packwiz pack. One `.pw.toml` per CurseForge mod, plus the TypeOmega Core and GTNA jars |
 | `config/`, `defaultconfigs/`, `resourcepacks/` | Shipped with the pack (the quest book is generated into `config/ftbquests`) |
 | `quests-src/` | Quest book sources (TOML) and processing-line flowchart data |
 | `manifest/` | `full.lock.json` (mods with CurseForge ids and SHA-256), `client-only.txt`, recipe/item dumps for the quest checker |
@@ -116,7 +116,7 @@ python3 tools/packwiz_sync.py       # write mods/*.pw.toml, copy the local jars,
 python3 tools/packwiz_sync.py --check
 ```
 
-A mod that a dedicated server can't load goes in `manifest/client-only.txt` (`tools/server_smoke.py` lists them). GTIACore and GTNA are local builds; set `GTIA_JAR` / `GTNA_JAR` if your jars are elsewhere.
+A mod that a dedicated server can't load goes in `manifest/client-only.txt` (`tools/server_smoke.py` lists them). TypeOmega Core and GTNA are local builds; set `GTIA_JAR` / `GTNA_JAR` if your jars are elsewhere.
 
 ### Configs and quests
 
@@ -149,5 +149,5 @@ Playtesting feedback is the most useful thing right now. See [CONTRIBUTING.md](C
 
 - Pack structure, configs, scripts, original textures and translations: **CC BY-NC-SA 4.0** ([LICENSE.txt](LICENSE.txt)).
 - Quest texts: all rights reserved unless stated otherwise.
-- GTIACore code: LGPL-3.0, in its own repository.
+- TypeOmega Core code: LGPL-3.0, in its own repository.
 - Third-party mods keep their own licenses; see [THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md).

@@ -10,23 +10,23 @@
 	quests: [
 		{
 			description: [
-				"{gtia.quest.4ACCC233513F88B0.desc.0}"
+				"{typeomega.quest.4ACCC233513F88B0.desc.0}"
 				""
-				"{gtia.quest.4ACCC233513F88B0.desc.2}"
+				"{typeomega.quest.4ACCC233513F88B0.desc.2}"
 			]
 			icon: "gtceu:terminal"
 			id: "4ACCC233513F88B0"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "{gtia.quest.4ACCC233513F88B0.subtitle}"
+			subtitle: "{typeomega.quest.4ACCC233513F88B0.subtitle}"
 			tasks: [
 				{
 					id: "73D9C230BC4498CF"
-					title: "{gtia.quest.4ACCC233513F88B0.task.73D9C230BC4498CF}"
+					title: "{typeomega.quest.4ACCC233513F88B0.task.73D9C230BC4498CF}"
 					type: "checkmark"
 				}
 			]
-			title: "{gtia.quest.4ACCC233513F88B0.title}"
+			title: "{typeomega.quest.4ACCC233513F88B0.title}"
 			x: -2.5d
 			y: -3.0d
 		}
@@ -35,14 +35,14 @@
 				"164B4BE647B71EEA"
 			]
 			description: [
-				"{gtia.quest.4209FD70FEF1AA25.desc.0}"
+				"{typeomega.quest.4209FD70FEF1AA25.desc.0}"
 			]
 			hide_dependent_lines: true
 			icon: "gtceu:lp_steam_solid_boiler"
 			id: "4209FD70FEF1AA25"
 			shape: "square"
 			size: 1.5d
-			subtitle: "{gtia.quest.4209FD70FEF1AA25.subtitle}"
+			subtitle: "{typeomega.quest.4209FD70FEF1AA25.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -53,7 +53,7 @@
 					type: "item"
 				}
 			]
-			title: "{gtia.quest.4209FD70FEF1AA25.title}"
+			title: "{typeomega.quest.4209FD70FEF1AA25.title}"
 			x: -2.5d
 			y: 4.375d
 		}
@@ -65,7 +65,7 @@
 				"{gtceu.multiblock.coke_oven.description}"
 				"{gtceu.machine.coke_oven.tooltip}"
 				""
-				"{gtia.quest.350037C56156280E.desc.3}"
+				"{typeomega.quest.350037C56156280E.desc.3}"
 			]
 			icon: "gtceu:coke_oven"
 			id: "350037C56156280E"
@@ -80,7 +80,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.350037C56156280E.subtitle}"
+			subtitle: "{typeomega.quest.350037C56156280E.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -101,7 +101,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.77AB442C354725DD.desc.1}"
+				"{typeomega.quest.77AB442C354725DD.desc.1}"
 			]
 			icon: "gtceu:primitive_blast_furnace"
 			id: "77AB442C354725DD"
@@ -116,7 +116,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.77AB442C354725DD.subtitle}"
+			subtitle: "{typeomega.quest.77AB442C354725DD.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -137,7 +137,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.02D6BE21BB8FDB19.desc.1}"
+				"{typeomega.quest.02D6BE21BB8FDB19.desc.1}"
 			]
 			icon: "gtceu:primitive_pump"
 			id: "02D6BE21BB8FDB19"
@@ -152,7 +152,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.02D6BE21BB8FDB19.subtitle}"
+			subtitle: "{typeomega.quest.02D6BE21BB8FDB19.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -175,7 +175,7 @@
 				"{gtceu.multiblock.steam_grinder.description}"
 				"{gtceu.machine.steam_grinder.tooltip}"
 				""
-				"{gtia.quest.395BF5CF5C333585.desc.3}"
+				"{typeomega.quest.395BF5CF5C333585.desc.3}"
 			]
 			icon: "gtceu:steam_grinder"
 			id: "395BF5CF5C333585"
@@ -190,7 +190,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.395BF5CF5C333585.subtitle}"
+			subtitle: "{typeomega.quest.395BF5CF5C333585.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -213,7 +213,7 @@
 				"{gtceu.multiblock.steam_oven.description}"
 				"{gtceu.machine.steam_oven.tooltip}"
 				""
-				"{gtia.quest.6D1E5B8E378D0281.desc.3}"
+				"{typeomega.quest.6D1E5B8E378D0281.desc.3}"
 			]
 			icon: "gtceu:steam_oven"
 			id: "6D1E5B8E378D0281"
@@ -228,7 +228,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.6D1E5B8E378D0281.subtitle}"
+			subtitle: "{typeomega.quest.6D1E5B8E378D0281.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -256,7 +256,7 @@
 				"{gtna.machine.brick_kiln.tooltip.5}"
 				"{gtna.machine.brick_kiln.tooltip.6}"
 				""
-				"{gtia.quest.49BF10BDED8D1D1C.desc.8}"
+				"{typeomega.quest.49BF10BDED8D1D1C.desc.8}"
 			]
 			icon: "gtna:brick_kiln"
 			id: "49BF10BDED8D1D1C"
@@ -271,7 +271,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.49BF10BDED8D1D1C.subtitle}"
+			subtitle: "{typeomega.quest.49BF10BDED8D1D1C.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -301,7 +301,7 @@
 				"{gtna.machine.large_steam_alloy_smelter.tooltip.7}"
 				"{gtna.machine.large_steam_alloy_smelter.tooltip.8}"
 				""
-				"{gtia.quest.1CCB0F2194B44572.desc.10}"
+				"{typeomega.quest.1CCB0F2194B44572.desc.10}"
 			]
 			icon: "gtna:large_steam_alloy_smelter"
 			id: "1CCB0F2194B44572"
@@ -316,7 +316,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.1CCB0F2194B44572.subtitle}"
+			subtitle: "{typeomega.quest.1CCB0F2194B44572.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -346,7 +346,7 @@
 				"{gtna.machine.large_steam_bending.tooltip.7}"
 				"{gtna.machine.large_steam_bending.tooltip.8}"
 				""
-				"{gtia.quest.0BD5E85B595C8B2D.desc.10}"
+				"{typeomega.quest.0BD5E85B595C8B2D.desc.10}"
 			]
 			icon: "gtna:large_steam_bending"
 			id: "0BD5E85B595C8B2D"
@@ -361,7 +361,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.0BD5E85B595C8B2D.subtitle}"
+			subtitle: "{typeomega.quest.0BD5E85B595C8B2D.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -391,7 +391,7 @@
 				"{gtna.machine.large_steam_centrifuge.tooltip.7}"
 				"{gtna.machine.large_steam_centrifuge.tooltip.8}"
 				""
-				"{gtia.quest.025BA64E2C3237E2.desc.10}"
+				"{typeomega.quest.025BA64E2C3237E2.desc.10}"
 			]
 			icon: "gtna:large_steam_centrifuge"
 			id: "025BA64E2C3237E2"
@@ -406,7 +406,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.025BA64E2C3237E2.subtitle}"
+			subtitle: "{typeomega.quest.025BA64E2C3237E2.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -438,7 +438,7 @@
 				"{gtna.machine.large_steam_circuit_assembler.tooltip.9}"
 				"{gtna.machine.large_steam_circuit_assembler.tooltip.10}"
 				""
-				"{gtia.quest.04C4DC3A2A540492.desc.12}"
+				"{typeomega.quest.04C4DC3A2A540492.desc.12}"
 			]
 			icon: "gtna:large_steam_circuit_assembler"
 			id: "04C4DC3A2A540492"
@@ -453,7 +453,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.04C4DC3A2A540492.subtitle}"
+			subtitle: "{typeomega.quest.04C4DC3A2A540492.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -483,7 +483,7 @@
 				"{gtna.machine.large_steam_compressor.tooltip.7}"
 				"{gtna.machine.large_steam_compressor.tooltip.8}"
 				""
-				"{gtia.quest.414B716E9066F854.desc.10}"
+				"{typeomega.quest.414B716E9066F854.desc.10}"
 			]
 			icon: "gtna:large_steam_compressor"
 			id: "414B716E9066F854"
@@ -498,7 +498,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.414B716E9066F854.subtitle}"
+			subtitle: "{typeomega.quest.414B716E9066F854.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -528,7 +528,7 @@
 				"{gtna.machine.large_steam_crusher.tooltip.7}"
 				"{gtna.machine.large_steam_crusher.tooltip.8}"
 				""
-				"{gtia.quest.2B0DC327FF5ABE91.desc.10}"
+				"{typeomega.quest.2B0DC327FF5ABE91.desc.10}"
 			]
 			icon: "gtna:large_steam_crusher"
 			id: "2B0DC327FF5ABE91"
@@ -543,7 +543,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.2B0DC327FF5ABE91.subtitle}"
+			subtitle: "{typeomega.quest.2B0DC327FF5ABE91.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -573,7 +573,7 @@
 				"{gtna.machine.large_steam_cutting.tooltip.7}"
 				"{gtna.machine.large_steam_cutting.tooltip.8}"
 				""
-				"{gtia.quest.0E5045C128395CB2.desc.10}"
+				"{typeomega.quest.0E5045C128395CB2.desc.10}"
 			]
 			icon: "gtna:large_steam_cutting"
 			id: "0E5045C128395CB2"
@@ -588,7 +588,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.0E5045C128395CB2.subtitle}"
+			subtitle: "{typeomega.quest.0E5045C128395CB2.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -618,7 +618,7 @@
 				"{gtna.machine.large_steam_extractor.tooltip.7}"
 				"{gtna.machine.large_steam_extractor.tooltip.8}"
 				""
-				"{gtia.quest.39BC3069F6D48140.desc.10}"
+				"{typeomega.quest.39BC3069F6D48140.desc.10}"
 			]
 			icon: "gtna:large_steam_extractor"
 			id: "39BC3069F6D48140"
@@ -633,7 +633,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.39BC3069F6D48140.subtitle}"
+			subtitle: "{typeomega.quest.39BC3069F6D48140.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -663,7 +663,7 @@
 				"{gtna.machine.large_steam_forming_press.tooltip.7}"
 				"{gtna.machine.large_steam_forming_press.tooltip.8}"
 				""
-				"{gtia.quest.57A1FF9BCC6638BA.desc.10}"
+				"{typeomega.quest.57A1FF9BCC6638BA.desc.10}"
 			]
 			icon: "gtna:large_steam_forming_press"
 			id: "57A1FF9BCC6638BA"
@@ -678,7 +678,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.57A1FF9BCC6638BA.subtitle}"
+			subtitle: "{typeomega.quest.57A1FF9BCC6638BA.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -708,7 +708,7 @@
 				"{gtna.machine.large_steam_furnace.tooltip.7}"
 				"{gtna.machine.large_steam_furnace.tooltip.8}"
 				""
-				"{gtia.quest.65B5BCF7695A3C95.desc.10}"
+				"{typeomega.quest.65B5BCF7695A3C95.desc.10}"
 			]
 			icon: "gtna:large_steam_furnace"
 			id: "65B5BCF7695A3C95"
@@ -723,7 +723,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.65B5BCF7695A3C95.subtitle}"
+			subtitle: "{typeomega.quest.65B5BCF7695A3C95.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -753,7 +753,7 @@
 				"{gtna.machine.large_steam_hammer.tooltip.7}"
 				"{gtna.machine.large_steam_hammer.tooltip.8}"
 				""
-				"{gtia.quest.7674C0C1177D323F.desc.10}"
+				"{typeomega.quest.7674C0C1177D323F.desc.10}"
 			]
 			icon: "gtna:large_steam_hammer"
 			id: "7674C0C1177D323F"
@@ -768,7 +768,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.7674C0C1177D323F.subtitle}"
+			subtitle: "{typeomega.quest.7674C0C1177D323F.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -798,7 +798,7 @@
 				"{gtna.machine.large_steam_lathe.tooltip.7}"
 				"{gtna.machine.large_steam_lathe.tooltip.8}"
 				""
-				"{gtia.quest.11CFF50BC9AFB325.desc.10}"
+				"{typeomega.quest.11CFF50BC9AFB325.desc.10}"
 			]
 			icon: "gtna:large_steam_lathe"
 			id: "11CFF50BC9AFB325"
@@ -813,7 +813,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.11CFF50BC9AFB325.subtitle}"
+			subtitle: "{typeomega.quest.11CFF50BC9AFB325.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -843,7 +843,7 @@
 				"{gtna.machine.large_steam_mixer.tooltip.7}"
 				"{gtna.machine.large_steam_mixer.tooltip.8}"
 				""
-				"{gtia.quest.4780E7F1728AD222.desc.10}"
+				"{typeomega.quest.4780E7F1728AD222.desc.10}"
 			]
 			icon: "gtna:large_steam_mixer"
 			id: "4780E7F1728AD222"
@@ -858,7 +858,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.4780E7F1728AD222.subtitle}"
+			subtitle: "{typeomega.quest.4780E7F1728AD222.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -888,7 +888,7 @@
 				"{gtna.machine.large_steam_ore_washer.tooltip.7}"
 				"{gtna.machine.large_steam_ore_washer.tooltip.8}"
 				""
-				"{gtia.quest.7E37003868095060.desc.10}"
+				"{typeomega.quest.7E37003868095060.desc.10}"
 			]
 			icon: "gtna:large_steam_ore_washer"
 			id: "7E37003868095060"
@@ -903,7 +903,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.7E37003868095060.subtitle}"
+			subtitle: "{typeomega.quest.7E37003868095060.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -933,7 +933,7 @@
 				"{gtna.machine.large_steam_sifter.tooltip.7}"
 				"{gtna.machine.large_steam_sifter.tooltip.8}"
 				""
-				"{gtia.quest.429657350070DA54.desc.10}"
+				"{typeomega.quest.429657350070DA54.desc.10}"
 			]
 			icon: "gtna:large_steam_sifter"
 			id: "429657350070DA54"
@@ -948,7 +948,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.429657350070DA54.subtitle}"
+			subtitle: "{typeomega.quest.429657350070DA54.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -978,7 +978,7 @@
 				"{gtna.machine.large_steam_solar_boiler.tooltip.7}"
 				"{gtna.machine.large_steam_solar_boiler.tooltip.8}"
 				""
-				"{gtia.quest.3192AFBDD01605FB.desc.10}"
+				"{typeomega.quest.3192AFBDD01605FB.desc.10}"
 			]
 			icon: "gtna:large_steam_solar_boiler"
 			id: "3192AFBDD01605FB"
@@ -993,7 +993,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.3192AFBDD01605FB.subtitle}"
+			subtitle: "{typeomega.quest.3192AFBDD01605FB.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -1023,7 +1023,7 @@
 				"{gtna.machine.large_steam_thermal_centrifuge.tooltip.7}"
 				"{gtna.machine.large_steam_thermal_centrifuge.tooltip.8}"
 				""
-				"{gtia.quest.739B32FE1263AAA9.desc.10}"
+				"{typeomega.quest.739B32FE1263AAA9.desc.10}"
 			]
 			icon: "gtna:large_steam_thermal_centrifuge"
 			id: "739B32FE1263AAA9"
@@ -1038,7 +1038,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.739B32FE1263AAA9.subtitle}"
+			subtitle: "{typeomega.quest.739B32FE1263AAA9.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -1068,7 +1068,7 @@
 				"{gtna.machine.large_steam_wiremill.tooltip.7}"
 				"{gtna.machine.large_steam_wiremill.tooltip.8}"
 				""
-				"{gtia.quest.6BA5FF4312F8D131.desc.10}"
+				"{typeomega.quest.6BA5FF4312F8D131.desc.10}"
 			]
 			icon: "gtna:large_steam_wiremill"
 			id: "6BA5FF4312F8D131"
@@ -1083,7 +1083,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.6BA5FF4312F8D131.subtitle}"
+			subtitle: "{typeomega.quest.6BA5FF4312F8D131.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -1113,7 +1113,7 @@
 				"{gtna.machine.primitive_stone_furnace.tooltip.7}"
 				"{gtna.machine.primitive_stone_furnace.tooltip.8}"
 				""
-				"{gtia.quest.1FA42C055EB1D5D9.desc.10}"
+				"{typeomega.quest.1FA42C055EB1D5D9.desc.10}"
 			]
 			icon: "gtna:primitive_stone_furnace"
 			id: "1FA42C055EB1D5D9"
@@ -1128,7 +1128,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.1FA42C055EB1D5D9.subtitle}"
+			subtitle: "{typeomega.quest.1FA42C055EB1D5D9.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -1159,7 +1159,7 @@
 				"{gtna.machine.steam_cactus_wonder.tooltip.8}"
 				"{gtna.machine.steam_cactus_wonder.tooltip.9}"
 				""
-				"{gtia.quest.459B4B94349A4DB0.desc.11}"
+				"{typeomega.quest.459B4B94349A4DB0.desc.11}"
 			]
 			icon: "gtna:steam_cactus_wonder"
 			id: "459B4B94349A4DB0"
@@ -1174,7 +1174,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.459B4B94349A4DB0.subtitle}"
+			subtitle: "{typeomega.quest.459B4B94349A4DB0.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -1203,7 +1203,7 @@
 				"{gtna.machine.steam_cobbler.tooltip.6}"
 				"{gtna.machine.steam_cobbler.tooltip.7}"
 				""
-				"{gtia.quest.093CA562C2B7DB7F.desc.9}"
+				"{typeomega.quest.093CA562C2B7DB7F.desc.9}"
 			]
 			icon: "gtna:steam_cobbler"
 			id: "093CA562C2B7DB7F"
@@ -1218,7 +1218,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.093CA562C2B7DB7F.subtitle}"
+			subtitle: "{typeomega.quest.093CA562C2B7DB7F.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -1248,7 +1248,7 @@
 				"{gtna.machine.steam_cracking.tooltip.7}"
 				"{gtna.machine.steam_cracking.tooltip.8}"
 				""
-				"{gtia.quest.3F4FDA904A09220B.desc.10}"
+				"{typeomega.quest.3F4FDA904A09220B.desc.10}"
 			]
 			icon: "gtna:steam_cracking"
 			id: "3F4FDA904A09220B"
@@ -1263,7 +1263,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.3F4FDA904A09220B.subtitle}"
+			subtitle: "{typeomega.quest.3F4FDA904A09220B.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -1292,7 +1292,7 @@
 				"{gtna.machine.steam_manufacturer.tooltip.6}"
 				"{gtna.machine.steam_manufacturer.tooltip.7}"
 				""
-				"{gtia.quest.71D52B3D85693551.desc.9}"
+				"{typeomega.quest.71D52B3D85693551.desc.9}"
 			]
 			icon: "gtna:steam_manufacturer"
 			id: "71D52B3D85693551"
@@ -1307,7 +1307,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.71D52B3D85693551.subtitle}"
+			subtitle: "{typeomega.quest.71D52B3D85693551.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -1336,7 +1336,7 @@
 				"{gtna.machine.steam_woodcutter.tooltip.6}"
 				"{gtna.machine.steam_woodcutter.tooltip.7}"
 				""
-				"{gtia.quest.6EDE3DFE36A242ED.desc.9}"
+				"{typeomega.quest.6EDE3DFE36A242ED.desc.9}"
 			]
 			icon: "gtna:steam_woodcutter"
 			id: "6EDE3DFE36A242ED"
@@ -1351,7 +1351,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.6EDE3DFE36A242ED.subtitle}"
+			subtitle: "{typeomega.quest.6EDE3DFE36A242ED.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -1372,7 +1372,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.7049BE3A56117B77.desc.1}"
+				"{typeomega.quest.7049BE3A56117B77.desc.1}"
 			]
 			icon: "gtceu:charcoal_pile_igniter"
 			id: "7049BE3A56117B77"
@@ -1387,7 +1387,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.7049BE3A56117B77.subtitle}"
+			subtitle: "{typeomega.quest.7049BE3A56117B77.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -1419,7 +1419,7 @@
 				"{gtna.machine.leap_forward_one_blast_furnace.tooltip.9}"
 				"{gtna.machine.leap_forward_one_blast_furnace.tooltip.10}"
 				""
-				"{gtia.quest.4F61D70BEB285EE5.desc.12}"
+				"{typeomega.quest.4F61D70BEB285EE5.desc.12}"
 			]
 			icon: "gtna:leap_forward_one_blast_furnace"
 			id: "4F61D70BEB285EE5"
@@ -1434,7 +1434,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.4F61D70BEB285EE5.subtitle}"
+			subtitle: "{typeomega.quest.4F61D70BEB285EE5.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -1463,7 +1463,7 @@
 				"{gtna.machine.stone_superheater.tooltip.6}"
 				"{gtna.machine.stone_superheater.tooltip.7}"
 				""
-				"{gtia.quest.6203734A739F24FB.desc.9}"
+				"{typeomega.quest.6203734A739F24FB.desc.9}"
 			]
 			icon: "gtna:stone_superheater"
 			id: "6203734A739F24FB"
@@ -1478,7 +1478,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.6203734A739F24FB.subtitle}"
+			subtitle: "{typeomega.quest.6203734A739F24FB.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -1499,7 +1499,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.6D26027E30BCF4DF.desc.1}"
+				"{typeomega.quest.6D26027E30BCF4DF.desc.1}"
 			]
 			icon: "gtceu:large_maceration_tower"
 			id: "6D26027E30BCF4DF"
@@ -1514,7 +1514,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.6D26027E30BCF4DF.subtitle}"
+			subtitle: "{typeomega.quest.6D26027E30BCF4DF.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -1535,7 +1535,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.0DE2FF1B48B4B38F.desc.1}"
+				"{typeomega.quest.0DE2FF1B48B4B38F.desc.1}"
 			]
 			icon: "gtceu:large_extractor"
 			id: "0DE2FF1B48B4B38F"
@@ -1550,7 +1550,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.0DE2FF1B48B4B38F.subtitle}"
+			subtitle: "{typeomega.quest.0DE2FF1B48B4B38F.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -1580,7 +1580,7 @@
 				"{gtna.machine.hyper_pressure_reactor.tooltip.7}"
 				"{gtna.machine.hyper_pressure_reactor.tooltip.8}"
 				""
-				"{gtia.quest.78B1E175E6AF5C9C.desc.10}"
+				"{typeomega.quest.78B1E175E6AF5C9C.desc.10}"
 			]
 			icon: "gtna:hyper_pressure_reactor"
 			id: "78B1E175E6AF5C9C"
@@ -1595,7 +1595,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.78B1E175E6AF5C9C.subtitle}"
+			subtitle: "{typeomega.quest.78B1E175E6AF5C9C.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -1625,7 +1625,7 @@
 				"{gtna.machine.superconducting_magnetic_presser.tooltip.7}"
 				"{gtna.machine.superconducting_magnetic_presser.tooltip.8}"
 				""
-				"{gtia.quest.2C782D53D4A647DA.desc.10}"
+				"{typeomega.quest.2C782D53D4A647DA.desc.10}"
 			]
 			icon: "gtna:superconducting_magnetic_presser"
 			id: "2C782D53D4A647DA"
@@ -1640,7 +1640,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.2C782D53D4A647DA.subtitle}"
+			subtitle: "{typeomega.quest.2C782D53D4A647DA.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -1661,7 +1661,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.7CBBEA2AFD18C156.desc.1}"
+				"{typeomega.quest.7CBBEA2AFD18C156.desc.1}"
 			]
 			icon: "gtceu:bronze_multiblock_tank"
 			id: "7CBBEA2AFD18C156"
@@ -1676,7 +1676,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.7CBBEA2AFD18C156.subtitle}"
+			subtitle: "{typeomega.quest.7CBBEA2AFD18C156.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -1697,7 +1697,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.5E0FCFC9593C82F7.desc.1}"
+				"{typeomega.quest.5E0FCFC9593C82F7.desc.1}"
 			]
 			icon: "gtceu:steel_multiblock_tank"
 			id: "5E0FCFC9593C82F7"
@@ -1712,7 +1712,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.5E0FCFC9593C82F7.subtitle}"
+			subtitle: "{typeomega.quest.5E0FCFC9593C82F7.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -1733,7 +1733,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.7F6E2860AA8D7694.desc.1}"
+				"{typeomega.quest.7F6E2860AA8D7694.desc.1}"
 			]
 			icon: "gtceu:wooden_multiblock_tank"
 			id: "7F6E2860AA8D7694"
@@ -1748,7 +1748,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.7F6E2860AA8D7694.subtitle}"
+			subtitle: "{typeomega.quest.7F6E2860AA8D7694.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -1778,7 +1778,7 @@
 				"{gtna.machine.duration_tester.tooltip.7}"
 				"{gtna.machine.duration_tester.tooltip.8}"
 				""
-				"{gtia.quest.64E2713F4BD1CA19.desc.10}"
+				"{typeomega.quest.64E2713F4BD1CA19.desc.10}"
 			]
 			icon: "gtna:duration_tester"
 			id: "64E2713F4BD1CA19"
@@ -1793,7 +1793,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.64E2713F4BD1CA19.subtitle}"
+			subtitle: "{typeomega.quest.64E2713F4BD1CA19.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -1824,7 +1824,7 @@
 				"{gtna.machine.thermal_power_pump.tooltip.8}"
 				"{gtna.machine.thermal_power_pump.tooltip.9}"
 				""
-				"{gtia.quest.3B06C43385FB73D9.desc.11}"
+				"{typeomega.quest.3B06C43385FB73D9.desc.11}"
 			]
 			icon: "gtna:thermal_power_pump"
 			id: "3B06C43385FB73D9"
@@ -1839,7 +1839,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.3B06C43385FB73D9.subtitle}"
+			subtitle: "{typeomega.quest.3B06C43385FB73D9.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -1860,14 +1860,14 @@
 				"4209FD70FEF1AA25"
 			]
 			description: [
-				"{gtia.quest.12109EC3AFEE15F3.desc.0}"
+				"{typeomega.quest.12109EC3AFEE15F3.desc.0}"
 			]
 			hide_dependent_lines: true
 			icon: "gtceu:lv_machine_hull"
 			id: "12109EC3AFEE15F3"
 			shape: "square"
 			size: 1.5d
-			subtitle: "{gtia.quest.12109EC3AFEE15F3.subtitle}"
+			subtitle: "{typeomega.quest.12109EC3AFEE15F3.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -1878,7 +1878,7 @@
 					type: "item"
 				}
 			]
-			title: "{gtia.quest.12109EC3AFEE15F3.title}"
+			title: "{typeomega.quest.12109EC3AFEE15F3.title}"
 			x: -2.5d
 			y: 14.25d
 		}
@@ -1888,7 +1888,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.5273DB956E3F3720.desc.1}"
+				"{typeomega.quest.5273DB956E3F3720.desc.1}"
 			]
 			icon: "gtceu:bronze_large_boiler"
 			id: "5273DB956E3F3720"
@@ -1903,7 +1903,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.5273DB956E3F3720.subtitle}"
+			subtitle: "{typeomega.quest.5273DB956E3F3720.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -1933,7 +1933,7 @@
 				"{gtna.machine.dimensionally_transcendent_steam_oven.tooltip.7}"
 				"{gtna.machine.dimensionally_transcendent_steam_oven.tooltip.8}"
 				""
-				"{gtia.quest.4E4E0C746B413E7C.desc.10}"
+				"{typeomega.quest.4E4E0C746B413E7C.desc.10}"
 			]
 			icon: "gtna:dimensionally_transcendent_steam_oven"
 			id: "4E4E0C746B413E7C"
@@ -1948,7 +1948,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.4E4E0C746B413E7C.subtitle}"
+			subtitle: "{typeomega.quest.4E4E0C746B413E7C.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -1980,7 +1980,7 @@
 				"{gtna.machine.infernal_coke_oven.tooltip.9}"
 				"{gtna.machine.infernal_coke_oven.tooltip.10}"
 				""
-				"{gtia.quest.6A793A317538935E.desc.12}"
+				"{typeomega.quest.6A793A317538935E.desc.12}"
 			]
 			icon: "gtna:infernal_coke_oven"
 			id: "6A793A317538935E"
@@ -1995,7 +1995,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.6A793A317538935E.subtitle}"
+			subtitle: "{typeomega.quest.6A793A317538935E.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -2025,7 +2025,7 @@
 				"{gtna.machine.large_steam_storage_tank.tooltip.7}"
 				"{gtna.machine.large_steam_storage_tank.tooltip.8}"
 				""
-				"{gtia.quest.13F0BCC345A2C672.desc.10}"
+				"{typeomega.quest.13F0BCC345A2C672.desc.10}"
 			]
 			icon: "gtna:large_steam_storage_tank"
 			id: "13F0BCC345A2C672"
@@ -2040,7 +2040,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.13F0BCC345A2C672.subtitle}"
+			subtitle: "{typeomega.quest.13F0BCC345A2C672.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -2069,7 +2069,7 @@
 				"{gtna.machine.primitive_distillation_tower.tooltip.6}"
 				"{gtna.machine.primitive_distillation_tower.tooltip.7}"
 				""
-				"{gtia.quest.0CBA6815D87FB858.desc.9}"
+				"{typeomega.quest.0CBA6815D87FB858.desc.9}"
 			]
 			icon: "gtna:primitive_distillation_tower"
 			id: "0CBA6815D87FB858"
@@ -2084,7 +2084,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.0CBA6815D87FB858.subtitle}"
+			subtitle: "{typeomega.quest.0CBA6815D87FB858.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -2115,7 +2115,7 @@
 				"{gtna.machine.steam_elevator.tooltip.8}"
 				"{gtna.machine.steam_elevator.tooltip.9}"
 				""
-				"{gtia.quest.0302B169A38A2F3A.desc.11}"
+				"{typeomega.quest.0302B169A38A2F3A.desc.11}"
 			]
 			icon: "gtna:steam_elevator"
 			id: "0302B169A38A2F3A"
@@ -2130,7 +2130,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.0302B169A38A2F3A.subtitle}"
+			subtitle: "{typeomega.quest.0302B169A38A2F3A.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -2161,7 +2161,7 @@
 				"{gtna.machine.steam_elevator_apiary_module.tooltip.8}"
 				"{gtna.machine.steam_elevator_apiary_module.tooltip.9}"
 				""
-				"{gtia.quest.677597CAB252913A.desc.11}"
+				"{typeomega.quest.677597CAB252913A.desc.11}"
 			]
 			icon: "gtna:steam_elevator_apiary_module"
 			id: "677597CAB252913A"
@@ -2176,7 +2176,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.677597CAB252913A.subtitle}"
+			subtitle: "{typeomega.quest.677597CAB252913A.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -2207,7 +2207,7 @@
 				"{gtna.machine.steam_elevator_beacon_module_i.tooltip.8}"
 				"{gtna.machine.steam_elevator_beacon_module_i.tooltip.9}"
 				""
-				"{gtia.quest.07BF7D841E432934.desc.11}"
+				"{typeomega.quest.07BF7D841E432934.desc.11}"
 			]
 			icon: "gtna:steam_elevator_beacon_module_i"
 			id: "07BF7D841E432934"
@@ -2222,7 +2222,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.07BF7D841E432934.subtitle}"
+			subtitle: "{typeomega.quest.07BF7D841E432934.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -2253,7 +2253,7 @@
 				"{gtna.machine.steam_elevator_beacon_module_ii.tooltip.8}"
 				"{gtna.machine.steam_elevator_beacon_module_ii.tooltip.9}"
 				""
-				"{gtia.quest.472082FC9733F34C.desc.11}"
+				"{typeomega.quest.472082FC9733F34C.desc.11}"
 			]
 			icon: "gtna:steam_elevator_beacon_module_ii"
 			id: "472082FC9733F34C"
@@ -2268,7 +2268,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.472082FC9733F34C.subtitle}"
+			subtitle: "{typeomega.quest.472082FC9733F34C.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -2298,7 +2298,7 @@
 				"{gtna.machine.steam_elevator_entity_crusher_module_i.tooltip.7}"
 				"{gtna.machine.steam_elevator_entity_crusher_module_i.tooltip.8}"
 				""
-				"{gtia.quest.4BA1153FE3B76DF1.desc.10}"
+				"{typeomega.quest.4BA1153FE3B76DF1.desc.10}"
 			]
 			icon: "gtna:steam_elevator_entity_crusher_module_i"
 			id: "4BA1153FE3B76DF1"
@@ -2313,7 +2313,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.4BA1153FE3B76DF1.subtitle}"
+			subtitle: "{typeomega.quest.4BA1153FE3B76DF1.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -2344,7 +2344,7 @@
 				"{gtna.machine.steam_elevator_greenhouse_module.tooltip.8}"
 				"{gtna.machine.steam_elevator_greenhouse_module.tooltip.9}"
 				""
-				"{gtia.quest.2947F1629D1DE0C2.desc.11}"
+				"{typeomega.quest.2947F1629D1DE0C2.desc.11}"
 			]
 			icon: "gtna:steam_elevator_greenhouse_module"
 			id: "2947F1629D1DE0C2"
@@ -2359,7 +2359,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.2947F1629D1DE0C2.subtitle}"
+			subtitle: "{typeomega.quest.2947F1629D1DE0C2.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -2389,7 +2389,7 @@
 				"{gtna.machine.steam_elevator_monster_repellent_module_i.tooltip.7}"
 				"{gtna.machine.steam_elevator_monster_repellent_module_i.tooltip.8}"
 				""
-				"{gtia.quest.6E14AF6259F65150.desc.10}"
+				"{typeomega.quest.6E14AF6259F65150.desc.10}"
 			]
 			icon: "gtna:steam_elevator_monster_repellent_module_i"
 			id: "6E14AF6259F65150"
@@ -2404,7 +2404,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.6E14AF6259F65150.subtitle}"
+			subtitle: "{typeomega.quest.6E14AF6259F65150.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -2434,7 +2434,7 @@
 				"{gtna.machine.steam_elevator_monster_repellent_module_ii.tooltip.7}"
 				"{gtna.machine.steam_elevator_monster_repellent_module_ii.tooltip.8}"
 				""
-				"{gtia.quest.69FA8F04A0630ECB.desc.10}"
+				"{typeomega.quest.69FA8F04A0630ECB.desc.10}"
 			]
 			icon: "gtna:steam_elevator_monster_repellent_module_ii"
 			id: "69FA8F04A0630ECB"
@@ -2449,7 +2449,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.69FA8F04A0630ECB.subtitle}"
+			subtitle: "{typeomega.quest.69FA8F04A0630ECB.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -2479,7 +2479,7 @@
 				"{gtna.machine.steam_elevator_oil_drill_module_i.tooltip.7}"
 				"{gtna.machine.steam_elevator_oil_drill_module_i.tooltip.8}"
 				""
-				"{gtia.quest.539ABDF9AF063513.desc.10}"
+				"{typeomega.quest.539ABDF9AF063513.desc.10}"
 			]
 			icon: "gtna:steam_elevator_oil_drill_module_i"
 			id: "539ABDF9AF063513"
@@ -2494,7 +2494,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.539ABDF9AF063513.subtitle}"
+			subtitle: "{typeomega.quest.539ABDF9AF063513.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -2526,7 +2526,7 @@
 				"{gtna.machine.steam_elevator_ore_processor_module.tooltip.9}"
 				"{gtna.machine.steam_elevator_ore_processor_module.tooltip.10}"
 				""
-				"{gtia.quest.00E5434FD17E10BE.desc.12}"
+				"{typeomega.quest.00E5434FD17E10BE.desc.12}"
 			]
 			icon: "gtna:steam_elevator_ore_processor_module"
 			id: "00E5434FD17E10BE"
@@ -2541,7 +2541,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.00E5434FD17E10BE.subtitle}"
+			subtitle: "{typeomega.quest.00E5434FD17E10BE.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -2572,7 +2572,7 @@
 				"{gtna.machine.steam_elevator_weather_module_i.tooltip.8}"
 				"{gtna.machine.steam_elevator_weather_module_i.tooltip.9}"
 				""
-				"{gtia.quest.4F44CBB7992DC151.desc.11}"
+				"{typeomega.quest.4F44CBB7992DC151.desc.11}"
 			]
 			icon: "gtna:steam_elevator_weather_module_i"
 			id: "4F44CBB7992DC151"
@@ -2587,7 +2587,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.4F44CBB7992DC151.subtitle}"
+			subtitle: "{typeomega.quest.4F44CBB7992DC151.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -2616,7 +2616,7 @@
 				"{gtna.machine.steam_item_vault.tooltip.6}"
 				"{gtna.machine.steam_item_vault.tooltip.7}"
 				""
-				"{gtia.quest.47770B8C78305F76.desc.9}"
+				"{typeomega.quest.47770B8C78305F76.desc.9}"
 			]
 			icon: "gtna:steam_item_vault"
 			id: "47770B8C78305F76"
@@ -2631,7 +2631,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.47770B8C78305F76.subtitle}"
+			subtitle: "{typeomega.quest.47770B8C78305F76.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -2657,7 +2657,7 @@
 				"{gtceu.machine.electric_blast_furnace.tooltip.1}"
 				"{gtceu.machine.electric_blast_furnace.tooltip.2}"
 				""
-				"{gtia.quest.43FD52D6D8F0E287.desc.6}"
+				"{typeomega.quest.43FD52D6D8F0E287.desc.6}"
 			]
 			icon: "gtceu:electric_blast_furnace"
 			id: "43FD52D6D8F0E287"
@@ -2672,7 +2672,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.43FD52D6D8F0E287.subtitle}"
+			subtitle: "{typeomega.quest.43FD52D6D8F0E287.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -2701,7 +2701,7 @@
 				"{gtna.machine.dimensionally_transcendent_dirt_forge.tooltip.6}"
 				"{gtna.machine.dimensionally_transcendent_dirt_forge.tooltip.7}"
 				""
-				"{gtia.quest.72ACF73851F95519.desc.9}"
+				"{typeomega.quest.72ACF73851F95519.desc.9}"
 			]
 			icon: "gtna:dimensionally_transcendent_dirt_forge"
 			id: "72ACF73851F95519"
@@ -2716,7 +2716,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.72ACF73851F95519.subtitle}"
+			subtitle: "{typeomega.quest.72ACF73851F95519.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -2745,7 +2745,7 @@
 				"{gtna.machine.liquefaction_furnace.tooltip.6}"
 				"{gtna.machine.liquefaction_furnace.tooltip.7}"
 				""
-				"{gtia.quest.09A3D01C979D9128.desc.9}"
+				"{typeomega.quest.09A3D01C979D9128.desc.9}"
 			]
 			icon: "gtna:liquefaction_furnace"
 			id: "09A3D01C979D9128"
@@ -2760,7 +2760,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.09A3D01C979D9128.subtitle}"
+			subtitle: "{typeomega.quest.09A3D01C979D9128.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -2785,7 +2785,7 @@
 				"{typeomega.machine.fragment_collector.tooltip.main.2}"
 				"{typeomega.machine.fragment_collector.tooltip.main.3}"
 				""
-				"{gtia.quest.55A78243F8B3CE7A.desc.5}"
+				"{typeomega.quest.55A78243F8B3CE7A.desc.5}"
 			]
 			icon: "typeomega:fragment_collector"
 			id: "55A78243F8B3CE7A"
@@ -2800,7 +2800,7 @@
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.55A78243F8B3CE7A.subtitle}"
+			subtitle: "{typeomega.quest.55A78243F8B3CE7A.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -2833,7 +2833,7 @@
 				"{gtna.machine.generator_array.tooltip.10}"
 				"{gtna.machine.generator_array.tooltip.11}"
 				""
-				"{gtia.quest.701C083057DE67C4.desc.13}"
+				"{typeomega.quest.701C083057DE67C4.desc.13}"
 			]
 			icon: "gtna:generator_array"
 			id: "701C083057DE67C4"
@@ -2848,7 +2848,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.701C083057DE67C4.subtitle}"
+			subtitle: "{typeomega.quest.701C083057DE67C4.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -2881,7 +2881,7 @@
 				"{gtna.machine.eye_of_wood.tooltip.10}"
 				"{gtna.machine.eye_of_wood.tooltip.11}"
 				""
-				"{gtia.quest.35910353CDBC6178.desc.13}"
+				"{typeomega.quest.35910353CDBC6178.desc.13}"
 			]
 			icon: "gtna:eye_of_wood"
 			id: "35910353CDBC6178"
@@ -2896,7 +2896,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.35910353CDBC6178.subtitle}"
+			subtitle: "{typeomega.quest.35910353CDBC6178.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -2927,7 +2927,7 @@
 				"{gtna.machine.industrial_slaughterhouse.tooltip.8}"
 				"{gtna.machine.industrial_slaughterhouse.tooltip.9}"
 				""
-				"{gtia.quest.53194400A6A45F50.desc.11}"
+				"{typeomega.quest.53194400A6A45F50.desc.11}"
 			]
 			icon: "gtna:industrial_slaughterhouse"
 			id: "53194400A6A45F50"
@@ -2942,7 +2942,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.53194400A6A45F50.subtitle}"
+			subtitle: "{typeomega.quest.53194400A6A45F50.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -2974,7 +2974,7 @@
 				"{gtna.machine.nexus_flux_matrix.tooltip.9}"
 				"{gtna.machine.nexus_flux_matrix.tooltip.10}"
 				""
-				"{gtia.quest.37DEBE3BB0E8810B.desc.12}"
+				"{typeomega.quest.37DEBE3BB0E8810B.desc.12}"
 			]
 			icon: "gtna:nexus_flux_matrix"
 			id: "37DEBE3BB0E8810B"
@@ -2989,7 +2989,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.37DEBE3BB0E8810B.subtitle}"
+			subtitle: "{typeomega.quest.37DEBE3BB0E8810B.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -3010,14 +3010,14 @@
 				"12109EC3AFEE15F3"
 			]
 			description: [
-				"{gtia.quest.0FB6866EFDE3AE94.desc.0}"
+				"{typeomega.quest.0FB6866EFDE3AE94.desc.0}"
 			]
 			hide_dependent_lines: true
 			icon: "gtceu:mv_machine_hull"
 			id: "0FB6866EFDE3AE94"
 			shape: "square"
 			size: 1.5d
-			subtitle: "{gtia.quest.0FB6866EFDE3AE94.subtitle}"
+			subtitle: "{typeomega.quest.0FB6866EFDE3AE94.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -3028,7 +3028,7 @@
 					type: "item"
 				}
 			]
-			title: "{gtia.quest.0FB6866EFDE3AE94.title}"
+			title: "{typeomega.quest.0FB6866EFDE3AE94.title}"
 			x: -2.5d
 			y: 21.0d
 		}
@@ -3047,7 +3047,7 @@
 				"{gtna.machine.large_steam_bath.tooltip.7}"
 				"{gtna.machine.large_steam_bath.tooltip.8}"
 				""
-				"{gtia.quest.4F405260D0E0F2B6.desc.10}"
+				"{typeomega.quest.4F405260D0E0F2B6.desc.10}"
 			]
 			icon: "gtna:large_steam_bath"
 			id: "4F405260D0E0F2B6"
@@ -3062,7 +3062,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.4F405260D0E0F2B6.subtitle}"
+			subtitle: "{typeomega.quest.4F405260D0E0F2B6.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -3092,7 +3092,7 @@
 				"{gtna.machine.large_steam_extruder.tooltip.7}"
 				"{gtna.machine.large_steam_extruder.tooltip.8}"
 				""
-				"{gtia.quest.7178BBB49F515285.desc.10}"
+				"{typeomega.quest.7178BBB49F515285.desc.10}"
 			]
 			icon: "gtna:large_steam_extruder"
 			id: "7178BBB49F515285"
@@ -3107,7 +3107,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.7178BBB49F515285.subtitle}"
+			subtitle: "{typeomega.quest.7178BBB49F515285.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -3138,7 +3138,7 @@
 				"{gtna.machine.steam_elevator_beacon_module_iii.tooltip.8}"
 				"{gtna.machine.steam_elevator_beacon_module_iii.tooltip.9}"
 				""
-				"{gtia.quest.10DD126E03676F87.desc.11}"
+				"{typeomega.quest.10DD126E03676F87.desc.11}"
 			]
 			icon: "gtna:steam_elevator_beacon_module_iii"
 			id: "10DD126E03676F87"
@@ -3153,7 +3153,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.10DD126E03676F87.subtitle}"
+			subtitle: "{typeomega.quest.10DD126E03676F87.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -3184,7 +3184,7 @@
 				"{gtna.machine.steam_elevator_bee_breeding_module.tooltip.8}"
 				"{gtna.machine.steam_elevator_bee_breeding_module.tooltip.9}"
 				""
-				"{gtia.quest.60D8748CE89683B4.desc.11}"
+				"{typeomega.quest.60D8748CE89683B4.desc.11}"
 			]
 			icon: "gtna:steam_elevator_bee_breeding_module"
 			id: "60D8748CE89683B4"
@@ -3199,7 +3199,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.60D8748CE89683B4.subtitle}"
+			subtitle: "{typeomega.quest.60D8748CE89683B4.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -3229,7 +3229,7 @@
 				"{gtna.machine.steam_elevator_entity_crusher_module_ii.tooltip.7}"
 				"{gtna.machine.steam_elevator_entity_crusher_module_ii.tooltip.8}"
 				""
-				"{gtia.quest.69C79390FBD2BCB8.desc.10}"
+				"{typeomega.quest.69C79390FBD2BCB8.desc.10}"
 			]
 			icon: "gtna:steam_elevator_entity_crusher_module_ii"
 			id: "69C79390FBD2BCB8"
@@ -3244,7 +3244,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.69C79390FBD2BCB8.subtitle}"
+			subtitle: "{typeomega.quest.69C79390FBD2BCB8.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -3274,7 +3274,7 @@
 				"{gtna.machine.steam_elevator_flight_module_i.tooltip.7}"
 				"{gtna.machine.steam_elevator_flight_module_i.tooltip.8}"
 				""
-				"{gtia.quest.1CD0EB14201EA69B.desc.10}"
+				"{typeomega.quest.1CD0EB14201EA69B.desc.10}"
 			]
 			icon: "gtna:steam_elevator_flight_module_i"
 			id: "1CD0EB14201EA69B"
@@ -3289,7 +3289,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.1CD0EB14201EA69B.subtitle}"
+			subtitle: "{typeomega.quest.1CD0EB14201EA69B.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -3319,7 +3319,7 @@
 				"{gtna.machine.steam_elevator_flight_module_ii.tooltip.7}"
 				"{gtna.machine.steam_elevator_flight_module_ii.tooltip.8}"
 				""
-				"{gtia.quest.4BCD4DEA0A84CA82.desc.10}"
+				"{typeomega.quest.4BCD4DEA0A84CA82.desc.10}"
 			]
 			icon: "gtna:steam_elevator_flight_module_ii"
 			id: "4BCD4DEA0A84CA82"
@@ -3334,7 +3334,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.4BCD4DEA0A84CA82.subtitle}"
+			subtitle: "{typeomega.quest.4BCD4DEA0A84CA82.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -3364,7 +3364,7 @@
 				"{gtna.machine.steam_elevator_monster_repellent_module_iii.tooltip.7}"
 				"{gtna.machine.steam_elevator_monster_repellent_module_iii.tooltip.8}"
 				""
-				"{gtia.quest.31B2783D4AACA97C.desc.10}"
+				"{typeomega.quest.31B2783D4AACA97C.desc.10}"
 			]
 			icon: "gtna:steam_elevator_monster_repellent_module_iii"
 			id: "31B2783D4AACA97C"
@@ -3379,7 +3379,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.31B2783D4AACA97C.subtitle}"
+			subtitle: "{typeomega.quest.31B2783D4AACA97C.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -3409,7 +3409,7 @@
 				"{gtna.machine.steam_elevator_oil_drill_module_ii.tooltip.7}"
 				"{gtna.machine.steam_elevator_oil_drill_module_ii.tooltip.8}"
 				""
-				"{gtia.quest.42B6FBF1AB8F7727.desc.10}"
+				"{typeomega.quest.42B6FBF1AB8F7727.desc.10}"
 			]
 			icon: "gtna:steam_elevator_oil_drill_module_ii"
 			id: "42B6FBF1AB8F7727"
@@ -3424,7 +3424,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.42B6FBF1AB8F7727.subtitle}"
+			subtitle: "{typeomega.quest.42B6FBF1AB8F7727.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -3455,7 +3455,7 @@
 				"{gtna.machine.steam_elevator_weather_module_ii.tooltip.8}"
 				"{gtna.machine.steam_elevator_weather_module_ii.tooltip.9}"
 				""
-				"{gtia.quest.07F318BC34A358A5.desc.11}"
+				"{typeomega.quest.07F318BC34A358A5.desc.11}"
 			]
 			icon: "gtna:steam_elevator_weather_module_ii"
 			id: "07F318BC34A358A5"
@@ -3470,7 +3470,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.07F318BC34A358A5.subtitle}"
+			subtitle: "{typeomega.quest.07F318BC34A358A5.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -3493,7 +3493,7 @@
 				"{gtceu.multiblock.pyrolyse_oven.description}"
 				"{gtceu.machine.pyrolyse_oven.tooltip}"
 				""
-				"{gtia.quest.5504F4007B13E158.desc.3}"
+				"{typeomega.quest.5504F4007B13E158.desc.3}"
 			]
 			icon: "gtceu:pyrolyse_oven"
 			id: "5504F4007B13E158"
@@ -3508,7 +3508,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.5504F4007B13E158.subtitle}"
+			subtitle: "{typeomega.quest.5504F4007B13E158.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -3537,7 +3537,7 @@
 				"{gtna.machine.reaction_furnace.tooltip.6}"
 				"{gtna.machine.reaction_furnace.tooltip.7}"
 				""
-				"{gtia.quest.49E6EA416C7DEF05.desc.9}"
+				"{typeomega.quest.49E6EA416C7DEF05.desc.9}"
 			]
 			icon: "gtna:reaction_furnace"
 			id: "49E6EA416C7DEF05"
@@ -3552,7 +3552,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.49E6EA416C7DEF05.subtitle}"
+			subtitle: "{typeomega.quest.49E6EA416C7DEF05.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -3573,7 +3573,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.31B238A0D73726DE.desc.1}"
+				"{typeomega.quest.31B238A0D73726DE.desc.1}"
 			]
 			icon: "gtceu:mv_bedrock_ore_miner"
 			id: "31B238A0D73726DE"
@@ -3588,7 +3588,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.31B238A0D73726DE.subtitle}"
+			subtitle: "{typeomega.quest.31B238A0D73726DE.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -3610,7 +3610,7 @@
 			description: [
 				"{gtceu.machine.mv_fluid_drilling_rig.tooltip}"
 				""
-				"{gtia.quest.1F80AAF3D9B3ABDC.desc.2}"
+				"{typeomega.quest.1F80AAF3D9B3ABDC.desc.2}"
 			]
 			icon: "gtceu:mv_fluid_drilling_rig"
 			id: "1F80AAF3D9B3ABDC"
@@ -3625,7 +3625,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.1F80AAF3D9B3ABDC.subtitle}"
+			subtitle: "{typeomega.quest.1F80AAF3D9B3ABDC.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -3656,7 +3656,7 @@
 				"{gtna.machine.component_assembler.tooltip.8}"
 				"{gtna.machine.component_assembler.tooltip.9}"
 				""
-				"{gtia.quest.0F0648092BDE8847.desc.11}"
+				"{typeomega.quest.0F0648092BDE8847.desc.11}"
 			]
 			icon: "gtna:component_assembler"
 			id: "0F0648092BDE8847"
@@ -3671,7 +3671,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.0F0648092BDE8847.subtitle}"
+			subtitle: "{typeomega.quest.0F0648092BDE8847.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -3702,7 +3702,7 @@
 				"{gtna.machine.universal_factory.tooltip.8}"
 				"{gtna.machine.universal_factory.tooltip.9}"
 				""
-				"{gtia.quest.16AB6EA2CCBC1C23.desc.11}"
+				"{typeomega.quest.16AB6EA2CCBC1C23.desc.11}"
 			]
 			icon: "gtna:universal_factory"
 			id: "16AB6EA2CCBC1C23"
@@ -3717,7 +3717,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.16AB6EA2CCBC1C23.subtitle}"
+			subtitle: "{typeomega.quest.16AB6EA2CCBC1C23.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -3746,7 +3746,7 @@
 				"{gtna.machine.greenhouse.tooltip.6}"
 				"{gtna.machine.greenhouse.tooltip.7}"
 				""
-				"{gtia.quest.42CB8298B3F41022.desc.9}"
+				"{typeomega.quest.42CB8298B3F41022.desc.9}"
 			]
 			icon: "gtna:greenhouse"
 			id: "42CB8298B3F41022"
@@ -3761,7 +3761,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.42CB8298B3F41022.subtitle}"
+			subtitle: "{typeomega.quest.42CB8298B3F41022.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -3783,7 +3783,7 @@
 			description: [
 				"{gtceu.machine.central_monitor.tooltip}"
 				""
-				"{gtia.quest.60F9369505D03AD5.desc.2}"
+				"{typeomega.quest.60F9369505D03AD5.desc.2}"
 			]
 			icon: "gtceu:central_monitor"
 			id: "60F9369505D03AD5"
@@ -3798,7 +3798,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.60F9369505D03AD5.subtitle}"
+			subtitle: "{typeomega.quest.60F9369505D03AD5.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -3819,14 +3819,14 @@
 				"0FB6866EFDE3AE94"
 			]
 			description: [
-				"{gtia.quest.7083ACEA5E57DB44.desc.0}"
+				"{typeomega.quest.7083ACEA5E57DB44.desc.0}"
 			]
 			hide_dependent_lines: true
 			icon: "gtceu:hv_machine_hull"
 			id: "7083ACEA5E57DB44"
 			shape: "square"
 			size: 1.5d
-			subtitle: "{gtia.quest.7083ACEA5E57DB44.subtitle}"
+			subtitle: "{typeomega.quest.7083ACEA5E57DB44.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -3837,7 +3837,7 @@
 					type: "item"
 				}
 			]
-			title: "{gtia.quest.7083ACEA5E57DB44.title}"
+			title: "{typeomega.quest.7083ACEA5E57DB44.title}"
 			x: -2.5d
 			y: 25.875d
 		}
@@ -3847,7 +3847,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.436F9B3878B7456D.desc.1}"
+				"{typeomega.quest.436F9B3878B7456D.desc.1}"
 			]
 			icon: "gtceu:steam_large_turbine"
 			id: "436F9B3878B7456D"
@@ -3862,7 +3862,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.436F9B3878B7456D.subtitle}"
+			subtitle: "{typeomega.quest.436F9B3878B7456D.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -3892,7 +3892,7 @@
 				"{gtna.machine.steam_elevator_entity_crusher_module_iii.tooltip.7}"
 				"{gtna.machine.steam_elevator_entity_crusher_module_iii.tooltip.8}"
 				""
-				"{gtia.quest.00A371891CAEF4E7.desc.10}"
+				"{typeomega.quest.00A371891CAEF4E7.desc.10}"
 			]
 			icon: "gtna:steam_elevator_entity_crusher_module_iii"
 			id: "00A371891CAEF4E7"
@@ -3907,7 +3907,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.00A371891CAEF4E7.subtitle}"
+			subtitle: "{typeomega.quest.00A371891CAEF4E7.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -3937,7 +3937,7 @@
 				"{gtna.machine.steam_elevator_flight_module_iii.tooltip.7}"
 				"{gtna.machine.steam_elevator_flight_module_iii.tooltip.8}"
 				""
-				"{gtia.quest.788D3DC5AC2F8C5B.desc.10}"
+				"{typeomega.quest.788D3DC5AC2F8C5B.desc.10}"
 			]
 			icon: "gtna:steam_elevator_flight_module_iii"
 			id: "788D3DC5AC2F8C5B"
@@ -3952,7 +3952,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.788D3DC5AC2F8C5B.subtitle}"
+			subtitle: "{typeomega.quest.788D3DC5AC2F8C5B.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -3982,7 +3982,7 @@
 				"{gtna.machine.steam_elevator_oil_drill_module_iii.tooltip.7}"
 				"{gtna.machine.steam_elevator_oil_drill_module_iii.tooltip.8}"
 				""
-				"{gtia.quest.5C8BA791FD6671DE.desc.10}"
+				"{typeomega.quest.5C8BA791FD6671DE.desc.10}"
 			]
 			icon: "gtna:steam_elevator_oil_drill_module_iii"
 			id: "5C8BA791FD6671DE"
@@ -3997,7 +3997,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.5C8BA791FD6671DE.subtitle}"
+			subtitle: "{typeomega.quest.5C8BA791FD6671DE.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -4028,7 +4028,7 @@
 				"{gtna.machine.steam_elevator_weather_module_iii.tooltip.8}"
 				"{gtna.machine.steam_elevator_weather_module_iii.tooltip.9}"
 				""
-				"{gtia.quest.6DE90716F45C7F14.desc.11}"
+				"{typeomega.quest.6DE90716F45C7F14.desc.11}"
 			]
 			icon: "gtna:steam_elevator_weather_module_iii"
 			id: "6DE90716F45C7F14"
@@ -4043,7 +4043,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.6DE90716F45C7F14.subtitle}"
+			subtitle: "{typeomega.quest.6DE90716F45C7F14.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -4073,7 +4073,7 @@
 				"{gtna.machine.steam_lava_maker.tooltip.7}"
 				"{gtna.machine.steam_lava_maker.tooltip.8}"
 				""
-				"{gtia.quest.262B5E590032F43B.desc.10}"
+				"{typeomega.quest.262B5E590032F43B.desc.10}"
 			]
 			icon: "gtna:steam_lava_maker"
 			id: "262B5E590032F43B"
@@ -4088,7 +4088,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.262B5E590032F43B.subtitle}"
+			subtitle: "{typeomega.quest.262B5E590032F43B.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -4109,7 +4109,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.635088CEE9D093CD.desc.1}"
+				"{typeomega.quest.635088CEE9D093CD.desc.1}"
 			]
 			icon: "gtceu:multi_smelter"
 			id: "635088CEE9D093CD"
@@ -4124,7 +4124,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.635088CEE9D093CD.subtitle}"
+			subtitle: "{typeomega.quest.635088CEE9D093CD.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -4147,7 +4147,7 @@
 				"{gtceu.multiblock.cracker.description}"
 				"{gtceu.machine.cracker.tooltip}"
 				""
-				"{gtia.quest.524744F4BA613E23.desc.3}"
+				"{typeomega.quest.524744F4BA613E23.desc.3}"
 			]
 			icon: "gtceu:cracker"
 			id: "524744F4BA613E23"
@@ -4162,7 +4162,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.524744F4BA613E23.subtitle}"
+			subtitle: "{typeomega.quest.524744F4BA613E23.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -4185,7 +4185,7 @@
 				"{gtceu.multiblock.large_chemical_reactor.description}"
 				"{gtceu.machine.large_chemical_reactor.tooltip}"
 				""
-				"{gtia.quest.4B1E6F0CB0245408.desc.3}"
+				"{typeomega.quest.4B1E6F0CB0245408.desc.3}"
 			]
 			icon: "gtceu:large_chemical_reactor"
 			id: "4B1E6F0CB0245408"
@@ -4200,7 +4200,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.4B1E6F0CB0245408.subtitle}"
+			subtitle: "{typeomega.quest.4B1E6F0CB0245408.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -4230,7 +4230,7 @@
 				"{gtna.machine.evaporation_plant.tooltip.7}"
 				"{gtna.machine.evaporation_plant.tooltip.8}"
 				""
-				"{gtia.quest.53C07D5C722CBEF8.desc.10}"
+				"{typeomega.quest.53C07D5C722CBEF8.desc.10}"
 			]
 			icon: "gtna:evaporation_plant"
 			id: "53C07D5C722CBEF8"
@@ -4245,7 +4245,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.53C07D5C722CBEF8.subtitle}"
+			subtitle: "{typeomega.quest.53C07D5C722CBEF8.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -4266,7 +4266,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.3D1B42910780EF6F.desc.1}"
+				"{typeomega.quest.3D1B42910780EF6F.desc.1}"
 			]
 			icon: "gtceu:hv_bedrock_ore_miner"
 			id: "3D1B42910780EF6F"
@@ -4281,7 +4281,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.3D1B42910780EF6F.subtitle}"
+			subtitle: "{typeomega.quest.3D1B42910780EF6F.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -4303,7 +4303,7 @@
 			description: [
 				"{gtceu.machine.hv_fluid_drilling_rig.tooltip}"
 				""
-				"{gtia.quest.125CF039DF7097CF.desc.2}"
+				"{typeomega.quest.125CF039DF7097CF.desc.2}"
 			]
 			icon: "gtceu:hv_fluid_drilling_rig"
 			id: "125CF039DF7097CF"
@@ -4318,7 +4318,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.125CF039DF7097CF.subtitle}"
+			subtitle: "{typeomega.quest.125CF039DF7097CF.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -4341,7 +4341,7 @@
 				"{gtceu.multiblock.implosion_compressor.description}"
 				"{gtceu.machine.implosion_compressor.tooltip}"
 				""
-				"{gtia.quest.40F1B3D1E3ABB53D.desc.3}"
+				"{typeomega.quest.40F1B3D1E3ABB53D.desc.3}"
 			]
 			icon: "gtceu:implosion_compressor"
 			id: "40F1B3D1E3ABB53D"
@@ -4356,7 +4356,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.40F1B3D1E3ABB53D.subtitle}"
+			subtitle: "{typeomega.quest.40F1B3D1E3ABB53D.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -4383,7 +4383,7 @@
 				"{typeomega.machine.rocket_assembler.tooltip.requirements.1}"
 				"{typeomega.machine.rocket_assembler.tooltip.requirements.2}"
 				""
-				"{gtia.quest.0DEF17F53DF7464E.desc.7}"
+				"{typeomega.quest.0DEF17F53DF7464E.desc.7}"
 			]
 			icon: "typeomega:rocket_assembler"
 			id: "0DEF17F53DF7464E"
@@ -4398,7 +4398,7 @@
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.0DEF17F53DF7464E.subtitle}"
+			subtitle: "{typeomega.quest.0DEF17F53DF7464E.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -4419,7 +4419,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.686336FE987C1514.desc.1}"
+				"{typeomega.quest.686336FE987C1514.desc.1}"
 			]
 			icon: "gtceu:steel_large_boiler"
 			id: "686336FE987C1514"
@@ -4434,7 +4434,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.686336FE987C1514.subtitle}"
+			subtitle: "{typeomega.quest.686336FE987C1514.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -4466,7 +4466,7 @@
 				"{gtna.machine.incubator.tooltip.9}"
 				"{gtna.machine.incubator.tooltip.10}"
 				""
-				"{gtia.quest.0023811C232CD775.desc.12}"
+				"{typeomega.quest.0023811C232CD775.desc.12}"
 			]
 			icon: "gtna:incubator"
 			id: "0023811C232CD775"
@@ -4481,7 +4481,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.0023811C232CD775.subtitle}"
+			subtitle: "{typeomega.quest.0023811C232CD775.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -4511,7 +4511,7 @@
 				"{gtceu.machine.cleanroom.tooltip.6}"
 				"{gtceu.machine.cleanroom.tooltip.7}"
 				""
-				"{gtia.quest.26B1FDD75A08CAA8.desc.10}"
+				"{typeomega.quest.26B1FDD75A08CAA8.desc.10}"
 			]
 			icon: "gtceu:cleanroom"
 			id: "26B1FDD75A08CAA8"
@@ -4526,7 +4526,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.26B1FDD75A08CAA8.subtitle}"
+			subtitle: "{typeomega.quest.26B1FDD75A08CAA8.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -4547,14 +4547,14 @@
 				"7083ACEA5E57DB44"
 			]
 			description: [
-				"{gtia.quest.49C023B9BBA75B98.desc.0}"
+				"{typeomega.quest.49C023B9BBA75B98.desc.0}"
 			]
 			hide_dependent_lines: true
 			icon: "gtceu:ev_machine_hull"
 			id: "49C023B9BBA75B98"
 			shape: "square"
 			size: 1.5d
-			subtitle: "{gtia.quest.49C023B9BBA75B98.subtitle}"
+			subtitle: "{typeomega.quest.49C023B9BBA75B98.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -4565,7 +4565,7 @@
 					type: "item"
 				}
 			]
-			title: "{gtia.quest.49C023B9BBA75B98.title}"
+			title: "{typeomega.quest.49C023B9BBA75B98.title}"
 			x: -2.5d
 			y: 30.125d
 		}
@@ -4584,7 +4584,7 @@
 				"{gtna.machine.steam_mega_compressor.tooltip.7}"
 				"{gtna.machine.steam_mega_compressor.tooltip.8}"
 				""
-				"{gtia.quest.635A101B6A6D3314.desc.10}"
+				"{typeomega.quest.635A101B6A6D3314.desc.10}"
 			]
 			icon: "gtna:steam_mega_compressor"
 			id: "635A101B6A6D3314"
@@ -4599,7 +4599,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.635A101B6A6D3314.subtitle}"
+			subtitle: "{typeomega.quest.635A101B6A6D3314.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -4620,7 +4620,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.76492BAC0474A2BB.desc.1}"
+				"{typeomega.quest.76492BAC0474A2BB.desc.1}"
 			]
 			icon: "gtceu:alloy_blast_smelter"
 			id: "76492BAC0474A2BB"
@@ -4635,7 +4635,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.76492BAC0474A2BB.subtitle}"
+			subtitle: "{typeomega.quest.76492BAC0474A2BB.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -4658,7 +4658,7 @@
 				"{gtceu.multiblock.vacuum_freezer.description}"
 				"{gtceu.machine.vacuum_freezer.tooltip}"
 				""
-				"{gtia.quest.44A10FA7076944E8.desc.3}"
+				"{typeomega.quest.44A10FA7076944E8.desc.3}"
 			]
 			icon: "gtceu:vacuum_freezer"
 			id: "44A10FA7076944E8"
@@ -4673,7 +4673,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.44A10FA7076944E8.subtitle}"
+			subtitle: "{typeomega.quest.44A10FA7076944E8.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -4696,7 +4696,7 @@
 				"{gtceu.multiblock.distillation_tower.description}"
 				"{gtceu.machine.distillation_tower.tooltip}"
 				""
-				"{gtia.quest.7EFC904E4337AD82.desc.3}"
+				"{typeomega.quest.7EFC904E4337AD82.desc.3}"
 			]
 			icon: "gtceu:distillation_tower"
 			id: "7EFC904E4337AD82"
@@ -4711,7 +4711,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.7EFC904E4337AD82.subtitle}"
+			subtitle: "{typeomega.quest.7EFC904E4337AD82.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -4743,7 +4743,7 @@
 				"{gtna.machine.desulfurizer.tooltip.9}"
 				"{gtna.machine.desulfurizer.tooltip.10}"
 				""
-				"{gtia.quest.315DD1B18D944F7C.desc.12}"
+				"{typeomega.quest.315DD1B18D944F7C.desc.12}"
 			]
 			icon: "gtna:desulfurizer"
 			id: "315DD1B18D944F7C"
@@ -4758,7 +4758,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.315DD1B18D944F7C.subtitle}"
+			subtitle: "{typeomega.quest.315DD1B18D944F7C.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -4779,7 +4779,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.554952C26EDEDC22.desc.1}"
+				"{typeomega.quest.554952C26EDEDC22.desc.1}"
 			]
 			icon: "gtceu:ev_bedrock_ore_miner"
 			id: "554952C26EDEDC22"
@@ -4794,7 +4794,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.554952C26EDEDC22.subtitle}"
+			subtitle: "{typeomega.quest.554952C26EDEDC22.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -4816,7 +4816,7 @@
 			description: [
 				"{gtceu.machine.ev_fluid_drilling_rig.tooltip}"
 				""
-				"{gtia.quest.35CB594BC11FE51A.desc.2}"
+				"{typeomega.quest.35CB594BC11FE51A.desc.2}"
 			]
 			icon: "gtceu:ev_fluid_drilling_rig"
 			id: "35CB594BC11FE51A"
@@ -4831,7 +4831,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.35CB594BC11FE51A.subtitle}"
+			subtitle: "{typeomega.quest.35CB594BC11FE51A.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -4852,7 +4852,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.4EB887DB9B7E8152.desc.1}"
+				"{typeomega.quest.4EB887DB9B7E8152.desc.1}"
 			]
 			icon: "gtceu:ev_large_miner"
 			id: "4EB887DB9B7E8152"
@@ -4867,7 +4867,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.4EB887DB9B7E8152.subtitle}"
+			subtitle: "{typeomega.quest.4EB887DB9B7E8152.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -4890,7 +4890,7 @@
 				"{typeomega.machine.large_fragment_collector.tooltip.main.0}"
 				"{typeomega.machine.large_fragment_collector.tooltip.main.1}"
 				""
-				"{gtia.quest.7E1EAE794B7A880E.desc.3}"
+				"{typeomega.quest.7E1EAE794B7A880E.desc.3}"
 			]
 			icon: "typeomega:large_fragment_collector"
 			id: "7E1EAE794B7A880E"
@@ -4905,7 +4905,7 @@
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.7E1EAE794B7A880E.subtitle}"
+			subtitle: "{typeomega.quest.7E1EAE794B7A880E.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -4937,7 +4937,7 @@
 				"{gtna.machine.void_fluid_drilling_rig.tooltip.9}"
 				"{gtna.machine.void_fluid_drilling_rig.tooltip.10}"
 				""
-				"{gtia.quest.2964584E1BE990A5.desc.12}"
+				"{typeomega.quest.2964584E1BE990A5.desc.12}"
 			]
 			icon: "gtna:void_fluid_drilling_rig"
 			id: "2964584E1BE990A5"
@@ -4952,7 +4952,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.2964584E1BE990A5.subtitle}"
+			subtitle: "{typeomega.quest.2964584E1BE990A5.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -4973,7 +4973,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.0429756B6996D52C.desc.1}"
+				"{typeomega.quest.0429756B6996D52C.desc.1}"
 			]
 			icon: "gtceu:large_packer"
 			id: "0429756B6996D52C"
@@ -4988,7 +4988,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.0429756B6996D52C.subtitle}"
+			subtitle: "{typeomega.quest.0429756B6996D52C.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -5018,7 +5018,7 @@
 				"{gtna.machine.compact_hyper_pressure_reactor.tooltip.7}"
 				"{gtna.machine.compact_hyper_pressure_reactor.tooltip.8}"
 				""
-				"{gtia.quest.3578E8AB08691260.desc.10}"
+				"{typeomega.quest.3578E8AB08691260.desc.10}"
 			]
 			icon: "gtna:compact_hyper_pressure_reactor"
 			id: "3578E8AB08691260"
@@ -5033,7 +5033,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.3578E8AB08691260.subtitle}"
+			subtitle: "{typeomega.quest.3578E8AB08691260.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -5054,7 +5054,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.7E6FCC46EA926A68.desc.1}"
+				"{typeomega.quest.7E6FCC46EA926A68.desc.1}"
 			]
 			icon: "gtceu:gas_large_turbine"
 			id: "7E6FCC46EA926A68"
@@ -5069,7 +5069,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.7E6FCC46EA926A68.subtitle}"
+			subtitle: "{typeomega.quest.7E6FCC46EA926A68.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -5090,7 +5090,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.4B62B4D770818C9B.desc.1}"
+				"{typeomega.quest.4B62B4D770818C9B.desc.1}"
 			]
 			icon: "gtceu:titanium_large_boiler"
 			id: "4B62B4D770818C9B"
@@ -5105,7 +5105,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.4B62B4D770818C9B.subtitle}"
+			subtitle: "{typeomega.quest.4B62B4D770818C9B.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -5136,7 +5136,7 @@
 				"{gtna.machine.fishing_ground.tooltip.8}"
 				"{gtna.machine.fishing_ground.tooltip.9}"
 				""
-				"{gtia.quest.6005F300DC5B4D95.desc.11}"
+				"{typeomega.quest.6005F300DC5B4D95.desc.11}"
 			]
 			icon: "gtna:fishing_ground"
 			id: "6005F300DC5B4D95"
@@ -5151,7 +5151,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.6005F300DC5B4D95.subtitle}"
+			subtitle: "{typeomega.quest.6005F300DC5B4D95.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -5172,14 +5172,14 @@
 				"49C023B9BBA75B98"
 			]
 			description: [
-				"{gtia.quest.115C73CDB4D2A517.desc.0}"
+				"{typeomega.quest.115C73CDB4D2A517.desc.0}"
 			]
 			hide_dependent_lines: true
 			icon: "gtceu:iv_machine_hull"
 			id: "115C73CDB4D2A517"
 			shape: "square"
 			size: 1.5d
-			subtitle: "{gtia.quest.115C73CDB4D2A517.subtitle}"
+			subtitle: "{typeomega.quest.115C73CDB4D2A517.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -5190,7 +5190,7 @@
 					type: "item"
 				}
 			]
-			title: "{gtia.quest.115C73CDB4D2A517.title}"
+			title: "{typeomega.quest.115C73CDB4D2A517.title}"
 			x: -2.5d
 			y: 35.0d
 		}
@@ -5207,7 +5207,7 @@
 				"{gtna.machine.dimensionally_transcendent_steam_boiler.tooltip.5}"
 				"{gtna.machine.dimensionally_transcendent_steam_boiler.tooltip.6}"
 				""
-				"{gtia.quest.02E17637665B1515.desc.8}"
+				"{typeomega.quest.02E17637665B1515.desc.8}"
 			]
 			icon: "gtna:dimensionally_transcendent_steam_boiler"
 			id: "02E17637665B1515"
@@ -5222,7 +5222,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.02E17637665B1515.subtitle}"
+			subtitle: "{typeomega.quest.02E17637665B1515.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -5243,7 +5243,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.29B0590C2B85E71B.desc.1}"
+				"{typeomega.quest.29B0590C2B85E71B.desc.1}"
 			]
 			icon: "gtceu:large_arc_smelter"
 			id: "29B0590C2B85E71B"
@@ -5258,7 +5258,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.29B0590C2B85E71B.subtitle}"
+			subtitle: "{typeomega.quest.29B0590C2B85E71B.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -5289,7 +5289,7 @@
 				"{gtna.machine.blaze_blast_furnace.tooltip.8}"
 				"{gtna.machine.blaze_blast_furnace.tooltip.9}"
 				""
-				"{gtia.quest.52904919A524E951.desc.11}"
+				"{typeomega.quest.52904919A524E951.desc.11}"
 			]
 			icon: "gtna:blaze_blast_furnace"
 			id: "52904919A524E951"
@@ -5304,7 +5304,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.52904919A524E951.subtitle}"
+			subtitle: "{typeomega.quest.52904919A524E951.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -5335,7 +5335,7 @@
 				"{gtna.machine.cold_ice_freezer.tooltip.8}"
 				"{gtna.machine.cold_ice_freezer.tooltip.9}"
 				""
-				"{gtia.quest.31FA198449168374.desc.11}"
+				"{typeomega.quest.31FA198449168374.desc.11}"
 			]
 			icon: "gtna:cold_ice_freezer"
 			id: "31FA198449168374"
@@ -5350,7 +5350,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.31FA198449168374.subtitle}"
+			subtitle: "{typeomega.quest.31FA198449168374.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -5379,7 +5379,7 @@
 				"{gtna.machine.large_pyrolyse_oven.tooltip.6}"
 				"{gtna.machine.large_pyrolyse_oven.tooltip.7}"
 				""
-				"{gtia.quest.63975DCADC8F59DB.desc.9}"
+				"{typeomega.quest.63975DCADC8F59DB.desc.9}"
 			]
 			icon: "gtna:large_pyrolyse_oven"
 			id: "63975DCADC8F59DB"
@@ -5394,7 +5394,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.63975DCADC8F59DB.subtitle}"
+			subtitle: "{typeomega.quest.63975DCADC8F59DB.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -5425,7 +5425,7 @@
 				"{gtna.machine.vacuum_drying_furnace.tooltip.8}"
 				"{gtna.machine.vacuum_drying_furnace.tooltip.9}"
 				""
-				"{gtia.quest.7FE9A5E58DC25485.desc.11}"
+				"{typeomega.quest.7FE9A5E58DC25485.desc.11}"
 			]
 			icon: "gtna:vacuum_drying_furnace"
 			id: "7FE9A5E58DC25485"
@@ -5440,7 +5440,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.7FE9A5E58DC25485.subtitle}"
+			subtitle: "{typeomega.quest.7FE9A5E58DC25485.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -5461,7 +5461,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.52A87A0D0668A4E1.desc.1}"
+				"{typeomega.quest.52A87A0D0668A4E1.desc.1}"
 			]
 			icon: "gtceu:large_autoclave"
 			id: "52A87A0D0668A4E1"
@@ -5476,7 +5476,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.52A87A0D0668A4E1.subtitle}"
+			subtitle: "{typeomega.quest.52A87A0D0668A4E1.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -5497,7 +5497,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.143A028720179929.desc.1}"
+				"{typeomega.quest.143A028720179929.desc.1}"
 			]
 			icon: "gtceu:large_brewer"
 			id: "143A028720179929"
@@ -5512,7 +5512,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.143A028720179929.subtitle}"
+			subtitle: "{typeomega.quest.143A028720179929.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -5533,7 +5533,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.3BE4BDD91150F6AE.desc.1}"
+				"{typeomega.quest.3BE4BDD91150F6AE.desc.1}"
 			]
 			icon: "gtceu:large_centrifuge"
 			id: "3BE4BDD91150F6AE"
@@ -5548,7 +5548,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.3BE4BDD91150F6AE.subtitle}"
+			subtitle: "{typeomega.quest.3BE4BDD91150F6AE.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -5569,7 +5569,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.7AAB14712122A274.desc.1}"
+				"{typeomega.quest.7AAB14712122A274.desc.1}"
 			]
 			icon: "gtceu:large_chemical_bath"
 			id: "7AAB14712122A274"
@@ -5584,7 +5584,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.7AAB14712122A274.subtitle}"
+			subtitle: "{typeomega.quest.7AAB14712122A274.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -5605,7 +5605,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.4DDBB73F34450258.desc.1}"
+				"{typeomega.quest.4DDBB73F34450258.desc.1}"
 			]
 			icon: "gtceu:large_distillery"
 			id: "4DDBB73F34450258"
@@ -5620,7 +5620,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.4DDBB73F34450258.subtitle}"
+			subtitle: "{typeomega.quest.4DDBB73F34450258.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -5641,7 +5641,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.69C38C7D28D4FD0F.desc.1}"
+				"{typeomega.quest.69C38C7D28D4FD0F.desc.1}"
 			]
 			icon: "gtceu:large_electrolyzer"
 			id: "69C38C7D28D4FD0F"
@@ -5656,7 +5656,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.69C38C7D28D4FD0F.subtitle}"
+			subtitle: "{typeomega.quest.69C38C7D28D4FD0F.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -5677,7 +5677,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.1F256E7207BE216C.desc.1}"
+				"{typeomega.quest.1F256E7207BE216C.desc.1}"
 			]
 			icon: "gtceu:large_mixer"
 			id: "1F256E7207BE216C"
@@ -5692,7 +5692,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.1F256E7207BE216C.subtitle}"
+			subtitle: "{typeomega.quest.1F256E7207BE216C.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -5713,7 +5713,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.69ECEAF215B8110E.desc.1}"
+				"{typeomega.quest.69ECEAF215B8110E.desc.1}"
 			]
 			icon: "gtceu:iv_large_miner"
 			id: "69ECEAF215B8110E"
@@ -5728,7 +5728,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.69ECEAF215B8110E.subtitle}"
+			subtitle: "{typeomega.quest.69ECEAF215B8110E.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -5749,7 +5749,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.1E757025BDBA6C35.desc.1}"
+				"{typeomega.quest.1E757025BDBA6C35.desc.1}"
 			]
 			icon: "gtceu:large_sifting_funnel"
 			id: "1E757025BDBA6C35"
@@ -5764,7 +5764,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.1E757025BDBA6C35.subtitle}"
+			subtitle: "{typeomega.quest.1E757025BDBA6C35.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -5785,7 +5785,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.08B4FCA49D9B3DD6.desc.1}"
+				"{typeomega.quest.08B4FCA49D9B3DD6.desc.1}"
 			]
 			icon: "gtceu:large_wiremill"
 			id: "08B4FCA49D9B3DD6"
@@ -5800,7 +5800,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.08B4FCA49D9B3DD6.subtitle}"
+			subtitle: "{typeomega.quest.08B4FCA49D9B3DD6.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -5836,7 +5836,7 @@
 				"{gtna.machine.integrated_ore_processor.tooltip.13}"
 				"{gtna.machine.integrated_ore_processor.tooltip.14}"
 				""
-				"{gtia.quest.5052D58655FD2859.desc.16}"
+				"{typeomega.quest.5052D58655FD2859.desc.16}"
 			]
 			icon: "gtna:integrated_ore_processor"
 			id: "5052D58655FD2859"
@@ -5851,7 +5851,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.5052D58655FD2859.subtitle}"
+			subtitle: "{typeomega.quest.5052D58655FD2859.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -5884,7 +5884,7 @@
 				"{gtna.machine.nexus_me_hypercore.tooltip.10}"
 				"{gtna.machine.nexus_me_hypercore.tooltip.11}"
 				""
-				"{gtia.quest.0887C94F36DE7CF9.desc.13}"
+				"{typeomega.quest.0887C94F36DE7CF9.desc.13}"
 			]
 			icon: "gtna:nexus_me_hypercore"
 			id: "0887C94F36DE7CF9"
@@ -5899,7 +5899,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.0887C94F36DE7CF9.subtitle}"
+			subtitle: "{typeomega.quest.0887C94F36DE7CF9.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -5922,7 +5922,7 @@
 				"{gtceu.multiblock.assembly_line.description}"
 				"{gtceu.machine.assembly_line.tooltip}"
 				""
-				"{gtia.quest.317E9A443FCC0BA5.desc.3}"
+				"{typeomega.quest.317E9A443FCC0BA5.desc.3}"
 			]
 			icon: "gtceu:assembly_line"
 			id: "317E9A443FCC0BA5"
@@ -5937,7 +5937,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.317E9A443FCC0BA5.subtitle}"
+			subtitle: "{typeomega.quest.317E9A443FCC0BA5.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -5958,7 +5958,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.4B4F549AF6F254FC.desc.1}"
+				"{typeomega.quest.4B4F549AF6F254FC.desc.1}"
 			]
 			icon: "gtceu:large_assembler"
 			id: "4B4F549AF6F254FC"
@@ -5973,7 +5973,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.4B4F549AF6F254FC.subtitle}"
+			subtitle: "{typeomega.quest.4B4F549AF6F254FC.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -5994,7 +5994,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.6677BE222C8F5578.desc.1}"
+				"{typeomega.quest.6677BE222C8F5578.desc.1}"
 			]
 			icon: "gtceu:large_circuit_assembler"
 			id: "6677BE222C8F5578"
@@ -6009,7 +6009,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.6677BE222C8F5578.subtitle}"
+			subtitle: "{typeomega.quest.6677BE222C8F5578.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -6030,7 +6030,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.3B79334FD5414CAD.desc.1}"
+				"{typeomega.quest.3B79334FD5414CAD.desc.1}"
 			]
 			icon: "gtceu:large_cutter"
 			id: "3B79334FD5414CAD"
@@ -6045,7 +6045,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.3B79334FD5414CAD.subtitle}"
+			subtitle: "{typeomega.quest.3B79334FD5414CAD.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -6066,7 +6066,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.3CA2AE392E00F5E7.desc.1}"
+				"{typeomega.quest.3CA2AE392E00F5E7.desc.1}"
 			]
 			icon: "gtceu:large_electromagnet"
 			id: "3CA2AE392E00F5E7"
@@ -6081,7 +6081,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.3CA2AE392E00F5E7.subtitle}"
+			subtitle: "{typeomega.quest.3CA2AE392E00F5E7.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -6102,7 +6102,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.27B040A201F474CA.desc.1}"
+				"{typeomega.quest.27B040A201F474CA.desc.1}"
 			]
 			icon: "gtceu:large_engraving_laser"
 			id: "27B040A201F474CA"
@@ -6117,7 +6117,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.27B040A201F474CA.subtitle}"
+			subtitle: "{typeomega.quest.27B040A201F474CA.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -6138,7 +6138,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.4957AF4C69658CCF.desc.1}"
+				"{typeomega.quest.4957AF4C69658CCF.desc.1}"
 			]
 			icon: "gtceu:large_extruder"
 			id: "4957AF4C69658CCF"
@@ -6153,7 +6153,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.4957AF4C69658CCF.subtitle}"
+			subtitle: "{typeomega.quest.4957AF4C69658CCF.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -6174,7 +6174,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.61619845377A892F.desc.1}"
+				"{typeomega.quest.61619845377A892F.desc.1}"
 			]
 			icon: "gtceu:large_material_press"
 			id: "61619845377A892F"
@@ -6189,7 +6189,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.61619845377A892F.subtitle}"
+			subtitle: "{typeomega.quest.61619845377A892F.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -6210,7 +6210,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.1B15DA8A03071F87.desc.1}"
+				"{typeomega.quest.1B15DA8A03071F87.desc.1}"
 			]
 			icon: "gtceu:large_solidifier"
 			id: "1B15DA8A03071F87"
@@ -6225,7 +6225,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.1B15DA8A03071F87.subtitle}"
+			subtitle: "{typeomega.quest.1B15DA8A03071F87.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -6248,7 +6248,7 @@
 				"{gtceu.multiblock.large_combustion_engine.description}"
 				"{gtceu.machine.large_combustion_engine.tooltip}"
 				""
-				"{gtia.quest.5E1AE69E6549A462.desc.3}"
+				"{typeomega.quest.5E1AE69E6549A462.desc.3}"
 			]
 			icon: "gtceu:large_combustion_engine"
 			id: "5E1AE69E6549A462"
@@ -6263,7 +6263,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.5E1AE69E6549A462.subtitle}"
+			subtitle: "{typeomega.quest.5E1AE69E6549A462.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -6284,7 +6284,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.3414E87AD01CCCFA.desc.1}"
+				"{typeomega.quest.3414E87AD01CCCFA.desc.1}"
 			]
 			icon: "gtceu:tungstensteel_large_boiler"
 			id: "3414E87AD01CCCFA"
@@ -6299,7 +6299,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.3414E87AD01CCCFA.subtitle}"
+			subtitle: "{typeomega.quest.3414E87AD01CCCFA.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -6330,7 +6330,7 @@
 				"{gtna.machine.rocket_large_turbine.tooltip.8}"
 				"{gtna.machine.rocket_large_turbine.tooltip.9}"
 				""
-				"{gtia.quest.050159EBECEFFF98.desc.11}"
+				"{typeomega.quest.050159EBECEFFF98.desc.11}"
 			]
 			icon: "gtna:rocket_large_turbine"
 			id: "050159EBECEFFF98"
@@ -6345,7 +6345,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.050159EBECEFFF98.subtitle}"
+			subtitle: "{typeomega.quest.050159EBECEFFF98.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -6366,14 +6366,14 @@
 				"115C73CDB4D2A517"
 			]
 			description: [
-				"{gtia.quest.29709A919A32319C.desc.0}"
+				"{typeomega.quest.29709A919A32319C.desc.0}"
 			]
 			hide_dependent_lines: true
 			icon: "gtceu:luv_machine_hull"
 			id: "29709A919A32319C"
 			shape: "square"
 			size: 1.5d
-			subtitle: "{gtia.quest.29709A919A32319C.subtitle}"
+			subtitle: "{typeomega.quest.29709A919A32319C.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -6384,7 +6384,7 @@
 					type: "item"
 				}
 			]
-			title: "{gtia.quest.29709A919A32319C.title}"
+			title: "{typeomega.quest.29709A919A32319C.title}"
 			x: -2.5d
 			y: 39.875d
 		}
@@ -6405,7 +6405,7 @@
 				"{gtna.machine.supercritical_steam_turbine.tooltip.9}"
 				"{gtna.machine.supercritical_steam_turbine.tooltip.10}"
 				""
-				"{gtia.quest.143C765CD256DEE5.desc.12}"
+				"{typeomega.quest.143C765CD256DEE5.desc.12}"
 			]
 			icon: "gtna:supercritical_steam_turbine"
 			id: "143C765CD256DEE5"
@@ -6420,7 +6420,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.143C765CD256DEE5.subtitle}"
+			subtitle: "{typeomega.quest.143C765CD256DEE5.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -6454,7 +6454,7 @@
 				"{gtna.machine.void_miner_steam_gate_aged.tooltip.11}"
 				"{gtna.machine.void_miner_steam_gate_aged.tooltip.12}"
 				""
-				"{gtia.quest.1A7AC72B6065B5BC.desc.14}"
+				"{typeomega.quest.1A7AC72B6065B5BC.desc.14}"
 			]
 			icon: "gtna:void_miner_steam_gate_aged"
 			id: "1A7AC72B6065B5BC"
@@ -6469,7 +6469,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.1A7AC72B6065B5BC.subtitle}"
+			subtitle: "{typeomega.quest.1A7AC72B6065B5BC.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -6499,7 +6499,7 @@
 				"{gtna.machine.chemical_plant.tooltip.7}"
 				"{gtna.machine.chemical_plant.tooltip.8}"
 				""
-				"{gtia.quest.639C35AFBC329A04.desc.10}"
+				"{typeomega.quest.639C35AFBC329A04.desc.10}"
 			]
 			icon: "gtna:chemical_plant"
 			id: "639C35AFBC329A04"
@@ -6514,7 +6514,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.639C35AFBC329A04.subtitle}"
+			subtitle: "{typeomega.quest.639C35AFBC329A04.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -6535,7 +6535,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.549ECDA07A513BBF.desc.1}"
+				"{typeomega.quest.549ECDA07A513BBF.desc.1}"
 			]
 			icon: "gtceu:luv_large_miner"
 			id: "549ECDA07A513BBF"
@@ -6550,7 +6550,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.549ECDA07A513BBF.subtitle}"
+			subtitle: "{typeomega.quest.549ECDA07A513BBF.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -6580,7 +6580,7 @@
 				"{gtna.machine.industrial_flotation_cell.tooltip.7}"
 				"{gtna.machine.industrial_flotation_cell.tooltip.8}"
 				""
-				"{gtia.quest.353F2ADDC529FC0C.desc.10}"
+				"{typeomega.quest.353F2ADDC529FC0C.desc.10}"
 			]
 			icon: "gtna:industrial_flotation_cell"
 			id: "353F2ADDC529FC0C"
@@ -6595,7 +6595,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.353F2ADDC529FC0C.subtitle}"
+			subtitle: "{typeomega.quest.353F2ADDC529FC0C.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -6627,7 +6627,7 @@
 				"{gtna.machine.isa_mill.tooltip.9}"
 				"{gtna.machine.isa_mill.tooltip.10}"
 				""
-				"{gtia.quest.1097AEBC77932A4E.desc.12}"
+				"{typeomega.quest.1097AEBC77932A4E.desc.12}"
 			]
 			icon: "gtna:isa_mill"
 			id: "1097AEBC77932A4E"
@@ -6642,7 +6642,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.1097AEBC77932A4E.subtitle}"
+			subtitle: "{typeomega.quest.1097AEBC77932A4E.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -6667,7 +6667,7 @@
 				"{gtceu.machine.active_transformer.tooltip.2}"
 				"{gtceu.machine.active_transformer.tooltip.3}"
 				""
-				"{gtia.quest.209B959DFA882C5B.desc.5}"
+				"{typeomega.quest.209B959DFA882C5B.desc.5}"
 			]
 			icon: "gtceu:active_transformer"
 			id: "209B959DFA882C5B"
@@ -6682,7 +6682,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.209B959DFA882C5B.subtitle}"
+			subtitle: "{typeomega.quest.209B959DFA882C5B.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -6705,7 +6705,7 @@
 				"{gtceu.multiblock.extreme_combustion_engine.description}"
 				"{gtceu.machine.extreme_combustion_engine.tooltip}"
 				""
-				"{gtia.quest.17EAA64B20BB3814.desc.3}"
+				"{typeomega.quest.17EAA64B20BB3814.desc.3}"
 			]
 			icon: "gtceu:extreme_combustion_engine"
 			id: "17EAA64B20BB3814"
@@ -6720,7 +6720,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.17EAA64B20BB3814.subtitle}"
+			subtitle: "{typeomega.quest.17EAA64B20BB3814.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -6742,7 +6742,7 @@
 			description: [
 				"{gtceu.multiblock.luv_fusion_reactor.description}"
 				""
-				"{gtia.quest.4EE9B513059F9224.desc.2}"
+				"{typeomega.quest.4EE9B513059F9224.desc.2}"
 			]
 			icon: "gtceu:luv_fusion_reactor"
 			id: "4EE9B513059F9224"
@@ -6757,7 +6757,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.4EE9B513059F9224.subtitle}"
+			subtitle: "{typeomega.quest.4EE9B513059F9224.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -6778,7 +6778,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.4E8FCE7315F0BA1C.desc.1}"
+				"{typeomega.quest.4E8FCE7315F0BA1C.desc.1}"
 			]
 			icon: "gtceu:plasma_large_turbine"
 			id: "4E8FCE7315F0BA1C"
@@ -6793,7 +6793,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.4E8FCE7315F0BA1C.subtitle}"
+			subtitle: "{typeomega.quest.4E8FCE7315F0BA1C.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -6827,7 +6827,7 @@
 				"{gtna.machine.advanced_fusion_reactor.tooltip.11}"
 				"{gtna.machine.advanced_fusion_reactor.tooltip.12}"
 				""
-				"{gtia.quest.247D31432CDA8737.desc.14}"
+				"{typeomega.quest.247D31432CDA8737.desc.14}"
 			]
 			icon: "gtna:advanced_fusion_reactor"
 			id: "247D31432CDA8737"
@@ -6842,7 +6842,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.247D31432CDA8737.subtitle}"
+			subtitle: "{typeomega.quest.247D31432CDA8737.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -6879,7 +6879,7 @@
 				"{gtna.machine.fuel_cell_generator.tooltip.14}"
 				"{gtna.machine.fuel_cell_generator.tooltip.15}"
 				""
-				"{gtia.quest.5158ABAA8699B3F2.desc.17}"
+				"{typeomega.quest.5158ABAA8699B3F2.desc.17}"
 			]
 			icon: "gtna:fuel_cell_generator"
 			id: "5158ABAA8699B3F2"
@@ -6894,7 +6894,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.5158ABAA8699B3F2.subtitle}"
+			subtitle: "{typeomega.quest.5158ABAA8699B3F2.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -6924,7 +6924,7 @@
 				"{gtna.machine.large_greenhouse.tooltip.7}"
 				"{gtna.machine.large_greenhouse.tooltip.8}"
 				""
-				"{gtia.quest.1D67704840C231ED.desc.10}"
+				"{typeomega.quest.1D67704840C231ED.desc.10}"
 			]
 			icon: "gtna:large_greenhouse"
 			id: "1D67704840C231ED"
@@ -6939,7 +6939,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.1D67704840C231ED.subtitle}"
+			subtitle: "{typeomega.quest.1D67704840C231ED.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -6966,7 +6966,7 @@
 				"{gtceu.machine.data_bank.tooltip.3}"
 				"{gtceu.machine.data_bank.tooltip.4}"
 				""
-				"{gtia.quest.7C7E35DE9E8EB5EB.desc.7}"
+				"{typeomega.quest.7C7E35DE9E8EB5EB.desc.7}"
 			]
 			icon: "gtceu:data_bank"
 			id: "7C7E35DE9E8EB5EB"
@@ -6981,7 +6981,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.7C7E35DE9E8EB5EB.subtitle}"
+			subtitle: "{typeomega.quest.7C7E35DE9E8EB5EB.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -7009,7 +7009,7 @@
 				"{gtceu.machine.power_substation.tooltip.5}"
 				"{gtceu.machine.power_substation.tooltip.6}"
 				""
-				"{gtia.quest.0576CC8CD423A182.desc.8}"
+				"{typeomega.quest.0576CC8CD423A182.desc.8}"
 			]
 			icon: "gtceu:power_substation"
 			id: "0576CC8CD423A182"
@@ -7024,7 +7024,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.0576CC8CD423A182.subtitle}"
+			subtitle: "{typeomega.quest.0576CC8CD423A182.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -7045,14 +7045,14 @@
 				"29709A919A32319C"
 			]
 			description: [
-				"{gtia.quest.629451595D51E47B.desc.0}"
+				"{typeomega.quest.629451595D51E47B.desc.0}"
 			]
 			hide_dependent_lines: true
 			icon: "gtceu:zpm_machine_hull"
 			id: "629451595D51E47B"
 			shape: "square"
 			size: 1.5d
-			subtitle: "{gtia.quest.629451595D51E47B.subtitle}"
+			subtitle: "{typeomega.quest.629451595D51E47B.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -7063,7 +7063,7 @@
 					type: "item"
 				}
 			]
-			title: "{gtia.quest.629451595D51E47B.title}"
+			title: "{typeomega.quest.629451595D51E47B.title}"
 			x: -2.5d
 			y: 44.125d
 		}
@@ -7073,7 +7073,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.71E5551F381F2116.desc.1}"
+				"{typeomega.quest.71E5551F381F2116.desc.1}"
 			]
 			icon: "gtceu:mega_blast_furnace"
 			id: "71E5551F381F2116"
@@ -7088,7 +7088,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.71E5551F381F2116.subtitle}"
+			subtitle: "{typeomega.quest.71E5551F381F2116.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -7109,7 +7109,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.7B469111041CBF0A.desc.1}"
+				"{typeomega.quest.7B469111041CBF0A.desc.1}"
 			]
 			icon: "gtceu:mega_vacuum_freezer"
 			id: "7B469111041CBF0A"
@@ -7124,7 +7124,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.7B469111041CBF0A.subtitle}"
+			subtitle: "{typeomega.quest.7B469111041CBF0A.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -7150,7 +7150,7 @@
 				"{gtceu.machine.research_station.tooltip.2}"
 				"{gtceu.machine.research_station.tooltip.3}"
 				""
-				"{gtia.quest.04A66E6D12259D14.desc.6}"
+				"{typeomega.quest.04A66E6D12259D14.desc.6}"
 			]
 			icon: "gtceu:research_station"
 			id: "04A66E6D12259D14"
@@ -7165,7 +7165,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.04A66E6D12259D14.subtitle}"
+			subtitle: "{typeomega.quest.04A66E6D12259D14.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -7196,7 +7196,7 @@
 				"{gtna.machine.mega_alloy_blast_smelter.tooltip.8}"
 				"{gtna.machine.mega_alloy_blast_smelter.tooltip.9}"
 				""
-				"{gtia.quest.5AA4445E1E58E0FF.desc.11}"
+				"{typeomega.quest.5AA4445E1E58E0FF.desc.11}"
 			]
 			icon: "gtna:mega_alloy_blast_smelter"
 			id: "5AA4445E1E58E0FF"
@@ -7211,7 +7211,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.5AA4445E1E58E0FF.subtitle}"
+			subtitle: "{typeomega.quest.5AA4445E1E58E0FF.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -7243,7 +7243,7 @@
 				"{gtna.machine.nexus_molecular_forge.tooltip.9}"
 				"{gtna.machine.nexus_molecular_forge.tooltip.10}"
 				""
-				"{gtia.quest.572CEF60273A7476.desc.12}"
+				"{typeomega.quest.572CEF60273A7476.desc.12}"
 			]
 			icon: "gtna:nexus_molecular_forge"
 			id: "572CEF60273A7476"
@@ -7258,7 +7258,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.572CEF60273A7476.subtitle}"
+			subtitle: "{typeomega.quest.572CEF60273A7476.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -7280,7 +7280,7 @@
 			description: [
 				"{gtceu.multiblock.zpm_fusion_reactor.description}"
 				""
-				"{gtia.quest.72FE32572D480743.desc.2}"
+				"{typeomega.quest.72FE32572D480743.desc.2}"
 			]
 			icon: "gtceu:zpm_fusion_reactor"
 			id: "72FE32572D480743"
@@ -7295,7 +7295,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.72FE32572D480743.subtitle}"
+			subtitle: "{typeomega.quest.72FE32572D480743.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -7326,7 +7326,7 @@
 				"{gtna.machine.large_incubator.tooltip.8}"
 				"{gtna.machine.large_incubator.tooltip.9}"
 				""
-				"{gtia.quest.7BB5600126F5A2BF.desc.11}"
+				"{typeomega.quest.7BB5600126F5A2BF.desc.11}"
 			]
 			icon: "gtna:large_incubator"
 			id: "7BB5600126F5A2BF"
@@ -7341,7 +7341,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.7BB5600126F5A2BF.subtitle}"
+			subtitle: "{typeomega.quest.7BB5600126F5A2BF.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -7365,7 +7365,7 @@
 				"{gtceu.machine.high_performance_computation_array.tooltip.1}"
 				"{gtceu.machine.high_performance_computation_array.tooltip.2}"
 				""
-				"{gtia.quest.288E1F5C13FC1DE5.desc.4}"
+				"{typeomega.quest.288E1F5C13FC1DE5.desc.4}"
 			]
 			icon: "gtceu:high_performance_computation_array"
 			id: "288E1F5C13FC1DE5"
@@ -7380,7 +7380,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.288E1F5C13FC1DE5.subtitle}"
+			subtitle: "{typeomega.quest.288E1F5C13FC1DE5.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -7411,7 +7411,7 @@
 				"{gtna.machine.me_storage.tooltip.8}"
 				"{gtna.machine.me_storage.tooltip.9}"
 				""
-				"{gtia.quest.4387FC9D0351AEAC.desc.11}"
+				"{typeomega.quest.4387FC9D0351AEAC.desc.11}"
 			]
 			icon: "gtna:me_storage"
 			id: "4387FC9D0351AEAC"
@@ -7426,7 +7426,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.4387FC9D0351AEAC.subtitle}"
+			subtitle: "{typeomega.quest.4387FC9D0351AEAC.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -7447,14 +7447,14 @@
 				"629451595D51E47B"
 			]
 			description: [
-				"{gtia.quest.1EAE745962F21944.desc.0}"
+				"{typeomega.quest.1EAE745962F21944.desc.0}"
 			]
 			hide_dependent_lines: true
 			icon: "gtceu:uv_machine_hull"
 			id: "1EAE745962F21944"
 			shape: "square"
 			size: 1.5d
-			subtitle: "{gtia.quest.1EAE745962F21944.subtitle}"
+			subtitle: "{typeomega.quest.1EAE745962F21944.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -7465,7 +7465,7 @@
 					type: "item"
 				}
 			]
-			title: "{gtia.quest.1EAE745962F21944.title}"
+			title: "{typeomega.quest.1EAE745962F21944.title}"
 			x: -2.5d
 			y: 47.75d
 		}
@@ -7484,7 +7484,7 @@
 				"{gtna.machine.analysis_and_research_center.tooltip.7}"
 				"{gtna.machine.analysis_and_research_center.tooltip.8}"
 				""
-				"{gtia.quest.05A3551D0AED198D.desc.10}"
+				"{typeomega.quest.05A3551D0AED198D.desc.10}"
 			]
 			icon: "gtna:analysis_and_research_center"
 			id: "05A3551D0AED198D"
@@ -7499,7 +7499,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.05A3551D0AED198D.subtitle}"
+			subtitle: "{typeomega.quest.05A3551D0AED198D.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -7532,7 +7532,7 @@
 				"{gtna.machine.nano_forge.tooltip.10}"
 				"{gtna.machine.nano_forge.tooltip.11}"
 				""
-				"{gtia.quest.51E487AB17A16FD9.desc.13}"
+				"{typeomega.quest.51E487AB17A16FD9.desc.13}"
 			]
 			icon: "gtna:nano_forge"
 			id: "51E487AB17A16FD9"
@@ -7547,7 +7547,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.51E487AB17A16FD9.subtitle}"
+			subtitle: "{typeomega.quest.51E487AB17A16FD9.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -7577,7 +7577,7 @@
 				"{gtna.machine.large_cracker.tooltip.7}"
 				"{gtna.machine.large_cracker.tooltip.8}"
 				""
-				"{gtia.quest.5ACF5C94D688853F.desc.10}"
+				"{typeomega.quest.5ACF5C94D688853F.desc.10}"
 			]
 			icon: "gtna:large_cracker"
 			id: "5ACF5C94D688853F"
@@ -7592,7 +7592,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.5ACF5C94D688853F.subtitle}"
+			subtitle: "{typeomega.quest.5ACF5C94D688853F.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -7622,7 +7622,7 @@
 				"{gtna.machine.infinity_fluid_drilling_rig.tooltip.7}"
 				"{gtna.machine.infinity_fluid_drilling_rig.tooltip.8}"
 				""
-				"{gtia.quest.09AAD3DEB4A5D722.desc.10}"
+				"{typeomega.quest.09AAD3DEB4A5D722.desc.10}"
 			]
 			icon: "gtna:infinity_fluid_drilling_rig"
 			id: "09AAD3DEB4A5D722"
@@ -7637,7 +7637,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.09AAD3DEB4A5D722.subtitle}"
+			subtitle: "{typeomega.quest.09AAD3DEB4A5D722.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -7659,7 +7659,7 @@
 			description: [
 				"{gtceu.multiblock.uv_fusion_reactor.description}"
 				""
-				"{gtia.quest.0DC14F892EDCA761.desc.2}"
+				"{typeomega.quest.0DC14F892EDCA761.desc.2}"
 			]
 			icon: "gtceu:uv_fusion_reactor"
 			id: "0DC14F892EDCA761"
@@ -7674,7 +7674,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.0DC14F892EDCA761.subtitle}"
+			subtitle: "{typeomega.quest.0DC14F892EDCA761.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -7700,7 +7700,7 @@
 				"{gtceu.machine.network_switch.tooltip.2}"
 				"{gtceu.machine.network_switch.tooltip.3}"
 				""
-				"{gtia.quest.0979068380A421F3.desc.6}"
+				"{typeomega.quest.0979068380A421F3.desc.6}"
 			]
 			icon: "gtceu:network_switch"
 			id: "0979068380A421F3"
@@ -7715,7 +7715,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.0979068380A421F3.subtitle}"
+			subtitle: "{typeomega.quest.0979068380A421F3.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -7736,7 +7736,7 @@
 			]
 			description: [
 				""
-				"{gtia.quest.3256E430EB16D8A7.desc.1}"
+				"{typeomega.quest.3256E430EB16D8A7.desc.1}"
 			]
 			icon: "modern_manipulator:mm_uplink"
 			id: "3256E430EB16D8A7"
@@ -7751,7 +7751,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.3256E430EB16D8A7.subtitle}"
+			subtitle: "{typeomega.quest.3256E430EB16D8A7.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -7772,14 +7772,14 @@
 				"1EAE745962F21944"
 			]
 			description: [
-				"{gtia.quest.487D50379431F8D5.desc.0}"
+				"{typeomega.quest.487D50379431F8D5.desc.0}"
 			]
 			hide_dependent_lines: true
 			icon: "gtceu:uhv_machine_hull"
 			id: "487D50379431F8D5"
 			shape: "square"
 			size: 1.5d
-			subtitle: "{gtia.quest.487D50379431F8D5.subtitle}"
+			subtitle: "{typeomega.quest.487D50379431F8D5.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -7790,7 +7790,7 @@
 					type: "item"
 				}
 			]
-			title: "{gtia.quest.487D50379431F8D5.title}"
+			title: "{typeomega.quest.487D50379431F8D5.title}"
 			x: -2.5d
 			y: 55.125d
 		}
@@ -7811,7 +7811,7 @@
 				"{gtna.machine.compound_extreme_cooling_unit.tooltip.9}"
 				"{gtna.machine.compound_extreme_cooling_unit.tooltip.10}"
 				""
-				"{gtia.quest.77D41AC2B1FA8326.desc.12}"
+				"{typeomega.quest.77D41AC2B1FA8326.desc.12}"
 			]
 			icon: "gtna:compound_extreme_cooling_unit"
 			id: "77D41AC2B1FA8326"
@@ -7825,7 +7825,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.77D41AC2B1FA8326.subtitle}"
+			subtitle: "{typeomega.quest.77D41AC2B1FA8326.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -7858,7 +7858,7 @@
 				"{gtna.machine.forge_of_gods.tooltip.10}"
 				"{gtna.machine.forge_of_gods.tooltip.11}"
 				""
-				"{gtia.quest.049E4689107D0F72.desc.13}"
+				"{typeomega.quest.049E4689107D0F72.desc.13}"
 			]
 			icon: "gtna:forge_of_gods"
 			id: "049E4689107D0F72"
@@ -7872,7 +7872,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.049E4689107D0F72.subtitle}"
+			subtitle: "{typeomega.quest.049E4689107D0F72.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -7904,7 +7904,7 @@
 				"{gtna.machine.giant_sintering_array.tooltip.9}"
 				"{gtna.machine.giant_sintering_array.tooltip.10}"
 				""
-				"{gtia.quest.22398646CB17727A.desc.12}"
+				"{typeomega.quest.22398646CB17727A.desc.12}"
 			]
 			icon: "gtna:giant_sintering_array"
 			id: "22398646CB17727A"
@@ -7918,7 +7918,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.22398646CB17727A.subtitle}"
+			subtitle: "{typeomega.quest.22398646CB17727A.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -7950,7 +7950,7 @@
 				"{gtna.machine.godforge_exotic_module.tooltip.9}"
 				"{gtna.machine.godforge_exotic_module.tooltip.10}"
 				""
-				"{gtia.quest.1701BD68865B94A9.desc.12}"
+				"{typeomega.quest.1701BD68865B94A9.desc.12}"
 			]
 			icon: "gtna:godforge_exotic_module"
 			id: "1701BD68865B94A9"
@@ -7964,7 +7964,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.1701BD68865B94A9.subtitle}"
+			subtitle: "{typeomega.quest.1701BD68865B94A9.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -7994,7 +7994,7 @@
 				"{gtna.machine.godforge_molten_module.tooltip.7}"
 				"{gtna.machine.godforge_molten_module.tooltip.8}"
 				""
-				"{gtia.quest.1ABE516725CC2530.desc.10}"
+				"{typeomega.quest.1ABE516725CC2530.desc.10}"
 			]
 			icon: "gtna:godforge_molten_module"
 			id: "1ABE516725CC2530"
@@ -8008,7 +8008,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.1ABE516725CC2530.subtitle}"
+			subtitle: "{typeomega.quest.1ABE516725CC2530.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -8038,7 +8038,7 @@
 				"{gtna.machine.godforge_smelting_module.tooltip.7}"
 				"{gtna.machine.godforge_smelting_module.tooltip.8}"
 				""
-				"{gtia.quest.2DB840B80126A601.desc.10}"
+				"{typeomega.quest.2DB840B80126A601.desc.10}"
 			]
 			icon: "gtna:godforge_smelting_module"
 			id: "2DB840B80126A601"
@@ -8052,7 +8052,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.2DB840B80126A601.subtitle}"
+			subtitle: "{typeomega.quest.2DB840B80126A601.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -8082,7 +8082,7 @@
 				"{gtna.machine.magnetic_energy_reaction_furnace.tooltip.7}"
 				"{gtna.machine.magnetic_energy_reaction_furnace.tooltip.8}"
 				""
-				"{gtia.quest.626D805BEBA20E2E.desc.10}"
+				"{typeomega.quest.626D805BEBA20E2E.desc.10}"
 			]
 			icon: "gtna:magnetic_energy_reaction_furnace"
 			id: "626D805BEBA20E2E"
@@ -8096,7 +8096,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.626D805BEBA20E2E.subtitle}"
+			subtitle: "{typeomega.quest.626D805BEBA20E2E.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -8127,7 +8127,7 @@
 				"{gtna.machine.mega_vacuum_drying_furnace.tooltip.8}"
 				"{gtna.machine.mega_vacuum_drying_furnace.tooltip.9}"
 				""
-				"{gtia.quest.2A38498AC9294B5E.desc.11}"
+				"{typeomega.quest.2A38498AC9294B5E.desc.11}"
 			]
 			icon: "gtna:mega_vacuum_drying_furnace"
 			id: "2A38498AC9294B5E"
@@ -8141,7 +8141,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.2A38498AC9294B5E.subtitle}"
+			subtitle: "{typeomega.quest.2A38498AC9294B5E.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -8172,7 +8172,7 @@
 				"{gtna.machine.star_ultimate_material_forge_factory.tooltip.8}"
 				"{gtna.machine.star_ultimate_material_forge_factory.tooltip.9}"
 				""
-				"{gtia.quest.1535B1362852D047.desc.11}"
+				"{typeomega.quest.1535B1362852D047.desc.11}"
 			]
 			icon: "gtna:star_ultimate_material_forge_factory"
 			id: "1535B1362852D047"
@@ -8186,7 +8186,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.1535B1362852D047.subtitle}"
+			subtitle: "{typeomega.quest.1535B1362852D047.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -8218,7 +8218,7 @@
 				"{gtna.machine.super_blast_smelter.tooltip.9}"
 				"{gtna.machine.super_blast_smelter.tooltip.10}"
 				""
-				"{gtia.quest.2B3F03EB6A8FF4F8.desc.12}"
+				"{typeomega.quest.2B3F03EB6A8FF4F8.desc.12}"
 			]
 			icon: "gtna:super_blast_smelter"
 			id: "2B3F03EB6A8FF4F8"
@@ -8232,7 +8232,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.2B3F03EB6A8FF4F8.subtitle}"
+			subtitle: "{typeomega.quest.2B3F03EB6A8FF4F8.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -8262,7 +8262,7 @@
 				"{gtna.machine.cracker_hub.tooltip.7}"
 				"{gtna.machine.cracker_hub.tooltip.8}"
 				""
-				"{gtia.quest.091C7C1C70CFA6D6.desc.10}"
+				"{typeomega.quest.091C7C1C70CFA6D6.desc.10}"
 			]
 			icon: "gtna:cracker_hub"
 			id: "091C7C1C70CFA6D6"
@@ -8276,7 +8276,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.091C7C1C70CFA6D6.subtitle}"
+			subtitle: "{typeomega.quest.091C7C1C70CFA6D6.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -8308,7 +8308,7 @@
 				"{gtna.machine.giant_electrochemical_workstation.tooltip.9}"
 				"{gtna.machine.giant_electrochemical_workstation.tooltip.10}"
 				""
-				"{gtia.quest.4408FE0132EB0D92.desc.12}"
+				"{typeomega.quest.4408FE0132EB0D92.desc.12}"
 			]
 			icon: "gtna:giant_electrochemical_workstation"
 			id: "4408FE0132EB0D92"
@@ -8322,7 +8322,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.4408FE0132EB0D92.subtitle}"
+			subtitle: "{typeomega.quest.4408FE0132EB0D92.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -8353,7 +8353,7 @@
 				"{gtna.machine.integrated_vapor_deposition_system.tooltip.8}"
 				"{gtna.machine.integrated_vapor_deposition_system.tooltip.9}"
 				""
-				"{gtia.quest.0B65BF3CB1C7E83C.desc.11}"
+				"{typeomega.quest.0B65BF3CB1C7E83C.desc.11}"
 			]
 			icon: "gtna:integrated_vapor_deposition_system"
 			id: "0B65BF3CB1C7E83C"
@@ -8367,7 +8367,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.0B65BF3CB1C7E83C.subtitle}"
+			subtitle: "{typeomega.quest.0B65BF3CB1C7E83C.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -8397,7 +8397,7 @@
 				"{gtna.machine.mega_brewer.tooltip.7}"
 				"{gtna.machine.mega_brewer.tooltip.8}"
 				""
-				"{gtia.quest.205A04EDD3528D34.desc.10}"
+				"{typeomega.quest.205A04EDD3528D34.desc.10}"
 			]
 			icon: "gtna:mega_brewer"
 			id: "205A04EDD3528D34"
@@ -8411,7 +8411,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.205A04EDD3528D34.subtitle}"
+			subtitle: "{typeomega.quest.205A04EDD3528D34.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -8441,7 +8441,7 @@
 				"{gtna.machine.mega_distillery.tooltip.7}"
 				"{gtna.machine.mega_distillery.tooltip.8}"
 				""
-				"{gtia.quest.2DFDD44BC2FB5202.desc.10}"
+				"{typeomega.quest.2DFDD44BC2FB5202.desc.10}"
 			]
 			icon: "gtna:mega_distillery"
 			id: "2DFDD44BC2FB5202"
@@ -8455,7 +8455,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.2DFDD44BC2FB5202.subtitle}"
+			subtitle: "{typeomega.quest.2DFDD44BC2FB5202.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -8484,7 +8484,7 @@
 				"{gtna.machine.rare_earth_centrifugal.tooltip.6}"
 				"{gtna.machine.rare_earth_centrifugal.tooltip.7}"
 				""
-				"{gtia.quest.1F75FACA62816426.desc.9}"
+				"{typeomega.quest.1F75FACA62816426.desc.9}"
 			]
 			icon: "gtna:rare_earth_centrifugal"
 			id: "1F75FACA62816426"
@@ -8498,7 +8498,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.1F75FACA62816426.subtitle}"
+			subtitle: "{typeomega.quest.1F75FACA62816426.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -8529,7 +8529,7 @@
 				"{gtna.machine.space_elevator.tooltip.8}"
 				"{gtna.machine.space_elevator.tooltip.9}"
 				""
-				"{gtia.quest.1E514634B7E9190B.desc.11}"
+				"{typeomega.quest.1E514634B7E9190B.desc.11}"
 			]
 			icon: "gtna:space_elevator"
 			id: "1E514634B7E9190B"
@@ -8543,7 +8543,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.1E514634B7E9190B.subtitle}"
+			subtitle: "{typeomega.quest.1E514634B7E9190B.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -8573,7 +8573,7 @@
 				"{gtna.machine.advanced_integrated_ore_processor.tooltip.7}"
 				"{gtna.machine.advanced_integrated_ore_processor.tooltip.8}"
 				""
-				"{gtia.quest.63D05AB2B3B1A431.desc.10}"
+				"{typeomega.quest.63D05AB2B3B1A431.desc.10}"
 			]
 			icon: "gtna:advanced_integrated_ore_processor"
 			id: "63D05AB2B3B1A431"
@@ -8587,7 +8587,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.63D05AB2B3B1A431.subtitle}"
+			subtitle: "{typeomega.quest.63D05AB2B3B1A431.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -8617,7 +8617,7 @@
 				"{gtna.machine.giant_flotation_tank.tooltip.7}"
 				"{gtna.machine.giant_flotation_tank.tooltip.8}"
 				""
-				"{gtia.quest.772BF96176BB4A59.desc.10}"
+				"{typeomega.quest.772BF96176BB4A59.desc.10}"
 			]
 			icon: "gtna:giant_flotation_tank"
 			id: "772BF96176BB4A59"
@@ -8631,7 +8631,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.772BF96176BB4A59.subtitle}"
+			subtitle: "{typeomega.quest.772BF96176BB4A59.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -8661,7 +8661,7 @@
 				"{gtna.machine.mega_wiremill.tooltip.7}"
 				"{gtna.machine.mega_wiremill.tooltip.8}"
 				""
-				"{gtia.quest.6B3C0BD0C7C4E673.desc.10}"
+				"{typeomega.quest.6B3C0BD0C7C4E673.desc.10}"
 			]
 			icon: "gtna:mega_wiremill"
 			id: "6B3C0BD0C7C4E673"
@@ -8675,7 +8675,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.6B3C0BD0C7C4E673.subtitle}"
+			subtitle: "{typeomega.quest.6B3C0BD0C7C4E673.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -8704,7 +8704,7 @@
 				"{gtna.machine.resource_collection_module.tooltip.6}"
 				"{gtna.machine.resource_collection_module.tooltip.7}"
 				""
-				"{gtia.quest.20A2A6D76DA5616F.desc.9}"
+				"{typeomega.quest.20A2A6D76DA5616F.desc.9}"
 			]
 			icon: "gtna:resource_collection_module"
 			id: "20A2A6D76DA5616F"
@@ -8718,7 +8718,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.20A2A6D76DA5616F.subtitle}"
+			subtitle: "{typeomega.quest.20A2A6D76DA5616F.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -8742,7 +8742,7 @@
 				"{typeomega.machine.assembly_yard.tooltip.1}"
 				"{typeomega.machine.assembly_yard.tooltip.2}"
 				""
-				"{gtia.quest.2A68A17387222BA4.desc.4}"
+				"{typeomega.quest.2A68A17387222BA4.desc.4}"
 			]
 			icon: "typeomega:assembly_yard"
 			id: "2A68A17387222BA4"
@@ -8756,7 +8756,7 @@
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.2A68A17387222BA4.subtitle}"
+			subtitle: "{typeomega.quest.2A68A17387222BA4.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -8785,7 +8785,7 @@
 				"{gtna.machine.assembler_module.tooltip.6}"
 				"{gtna.machine.assembler_module.tooltip.7}"
 				""
-				"{gtia.quest.33F9D7724A1C1FB1.desc.9}"
+				"{typeomega.quest.33F9D7724A1C1FB1.desc.9}"
 			]
 			icon: "gtna:assembler_module"
 			id: "33F9D7724A1C1FB1"
@@ -8799,7 +8799,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.33F9D7724A1C1FB1.subtitle}"
+			subtitle: "{typeomega.quest.33F9D7724A1C1FB1.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -8831,7 +8831,7 @@
 				"{gtna.machine.bec_assembler.tooltip.9}"
 				"{gtna.machine.bec_assembler.tooltip.10}"
 				""
-				"{gtia.quest.0F372B7F18CB94CC.desc.12}"
+				"{typeomega.quest.0F372B7F18CB94CC.desc.12}"
 			]
 			icon: "gtna:bec_assembler"
 			id: "0F372B7F18CB94CC"
@@ -8845,7 +8845,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.0F372B7F18CB94CC.subtitle}"
+			subtitle: "{typeomega.quest.0F372B7F18CB94CC.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -8875,7 +8875,7 @@
 				"{gtna.machine.component_assembly_line.tooltip.7}"
 				"{gtna.machine.component_assembly_line.tooltip.8}"
 				""
-				"{gtia.quest.3014F1D5E94613D5.desc.10}"
+				"{typeomega.quest.3014F1D5E94613D5.desc.10}"
 			]
 			icon: "gtna:component_assembly_line"
 			id: "3014F1D5E94613D5"
@@ -8889,7 +8889,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.3014F1D5E94613D5.subtitle}"
+			subtitle: "{typeomega.quest.3014F1D5E94613D5.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -8920,7 +8920,7 @@
 				"{gtna.machine.dimensional_focus_engraving_array.tooltip.8}"
 				"{gtna.machine.dimensional_focus_engraving_array.tooltip.9}"
 				""
-				"{gtia.quest.4C9D0AB13547896F.desc.11}"
+				"{typeomega.quest.4C9D0AB13547896F.desc.11}"
 			]
 			icon: "gtna:dimensional_focus_engraving_array"
 			id: "4C9D0AB13547896F"
@@ -8934,7 +8934,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.4C9D0AB13547896F.subtitle}"
+			subtitle: "{typeomega.quest.4C9D0AB13547896F.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -8964,7 +8964,7 @@
 				"{gtna.machine.engraving_laser_plant.tooltip.7}"
 				"{gtna.machine.engraving_laser_plant.tooltip.8}"
 				""
-				"{gtia.quest.305BC8678A16564B.desc.10}"
+				"{typeomega.quest.305BC8678A16564B.desc.10}"
 			]
 			icon: "gtna:engraving_laser_plant"
 			id: "305BC8678A16564B"
@@ -8978,7 +8978,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.305BC8678A16564B.subtitle}"
+			subtitle: "{typeomega.quest.305BC8678A16564B.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -9009,7 +9009,7 @@
 				"{gtna.machine.extreme_compressor.tooltip.8}"
 				"{gtna.machine.extreme_compressor.tooltip.9}"
 				""
-				"{gtia.quest.5E18D7A087D6BEC0.desc.11}"
+				"{typeomega.quest.5E18D7A087D6BEC0.desc.11}"
 			]
 			icon: "gtna:extreme_compressor"
 			id: "5E18D7A087D6BEC0"
@@ -9023,7 +9023,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.5E18D7A087D6BEC0.subtitle}"
+			subtitle: "{typeomega.quest.5E18D7A087D6BEC0.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -9054,7 +9054,7 @@
 				"{gtna.machine.heavy_rolling.tooltip.8}"
 				"{gtna.machine.heavy_rolling.tooltip.9}"
 				""
-				"{gtia.quest.57BD1D1DA16BE0BC.desc.11}"
+				"{typeomega.quest.57BD1D1DA16BE0BC.desc.11}"
 			]
 			icon: "gtna:heavy_rolling"
 			id: "57BD1D1DA16BE0BC"
@@ -9068,7 +9068,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.57BD1D1DA16BE0BC.subtitle}"
+			subtitle: "{typeomega.quest.57BD1D1DA16BE0BC.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -9098,7 +9098,7 @@
 				"{gtna.machine.high_energy_laser_lathe.tooltip.7}"
 				"{gtna.machine.high_energy_laser_lathe.tooltip.8}"
 				""
-				"{gtia.quest.3B197B449D6BFF6A.desc.10}"
+				"{typeomega.quest.3B197B449D6BFF6A.desc.10}"
 			]
 			icon: "gtna:high_energy_laser_lathe"
 			id: "3B197B449D6BFF6A"
@@ -9112,7 +9112,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.3B197B449D6BFF6A.subtitle}"
+			subtitle: "{typeomega.quest.3B197B449D6BFF6A.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -9142,7 +9142,7 @@
 				"{gtna.machine.integrated_assembler.tooltip.7}"
 				"{gtna.machine.integrated_assembler.tooltip.8}"
 				""
-				"{gtia.quest.384AA61946D3376A.desc.10}"
+				"{typeomega.quest.384AA61946D3376A.desc.10}"
 			]
 			icon: "gtna:integrated_assembler"
 			id: "384AA61946D3376A"
@@ -9156,7 +9156,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.384AA61946D3376A.subtitle}"
+			subtitle: "{typeomega.quest.384AA61946D3376A.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -9186,7 +9186,7 @@
 				"{gtna.machine.nanites_circuit_assembly_factory.tooltip.7}"
 				"{gtna.machine.nanites_circuit_assembly_factory.tooltip.8}"
 				""
-				"{gtia.quest.7EB712D970F64677.desc.10}"
+				"{typeomega.quest.7EB712D970F64677.desc.10}"
 			]
 			icon: "gtna:nanites_circuit_assembly_factory"
 			id: "7EB712D970F64677"
@@ -9200,7 +9200,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.7EB712D970F64677.subtitle}"
+			subtitle: "{typeomega.quest.7EB712D970F64677.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -9230,7 +9230,7 @@
 				"{gtna.machine.neutronium_wire_cutting.tooltip.7}"
 				"{gtna.machine.neutronium_wire_cutting.tooltip.8}"
 				""
-				"{gtia.quest.5025F4F75BB1D5CB.desc.10}"
+				"{typeomega.quest.5025F4F75BB1D5CB.desc.10}"
 			]
 			icon: "gtna:neutronium_wire_cutting"
 			id: "5025F4F75BB1D5CB"
@@ -9244,7 +9244,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.5025F4F75BB1D5CB.subtitle}"
+			subtitle: "{typeomega.quest.5025F4F75BB1D5CB.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -9275,7 +9275,7 @@
 				"{gtna.machine.pcb_factory.tooltip.8}"
 				"{gtna.machine.pcb_factory.tooltip.9}"
 				""
-				"{gtia.quest.6451E5071B13D73B.desc.11}"
+				"{typeomega.quest.6451E5071B13D73B.desc.11}"
 			]
 			icon: "gtna:pcb_factory"
 			id: "6451E5071B13D73B"
@@ -9289,7 +9289,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.6451E5071B13D73B.subtitle}"
+			subtitle: "{typeomega.quest.6451E5071B13D73B.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -9319,7 +9319,7 @@
 				"{gtna.machine.superconducting_electromagnetism.tooltip.7}"
 				"{gtna.machine.superconducting_electromagnetism.tooltip.8}"
 				""
-				"{gtia.quest.6A68AC95E91DFCD8.desc.10}"
+				"{typeomega.quest.6A68AC95E91DFCD8.desc.10}"
 			]
 			icon: "gtna:superconducting_electromagnetism"
 			id: "6A68AC95E91DFCD8"
@@ -9333,7 +9333,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.6A68AC95E91DFCD8.subtitle}"
+			subtitle: "{typeomega.quest.6A68AC95E91DFCD8.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -9357,7 +9357,7 @@
 				"{typeomega.machine.fusion_suppressor.tooltip.1}"
 				"{typeomega.machine.fusion_suppressor.tooltip.2}"
 				""
-				"{gtia.quest.71D082940E69C3AD.desc.4}"
+				"{typeomega.quest.71D082940E69C3AD.desc.4}"
 			]
 			icon: "typeomega:fusion_suppressor"
 			id: "71D082940E69C3AD"
@@ -9371,7 +9371,7 @@
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.71D082940E69C3AD.subtitle}"
+			subtitle: "{typeomega.quest.71D082940E69C3AD.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -9400,7 +9400,7 @@
 				"{gtna.machine.annihilate_generator.tooltip.6}"
 				"{gtna.machine.annihilate_generator.tooltip.7}"
 				""
-				"{gtia.quest.612C57E9A3A36EA1.desc.9}"
+				"{typeomega.quest.612C57E9A3A36EA1.desc.9}"
 			]
 			icon: "gtna:annihilate_generator"
 			id: "612C57E9A3A36EA1"
@@ -9414,7 +9414,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.612C57E9A3A36EA1.subtitle}"
+			subtitle: "{typeomega.quest.612C57E9A3A36EA1.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -9445,7 +9445,7 @@
 				"{gtna.machine.bec_generator.tooltip.8}"
 				"{gtna.machine.bec_generator.tooltip.9}"
 				""
-				"{gtia.quest.68DAFE7AFC70D1DD.desc.11}"
+				"{typeomega.quest.68DAFE7AFC70D1DD.desc.11}"
 			]
 			icon: "gtna:bec_generator"
 			id: "68DAFE7AFC70D1DD"
@@ -9459,7 +9459,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.68DAFE7AFC70D1DD.subtitle}"
+			subtitle: "{typeomega.quest.68DAFE7AFC70D1DD.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -9491,7 +9491,7 @@
 				"{gtna.machine.dimensionally_transcendent_plasma_forge.tooltip.9}"
 				"{gtna.machine.dimensionally_transcendent_plasma_forge.tooltip.10}"
 				""
-				"{gtia.quest.432B99F06278E684.desc.12}"
+				"{typeomega.quest.432B99F06278E684.desc.12}"
 			]
 			icon: "gtna:dimensionally_transcendent_plasma_forge"
 			id: "432B99F06278E684"
@@ -9505,7 +9505,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.432B99F06278E684.subtitle}"
+			subtitle: "{typeomega.quest.432B99F06278E684.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -9535,7 +9535,7 @@
 				"{gtna.machine.godforge_plasma_module.tooltip.7}"
 				"{gtna.machine.godforge_plasma_module.tooltip.8}"
 				""
-				"{gtia.quest.21E6F28F66F61816.desc.10}"
+				"{typeomega.quest.21E6F28F66F61816.desc.10}"
 			]
 			icon: "gtna:godforge_plasma_module"
 			id: "21E6F28F66F61816"
@@ -9549,7 +9549,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.21E6F28F66F61816.subtitle}"
+			subtitle: "{typeomega.quest.21E6F28F66F61816.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -9580,7 +9580,7 @@
 				"{gtna.machine.hyperdimensional_plasma_fusion_core.tooltip.8}"
 				"{gtna.machine.hyperdimensional_plasma_fusion_core.tooltip.9}"
 				""
-				"{gtia.quest.3FC462399A60358A.desc.11}"
+				"{typeomega.quest.3FC462399A60358A.desc.11}"
 			]
 			icon: "gtna:hyperdimensional_plasma_fusion_core"
 			id: "3FC462399A60358A"
@@ -9594,7 +9594,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.3FC462399A60358A.subtitle}"
+			subtitle: "{typeomega.quest.3FC462399A60358A.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -9624,7 +9624,7 @@
 				"{gtna.machine.lightning_rod.tooltip.7}"
 				"{gtna.machine.lightning_rod.tooltip.8}"
 				""
-				"{gtia.quest.5D2B53B1BFB47C9D.desc.10}"
+				"{typeomega.quest.5D2B53B1BFB47C9D.desc.10}"
 			]
 			icon: "gtna:lightning_rod"
 			id: "5D2B53B1BFB47C9D"
@@ -9638,7 +9638,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.5D2B53B1BFB47C9D.subtitle}"
+			subtitle: "{typeomega.quest.5D2B53B1BFB47C9D.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -9669,7 +9669,7 @@
 				"{gtna.machine.transcendent_plasma_mixer.tooltip.8}"
 				"{gtna.machine.transcendent_plasma_mixer.tooltip.9}"
 				""
-				"{gtia.quest.49290820D8844CA3.desc.11}"
+				"{typeomega.quest.49290820D8844CA3.desc.11}"
 			]
 			icon: "gtna:transcendent_plasma_mixer"
 			id: "49290820D8844CA3"
@@ -9683,7 +9683,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.49290820D8844CA3.subtitle}"
+			subtitle: "{typeomega.quest.49290820D8844CA3.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -9714,7 +9714,7 @@
 				"{gtna.machine.bec_storage.tooltip.8}"
 				"{gtna.machine.bec_storage.tooltip.9}"
 				""
-				"{gtia.quest.117DAAD9828A63C4.desc.11}"
+				"{typeomega.quest.117DAAD9828A63C4.desc.11}"
 			]
 			icon: "gtna:bec_storage"
 			id: "117DAAD9828A63C4"
@@ -9728,7 +9728,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.117DAAD9828A63C4.subtitle}"
+			subtitle: "{typeomega.quest.117DAAD9828A63C4.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -9761,7 +9761,7 @@
 				"{gtna.machine.data_center.tooltip.10}"
 				"{gtna.machine.data_center.tooltip.11}"
 				""
-				"{gtia.quest.450C0F4955A25625.desc.13}"
+				"{typeomega.quest.450C0F4955A25625.desc.13}"
 			]
 			icon: "gtna:data_center"
 			id: "450C0F4955A25625"
@@ -9775,7 +9775,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.450C0F4955A25625.subtitle}"
+			subtitle: "{typeomega.quest.450C0F4955A25625.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -9809,7 +9809,7 @@
 				"{gtna.machine.dimensional_rift_gate.tooltip.11}"
 				"{gtna.machine.dimensional_rift_gate.tooltip.12}"
 				""
-				"{gtia.quest.3B5B35BD0414820C.desc.14}"
+				"{typeomega.quest.3B5B35BD0414820C.desc.14}"
 			]
 			icon: "gtna:dimensional_rift_gate"
 			id: "3B5B35BD0414820C"
@@ -9823,7 +9823,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.3B5B35BD0414820C.subtitle}"
+			subtitle: "{typeomega.quest.3B5B35BD0414820C.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -9853,7 +9853,7 @@
 				"{gtna.machine.dyson_sphere_launch_silo.tooltip.7}"
 				"{gtna.machine.dyson_sphere_launch_silo.tooltip.8}"
 				""
-				"{gtia.quest.152368A64EE3F45D.desc.10}"
+				"{typeomega.quest.152368A64EE3F45D.desc.10}"
 			]
 			icon: "gtna:dyson_sphere_launch_silo"
 			id: "152368A64EE3F45D"
@@ -9867,7 +9867,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.152368A64EE3F45D.subtitle}"
+			subtitle: "{typeomega.quest.152368A64EE3F45D.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -9898,7 +9898,7 @@
 				"{gtna.machine.dyson_sphere_receiving_station.tooltip.8}"
 				"{gtna.machine.dyson_sphere_receiving_station.tooltip.9}"
 				""
-				"{gtia.quest.427E1276BFE8626F.desc.11}"
+				"{typeomega.quest.427E1276BFE8626F.desc.11}"
 			]
 			icon: "gtna:dyson_sphere_receiving_station"
 			id: "427E1276BFE8626F"
@@ -9912,7 +9912,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.427E1276BFE8626F.subtitle}"
+			subtitle: "{typeomega.quest.427E1276BFE8626F.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -9946,7 +9946,7 @@
 				"{gtna.machine.kinetic_orbital_lance.tooltip.11}"
 				"{gtna.machine.kinetic_orbital_lance.tooltip.12}"
 				""
-				"{gtia.quest.3C34C7A48E29FD8F.desc.14}"
+				"{typeomega.quest.3C34C7A48E29FD8F.desc.14}"
 			]
 			icon: "gtna:kinetic_orbital_lance"
 			id: "3C34C7A48E29FD8F"
@@ -9960,7 +9960,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.3C34C7A48E29FD8F.subtitle}"
+			subtitle: "{typeomega.quest.3C34C7A48E29FD8F.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -9991,7 +9991,7 @@
 				"{gtna.machine.space_probe_surface_reception.tooltip.8}"
 				"{gtna.machine.space_probe_surface_reception.tooltip.9}"
 				""
-				"{gtia.quest.6A74FB8EEB5C2148.desc.11}"
+				"{typeomega.quest.6A74FB8EEB5C2148.desc.11}"
 			]
 			icon: "gtna:space_probe_surface_reception"
 			id: "6A74FB8EEB5C2148"
@@ -10005,7 +10005,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.6A74FB8EEB5C2148.subtitle}"
+			subtitle: "{typeomega.quest.6A74FB8EEB5C2148.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -10029,7 +10029,7 @@
 				"{typeomega.machine.birch_world.tooltip.1}"
 				"{typeomega.machine.birch_world.tooltip.2}"
 				""
-				"{gtia.quest.70BD73611763774E.desc.4}"
+				"{typeomega.quest.70BD73611763774E.desc.4}"
 			]
 			icon: "typeomega:birch_world"
 			id: "70BD73611763774E"
@@ -10043,7 +10043,7 @@
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.70BD73611763774E.subtitle}"
+			subtitle: "{typeomega.quest.70BD73611763774E.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -10067,7 +10067,7 @@
 				"{typeomega.machine.disintegrator.tooltip.1}"
 				"{typeomega.machine.disintegrator.tooltip.2}"
 				""
-				"{gtia.quest.560EFEDAF4D65590.desc.4}"
+				"{typeomega.quest.560EFEDAF4D65590.desc.4}"
 			]
 			icon: "typeomega:disintegrator"
 			id: "560EFEDAF4D65590"
@@ -10081,7 +10081,7 @@
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.560EFEDAF4D65590.subtitle}"
+			subtitle: "{typeomega.quest.560EFEDAF4D65590.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -10105,7 +10105,7 @@
 				"{typeomega.machine.hraemc.tooltip.1}"
 				"{typeomega.machine.hraemc.tooltip.2}"
 				""
-				"{gtia.quest.2808708307ABB4A8.desc.4}"
+				"{typeomega.quest.2808708307ABB4A8.desc.4}"
 			]
 			icon: "typeomega:hraemc"
 			id: "2808708307ABB4A8"
@@ -10119,7 +10119,7 @@
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.2808708307ABB4A8.subtitle}"
+			subtitle: "{typeomega.quest.2808708307ABB4A8.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -10143,7 +10143,7 @@
 				"{typeomega.machine.kugelblitz.tooltip.1}"
 				"{typeomega.machine.kugelblitz.tooltip.2}"
 				""
-				"{gtia.quest.76169C9A352F983A.desc.4}"
+				"{typeomega.quest.76169C9A352F983A.desc.4}"
 			]
 			icon: "typeomega:kugelblitz"
 			id: "76169C9A352F983A"
@@ -10157,7 +10157,7 @@
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.76169C9A352F983A.subtitle}"
+			subtitle: "{typeomega.quest.76169C9A352F983A.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -10181,7 +10181,7 @@
 				"{typeomega.machine.matrioshka_brain.tooltip.1}"
 				"{typeomega.machine.matrioshka_brain.tooltip.2}"
 				""
-				"{gtia.quest.70142FE89DD2391E.desc.4}"
+				"{typeomega.quest.70142FE89DD2391E.desc.4}"
 			]
 			icon: "typeomega:matrioshka_brain"
 			id: "70142FE89DD2391E"
@@ -10195,7 +10195,7 @@
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.70142FE89DD2391E.subtitle}"
+			subtitle: "{typeomega.quest.70142FE89DD2391E.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -10219,7 +10219,7 @@
 				"{typeomega.machine.nidavellir.tooltip.1}"
 				"{typeomega.machine.nidavellir.tooltip.2}"
 				""
-				"{gtia.quest.7D0995E20AB8263C.desc.4}"
+				"{typeomega.quest.7D0995E20AB8263C.desc.4}"
 			]
 			icon: "typeomega:nidavellir"
 			id: "7D0995E20AB8263C"
@@ -10233,7 +10233,7 @@
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.7D0995E20AB8263C.subtitle}"
+			subtitle: "{typeomega.quest.7D0995E20AB8263C.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -10257,7 +10257,7 @@
 				"{typeomega.machine.qso.tooltip.1}"
 				"{typeomega.machine.qso.tooltip.2}"
 				""
-				"{gtia.quest.4046CE768E34C087.desc.4}"
+				"{typeomega.quest.4046CE768E34C087.desc.4}"
 			]
 			icon: "typeomega:qso"
 			id: "4046CE768E34C087"
@@ -10271,7 +10271,7 @@
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.4046CE768E34C087.subtitle}"
+			subtitle: "{typeomega.quest.4046CE768E34C087.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -10295,7 +10295,7 @@
 				"{typeomega.machine.star_lifter.tooltip.1}"
 				"{typeomega.machine.star_lifter.tooltip.2}"
 				""
-				"{gtia.quest.1BF8C74DBC90D18A.desc.4}"
+				"{typeomega.quest.1BF8C74DBC90D18A.desc.4}"
 			]
 			icon: "typeomega:star_lifter"
 			id: "1BF8C74DBC90D18A"
@@ -10309,7 +10309,7 @@
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.1BF8C74DBC90D18A.subtitle}"
+			subtitle: "{typeomega.quest.1BF8C74DBC90D18A.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -10333,7 +10333,7 @@
 				"{typeomega.machine.stellar_engine.tooltip.1}"
 				"{typeomega.machine.stellar_engine.tooltip.2}"
 				""
-				"{gtia.quest.177085F1E8701758.desc.4}"
+				"{typeomega.quest.177085F1E8701758.desc.4}"
 			]
 			icon: "typeomega:stellar_engine"
 			id: "177085F1E8701758"
@@ -10347,7 +10347,7 @@
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.177085F1E8701758.subtitle}"
+			subtitle: "{typeomega.quest.177085F1E8701758.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -10371,7 +10371,7 @@
 				"{typeomega.machine.stellar_harvester.tooltip.1}"
 				"{typeomega.machine.stellar_harvester.tooltip.2}"
 				""
-				"{gtia.quest.30BED88F6D7A21F8.desc.4}"
+				"{typeomega.quest.30BED88F6D7A21F8.desc.4}"
 			]
 			icon: "typeomega:stellar_harvester"
 			id: "30BED88F6D7A21F8"
@@ -10385,7 +10385,7 @@
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.30BED88F6D7A21F8.subtitle}"
+			subtitle: "{typeomega.quest.30BED88F6D7A21F8.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -10409,7 +10409,7 @@
 				"{typeomega.machine.stellar_hoop.tooltip.1}"
 				"{typeomega.machine.stellar_hoop.tooltip.2}"
 				""
-				"{gtia.quest.5587D31B6924BA25.desc.4}"
+				"{typeomega.quest.5587D31B6924BA25.desc.4}"
 			]
 			icon: "typeomega:stellar_hoop"
 			id: "5587D31B6924BA25"
@@ -10423,7 +10423,7 @@
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.5587D31B6924BA25.subtitle}"
+			subtitle: "{typeomega.quest.5587D31B6924BA25.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -10447,7 +10447,7 @@
 				"{typeomega.machine.suprashell.tooltip.1}"
 				"{typeomega.machine.suprashell.tooltip.2}"
 				""
-				"{gtia.quest.5E9D43B727C6AABC.desc.4}"
+				"{typeomega.quest.5E9D43B727C6AABC.desc.4}"
 			]
 			icon: "typeomega:suprashell"
 			id: "5E9D43B727C6AABC"
@@ -10461,7 +10461,7 @@
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.5E9D43B727C6AABC.subtitle}"
+			subtitle: "{typeomega.quest.5E9D43B727C6AABC.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -10485,7 +10485,7 @@
 				"{typeomega.machine.system_creator.tooltip.1}"
 				"{typeomega.machine.system_creator.tooltip.2}"
 				""
-				"{gtia.quest.4007EB811521D9A2.desc.4}"
+				"{typeomega.quest.4007EB811521D9A2.desc.4}"
 			]
 			icon: "typeomega:system_creator"
 			id: "4007EB811521D9A2"
@@ -10499,7 +10499,7 @@
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.4007EB811521D9A2.subtitle}"
+			subtitle: "{typeomega.quest.4007EB811521D9A2.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -10523,7 +10523,7 @@
 				"{typeomega.machine.yggdrasil.tooltip.1}"
 				"{typeomega.machine.yggdrasil.tooltip.2}"
 				""
-				"{gtia.quest.7C3F9B05DD0C7567.desc.4}"
+				"{typeomega.quest.7C3F9B05DD0C7567.desc.4}"
 			]
 			icon: "typeomega:yggdrasil"
 			id: "7C3F9B05DD0C7567"
@@ -10537,7 +10537,7 @@
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{gtia.quest.7C3F9B05DD0C7567.subtitle}"
+			subtitle: "{typeomega.quest.7C3F9B05DD0C7567.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -10568,7 +10568,7 @@
 				"{gtna.machine.advanced_hyper_reactor.tooltip.8}"
 				"{gtna.machine.advanced_hyper_reactor.tooltip.9}"
 				""
-				"{gtia.quest.5E074004550FC8F6.desc.11}"
+				"{typeomega.quest.5E074004550FC8F6.desc.11}"
 			]
 			icon: "gtna:advanced_hyper_reactor"
 			id: "5E074004550FC8F6"
@@ -10582,7 +10582,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.5E074004550FC8F6.subtitle}"
+			subtitle: "{typeomega.quest.5E074004550FC8F6.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -10616,7 +10616,7 @@
 				"{gtna.machine.antimatter_collider_ring.tooltip.11}"
 				"{gtna.machine.antimatter_collider_ring.tooltip.12}"
 				""
-				"{gtia.quest.21BC4CBF4C35B8F0.desc.14}"
+				"{typeomega.quest.21BC4CBF4C35B8F0.desc.14}"
 			]
 			icon: "gtna:antimatter_collider_ring"
 			id: "21BC4CBF4C35B8F0"
@@ -10630,7 +10630,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.21BC4CBF4C35B8F0.subtitle}"
+			subtitle: "{typeomega.quest.21BC4CBF4C35B8F0.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -10661,7 +10661,7 @@
 				"{gtna.machine.bec_diode.tooltip.8}"
 				"{gtna.machine.bec_diode.tooltip.9}"
 				""
-				"{gtia.quest.08F79C89849B7FEE.desc.11}"
+				"{typeomega.quest.08F79C89849B7FEE.desc.11}"
 			]
 			icon: "gtna:bec_diode"
 			id: "08F79C89849B7FEE"
@@ -10675,7 +10675,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.08F79C89849B7FEE.subtitle}"
+			subtitle: "{typeomega.quest.08F79C89849B7FEE.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -10708,7 +10708,7 @@
 				"{gtna.machine.bec_io_node.tooltip.10}"
 				"{gtna.machine.bec_io_node.tooltip.11}"
 				""
-				"{gtia.quest.2C1C2C3E8F0DBEC2.desc.13}"
+				"{typeomega.quest.2C1C2C3E8F0DBEC2.desc.13}"
 			]
 			icon: "gtna:bec_io_node"
 			id: "2C1C2C3E8F0DBEC2"
@@ -10722,7 +10722,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.2C1C2C3E8F0DBEC2.subtitle}"
+			subtitle: "{typeomega.quest.2C1C2C3E8F0DBEC2.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -10752,7 +10752,7 @@
 				"{gtna.machine.crystal_builder.tooltip.7}"
 				"{gtna.machine.crystal_builder.tooltip.8}"
 				""
-				"{gtia.quest.3C28ADA1971F26F8.desc.10}"
+				"{typeomega.quest.3C28ADA1971F26F8.desc.10}"
 			]
 			icon: "gtna:crystal_builder"
 			id: "3C28ADA1971F26F8"
@@ -10766,7 +10766,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.3C28ADA1971F26F8.subtitle}"
+			subtitle: "{typeomega.quest.3C28ADA1971F26F8.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -10808,7 +10808,7 @@
 				"{gtna.machine.eye_of_harmony.tooltip.19}"
 				"{gtna.machine.eye_of_harmony.tooltip.20}"
 				""
-				"{gtia.quest.7245377592F22E9C.desc.22}"
+				"{typeomega.quest.7245377592F22E9C.desc.22}"
 			]
 			icon: "gtna:eye_of_harmony"
 			id: "7245377592F22E9C"
@@ -10822,7 +10822,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.7245377592F22E9C.subtitle}"
+			subtitle: "{typeomega.quest.7245377592F22E9C.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -10853,7 +10853,7 @@
 				"{gtna.machine.gemini_containment_system.tooltip.8}"
 				"{gtna.machine.gemini_containment_system.tooltip.9}"
 				""
-				"{gtia.quest.0920807284D4A1AF.desc.11}"
+				"{typeomega.quest.0920807284D4A1AF.desc.11}"
 			]
 			icon: "gtna:gemini_containment_system"
 			id: "0920807284D4A1AF"
@@ -10867,7 +10867,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.0920807284D4A1AF.subtitle}"
+			subtitle: "{typeomega.quest.0920807284D4A1AF.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -10897,7 +10897,7 @@
 				"{gtna.machine.hand_of_arachne.tooltip.7}"
 				"{gtna.machine.hand_of_arachne.tooltip.8}"
 				""
-				"{gtia.quest.57439E109E43A550.desc.10}"
+				"{typeomega.quest.57439E109E43A550.desc.10}"
 			]
 			icon: "gtna:hand_of_arachne"
 			id: "57439E109E43A550"
@@ -10911,7 +10911,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.57439E109E43A550.subtitle}"
+			subtitle: "{typeomega.quest.57439E109E43A550.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -10941,7 +10941,7 @@
 				"{gtna.machine.holy_separator.tooltip.7}"
 				"{gtna.machine.holy_separator.tooltip.8}"
 				""
-				"{gtia.quest.15FF142BE6B1F590.desc.10}"
+				"{typeomega.quest.15FF142BE6B1F590.desc.10}"
 			]
 			icon: "gtna:holy_separator"
 			id: "15FF142BE6B1F590"
@@ -10955,7 +10955,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.15FF142BE6B1F590.subtitle}"
+			subtitle: "{typeomega.quest.15FF142BE6B1F590.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -10987,7 +10987,7 @@
 				"{gtna.machine.hyper_reactor.tooltip.9}"
 				"{gtna.machine.hyper_reactor.tooltip.10}"
 				""
-				"{gtia.quest.06C4ACCCB445A5FE.desc.12}"
+				"{typeomega.quest.06C4ACCCB445A5FE.desc.12}"
 			]
 			icon: "gtna:hyper_reactor"
 			id: "06C4ACCCB445A5FE"
@@ -11001,7 +11001,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.06C4ACCCB445A5FE.subtitle}"
+			subtitle: "{typeomega.quest.06C4ACCCB445A5FE.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -11030,7 +11030,7 @@
 				"{gtna.machine.kerr_newman_homogenizer.tooltip.6}"
 				"{gtna.machine.kerr_newman_homogenizer.tooltip.7}"
 				""
-				"{gtia.quest.4D827960E6F1E12F.desc.9}"
+				"{typeomega.quest.4D827960E6F1E12F.desc.9}"
 			]
 			icon: "gtna:kerr_newman_homogenizer"
 			id: "4D827960E6F1E12F"
@@ -11044,7 +11044,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.4D827960E6F1E12F.subtitle}"
+			subtitle: "{typeomega.quest.4D827960E6F1E12F.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -11074,7 +11074,7 @@
 				"{gtna.machine.nyarlathoteps_tentacle.tooltip.7}"
 				"{gtna.machine.nyarlathoteps_tentacle.tooltip.8}"
 				""
-				"{gtia.quest.53E3BBC2936E0EC0.desc.10}"
+				"{typeomega.quest.53E3BBC2936E0EC0.desc.10}"
 			]
 			icon: "gtna:nyarlathoteps_tentacle"
 			id: "53E3BBC2936E0EC0"
@@ -11088,7 +11088,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.53E3BBC2936E0EC0.subtitle}"
+			subtitle: "{typeomega.quest.53E3BBC2936E0EC0.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -11118,7 +11118,7 @@
 				"{gtna.machine.particle_stream_matrix_filling_machine.tooltip.7}"
 				"{gtna.machine.particle_stream_matrix_filling_machine.tooltip.8}"
 				""
-				"{gtia.quest.1FAFC5C39693FB39.desc.10}"
+				"{typeomega.quest.1FAFC5C39693FB39.desc.10}"
 			]
 			icon: "gtna:particle_stream_matrix_filling_machine"
 			id: "1FAFC5C39693FB39"
@@ -11132,7 +11132,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.1FAFC5C39693FB39.subtitle}"
+			subtitle: "{typeomega.quest.1FAFC5C39693FB39.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -11162,7 +11162,7 @@
 				"{gtna.machine.phase_change_cube.tooltip.7}"
 				"{gtna.machine.phase_change_cube.tooltip.8}"
 				""
-				"{gtia.quest.676F1D2604F530E2.desc.10}"
+				"{typeomega.quest.676F1D2604F530E2.desc.10}"
 			]
 			icon: "gtna:phase_change_cube"
 			id: "676F1D2604F530E2"
@@ -11176,7 +11176,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.676F1D2604F530E2.subtitle}"
+			subtitle: "{typeomega.quest.676F1D2604F530E2.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -11210,7 +11210,7 @@
 				"{gtna.machine.stellar_containment_chamber.tooltip.11}"
 				"{gtna.machine.stellar_containment_chamber.tooltip.12}"
 				""
-				"{gtia.quest.75A725CCE243F96B.desc.14}"
+				"{typeomega.quest.75A725CCE243F96B.desc.14}"
 			]
 			icon: "gtna:stellar_containment_chamber"
 			id: "75A725CCE243F96B"
@@ -11224,7 +11224,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.75A725CCE243F96B.subtitle}"
+			subtitle: "{typeomega.quest.75A725CCE243F96B.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -11260,7 +11260,7 @@
 				"{gtna.machine.supercomputing_center.tooltip.13}"
 				"{gtna.machine.supercomputing_center.tooltip.14}"
 				""
-				"{gtia.quest.2100F9CA9226153B.desc.16}"
+				"{typeomega.quest.2100F9CA9226153B.desc.16}"
 			]
 			icon: "gtna:supercomputing_center"
 			id: "2100F9CA9226153B"
@@ -11274,7 +11274,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gtia.quest.2100F9CA9226153B.subtitle}"
+			subtitle: "{typeomega.quest.2100F9CA9226153B.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -11290,7 +11290,7 @@
 			y: 59.5d
 		}
 	]
-	title: "{gtia.quest.chapter.0B1C7545E6CBD57C}"
+	title: "{typeomega.quest.chapter.0B1C7545E6CBD57C}"
 	images: [
 		{
 			alpha: 255
@@ -11300,7 +11300,7 @@
 			dev: false
 			height: 124.0d
 			hover: [ ]
-			image: "gtia_quests:textures/quests/backgrounds/reference.png"
+			image: "typeomega_quests:textures/quests/backgrounds/reference.png"
 			order: -100
 			rotation: 0.0d
 			width: 124.0d

@@ -1,4 +1,4 @@
-// GTIA: an opaque neutral grid background (each chapter paints its era colour over it, D-293) and thicker red/green
+// Type Omega: an opaque neutral grid background (each chapter paints its era colour over it, D-293) and thicker red/green
 // dependency lines, the way the GTNH book reads. Everything else is FTB Quests 2001.4.22's default theme.
 [*]
 background:          ftblibrary:textures/gui/background_squares.png; color=#FF24272D; tile_size=32

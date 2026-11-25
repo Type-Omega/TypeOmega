@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate and check the GTIA quest book from short specifications.
+"""Generate and check the Type Omega quest book from short specifications.
 
     questgen.py build    write config/ftbquests/quests/ from quests-src/ (book.toml, one TOML per chapter)
     questgen.py check    structural checks on the generated files
@@ -14,7 +14,7 @@ A chapter is described in `quests-src/<file>.toml` with the lanes and rows a que
     outer      x = 7.5 ...        optional extras and hints
 
 Rows are 1.5 apart. Ids are derived from names, so rebuilding never changes an id a player's progress depends on. The old Start chapter was retired
-by GTIA-D-426; its sources are in `quests-src/legacy/` (start.original.snbt, start.toml). The Welcome chapter is still built from
+by D-426; its sources are in `quests-src/legacy/` (start.original.snbt, start.toml). The Welcome chapter is still built from
 them: it keeps the author's reading quests and links to the 0.0 chapter.
 """
 
@@ -157,16 +157,16 @@ def periodic_cell(z: int) -> tuple[float, int]:
     raise ValueError(f"no cell for element {z}")
 
 
-# EN: GTIA-D-436: Type Omega has one mode, the former Normal. Kits keep the "_normal" suffix in their key, so the
-#     ids that players claimed under GTIA-D-427 stay the same.
-# PT: GTIA-D-436: o Type Omega tem um modo só, o antigo Normal. Os kits mantêm o sufixo "_normal" na chave, para os
-#     ids já resgatados na GTIA-D-427 continuarem os mesmos.
-# ZH: GTIA-D-436：Type Omega 只有一种模式，即原普通模式。套装的键保留 "_normal" 后缀，使 GTIA-D-427 中玩家已领取的
+# EN: D-436: Type Omega has one mode, the former Normal. Kits keep the "_normal" suffix in their key, so the
+#     ids that players claimed under D-427 stay the same.
+# PT: D-436: o Type Omega tem um modo só, o antigo Normal. Os kits mantêm o sufixo "_normal" na chave, para os
+#     ids já resgatados na D-427 continuarem os mesmos.
+# ZH: D-436：Type Omega 只有一种模式，即原普通模式。套装的键保留 "_normal" 后缀，使 D-427 中玩家已领取的
 #     id 保持不变。
 KIT_SUFFIX = "_normal"
 
 
-BANNERS = PACK / "config" / "openloader" / "resources" / "gtia_quests" / "assets" / "gtia_quests" / "textures" / "quests" / "banners"
+BANNERS = PACK / "config" / "openloader" / "resources" / "typeomega_quests" / "assets" / "typeomega_quests" / "textures" / "quests" / "banners"
 BANNER_WIDTH = 7.0
 
 
@@ -214,14 +214,14 @@ def place_images(chapter: dict, banner: str | None, entry_id: str | None, backgr
         entry = next((q for q in quests if q["id"] == entry_id), quests[0])
         ex, ey = snbt.number(entry["x"]), snbt.number(entry["y"])
         x, y = free_spot(boxes, BANNER_WIDTH, h, ex - 1.0, ey - h / 2 - 2.0)
-        images.append(chapter_image(f"gtia_quests:textures/quests/banners/{banner}.png", x, y, BANNER_WIDTH, h))
+        images.append(chapter_image(f"typeomega_quests:textures/quests/banners/{banner}.png", x, y, BANNER_WIDTH, h))
         boxes.append((x, y, BANNER_WIDTH, h))
     if background:
         xs = [b[0] - b[2] / 2 for b in boxes] + [b[0] + b[2] / 2 for b in boxes]
         ys = [b[1] - b[3] / 2 for b in boxes] + [b[1] + b[3] / 2 for b in boxes]
         side = max(max(xs) - min(xs), max(ys) - min(ys)) + 60.0
         image = f"backgrounds/{texture}.png" if texture else "backgrounds/era_grid.png"
-        grid = chapter_image(f"gtia_quests:textures/quests/{image}", (min(xs) + max(xs)) / 2,
+        grid = chapter_image(f"typeomega_quests:textures/quests/{image}", (min(xs) + max(xs)) / 2,
                              (min(ys) + max(ys)) / 2, side, side)
         if not texture:
             grid["color"] = Raw(str(int(background.lstrip("#"), 16)))
@@ -430,11 +430,11 @@ class Book:
                     lx, ly = 0.0, (exit_spec["row"] + 2) * ROW
                 links.append({"id": ident(f"link:{file}:{nxt}"), "linked_quest": self.qid(nxt, "entry"),
                               "shape": "gear", "size": double(1.5), "x": double(lx), "y": double(ly)})
-        # EN: GTIA-D-427/D-436: the starting kits of the retired Start chapter, one per quest. `after` is the quest
+        # EN: D-427/D-436: the starting kits of the retired Start chapter, one per quest. `after` is the quest
         #     whose completion unlocks the kit; the kit sits beside it with no drawn line.
-        # PT: GTIA-D-427/D-436: os kits iniciais do capítulo Start desativado, um por quest. `after` é a quest cuja
+        # PT: D-427/D-436: os kits iniciais do capítulo Start desativado, um por quest. `after` é a quest cuja
         #     conclusão libera o kit; o kit fica ao lado dela, sem linha.
-        # ZH: GTIA-D-427/D-436：已停用 Start 章节的初始套装，每个任务一个。`after` 是解锁套装的任务；套装紧邻其任务，
+        # ZH: D-427/D-436：已停用 Start 章节的初始套装，每个任务一个。`after` 是解锁套装的任务；套装紧邻其任务，
         #     不画连线。
         for kit in spec.get("kit", []):
             gate = [self.resolve(file, d) for d in [kit["after"], *kit.get("also", [])]]
@@ -486,7 +486,7 @@ class Book:
         def ref(name: str) -> str:
             if name.startswith("new:"):
                 return ident("quest:start:" + name[4:])
-            if name.split(":", 1)[0] in self.specs:  # GTIA-D-426: "<chapter>:<key>", a quest of a generated chapter
+            if name.split(":", 1)[0] in self.specs:  # D-426: "<chapter>:<key>", a quest of a generated chapter
                 return self.quest_ids[name]
             return by_title[name]["id"]
 
@@ -738,7 +738,7 @@ class Book:
         chapters_out = {}
         for chapter in self.chapters:
             if chapter["kind"] == "welcome":
-                # GTIA-D-426: the Start chapter is retired (sources in quests-src/legacy/); the Welcome is still cut out
+                # D-426: the Start chapter is retired (sources in quests-src/legacy/); the Welcome is still cut out
                 # of it, so the author's reading quests keep their ids, and its chapter is not written.
                 # PT: o capítulo Start foi desativado; o Welcome ainda sai dele, o Start em si não é escrito.
                 # ZH: Start 章节已停用；Welcome 仍由它生成，Start 本身不再输出。
@@ -782,7 +782,7 @@ class Book:
                     out["quest_links"][0]["x"] = double(snbt.number(end["x"]) + 2.5)
                     out["quest_links"][0]["y"] = end["y"]
             entry_id = (self.qid(file, "entry") if file in self.specs else
-                        (self.start_quest("Welcome to Infinity Ascension") if file == "welcome" else
+                        (self.start_quest("Welcome to Type Omega") if file == "welcome" else
                          ident("quest:start:wood") if file == "start" else None))
             place_images(out, chapter.get("banner"), entry_id, chapter.get("background"), chapter.get("texture"))
 
@@ -1012,16 +1012,16 @@ def check_reachability(book, quests_by_id, chapter_of, all_ids, errors, notes) -
         elif chapter_of[qid] in legacy:
             notes.append(f"{all_ids[qid]} (chapter not rewritten yet): {message}")
         elif chapter_of[qid] in beta:
-            # EN: GTIA-D-421: the Type 0 book is a development beta drawn ahead of the recipe changes it needs.
-            # PT: GTIA-D-421: o livro do Tipo 0 é um beta de desenvolvimento desenhado antes das receitas que pede.
-            # ZH: GTIA-D-421：0 型任务书是开发测试版，先于其所需的配方改动绘制。
+            # EN: D-421: the Type 0 book is a development beta drawn ahead of the recipe changes it needs.
+            # PT: D-421: o livro do Tipo 0 é um beta de desenvolvimento desenhado antes das receitas que pede.
+            # ZH: D-421：0 型任务书是开发测试版，先于其所需的配方改动绘制。
             notes.append(f"{all_ids[qid]} (beta chapter): {message}")
         else:
             errors.append(f"{all_ids[qid]}: {message}")
 
 
 LANG_SRC = SRC / "lang"
-LANG_PACK = PACK / "config" / "openloader" / "resources" / "gtia_quests"
+LANG_PACK = PACK / "config" / "openloader" / "resources" / "typeomega_quests"
 LANGUAGES = ("pt_br", "zh_cn")
 
 
@@ -1042,14 +1042,14 @@ def localize(chapters: dict[str, dict], groups: dict) -> dict[str, str]:
     for data in chapters.values():
         chapter_id = data["id"]
         if data.get("title"):
-            data["title"] = key(f"gtia.quest.chapter.{chapter_id}", data["title"])
+            data["title"] = key(f"typeomega.quest.chapter.{chapter_id}", data["title"])
         if data.get("subtitle"):
-            data["subtitle"] = [key(f"gtia.quest.chapter.{chapter_id}.subtitle.{i}", line) if translatable(line)
+            data["subtitle"] = [key(f"typeomega.quest.chapter.{chapter_id}.subtitle.{i}", line) if translatable(line)
                                 else line for i, line in enumerate(data["subtitle"])] \
-                if isinstance(data["subtitle"], list) else key(f"gtia.quest.chapter.{chapter_id}.subtitle",
+                if isinstance(data["subtitle"], list) else key(f"typeomega.quest.chapter.{chapter_id}.subtitle",
                                                                data["subtitle"])
         for quest in data["quests"]:
-            base = f"gtia.quest.{quest['id']}"
+            base = f"typeomega.quest.{quest['id']}"
             for field in ("title", "subtitle"):
                 if quest.get(field) and translatable(quest[field]):  # a "{mod key}" title stays the mod's own
                     quest[field] = key(f"{base}.{field}", quest[field])
@@ -1063,16 +1063,16 @@ def localize(chapters: dict[str, dict], groups: dict) -> dict[str, str]:
                 if reward.get("title"):
                     reward["title"] = key(f"{base}.reward.{reward['id']}", reward["title"])
     for group in groups["chapter_groups"]:
-        group["title"] = key(f"gtia.quest.group.{group['id']}", group["title"])
+        group["title"] = key(f"typeomega.quest.group.{group['id']}", group["title"])
     return english
 
 
 def write_languages(english: dict[str, str]) -> None:
     """en_us from the source text; other languages from quests-src/lang/<lang>.json ({English text: translation})."""
-    lang_dir = LANG_PACK / "assets" / "gtia_quests" / "lang"
+    lang_dir = LANG_PACK / "assets" / "typeomega_quests" / "lang"
     lang_dir.mkdir(parents=True, exist_ok=True)
     (LANG_PACK / "pack.mcmeta").write_text(json.dumps(
-        {"pack": {"description": "GTIA quest book text", "pack_format": 15}}, indent=2) + "\n", encoding="utf-8")
+        {"pack": {"description": "Type Omega quest book text", "pack_format": 15}}, indent=2) + "\n", encoding="utf-8")
     (lang_dir / "en_us.json").write_text(json.dumps(english, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     for lang in LANGUAGES:
         source = LANG_SRC / f"{lang}.json"

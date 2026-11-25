@@ -73,7 +73,7 @@ jobs:
           merge-multiple: true
       - name: Publish
         run: |
-          TAG="$VERSION"; TITLE="GregTech Infinity Ascension $VERSION"
+          TAG="$VERSION"; TITLE="Type Omega $VERSION"
           case "$VERSION" in *-beta*) FLAGS=""; GROUP=beta;; *) FLAGS="--prerelease"; GROUP=pre;; esac
           cp .github/release-notes.md notes.md
           if [ -f .github/changelog.md ]; then printf '\n' >> notes.md; cat .github/changelog.md >> notes.md; fi

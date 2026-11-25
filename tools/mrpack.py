@@ -114,7 +114,7 @@ def main() -> int:
                           "downloads": [file["url"]], "fileSize": file["size"]})
 
     index = {"formatVersion": 1, "game": "minecraft", "versionId": version,
-             "name": "GregTech Infinity Ascension", "summary": "GregTech where the factory is the star",
+             "name": "Type Omega", "summary": "GregTech where the factory is the star",
              "files": files, "dependencies": {"minecraft": lock["minecraft"], "forge": lock["forge"]}}
     args.out.mkdir(parents=True, exist_ok=True)
     suffix = "-TEST" if args.test else ""
