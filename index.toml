@@ -675,10 +675,6 @@ hash = "e31af7ef2931c862a72b8c77b9147bb22a609d9f037d852ea7de86e2453999a7"
 metafile = true
 
 [[files]]
-file = "mods/agronomica-0.1.0.jar"
-hash = "6fed12b0bb721e5bd1ff1ef047d556f15e6be0ea875ddadad356f90380621eb0"
-
-[[files]]
 file = "mods/aiimprovements.pw.toml"
 hash = "586fbaf086d45f3aec70670dd0ba0a7f7f8c82cc88be1cfacbbbf0dd94f07a42"
 metafile = true
@@ -1033,7 +1029,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtna-0.6.2.jar"
-hash = "6016c834ce8f97d796efe9ba61195381f763d5097d411590d03f87a924fd95de"
+hash = "4b2a2fe3c0acba0cf06e95ec7c1fb66ec820cf490734900b9d0c51cab50ad00f"
 
 [[files]]
 file = "mods/guideme.pw.toml"
@@ -1301,11 +1297,11 @@ metafile = true
 
 [[files]]
 file = "mods/typeomega-0.1.0.jar"
-hash = "ad322f2baf79a6d81912661d2bc397d55e5ba3adaa18160c1bde3c97350e003d"
+hash = "fee43d4e345a048141f3222eea5cf53d36ac101a1b910eeb8b11c4801c2f91ae"
 
 [[files]]
-file = "mods/typeomega-lib-0.6.1.jar"
-hash = "64db1b5c74d27632d5d663093280d8a344b7e22b125e614088aaa12e043eb6be"
+file = "mods/typeomega-lib-0.8.4.jar"
+hash = "70261d9b27a737a9b5b59265e498f3d2f7a8272d1bff48ec00ea34f4f48e1c9d"
 
 [[files]]
 file = "mods/unilib.pw.toml"

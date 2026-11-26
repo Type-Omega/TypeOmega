@@ -51,16 +51,13 @@ LOCAL_BUILDS = {
         "GTNA_JAR", Path.home() / "MineProjects/GregTech-Nexus-Addon/build/libs/gtna-0.6.2.jar")),
     # Shared library of the org's mods (D-262); TypeOmega Core and GTNA require it.
     "typeomegalib": Path(os.environ.get(
-        "TYPEOMEGALIB_JAR", ROOT.parent / "GTIA-arquivo/jar-backups/2026-11-23-typeomega-lib-0.6.1/typeomega-lib-0.6.1.jar")),
+        "TYPEOMEGALIB_JAR", Path.home() / "MineProjects/TypeOmega-Lib/build/libs/typeomega-lib-0.8.4.jar")),
     # Measured performance fixes (D-263).
     "ascopt": Path(os.environ.get(
         "ASCOPT_JAR", ROOT.parent / "GTIA-arquivo/jar-backups/2026-10-17-ascopt-0.2.1/ascopt-0.2.1.jar")),
     # Until ModernSpace 0.3.0 is on CurseForge, the GitHub release jar ships in the pack like the two above.
     "modernspace": Path(os.environ.get(
         "MODERNSPACE_JAR", ROOT.parent / "GTIA-arquivo/jar-backups/2026-10-11-modernspace-0.3.1/modernspace-0.3.1.jar")),
-    # Org crop mod (D-260, D-267); local build until its first release.
-    "agronomica": Path(os.environ.get(
-        "AGRONOMICA_JAR", Path.home() / "MineProjects/Agronomica/build/libs/agronomica-0.1.0.jar")),
     # Productive Bees for the HV bee line (D-259, D-268), Modrinth jar kept in the archive.
     "productivebees": Path(os.environ.get(
         "PRODUCTIVEBEES_JAR",
