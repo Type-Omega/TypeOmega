@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/logo.png" width="160" alt="Type Omega logo" />
+  <img src="docs/assets/logo.png" width="400" alt="Type Omega logo" />
 </p>
 
 # Type Omega
